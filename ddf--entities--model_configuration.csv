@@ -1,0 +1,41 @@
+model_configuration,model_id,model_parameters,repeat_times,memory,memory_size,vendor,model_name,knowledge_cut_off_date
+mc001,fakellm,,5,false,2,Dummy,Dummy model,
+mc002,fakellm,,1,true,2,Dummy,Dummy model,
+mc003,gpt-3.5-turbo-0613,"{""temperature"": 0.01}",10,false,0,OpenAI,GPT3.5 June 2023,
+mc004,gpt-3.5-turbo-0613,"{""temperature"": 0.5}",10,false,0,OpenAI,GPT3.5 June 2023,
+mc005,gpt-3.5-turbo-0613,"{""temperature"": 1}",10,false,0,OpenAI,GPT3.5 June 2023,
+mc006,tiiuae/falcon-7b-instruct,"{""temperature"": 0.01}",1,false,0,HuggingFace,Falcon 7B,
+mc007,google/flan-t5-large,"{""temperature"": 0.01}",1,false,0,HuggingFace,Flan T5 Large (780M),
+mc008,TheBloke/orca_mini_13B-GGML,"{""temperature"": 0.01}",1,false,0,HuggingFace,orca mini 13b (GGML ver.),
+mc009,palm/text-bison,"{""temperature"": 0.01}",5,false,0,Google,PaLM (Text Bison),
+mc010,palm/chat-bison,"{""temperature"": 0.01}",1,false,0,Google,PaLM (Chat Bison),
+mc011,qwen-v1,"{""top_p"": 0.6, ""top_k"": 30}",1,false,0,Alibaba,Qianwen V1,
+mc012,spark,"{""temperature"": 0.01}",1,false,0,iFlyTek,Spark,
+mc013,qwen-turbo,"{""top_p"": 0.1, ""top_k"": 100}",1,false,0,Alibaba,Qianwen,
+mc014,qwen-plus,"{""top_p"": 0.1, ""top_k"": 100}",5,false,0,Alibaba,Qianwen Plus,
+mc015,replicate/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3,"{""temperature"": 0.01}",5,false,0,Meta,llama2 (hosted on replicate),
+mc016,gpt-3.5-turbo-0613,"{""temperature"": 0.01}",5,false,0,OpenAI,GPT3.5 June 2023,
+mc017,gpt-4-0613,"{""temperature"": 0.01}",5,false,0,OpenAI,GPT4 June 2023,
+mc018,gpt-3.5-turbo-0613,"{""temperature"": 1}",5,false,0,OpenAI,GPT3.5 June 2023,
+mc019,palm/chat-bison,"{""temperature"": 0.01}",5,false,0,Google,PaLM (Chat Bison),
+mc020,gemini/gemini-pro,"{""temperature"": 0.01}",5,false,0,Google,Gemini Pro,
+mc021,gpt-4-1106-preview,"{""temperature"": 0.01}",5,false,0,OpenAI,GPT4 Turbo Nov 2023,
+mc022,gpt-3.5-turbo-1106,"{""temperature"": 0.01}",5,false,0,OpenAI,GPT3.5 Nov 2023',
+mc023,qwen-max-1201,"{""temperature"": 0.01}",5,false,0,Alibaba,Qianwen Max 2023-12-01,
+mc024,gpt-4-0125-preview,"{""temperature"": 0.01}",5,false,0,OpenAI,GPT4 Turbo Jan 2024,
+mc025,gemini/gemini-1.0-pro,"{""temperature"": 0.01}",5,false,0,Google,Gemini Pro (1.0),
+mc026,qwen-max-1201,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2023-12-01,
+mc027,gpt-4-0125-preview,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT4 Turbo Jan 2024,
+mc028,gemini/gemini-1.0-pro,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro (1.0),
+mc029,gemini/gemini-1.5-pro-latest,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro (1.5),
+mc030,vertex_ai/gemini-1.5-pro-preview-0409,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 on Vertex AI,2023-11
+mc031,qwen-max-0403,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-04-03,
+mc032,gpt-4o-2024-05-13,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4-o 2024-05-13,2023/10
+mc033,vertex_ai/claude-3-opus@20240229,"{""temperature"": 0.01}",1,false,0,Anthropic,Claude 3 Opus on Vertex AI,2023/8
+mc034,replicate/meta/meta-llama-3-70b-instruct,"{""temperature"": 0.01}",1,false,0,Meta,Llama3 70B instruction fine tuned,2023/12
+mc035,qwen-max-0428,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-04-28,
+mc036,gpt-4o-2024-08-06,"{""temperature"": 0.01}",1,false,0,OpenAI,OpenAI gpt-4o-2024-08-06,2023/12
+mc037,vertex_ai/claude-3-5-sonnet@20240620,"{""temperature"": 0.01}",1,false,0,Anthropic,Claude 3.5 Sonnet on Vertex AI,2024/04
+mc038,fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.1 450B Instruct on fireworks,2023/12
+mc039,qwen-max-2024-09-19,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-09-19,
+mc040,xai/grok-beta,"{""temperature"": 0.01}",1,false,0,XAI,XAI grok beta,

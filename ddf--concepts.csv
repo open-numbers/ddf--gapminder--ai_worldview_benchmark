@@ -1,2 +1,22 @@
 concept,concept_type,name
+published_version_of_question,string,Published Version Of Question
+model_id,string,Model Id
+memory,string,Memory
+topic_list,string,Topic List
+language,string,Language
+question,entity_domain,Question
+vendor,string,Vendor
+knowledge_cut_off_date,string,Knowledge Cut Off Date
+memory_size,string,Memory Size
+other_topics,string,Other Topics
+model_configuration,entity_domain,Model Configuration
+repeat_times,string,Repeat Times
+model_name,string,Model Name
+human_wrong_percentage,string,Human Wrong Percentage
+model_parameters,string,Model Parameters
+contentful_id,string,Contentful Id
+sdg_world_topics,string,Sdg World Topics
+correct_rate_all,measure,Correct Percentage (all answers)
+correct_rate_exclude_indecisive,measure,Correct Percentage (excluding indecisive answers)
 name,string,Name
+latest_model,entity_domain,Latest Model

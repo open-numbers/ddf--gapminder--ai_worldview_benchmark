@@ -1,16 +1,9 @@
 {
-    "name": "ddf--gapminder--ai_worldview_benchmark",
     "language": {
         "name": "English",
-        "id": "en"
+        "id": "en-US"
     },
-    "title": "Gapminder AI Experiment result dataset",
-    "description": "Gapminder AI Experiment result dataset",
-    "author": "Gapminder",
-    "license": "CC-BY-4.0",
-    "translations": [],
-    "version": "0.0.1",
-    "created": "2022-10-02T02:59:10.856944+00:00",
+    "created": "2024-12-05T06:44:10.493Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -27,7 +20,124 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--model_configuration",
+            "path": "ddf--entities--model_configuration.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "model_id"
+                    },
+                    {
+                        "name": "model_parameters"
+                    },
+                    {
+                        "name": "repeat_times"
+                    },
+                    {
+                        "name": "memory"
+                    },
+                    {
+                        "name": "memory_size"
+                    },
+                    {
+                        "name": "vendor"
+                    },
+                    {
+                        "name": "model_name"
+                    },
+                    {
+                        "name": "knowledge_cut_off_date"
+                    }
+                ],
+                "primaryKey": [
+                    "model_configuration"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--question",
+            "path": "ddf--entities--question.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "question"
+                    },
+                    {
+                        "name": "language"
+                    },
+                    {
+                        "name": "published_version_of_question"
+                    },
+                    {
+                        "name": "contentful_id"
+                    },
+                    {
+                        "name": "human_wrong_percentage"
+                    },
+                    {
+                        "name": "topic_list"
+                    },
+                    {
+                        "name": "sdg_world_topics"
+                    },
+                    {
+                        "name": "other_topics"
+                    }
+                ],
+                "primaryKey": [
+                    "question"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--correct_rate_all--by--question--model_configuration",
+            "path": "ddf--datapoints--correct_rate_all--by--question--model_configuration.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "question"
+                    },
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "correct_rate_all"
+                    }
+                ],
+                "primaryKey": [
+                    "question",
+                    "model_configuration"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--correct_rate_exclude_indecisive--by--question--model_configuration",
+            "path": "ddf--datapoints--correct_rate_exclude_indecisive--by--question--model_configuration.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "question"
+                    },
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "correct_rate_exclude_indecisive"
+                    }
+                ],
+                "primaryKey": [
+                    "question",
+                    "model_configuration"
+                ]
             }
         }
     ],
@@ -52,8 +162,165 @@
                 ]
             }
         ],
-        "entities": [],
-        "datapoints": [],
+        "entities": [
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "knowledge_cut_off_date",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "memory",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "memory_size",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "model_id",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "model_name",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "model_parameters",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "repeat_times",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "vendor",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "contentful_id",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "human_wrong_percentage",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "language",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "other_topics",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "published_version_of_question",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "sdg_world_topics",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "topic_list",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "question"
+                ],
+                "value": "correct_rate_all",
+                "resources": [
+                    "ddf--datapoints--correct_rate_all--by--question--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "question"
+                ],
+                "value": "correct_rate_exclude_indecisive",
+                "resources": [
+                    "ddf--datapoints--correct_rate_exclude_indecisive--by--question--model_configuration"
+                ]
+            }
+        ],
         "synonyms": []
     }
 }
