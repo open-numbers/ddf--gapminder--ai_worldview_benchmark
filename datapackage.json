@@ -1,0 +1,59 @@
+{
+    "name": "ddf--gapminder--ai_worldview_benchmark",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "title": "Gapminder AI Experiment result dataset",
+    "description": "Gapminder AI Experiment result dataset",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "translations": [],
+    "version": "0.0.1",
+    "created": "2022-10-02T02:59:10.856944+00:00",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [],
+        "datapoints": [],
+        "synonyms": []
+    }
+}
