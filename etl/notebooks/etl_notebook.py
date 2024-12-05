@@ -187,7 +187,7 @@ ai_eval_qs = (
     .group_by('contentful_id')
     .map_groups(lambda df: df.fill_null(strategy='forward'))
 )
-ai_eval_qs
+ai_eval_qs.filter(pl.col('contentful_id') == '1666')
 
 # Join with contentful_qs to get additional question information
 ai_eval_qs = ai_eval_qs.join(

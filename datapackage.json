@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2024-12-05T06:44:10.493Z",
+    "created": "2024-12-05T06:53:54.259Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -18,6 +18,9 @@
                     },
                     {
                         "name": "name"
+                    },
+                    {
+                        "name": "domain"
                     }
                 ],
                 "primaryKey": [
@@ -56,6 +59,9 @@
                     },
                     {
                         "name": "knowledge_cut_off_date"
+                    },
+                    {
+                        "name": "is--latest_model"
                     }
                 ],
                 "primaryKey": [
@@ -156,6 +162,15 @@
                 "primaryKey": [
                     "concept"
                 ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
                 "value": "name",
                 "resources": [
                     "ddf--concepts"
@@ -163,6 +178,96 @@
             }
         ],
         "entities": [
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "is--latest_model",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "knowledge_cut_off_date",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "memory",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "memory_size",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "model_id",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "model_name",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "model_parameters",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "repeat_times",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
+                "value": "vendor",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "is--latest_model",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
             {
                 "primaryKey": [
                     "model_configuration"
@@ -300,6 +405,26 @@
             }
         ],
         "datapoints": [
+            {
+                "primaryKey": [
+                    "latest_model",
+                    "question"
+                ],
+                "value": "correct_rate_all",
+                "resources": [
+                    "ddf--datapoints--correct_rate_all--by--question--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model",
+                    "question"
+                ],
+                "value": "correct_rate_exclude_indecisive",
+                "resources": [
+                    "ddf--datapoints--correct_rate_exclude_indecisive--by--question--model_configuration"
+                ]
+            },
             {
                 "primaryKey": [
                     "model_configuration",
