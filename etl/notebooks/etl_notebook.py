@@ -43,7 +43,7 @@ correct_rates_filtered = (
         (pl.col('result') == 'correct').sum().alias('correct_count')
     ])
     .with_columns([
-        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_percentage_filtered')
+        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_rates_exclude_indecisive')
     ])
     .sort(['question_id', 'model_configuration_id'])
 )
@@ -60,7 +60,7 @@ correct_rates_all = (
         (pl.col('result') == 'correct').sum().alias('correct_count')
     ])
     .with_columns([
-        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_percentage_all')
+        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_rate_all')
     ])
     .sort(['question_id', 'model_configuration_id'])
 )
@@ -87,8 +87,8 @@ correct_rates_all = (
 )
 
 # Save the results to CSV files
-correct_rates_filtered.write_csv('../../ddf--datapoints--correct_rates_exclude_indecisive--by--question--model_configuration.csv')
-correct_rates_all.write_csv('../../ddf--datapoints--correct_rates_all--by--question--model_configuration.csv')
+correct_rates_filtered.write_csv('../../ddf--datapoints--correct_rate_exclude_indecisive--by--question--model_configuration.csv')
+correct_rates_all.write_csv('../../ddf--datapoints--correct_rate_all--by--question--model_configuration.csv')
 
 correct_rates_filtered
 
@@ -273,3 +273,64 @@ concepts_df = concepts_df.with_columns([
 # Save as DDF concepts
 concepts_df.write_csv('../../ddf--concepts.csv')
 
+# Check specific combinations after all processing
+questions_to_check = ['1757', '11', '1764', '59', '1632', '1546', '1508', '1', '32', '1601', '1593', '814']
+models_to_check = ['mc036', 'mc037', 'mc038', 'mc039', 'mc040']
+
+filtered_rates = (
+    correct_rates_all
+    .filter(
+        pl.col('question').cast(pl.Utf8).is_in(questions_to_check) & 
+        pl.col('model_configuration').is_in(models_to_check)
+    )
+    .sort(['question', 'model_configuration'])
+)
+
+print("\nFiltered correct rates for specific combinations:")
+print(filtered_rates)
+
+# Calculate missing combinations
+all_combinations = pl.DataFrame({
+    'question': questions_to_check * len(models_to_check),
+    'model_configuration': [model for model in models_to_check for _ in questions_to_check]
+})
+
+missing_combinations = (
+    all_combinations.join(
+        filtered_rates.select(['question', 'model_configuration']),
+        on=['question', 'model_configuration'],
+        how='anti'
+    )
+    .sort(['question', 'model_configuration'])
+)
+
+print("\nMissing combinations:")
+print(missing_combinations)
+
+# Check if any questions from our checking list are missing from question entities
+missing_from_entities = (
+    pl.DataFrame({'question': questions_to_check})
+    .join(
+        question_entity.select('question'),
+        on='question',
+        how='anti'
+    )
+    .sort('question')
+)
+
+print("\nQuestions from checking list that are missing from question entities:")
+print(missing_from_entities)
+
+# filter results
+master_output
+master_output.filter(
+    pl.col('question_id').is_in(questions_to_check)
+)
+
+
+# check average correct rate for xai
+correct_rates_filtered.filter(
+    pl.col('model_configuration') == 'mc036'
+).select(
+    pl.col('correct_rates_exclude_indecisive').mean()
+)
