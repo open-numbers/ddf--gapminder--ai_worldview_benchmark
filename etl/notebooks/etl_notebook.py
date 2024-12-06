@@ -30,7 +30,15 @@ date_check = (
 print("Combinations with multiple dates:")
 print(date_check)
 
-# no duplicates, we can remove the language and date column
+# Keep only the latest datapoint for each combination
+master_output = (
+    master_output
+    .sort(['question_id', 'prompt_variation_id', 'model_configuration_id', 'date'])
+    .group_by(['question_id', 'prompt_variation_id', 'model_configuration_id'])
+    .agg(pl.all().last())  # Keep the last (most recent) record for each group
+)
+
+# Now we can remove the language and date columns as they're no longer needed
 master_output = master_output.drop(['language', 'date'])
 
 # 1. Calculate correct rates excluding 'fail' and 'n/a'
@@ -43,7 +51,7 @@ correct_rates_filtered = (
         (pl.col('result') == 'correct').sum().alias('correct_count')
     ])
     .with_columns([
-        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_rates_exclude_indecisive')
+        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_rate_exclude_indecisive')
     ])
     .sort(['question_id', 'model_configuration_id'])
 )
@@ -126,6 +134,13 @@ model_confs = model_confs.join(
     on='model_id',
     how='left'
 )
+
+# Add is_latest_model column
+latest_models = ['mc030', 'mc036', 'mc037', 'mc038', 'mc039', 'mc040']
+model_confs = model_confs.with_columns([
+    pl.col('model_configuration_id').is_in(latest_models).map_elements(lambda x: 'TRUE' if x else 'FALSE', return_dtype=str).alias('is--latest_model')
+])
+
 
 # Rename model_configuration_id to model_configuration and save as DDF entity
 model_confs = model_confs.rename({'model_configuration_id': 'model_configuration'})

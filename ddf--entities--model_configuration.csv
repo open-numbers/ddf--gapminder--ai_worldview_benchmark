@@ -28,7 +28,7 @@ mc026,qwen-max-1201,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2023
 mc027,gpt-4-0125-preview,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT4 Turbo Jan 2024,,FALSE
 mc028,gemini/gemini-1.0-pro,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro (1.0),,FALSE
 mc029,gemini/gemini-1.5-pro-latest,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro (1.5),,FALSE
-mc030,vertex_ai/gemini-1.5-pro-preview-0409,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 on Vertex AI,2023-11,FALSE
+mc030,vertex_ai/gemini-1.5-pro-preview-0409,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 on Vertex AI,2023-11,TRUE
 mc031,qwen-max-0403,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-04-03,,FALSE
 mc032,gpt-4o-2024-05-13,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4-o 2024-05-13,2023/10,FALSE
 mc033,vertex_ai/claude-3-opus@20240229,"{""temperature"": 0.01}",1,false,0,Anthropic,Claude 3 Opus on Vertex AI,2023/8,FALSE
@@ -39,3 +39,4 @@ mc037,vertex_ai/claude-3-5-sonnet@20240620,"{""temperature"": 0.01}",1,false,0,A
 mc038,fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.1 450B Instruct on fireworks,2023/12,TRUE
 mc039,qwen-max-2024-09-19,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-09-19,,TRUE
 mc040,xai/grok-beta,"{""temperature"": 0.01}",1,false,0,XAI,XAI grok beta,,TRUE
+mc041,vertex_ai/gemini-1.5-pro-002,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 002 on Vertex AI,,FALSE
