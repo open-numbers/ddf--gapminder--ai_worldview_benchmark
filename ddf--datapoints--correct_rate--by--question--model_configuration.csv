@@ -1,4 +1,4 @@
-question,model_configuration,correct_rate_exclude_indecisive
+question,model_configuration,correct_rate
 1,mc026,83.83838383838383
 1,mc027,100.0
 1,mc028,94.28571428571428
@@ -2654,6 +2654,7 @@ question,model_configuration,correct_rate_exclude_indecisive
 1750,mc038,76.85185185185185
 1750,mc039,100.0
 1750,mc040,17.75700934579439
+1753,mc026,0.0
 1753,mc027,11.428571428571429
 1753,mc028,14.150943396226415
 1753,mc030,28.57142857142857

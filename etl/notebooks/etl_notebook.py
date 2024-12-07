@@ -41,64 +41,74 @@ master_output = (
 # Now we can remove the language and date columns as they're no longer needed
 master_output = master_output.drop(['language', 'date'])
 
-# 1. Calculate correct rates excluding 'fail' and 'n/a'
-correct_rates_filtered = (
+# Calculate all rates including indecisive
+rates = (
     master_output
-    .filter(pl.col('result').is_in(['correct', 'wrong', 'very_wrong']))
     .group_by(['question_id', 'model_configuration_id'])
     .agg([
-        pl.col('result').count().alias('total_answers'),
-        (pl.col('result') == 'correct').sum().alias('correct_count')
+        pl.col('result').count().alias('total_all_answers'),
+        (pl.col('result') == 'correct').sum().alias('correct_count'),
+        (pl.col('result') == 'wrong').sum().alias('wrong_count'),
+        (pl.col('result') == 'very_wrong').sum().alias('very_wrong_count'),
+        (pl.col('result').is_in(['fail', 'n/a'])).sum().alias('indecisive_count')
     ])
     .with_columns([
-        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_rate_exclude_indecisive')
+        # Calculate rates for decisive answers (excluding fail/n/a)
+        (pl.when(pl.col('total_all_answers') == pl.col('indecisive_count'))
+         .then(0.0)
+         .otherwise(pl.col('correct_count') / (pl.col('total_all_answers') - pl.col('indecisive_count')) * 100)
+         .alias('correct_rate')),
+        
+        (pl.when(pl.col('total_all_answers') == pl.col('indecisive_count'))
+         .then(0.0)
+         .otherwise(pl.col('wrong_count') / (pl.col('total_all_answers') - pl.col('indecisive_count')) * 100)
+         .alias('wrong_rate')),
+        
+        (pl.when(pl.col('total_all_answers') == pl.col('indecisive_count'))
+         .then(0.0)
+         .otherwise(pl.col('very_wrong_count') / (pl.col('total_all_answers') - pl.col('indecisive_count')) * 100)
+         .alias('very_wrong_rate')),
+        
+        # Calculate indecisive rate from total answers
+        (pl.col('indecisive_count') / pl.col('total_all_answers') * 100).alias('indecisive_rate')
     ])
     .sort(['question_id', 'model_configuration_id'])
 )
 
-print("\nCorrect rates (excluding 'fail' and 'n/a'):")
-print(correct_rates_filtered)
+print("\nAll rates calculated:")
+print(rates)
 
-# 2. Calculate correct rates including all results
-correct_rates_all = (
-    master_output
-    .group_by(['question_id', 'model_configuration_id'])
-    .agg([
-        pl.col('result').count().alias('total_answers'),
-        (pl.col('result') == 'correct').sum().alias('correct_count')
-    ])
-    .with_columns([
-        (pl.col('correct_count') / pl.col('total_answers') * 100).alias('correct_rate_all')
-    ])
-    .sort(['question_id', 'model_configuration_id'])
+# Check for NaN values in rates
+nan_rows = rates.filter(
+    pl.col('correct_rate').is_nan() |
+    pl.col('wrong_rate').is_nan() |
+    pl.col('very_wrong_rate').is_nan() |
+    pl.col('indecisive_rate').is_nan()
 )
 
-print("\nCorrect rates (including all results):")
-print(correct_rates_all)
+if nan_rows.height > 0:
+    print("\nWARNING: Found rows with NaN values:")
+    print(nan_rows)
+    print("\nOriginal data for these questions:")
+    print(master_output.filter(pl.col('question_id').is_in(nan_rows['question_id'])))
 
 # Rename columns and drop unnecessary ones before saving
-correct_rates_filtered = (
-    correct_rates_filtered
+rates = (
+    rates
     .rename({
         'question_id': 'question',
         'model_configuration_id': 'model_configuration'
     })
-    .drop(['total_answers', 'correct_count'])
-)
-correct_rates_all = (
-    correct_rates_all
-    .rename({
-        'question_id': 'question',
-        'model_configuration_id': 'model_configuration'
-    })
-    .drop(['total_answers', 'correct_count'])
+    .drop(['total_all_answers', 'correct_count', 'wrong_count', 'very_wrong_count', 'indecisive_count'])
 )
 
-# Save the results to CSV files
-correct_rates_filtered.write_csv('../../ddf--datapoints--correct_rate_exclude_indecisive--by--question--model_configuration.csv')
-correct_rates_all.write_csv('../../ddf--datapoints--correct_rate_all--by--question--model_configuration.csv')
+# Create and save separate CSV files for each rate
+for rate_type in ['correct_rate', 'wrong_rate', 'very_wrong_rate', 'indecisive_rate']:
+    (rates
+     .select(['question', 'model_configuration', rate_type])
+     .write_csv(f'../../ddf--datapoints--{rate_type}--by--question--model_configuration.csv'))
 
-correct_rates_filtered
+rates
 
 master_output
 
@@ -161,8 +171,8 @@ ai_eval_qs = ai_eval_qs.rename({
 # Remove include_in_next_evaluation column
 ai_eval_qs = ai_eval_qs.drop('include_in_next_evaluation')
 
-# Get all unique question IDs from correct_rates_all
-all_questions = correct_rates_all.select('question').unique()
+# Get all unique question IDs from rates
+all_questions = rates.select('question').unique()
 
 # Find questions that are not in ai_eval_qs
 missing_questions = all_questions.filter(
@@ -269,10 +279,10 @@ all_columns = list(set(model_conf_columns + question_entity_columns))
 
 # Create the concepts dataframe with proper types and names
 concepts_df = pl.DataFrame({
-    'concept': all_columns + ['correct_percentage_all', 'correct_percentage_exclude_indecisive'],
-    'concept_type': ['string'] * len(all_columns) + ['measure', 'measure'],
+    'concept': all_columns + ['correct_rate', 'wrong_rate', 'very_wrong_rate', 'indecisive_rate'],
+    'concept_type': ['string'] * len(all_columns) + ['measure'] * 4,
     'name': [concept.replace('_', ' ').title() for concept in all_columns] + 
-           ['Correct Percentage (all answers)', 'Correct Percentage (excluding indecisive answers)']
+           ['Correct Rate', 'Wrong Rate', 'Very Wrong Rate', 'Indecisive Rate']
 })
 
 # Update entity domains
@@ -293,7 +303,7 @@ questions_to_check = ['1757', '11', '1764', '59', '1632', '1546', '1508', '1', '
 models_to_check = ['mc036', 'mc037', 'mc038', 'mc039', 'mc040']
 
 filtered_rates = (
-    correct_rates_all
+    rates
     .filter(
         pl.col('question').cast(pl.Utf8).is_in(questions_to_check) & 
         pl.col('model_configuration').is_in(models_to_check)
@@ -343,9 +353,12 @@ master_output.filter(
 )
 
 
-# check average correct rate for xai
-correct_rates_filtered.filter(
+# check average rates for xai
+rates.filter(
     pl.col('model_configuration') == 'mc036'
-).select(
-    pl.col('correct_rates_exclude_indecisive').mean()
-)
+).select([
+    pl.col('correct_rate').mean().alias('avg_correct_rate'),
+    pl.col('wrong_rate').mean().alias('avg_wrong_rate'),
+    pl.col('very_wrong_rate').mean().alias('avg_very_wrong_rate'),
+    pl.col('indecisive_rate').mean().alias('avg_indecisive_rate')
+])
