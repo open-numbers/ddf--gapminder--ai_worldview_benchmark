@@ -311,7 +311,6 @@ ai_eval_qs = ai_eval_qs.rename(
     ]
 )
 
-# TODO: now read the Question options
 # Read question options
 question_options = pl.read_csv(
     "../source/Gapminder AI evaluations - Question options.csv"
