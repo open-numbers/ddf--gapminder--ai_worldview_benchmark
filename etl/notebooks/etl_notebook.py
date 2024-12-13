@@ -303,19 +303,71 @@ ai_eval_qs = ai_eval_qs.rename(
         pl.col("included_in_tests_within_these_topic_ids")
         .str.split(";")
         .map_elements(
-            lambda x: ";".join([topic for topic in x if topic in FILTERED_TOPICS])
+            lambda x: ";".join(
+                [topic for topic in x if topic in FILTERED_TOPICS], return_dtype=pl.Utf8
+            )
         )
         .alias("other_topics"),
     ]
 )
 
-# Prepare and save question entity
+# TODO: now read the Question options
+# Read question options
+question_options = pl.read_csv(
+    "../source/Gapminder AI evaluations - Question options.csv"
+)
+
+# Convert column names to lowercase and connect with underscore
+question_options = question_options.rename(
+    {col: col.lower().replace(" ", "_") for col in question_options.columns}
+)
+
+# Create pivot table for answers based on correctness
+answers_pivot = (
+    question_options.filter(
+        pl.col("language") == "en-US"
+    )  # Filter for English answers only
+    .with_columns(
+        pl.col("question_id").cast(pl.Utf8),
+        pl.col("question_option").alias("answer"),
+        pl.col("correctness_of_answer_option").alias("correctness"),
+    )
+    .group_by("question_id")
+    .agg(
+        [
+            pl.col("answer")
+            .filter(pl.col("correctness") == 1)
+            .first()
+            .alias("correct_answer"),
+            pl.col("answer")
+            .filter(pl.col("correctness") == 2)
+            .first()
+            .alias("wrong_answer"),
+            pl.col("answer")
+            .filter(pl.col("correctness") == 3)
+            .first()
+            .alias("very_wrong_answer"),
+        ]
+    )
+)
+
+answers_pivot.filter(pl.col("question_id") == "33")
+question_options.filter(pl.col("question_id") == 33)
+
+# Prepare question entity
 question_entity = ai_eval_qs.rename(
     {
         "question_id": "question",
         "included_in_tests_within_these_topic_ids": "topic_list",
     }
 )
+
+# Join question options with question entity
+question_entity = question_entity.join(
+    answers_pivot, left_on="contentful_id", right_on="question_id", how="left"
+)
+
+question_entity
 
 # Save as DDF entity
 question_entity.write_csv("../../ddf--entities--question.csv")
@@ -329,19 +381,36 @@ contentful_qs
 model_conf_columns = model_confs.columns
 question_entity_columns = question_entity.columns
 
-# Create a list of all unique columns
+# Create a list of all unique columns and transform them
 all_columns = list(set(model_conf_columns + question_entity_columns))
+all_columns = [col[4:] if col.startswith("is--") else col for col in all_columns]
+all_columns.extend(["name", "domain"])
 
-# Create the concepts dataframe with proper types and names
-concepts_df = pl.DataFrame(
+# Create concepts dataframe for string columns
+string_concepts = pl.DataFrame(
     {
-        "concept": all_columns
-        + ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_rate"],
-        "concept_type": ["string"] * len(all_columns) + ["measure"] * 4,
-        "name": [concept.replace("_", " ").title() for concept in all_columns]
-        + ["Correct Rate", "Wrong Rate", "Very Wrong Rate", "Indecisive Rate"],
+        "concept": all_columns,
+        "concept_type": ["string"] * len(all_columns),
+        "name": [concept.replace("_", " ").title() for concept in all_columns],
     }
 )
+
+# Create concepts dataframe for measure columns
+measure_concepts = pl.DataFrame(
+    {
+        "concept": ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_rate"],
+        "concept_type": ["measure"] * 4,
+        "name": [
+            "Correct Rate (excluding indecisive answers)",
+            "Wrong Rate (excluding indecisive answers)",
+            "Very Wrong Rate (excluding indecisive answers)",
+            "Indecisive Rate",
+        ],
+    }
+)
+
+# Combine the two concept dataframes
+concepts_df = pl.concat([string_concepts, measure_concepts])
 
 # Update entity domains
 concepts_df = concepts_df.with_columns(
@@ -350,8 +419,20 @@ concepts_df = concepts_df.with_columns(
         .then(pl.lit("entity_domain"))
         .when(pl.col("concept") == "model_configuration")
         .then(pl.lit("entity_domain"))
+        .when(pl.col("concept") == "latest_model")
+        .then(pl.lit("entity_set"))
         .otherwise(pl.col("concept_type"))
         .alias("concept_type")
+    ]
+)
+
+# Set domain for latest_model
+concepts_df = concepts_df.with_columns(
+    [
+        pl.when(pl.col("concept") == "latest_model")
+        .then(pl.lit("model_configuration"))
+        .otherwise(None)
+        .alias("domain")
     ]
 )
 

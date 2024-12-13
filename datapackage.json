@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2024-12-07T02:51:22.703Z",
+    "created": "2024-12-13T03:41:57.283Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -97,6 +97,15 @@
                     },
                     {
                         "name": "other_topics"
+                    },
+                    {
+                        "name": "correct_answer"
+                    },
+                    {
+                        "name": "wrong_answer"
+                    },
+                    {
+                        "name": "very_wrong_answer"
                     }
                 ],
                 "primaryKey": [
@@ -395,6 +404,15 @@
                 "primaryKey": [
                     "question"
                 ],
+                "value": "correct_answer",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
                 "value": "human_wrong_percentage",
                 "resources": [
                     "ddf--entities--question"
@@ -441,6 +459,24 @@
                     "question"
                 ],
                 "value": "topic_list",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "very_wrong_answer",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "wrong_answer",
                 "resources": [
                     "ddf--entities--question"
                 ]
