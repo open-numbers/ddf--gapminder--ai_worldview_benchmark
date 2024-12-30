@@ -14,9 +14,9 @@ master_output = master_output.rename(
 )
 
 # Remove '_zh' suffix from prompt_variation_id values
-master_output = master_output.with_columns(
-    pl.col("prompt_variation_id").str.replace("_zh$", "")
-)
+# master_output = master_output.with_columns(
+#     pl.col("prompt_variation_id").str.replace("_zh$", "")
+# )
 
 # Check for multiple dates per combination
 date_check = (
@@ -44,6 +44,23 @@ master_output = (
 
 # Now we can remove the language and date columns as they're no longer needed
 master_output = master_output.drop(["language", "date"])
+
+master_output
+
+# Create raw results datapoints with renamed columns
+raw_result_datapoints = master_output.select(
+    [
+        pl.col("question_id").alias("question"),
+        pl.col("model_configuration_id").alias("model_configuration"),
+        pl.col("prompt_variation_id").alias("prompt_variation"),
+        pl.col("result").alias("evaluation_result"),
+    ]
+)
+
+# Save raw results
+raw_result_datapoints.write_csv(
+    "../../ddf--datapoints--evaluation_result--by--question--model_configuration--prompt_variation.csv"
+)
 
 # Calculate all rates including indecisive
 rates = (
@@ -375,13 +392,47 @@ ai_eval_qs
 contentful_qs
 
 
+# Create prompt variation entity
+prompt_variations = pl.read_csv(
+    "../source/Gapminder AI evaluations - Prompt variations.csv"
+)
+
+# Convert column names to lowercase and connect with underscore
+prompt_variations = prompt_variations.rename(
+    {col: col.lower().replace(" ", "_") for col in prompt_variations.columns}
+)
+
+# Keep only required columns and rename variation_id to prompt_variation
+prompt_variations = prompt_variations.select(
+    [
+        pl.col("variation_id").alias("prompt_variation"),
+        "language",
+        "question_template",
+        "question_prompt_template",
+    ]
+)
+
+# Get list of variations that exist in master_output
+existing_variations = master_output.get_column("prompt_variation_id").unique()
+
+# Filter to keep only variations that exist in master_output
+prompt_variations = prompt_variations.filter(
+    pl.col("prompt_variation").is_in(existing_variations)
+)
+
+# Save as DDF entity
+prompt_variations.write_csv("../../ddf--entities--prompt_variation.csv")
+
 # create the concepts file
-# Get columns from both entities
+# Get columns from all entities
 model_conf_columns = model_confs.columns
 question_entity_columns = question_entity.columns
+prompt_variation_columns = prompt_variations.columns
 
 # Create a list of all unique columns and transform them
-all_columns = list(set(model_conf_columns + question_entity_columns))
+all_columns = list(
+    set(model_conf_columns + question_entity_columns + prompt_variation_columns)
+)
 all_columns = [col[4:] if col.startswith("is--") else col for col in all_columns]
 all_columns.extend(["name", "domain"])
 
@@ -417,6 +468,8 @@ concepts_df = concepts_df.with_columns(
         pl.when(pl.col("concept") == "question")
         .then(pl.lit("entity_domain"))
         .when(pl.col("concept") == "model_configuration")
+        .then(pl.lit("entity_domain"))
+        .when(pl.col("concept") == "prompt_variation")
         .then(pl.lit("entity_domain"))
         .when(pl.col("concept") == "latest_model")
         .then(pl.lit("entity_set"))
