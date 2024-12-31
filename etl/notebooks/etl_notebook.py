@@ -458,8 +458,17 @@ measure_concepts = pl.DataFrame(
     }
 )
 
-# Combine the two concept dataframes
-concepts_df = pl.concat([string_concepts, measure_concepts])
+# Add evaluation_result concept
+evaluation_result_concept = pl.DataFrame(
+    {
+        "concept": ["evaluation_result"],
+        "concept_type": ["string"],
+        "name": ["Evaluation Result"],
+    }
+)
+
+# Combine all concept dataframes
+concepts_df = pl.concat([string_concepts, measure_concepts, evaluation_result_concept])
 
 # Update entity domains
 concepts_df = concepts_df.with_columns(
