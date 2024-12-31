@@ -320,9 +320,8 @@ ai_eval_qs = ai_eval_qs.rename(
         pl.col("included_in_tests_within_these_topic_ids")
         .str.split(";")
         .map_elements(
-            lambda x: ";".join(
-                [topic for topic in x if topic in FILTERED_TOPICS], return_dtype=pl.Utf8
-            )
+            lambda x: ";".join([topic for topic in x if topic in FILTERED_TOPICS]),
+            return_dtype=pl.Utf8,
         )
         .alias("other_topics"),
     ]
