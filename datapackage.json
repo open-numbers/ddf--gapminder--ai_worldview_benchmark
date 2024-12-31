@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2024-12-13T03:41:57.283Z",
+    "created": "2024-12-31T02:57:15.470Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -70,6 +70,29 @@
             }
         },
         {
+            "name": "ddf--entities--prompt_variation",
+            "path": "ddf--entities--prompt_variation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "prompt_variation"
+                    },
+                    {
+                        "name": "language"
+                    },
+                    {
+                        "name": "question_template"
+                    },
+                    {
+                        "name": "question_prompt_template"
+                    }
+                ],
+                "primaryKey": [
+                    "prompt_variation"
+                ]
+            }
+        },
+        {
             "name": "ddf--entities--question",
             "path": "ddf--entities--question.csv",
             "schema": {
@@ -131,6 +154,31 @@
                 "primaryKey": [
                     "question",
                     "model_configuration"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--evaluation_result--by--question--model_configuration--prompt_variation",
+            "path": "ddf--datapoints--evaluation_result--by--question--model_configuration--prompt_variation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "question"
+                    },
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "prompt_variation"
+                    },
+                    {
+                        "name": "evaluation_result"
+                    }
+                ],
+                "primaryKey": [
+                    "question",
+                    "model_configuration",
+                    "prompt_variation"
                 ]
             }
         },
@@ -393,6 +441,33 @@
             },
             {
                 "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "language",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "question_prompt_template",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "question_template",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
                     "question"
                 ],
                 "value": "contentful_id",
@@ -486,6 +561,17 @@
             {
                 "primaryKey": [
                     "latest_model",
+                    "prompt_variation",
+                    "question"
+                ],
+                "value": "evaluation_result",
+                "resources": [
+                    "ddf--datapoints--evaluation_result--by--question--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model",
                     "question"
                 ],
                 "value": "correct_rate",
@@ -521,6 +607,17 @@
                 "value": "wrong_rate",
                 "resources": [
                     "ddf--datapoints--wrong_rate--by--question--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation",
+                    "question"
+                ],
+                "value": "evaluation_result",
+                "resources": [
+                    "ddf--datapoints--evaluation_result--by--question--model_configuration--prompt_variation"
                 ]
             },
             {

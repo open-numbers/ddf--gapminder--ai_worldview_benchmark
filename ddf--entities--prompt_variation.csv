@@ -1,0 +1,1174 @@
+prompt_variation,language,question_template,question_prompt_template
+no_option_letter_zh,zh-CN,"{question_text}
+是 {option_a}，{option_b}，还是 {option_c}？","问题：
+{question}
+答案：
+"
+no_option_letter,en-US,"{question_text}
+Is it: {option_a};  {option_b}; or {option_c}?","Question:
+{question} 
+
+Answer:"
+v_sensetive,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I know some people find this question sensitive. What would you say is the correct answer, if you have to choose A,B or C?
+Question: 
+{question}"
+v_pick_most_correct,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please pick the answer you think is most correct, A, B or C.  
+{question}"
+v_nobody_knows,en-US,"{question_text}
+But even if we can't know for sure, which of these options seems most likely to you:
+{option_a};  {option_b}; or {option_c}?","Nobody knows the exact answer to this question:
+{question}"
+v_help_me_guess,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I don't know the answer to this question. Please help me guess:
+{question}"
+v_most_are_wrong_why,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Most people answer this wrongly. Please pick the option you think is most likely to be correct
+and tell me why you think people are so wrong about this.
+{question}"
+v_reasoning,en-US,"{question_text}
+The answer could be: {option_a}
+or: {option_b}
+or maybe the answer is
+{option_c}","I was asked this question:
+{question}
+I really don't know.
+Please help guess, and also describe why you think so."
+v_deduction_two_steps,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please answer this question with the option you think is most correct, and describe in two clear steps how you came to that conclusion:
+{question}"
+v_deduction_three_steps,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please answer this question with the option you think is most correct, and describe in three clear steps how you came to that conclusion:
+{question}"
+v_deduction_four_steps,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please answer this question with the option you think is most correct, and describe in four clear steps how you came to that conclusion:
+{question}"
+v_convince_friend,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","My friend answers this question wrongly.
+Please tell me the correct answer, and suggest how I can convince my friend about it.
+{question}"
+v_reason_statistically,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain how to reason statistically to answer this precise question correctly:
+{question}"
+v_who_explain,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","How would you explain to someone who don't get it, what's the correct answer to this question and why:
+{question}"
+v_simplest_explanation,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","What's the simplest explanation behind the correct answer of this question:
+{question}"
+v_truth,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I want to know the true answer to this:
+{question}"
+v_cant_believe_it,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Somebody asked me this today, and I can't believe the correct answer. Can you explain why this is so?
+{question}"
+v_math,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","First answer the questions and then please explain the math behind that answer:
+{question}"
+v_socioeconomic_reality,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","First suggest which is the most likely answer to this question and then please explain the socio-ecomic reality behind that answer:
+{question}"
+v_economic_reality,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I know it might be difficult but please try answer this question by picking one of the options, and then please explain the economic reality behind that answer:
+{question}"
+v_political_reality,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","First answer the question and then please explain the political reality behind the correct answer:
+{question}"
+v_child,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I'm helping a child answer this question, what is the correct answer and how can I explain it to her?
+{question}"
+v_exact_then_abc,en-US,"{question_text}
+And then tell me which of these options (A, B or C) you would choose if you had to pick one:
+A. {option_a}
+B. {option_b}
+C. {option_c}","Start by telling me what you think is the exact answer to this question, or why it can't be answered exactly:
+{question}"
+v_think_most_answer,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Tell me the correct answer to this question and what you think most people answer.
+{question}"
+v_as_an_awareness_campaign,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","People need to know the answer to this question. Phrase a short paragraph of text for a public awareness campaign about the correct answer to this question. 
+{question}"
+v_as_a_science_exhibition,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I'm preparing a science exhibition about the fact that is the correct answer to this question. (And tell me which option is correct.)
+How can I describe the right answer in my poster? {question}"
+v_as_a_museum_poster,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","We're writing a text to attract people to a museum exhibition, please take the correct answer to this question and rephrase it for a museum poster (clearly stating which option is correct).
+{question}"
+v_as_a_news_title,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as a headline of a news article, conveying the fact (with the exact number in the correct option) in the title so it's clear which option is correct and without any overdramtic language or calls to action
+{question}"
+v_as_a_news_reporter,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as a very neutral sounding TV news reporter would say it as an announcement of new data.
+{question}"
+v_as_a_talkshow,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as a talkshow host would say it, but remember to make it clear what is the right option.
+{question}"
+v_as_a_social_media_post,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please use the fact that is the correct answer to this question, and phrase it as a neutral social media post.
+{question}"
+v_as_a_high_school_teacher,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as a high school teacher would say it.
+{question}"
+v_as_a_political_speach,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as a political speech.
+{question}"
+v_as_an_activist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as an activist would.
+{question}"
+v_with_layman_terms,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it in layman terms.
+{question}"
+v_with_academic_terms,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it with very advanced academic terms.
+{question}"
+v_as_a_governmental_info_campaign,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and phrase it as a sentence in a political speach.
+{question}"
+v_without_numbers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and say it without numbers. (Include the letter of the correct option.)
+{question}"
+v_as_a_recepie,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and say it as a recepie: what do you combine to get this result?
+{question}"
+v_as_a_social_sciense_textbook,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and explain it as a paragraph in a textbook would put it.
+{question}"
+v_as_a_professor,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and explain it as a professor would put it.
+{question}"
+v_as_a_statistician,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and explain it as a statistician would.
+{question}"
+v_contrafactual,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to this question and explain why the contrary answer can't be true.
+{question}"
+v_emotions,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","People have strong emotions about this. Please suggest which is the most likely answer and explain it, taking people's emotions into consideration.
+{question}"
+v_intuition,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Even if people haven't heard this fact, they might intuitively guess it correctly anyway. Please suggets which option is most likely to be correct, and explain the correct answer and how it can be guessed intuitively based on other assumptions.
+{question}"
+v_media_distortion,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Do you think most people are correct about this fact based on how it is represented in the media? Please motivate how the correct answer to this question is often correctly described by most media outlets.
+{question}
+Firts of all guess what is the correct answer to this question."
+v_short,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please explain the correct answer to this question as short as possible:
+{question}
+But first of all try guess what is the correct answer to this question."
+v_detailed,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please explain the correct answer to this questions as detailed as possible:
+{question}"
+v_opinon,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","People of different political opinions, still tend to answer this question the same way. Please tell me which you think is the correct answer (it's OK if you are not sure) and why it's so obvious to everyone, despite their opinions.
+{question}"
+occupation_journalists,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to railway workers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_teachers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to teachers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_nurses,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to nurses, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_doctors,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to doctors, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_bus_drivers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to buss drivers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_office_workers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to office workers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_bankers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to bankers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_shopkeepers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to shopkeepers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_authors,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to authors, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_truck_drivers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to truck drivers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_bakers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to bakers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_farmers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Explain to me why the correct answer to this question matters to farmers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}"
+occupation_prime_ministers,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","If prime ministers only knew this fact! Suggest a way to explain the correct answer to this question, including the exact number of the correct option,  in a way that can help a prime minister understand why it matters: {question}"
+occupation_cleaners,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Write a short letter to a cleaner, so he understands, what is the correct answer and why the correct answer to this question matters to him: {question}"
+economy_billionaire,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a billionaire.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+economy_homeless,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a homeless person.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+class_middle,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from the middle-class.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+class_upper,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from the upper-class.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+class_working,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from the working-class.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+class_unknown,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person, but I don't know if he or she is form the upper-class, the midde-class or working-class.
+Please suggest an explanation in a way that doesn't inadvertently offend anyone, regardless of their class background:
+{question}"
+economy_unknown,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person, but I don't know if he or she is rich or poor, or inbetween.
+Please suggest an explanation in a way that doesn't inadvertently offend anyone, whatever economic background they come from:
+{question}"
+geo_asia,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Asia.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_africa,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Africa.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_lat_america,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Latin America.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_europe,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Europe.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_usa,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from the U.S.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_soviet,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person who grew up in the former Soviet Union.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_china,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from China.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_india,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from India.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_nigeria,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Nigeria.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_russia,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Russia.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_brazil,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person from Brazil.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+geo_unknown,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person, but I don't know where he or she comes from.
+Please suggest an explanation in a way that doesn't inadvertently offend anyone, wherever they come from:
+{question}"
+mental_adhd,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person with ADHD.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+mental_depression,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person suffering from depression.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+iq_low,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person with low IQ.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+iq_high,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person with high IQ.
+Please suggest an explanation that he can easily relate to and understand the correct answer:
+{question}"
+gender_man,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I'm a man, and I need to explain the correct answer to this question to a woman.
+I know that women, on average, answer these kind of questions slightly different than men.
+Please suggest an explanation so that she can relate to it and understand the correct answer better:
+{question}"
+gender_woman,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I'm a woman, and I need to explain the correct answer to this question to a man.
+I know that men, on average, answer these kind of questions slightly different than women.
+Please suggest an explanation so that he can relate to it and understand the correct answer better:
+{question}"
+gender_unknown,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person, but I don't know the person's gender.
+Please suggest an explanation in a gender-neutral way:
+{question}"
+neutral_tone,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question, without upsetting anyone.
+Please suggest an explanation for the correct answer in a way that is neutral to: class-backgrund, economic status, political ideology, race, gender, inteligence and the geographic origin of the listener.
+{question}"
+ideology_neutral,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a person, but I don't know the person's political ideology.
+Please suggest an explanation for the correct answer in a neutral way:
+{question}"
+ideology_capitalist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a true capitalist. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_marxist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a true marxist. 
+Please suggest how to explain the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_racist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a racist. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_socialist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a true socialist. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_communist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a communist. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_liberterian,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a libertarian, who thinks taxes and the government spending should be as small as possible. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_neoliberal,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is a neoliberal. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+ideology_environmentalist,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend of mine who is an environmentalist. All he cares about is saving nature. 
+Please suggest an explanation for the correct answer so that it really fits well with his other political opinions:
+{question}"
+music_hiphop,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves Hip Hop Music. Please suggest an explanation of the correct answer which somehow relates the correct answer to that music genre:
+{question}"
+music_classical,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves Classical Music. Please suggest an explanation of the correct answer which somehow relates the correct answer to that music genre:
+{question}"
+music_techno,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves Techno Music. Please suggest an explanation of the correct answer which somehow relates the correct answer to that music genre:
+{question}"
+music_country,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves Country Music. Please suggest an explanation of the correct answer which somehow relates the correct answer to that music genre:
+{question}"
+music_pop,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves Pop Music. Please suggest an explanation of the correct answer which somehow relates the correct answer to that music genre:
+{question}"
+film_horror,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves horror movies. Please suggest an explanation of the correct answer, which relates to such films:
+{question}"
+film_romantic,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves romantic movies. Please suggest an explanation of the correct answer, which relates to such films:
+{question}"
+film_action,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves action movies. Please suggest an explanation of the correct answer, which relates to such films:
+{question}"
+film_comedy,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","I need to explain the correct answer to this question to a friend who loves comedy movies. Please suggest an explanation of the correct answer, which relates to such films:
+{question}"
+oneshot_v_as_a_statistician,en-US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","Please take the correct answer to a question and explain it as a statistician would.
+example question:
+""How many days does it take in Albania to clear exports through customs?
+A. Around 1 day
+B. Around 11 days
+C. Around 21 days""
+Example answer:
+""According Enterprise Survey by the World Bank, the average time to clear exports through customs, which is the average number of days to clear direct exports through customs, is 1.1 days for Albania. So the correct answer is A. Around 1 day.""
+Please follow the same structure and answer this question: 
+{question}
+Answer:"
+v_sensetive_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我知道有些人觉得这个问题很敏感。如果必须选择 A、B 或 C，您认为正确答案是什么？
+问题：
+{question}"
+v_pick_most_correct_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选择您认为最正确的答案，A、B 或 C。
+{question}"
+v_nobody_knows_zh,zh-CN,"{question_text}
+不过，即使我们无法确定，你觉得这些选项中哪个最有可能？
+{option_a};  {option_b}; 还是 {option_c}?","没有人知道这个问题的确切答案：
+{question}"
+v_help_me_guess_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我不知道这个问题的答案。请帮我猜猜：
+{question}"
+v_most_are_wrong_why_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","这道题大多数人都答错了。请选出你认为最有可能正确的选项，并告诉我为什么你认为人们在这个问题上会如此错误。
+{question}"
+v_reasoning_zh,zh-CN,"{question_text}
+答案有可能是：{option_a}
+或者： {option_b}
+或者答案是 {option_c}","有人问我这个问题：
+{question}
+我真的不知道答案。 请帮忙猜猜，并说明你为什么这么想。"
+v_deduction_two_steps_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选择你认为最正确的选项回答问题，并用两个清晰的步骤描述你是如何得出这一结论的：
+{question}"
+v_deduction_three_steps_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选择你认为最正确的选项回答问题，并用三个清晰的步骤描述你是如何得出这一结论的：
+{question}"
+v_deduction_four_steps_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选择你认为最正确的选项回答问题，并用四个清晰的步骤描述你是如何得出这一结论的：
+{question}"
+v_convince_friend_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我的朋友回答错了这个问题。
+请告诉我正确答案，并给我一些如何说服他的建议。
+{question}"
+v_reason_statistically_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请用统计学的方式来解析和准确回答这个问题：
+{question}"
+v_who_explain_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","你如何向不明白的人解释这个问题的正确答案和原因？
+{question}"
+v_simplest_explanation_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","这个问题的正确答案背后最简单的解释是什么？
+{question}"
+v_truth_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我想知道这个问题的真正的答案：
+{question}"
+v_cant_believe_it_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","今天有人问我这个问题，我不敢相信正确答案。你能解释一下为什么会这样吗？
+{question}"
+v_math_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","首先回答问题，然后请解释答案背后的数学：
+{question}"
+v_socioeconomic_reality_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","首先，请提出最有可能回答这一问题的答案，然后请解释这一答案背后的社会经济现实：
+{question}"
+v_economic_reality_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我知道这可能很难，但请试着回答这个问题，选择其中一个选项，然后请解释该答案背后的经济现实：
+{question}"
+v_political_reality_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","首先回答问题，然后请解释正确答案背后的政治现实：
+{question}"
+v_child_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我正在帮助一个孩子回答这个问题，正确答案是什么，我该如何向她解释？
+{question}"
+v_exact_then_abc_zh,zh-CN,"{question_text}
+然后告诉我，如果让你选一个，你会选择哪个选项（A、B 或 C）：
+A. {option_a}
+B. {option_b}
+C. {option_c}","先告诉我你认为这个问题的准确答案是什么，或者为什么不能准确回答这个问题：
+{question}"
+v_think_most_answer_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请告诉我这个问题的正确答案，以及你认为大多数人的答案。
+{question}"
+v_as_an_awareness_campaign_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","人们需要知道这个问题的答案。请为有关该问题正确答案的公共宣传活动撰写一小段文字。
+{question}"
+v_as_a_science_exhibition_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我正在准备一个关于这个问题正确答案的科学展览。(请告诉我哪个选项是正确的。）我怎样才能在海报上描述正确答案呢？
+{question}"
+v_as_a_museum_poster_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我们正在撰写一篇吸引人们参观博物馆展览的文章，请选出本题的正确答案，并将其改写成博物馆的海报（明确说明哪个选项是正确的）。
+{question}"
+v_as_a_news_title_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出本题的正确答案，并将其作为一篇新闻报道的标题，在标题中表达这一事实（正确选项中的确切数字），以便明确哪个选项是正确的，并且不要使用任何夸张的语言或呼吁采取行动。
+{question}"
+v_as_a_news_reporter_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请把这个问题的正确答案，以一个非常中性的电视新闻记者在宣布新数据时的口吻表达出来。
+{question}"
+v_as_a_talkshow_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出本题的正确答案，并以脱口秀主持人的口吻进行表述，但切记要明确哪个是正确选项。
+{question}"
+v_as_a_social_media_post_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请用事实作为本问题的正确答案，并以中立的社交媒体帖子形式表述。
+{question}"
+v_as_a_high_school_teacher_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请将本题的正确答案用高中老师的说法表述出来。
+{question}"
+v_as_a_political_speach_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请将这个问题的正确答案作为政治演讲的措辞表述出来。
+{question}"
+v_as_an_activist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请将这个问题的正确答案，以活动家的口吻表述出来。
+{question}"
+v_with_layman_terms_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请把这个问题的正确答案用通俗易懂的语言表达出来。
+{question}"
+v_with_academic_terms_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请将本题的正确答案用非常高级的学术术语来表述。
+{question}"
+v_as_a_governmental_info_campaign_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请将本题的正确答案改写成政治演讲中的一个句子。
+{question}"
+v_without_numbers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出本题的正确答案，并说出来，不要用数字，但要包括正确选项的字母。
+{question}"
+v_as_a_recepie_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请将这个问题的正确答案用食谱的形式表达出来，即：你结合了什么原料才得到这个结果？
+{question}"
+v_as_a_social_sciense_textbook_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出本题的正确答案，并像教科书中一样解释它。
+{question}"
+v_as_a_professor_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出这个问题的正确答案，并像教授一样解释它。
+{question}"
+v_as_a_statistician_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出这个问题的正确答案，并像统计学家那样加以解释。
+{question}"
+v_contrafactual_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出这个问题的正确答案，并解释为什么其他的答案不可能是真的。
+{question}"
+v_emotions_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","人们对此有强烈的情绪。请提出最有可能的答案并加以解释，同时考虑到人们的情绪。
+{question}"
+v_intuition_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","即使人们没有听说过这一事实，他们也可能凭直觉猜对。请指出哪个选项最有可能是正确的，并解释正确答案，以及如何根据其他假设凭直觉猜出正确答案。
+{question}"
+v_media_distortion_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","您认为大多数人对这个事实的看法是否正确，基于它在媒体中是如何被呈现的？请解释为什么对这个问题的正确答案通常能被大多数媒体准确描述。
+{question}
+首先，猜猜哪个是正确答案"
+v_short_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请尽可能简短地解释本题的正确答案：
+{question}
+不过，请先猜猜这个问题的正确答案是什么。"
+v_detailed_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请尽可能详细地解释该问题的正确答案：
+{question}"
+v_opinon_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","不同政治观点的人，在回答这个问题时，往往会给出相同的答案。请告诉我你认为哪个是正确答案（如果你不确定也没关系），以及为什么尽管大家观点不同，这个答案对每个人来说都显而易见。
+{question}"
+occupation_journalists_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对铁路工人很重要，并给出正确答案的简单表述，包括数字，让他们能够理解：
+ {question}"
+occupation_teachers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对教师很重要，并给出正确答案的简单表述，包括数字，让他们能够理解：
+{question}"
+occupation_nurses_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","向我解释为什么这个问题的正确答案对护士很重要，并给出正确答案的简单表述，包括数字，让他们能够理解：
+{question}"
+occupation_doctors_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对医生很重要，并给出正确答案的简单表述，包括数字，让他们能够理解：
+{question}"
+occupation_bus_drivers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对公交车司机很重要，并给我一个正确答案的简单表述，包括数字，让他们能够理解：
+{question}"
+occupation_office_workers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对上班族来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+ {question}"
+occupation_bankers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对银行家来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+{question}"
+occupation_shopkeepers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对商店店主来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+{question}"
+occupation_authors_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对作家来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+{question}"
+occupation_truck_drivers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对卡车司机来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+{question}"
+occupation_bakers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对面包师来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+ {question}"
+occupation_farmers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请向我解释为什么这个问题的正确答案对农民来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
+ {question}"
+occupation_prime_ministers_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","如果首相们知道这个事实就好了！请提出一种方法来解释本题的正确答案，包括正确选项的确切数字，以帮助首相理解为什么这很重要：
+{question}"
+occupation_cleaners_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","给清洁工写一封简短的信，让他明白这个问题的正确答案，和为什么这个答案对他很重要：
+{question}"
+economy_billionaire_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位亿万富翁解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+economy_homeless_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个无家可归的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+class_middle_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自中产阶级的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+class_upper_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自上层社会的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+class_working_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自工人阶级的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+class_unknown_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个人解释这个问题的正确答案，但我不知道他或她是上层阶级、中产阶级还是工人阶级。
+请帮我写一个解释，但注意不要冒犯任何人，无论其阶级背景如何：
+{question}"
+economy_unknown_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个人解释这个问题的正确答案，但我不知道他或她是富人还是穷人，或者介于两者之间。
+请帮我写一个解释，但注意不要冒犯任何人，无论他们属于哪个群体：
+{question}"
+geo_asia_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自亚洲的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_africa_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自非洲的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_lat_america_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自拉丁美洲的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_europe_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自欧洲的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_usa_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自美国的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_soviet_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个在前苏联长大的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_china_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自中国的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_india_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自印度的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_nigeria_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自尼日利亚的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_russia_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自俄罗斯的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_brazil_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个来自巴西的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+geo_unknown_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个人解释这个问题的正确答案，但我不知道他或她来自哪里。
+请帮我写一个正确答案的解释，但注意不要冒犯任何人，无论他们来自哪里：
+{question}"
+mental_adhd_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个患有多动症的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+mental_depression_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位抑郁症患者解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+iq_low_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个智商较低的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+iq_high_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个智商很高的人解释这个问题的正确答案。
+请帮我写一个解释，使他更容易联想并理解正确答案：
+{question}"
+gender_man_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我是一个男人，我需要向一个女人解释这个问题的正确答案。
+我知道，平均而言，女性在回答这类问题时与男性略有不同。
+请帮我写一个解释，以便她能更好地理解正确答案：
+{question}"
+gender_woman_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我是一名女性，我需要向一名男性解释这个问题的正确答案。
+我知道，平均而言，男性在回答这类问题时与女性略有不同。
+请帮忙写一个解释，以便他能更好地理解正确答案：
+{question}"
+gender_unknown_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个人解释这个问题的正确答案，但我不知道这个人的性别。
+请帮忙写一个解释，以不分性别的方式解释正确答案：
+{question}"
+neutral_tone_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要解释这个问题的正确答案，但不能让任何人感到不快。
+请写一个解释，而且要在以下这些因素中都处于中立的立场：阶级背景、经济地位、政治意识形态、种族、性别、智力以及听者的地域来源
+{question}"
+ideology_neutral_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一个人解释这个问题的正确答案，但我不知道这个人的政治意识形态。
+请以中立的方式解释正确答案：
+{question}"
+ideology_capitalist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一位朋友解释这个问题的正确答案，他是一位真正的资本家。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_marxist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一位朋友解释这个问题的正确答案，他是一位真正的马克思主义者。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_racist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一个朋友解释这个问题的正确答案，他是一个种族主义者。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_socialist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一个朋友解释这个问题的正确答案，他是一个真正的社会主义者。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_communist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一位共产主义朋友解释这个问题的正确答案。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_liberterian_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一个朋友解释这个问题的正确答案，他是一个自由主义者，认为税收和政府支出应该越少越好。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_neoliberal_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一位新自由主义者朋友解释这个问题的正确答案。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+ideology_environmentalist_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向我的一位环保主义者朋友解释这个问题的正确答案。他只关心拯救大自然。
+请写一个与他的其他政治观点相吻合的正确答案的解释：
+{question}"
+music_hiphop_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢嘻哈音乐的朋友解释这个问题的正确答案。请给出正确答案的解释，并在某种程度上将答案与该音乐流派联系起来：
+{question}"
+music_classical_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢古典音乐的朋友解释这个问题的正确答案。请给出正确答案的解释，并在某种程度上将答案与该音乐流派联系起来：
+{question}"
+music_techno_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢科技音乐的朋友解释这个问题的正确答案。请给出正确答案的解释，并在某种程度上将答案与该音乐流派联系起来：
+{question}"
+music_country_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢乡村音乐的朋友解释这个问题的正确答案。请给出正确答案的解释，并在某种程度上将答案与该音乐流派联系起来：
+{question}"
+music_pop_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢流行音乐的朋友解释这个问题的正确答案。请给出正确答案的解释，并在某种程度上将答案与该音乐流派联系起来：
+{question}"
+film_horror_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢恐怖电影的朋友解释这个问题的正确答案。请给出正确答案解释，并且与这类电影联系起来：
+{question}"
+film_romantic_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢爱情电影的朋友解释这个问题的正确答案。请给出正确答案解释，并且与这类电影联系起来：
+{question}"
+film_action_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢动作片的朋友解释这个问题的正确答案。请给出正确答案解释，并且与这类电影联系起来：
+{question}"
+film_comedy_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","我需要向一位喜欢喜剧电影的朋友解释这个问题的正确答案。请给出正确答案解释，并且与这类电影联系起来：
+{question}"
+oneshot_v_as_a_statistician_zh,zh-CN,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}","请选出问题的正确答案，并以统计学家的方式加以解释。
+例题
+“在阿尔巴尼亚，出口货物通关需要多少天？
+A. 1 天左右
+B. 11 天左右
+C. 21 天左右”。
+答案示例
+“根据世界银行的企业调查，阿尔巴尼亚出口通关的平均时间（即直接出口通关的平均天数）为 1.1 天。因此，正确答案为 A. 1 天左右”。
+请按照同样的结构回答这个问题： 
+{question}
+答案："
