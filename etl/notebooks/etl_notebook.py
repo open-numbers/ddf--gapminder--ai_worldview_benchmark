@@ -1,11 +1,10 @@
 import polars as pl
-import duckdb
 
 
 # first create the datapoints!
 master_output = pl.read_csv(
-    "../source/Gapminder AI evaluations - Master Output.csv",
-    schema_overrides={"Question ID": str},
+    "../source/results/*.csv",
+    schema_overrides={"question_id": str},
 )
 
 # Convert column names to lowercase and connect with underscore
@@ -24,7 +23,7 @@ date_check = (
         ["question_id", "prompt_variation_id", "model_configuration_id"]
     )
     .agg(
-        [pl.col("date").n_unique().alias("unique_dates"), pl.col("date").alias("dates")]
+        [pl.col("last_evaluation_datetime").n_unique().alias("unique_dates"), pl.col("last_evaluation_datetime").alias("dates")]
     )
     .filter(pl.col("unique_dates") > 1)
     .sort("unique_dates", descending=True)
@@ -36,14 +35,14 @@ print(date_check)
 # Keep only the latest datapoint for each combination
 master_output = (
     master_output.sort(
-        ["question_id", "prompt_variation_id", "model_configuration_id", "date"]
+        ["question_id", "prompt_variation_id", "model_configuration_id", "last_evaluation_datetime"]
     )
     .group_by(["question_id", "prompt_variation_id", "model_configuration_id"])
     .agg(pl.all().last())  # Keep the last (most recent) record for each group
 )
 
 # Now we can remove the language and date columns as they're no longer needed
-master_output = master_output.drop(["language", "date"])
+master_output = master_output.drop(["language", "last_evaluation_datetime"])
 
 master_output
 
@@ -161,19 +160,19 @@ master_output
 
 # next create entities for model configuration
 # read model list
-models = pl.read_csv("../source/Gapminder AI evaluations - Models.csv")
+models = pl.read_csv("../source/ai_eval_sheets/gen_ai_models.csv")
 
 # Convert column names to lowercase and connect with underscore
 models = models.rename({col: col.lower().replace(" ", "_") for col in models.columns})
 
 # Remove rows with null model_id
-models = models.filter(pl.col("model_id").is_not_null())
+models = models.filter(pl.col("model_id") != 'nan')
 
 models
 
 # model configurations list
 model_confs = pl.read_csv(
-    "../source/Gapminder AI evaluations - Model configurations.csv"
+    "../source/ai_eval_sheets/gen_ai_model_configs.csv"
 )
 
 # Convert column names to lowercase and connect with underscore
@@ -181,21 +180,20 @@ model_confs = model_confs.rename(
     {col: col.lower().replace(" ", "_") for col in model_confs.columns}
 )
 
-# Remove include_in_next_evaluation column
-model_confs = model_confs.drop("include_in_next_evaluation")
+model_confs
 
 # Join model_confs with models to include additional model information
 model_confs = model_confs.join(
-    models.select(["model_id", "vendor", "model_name", "knowledge_cut_off_date"]),
+    models.select(["model_id", "vendor", "model_name"]),
     on="model_id",
     how="left",
 )
 
 # Add is_latest_model column
-latest_models = ["mc030", "mc036", "mc037", "mc038", "mc039", "mc040"]
+latest_models = ["mc045", "mc044", "mc043", "mc041", "mc039", "mc040"]
 model_confs = model_confs.with_columns(
     [
-        pl.col("model_configuration_id")
+        pl.col("model_config_id")
         .is_in(latest_models)
         .map_elements(lambda x: "TRUE" if x else "FALSE", return_dtype=str)
         .alias("is--latest_model")
@@ -204,7 +202,7 @@ model_confs = model_confs.with_columns(
 
 
 # Rename model_configuration_id to model_configuration and save as DDF entity
-model_confs = model_confs.rename({"model_configuration_id": "model_configuration"})
+model_confs = model_confs.rename({"model_config_id": "model_configuration"})
 model_confs.write_csv("../../ddf--entities--model_configuration.csv")
 
 model_confs
@@ -213,8 +211,8 @@ model_confs
 contentful_qs = pl.read_csv("../source/Contentful Questions Export - Questions.csv")
 
 ai_eval_qs = pl.read_csv(
-    "../source/Gapminder AI evaluations - Questions.csv",
-    schema_overrides={"Question ID": str},
+    "../source/ai_eval_sheets/questions.csv",
+    schema_overrides={"question_id": str},
 )
 
 # Convert column names to lowercase and connect with underscore
@@ -223,7 +221,7 @@ ai_eval_qs = ai_eval_qs.rename(
 )
 
 # Remove include_in_next_evaluation column
-ai_eval_qs = ai_eval_qs.drop("include_in_next_evaluation")
+# ai_eval_qs = ai_eval_qs.drop("include_in_next_evaluation")
 
 # Get all unique question IDs from rates
 all_questions = rates.select("question").unique()
@@ -329,7 +327,7 @@ ai_eval_qs = ai_eval_qs.rename(
 
 # Read question options
 question_options = pl.read_csv(
-    "../source/Gapminder AI evaluations - Question options.csv"
+    "../source/ai_eval_sheets/question_options.csv"
 )
 
 # Convert column names to lowercase and connect with underscore
@@ -337,37 +335,30 @@ question_options = question_options.rename(
     {col: col.lower().replace(" ", "_") for col in question_options.columns}
 )
 
-# Create pivot table for answers based on correctness
+question_options
+
+# Create pivot table for answers with options A, B, C
 answers_pivot = (
-    question_options.filter(
-        pl.col("language") == "en-US"
-    )  # Filter for English answers only
-    .with_columns(
-        pl.col("question_id").cast(pl.Utf8),
-        pl.col("question_option").alias("answer"),
-        pl.col("correctness_of_answer_option").alias("correctness"),
-    )
-    .group_by("question_id")
-    .agg(
-        [
-            pl.col("answer")
-            .filter(pl.col("correctness") == 1)
-            .first()
-            .alias("correct_answer"),
-            pl.col("answer")
-            .filter(pl.col("correctness") == 2)
-            .first()
-            .alias("wrong_answer"),
-            pl.col("answer")
-            .filter(pl.col("correctness") == 3)
-            .first()
-            .alias("very_wrong_answer"),
-        ]
-    )
+    question_options
+    .sort(["question_id", "letter"])  # Ensure consistent ordering
+    .group_by(["question_id", "language"])
+    .agg([
+        pl.col("question_option").filter(pl.col("letter") == "A").first().alias("option_a"),
+        pl.col("correctness_of_answer_option").filter(pl.col("letter") == "A").first().alias("option_a_correctness"),
+        pl.col("question_option").filter(pl.col("letter") == "B").first().alias("option_b"),
+        pl.col("correctness_of_answer_option").filter(pl.col("letter") == "B").first().alias("option_b_correctness"),
+        pl.col("question_option").filter(pl.col("letter") == "C").first().alias("option_c"),
+        pl.col("correctness_of_answer_option").filter(pl.col("letter") == "C").first().alias("option_c_correctness"),
+    ])
 )
 
-answers_pivot.filter(pl.col("question_id") == "33")
-question_options.filter(pl.col("question_id") == 33)
+answers_pivot.filter(pl.col("question_id") == 1)
+question_options.filter(pl.col("question_id") == 1)
+
+# change question_id to string
+answers_pivot = answers_pivot.with_columns(
+    pl.col("question_id").cast(pl.Utf8)
+)
 
 # Prepare question entity
 question_entity = ai_eval_qs.rename(
@@ -379,7 +370,10 @@ question_entity = ai_eval_qs.rename(
 
 # Join question options with question entity
 question_entity = question_entity.join(
-    answers_pivot, left_on="contentful_id", right_on="question_id", how="left"
+    answers_pivot,
+    left_on=["contentful_id", "language"],
+    right_on=["question_id", "language"],
+    how="left"
 )
 
 question_entity
@@ -393,7 +387,7 @@ contentful_qs
 
 # Create prompt variation entity
 prompt_variations = pl.read_csv(
-    "../source/Gapminder AI evaluations - Prompt variations.csv"
+    "../source/ai_eval_sheets/prompt_variations.csv"
 )
 
 # Convert column names to lowercase and connect with underscore

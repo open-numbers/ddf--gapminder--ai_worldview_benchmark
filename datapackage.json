@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2024-12-31T02:57:15.470Z",
+    "created": "2025-01-21T15:27:20.564Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -56,9 +56,6 @@
                     },
                     {
                         "name": "model_name"
-                    },
-                    {
-                        "name": "knowledge_cut_off_date"
                     },
                     {
                         "name": "is--latest_model"
@@ -122,13 +119,22 @@
                         "name": "other_topics"
                     },
                     {
-                        "name": "correct_answer"
+                        "name": "option_a"
                     },
                     {
-                        "name": "wrong_answer"
+                        "name": "option_a_correctness"
                     },
                     {
-                        "name": "very_wrong_answer"
+                        "name": "option_b"
+                    },
+                    {
+                        "name": "option_b_correctness"
+                    },
+                    {
+                        "name": "option_c"
+                    },
+                    {
+                        "name": "option_c_correctness"
                     }
                 ],
                 "primaryKey": [
@@ -290,15 +296,6 @@
                 "primaryKey": [
                     "latest_model"
                 ],
-                "value": "knowledge_cut_off_date",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
                 "value": "memory",
                 "resources": [
                     "ddf--entities--model_configuration"
@@ -363,15 +360,6 @@
                     "model_configuration"
                 ],
                 "value": "is--latest_model",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "model_configuration"
-                ],
-                "value": "knowledge_cut_off_date",
                 "resources": [
                     "ddf--entities--model_configuration"
                 ]
@@ -479,15 +467,6 @@
                 "primaryKey": [
                     "question"
                 ],
-                "value": "correct_answer",
-                "resources": [
-                    "ddf--entities--question"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "question"
-                ],
                 "value": "human_wrong_percentage",
                 "resources": [
                     "ddf--entities--question"
@@ -498,6 +477,60 @@
                     "question"
                 ],
                 "value": "language",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "option_a",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "option_a_correctness",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "option_b",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "option_b_correctness",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "option_c",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "option_c_correctness",
                 "resources": [
                     "ddf--entities--question"
                 ]
@@ -534,24 +567,6 @@
                     "question"
                 ],
                 "value": "topic_list",
-                "resources": [
-                    "ddf--entities--question"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "question"
-                ],
-                "value": "very_wrong_answer",
-                "resources": [
-                    "ddf--entities--question"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "question"
-                ],
-                "value": "wrong_answer",
                 "resources": [
                     "ddf--entities--question"
                 ]
