@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-01-21T15:27:20.564Z",
+    "created": "2025-02-06T04:18:28.378Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -135,6 +135,9 @@
                     },
                     {
                         "name": "option_c_correctness"
+                    },
+                    {
+                        "name": "short_title"
                     }
                 ],
                 "primaryKey": [
@@ -558,6 +561,15 @@
                     "question"
                 ],
                 "value": "sdg_world_topics",
+                "resources": [
+                    "ddf--entities--question"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "question"
+                ],
+                "value": "short_title",
                 "resources": [
                     "ddf--entities--question"
                 ]

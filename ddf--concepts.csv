@@ -22,6 +22,7 @@ option_a_correctness,string,Option A Correctness,
 option_c,string,Option C,
 question,entity_domain,Question,
 topic_list,string,Topic List,
+short_title,string,Short Title,
 repeat_times,string,Repeat Times,
 sdg_world_topics,string,Sdg World Topics,
 latest_model,entity_set,Latest Model,model_configuration

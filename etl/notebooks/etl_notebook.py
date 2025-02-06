@@ -54,7 +54,7 @@ raw_result_datapoints = master_output.select(
         pl.col("prompt_variation_id").alias("prompt_variation"),
         pl.col("result").alias("evaluation_result"),
     ]
-)
+).sort(["model_configuration", "question", "prompt_variation"])
 
 # Save raw results
 raw_result_datapoints.write_csv(
@@ -377,6 +377,32 @@ question_entity = question_entity.join(
 )
 
 question_entity
+
+# read and add the short titles
+short_titles = pl.read_csv("../source/Short titles for AI - Sheet2.csv")
+short_titles = (
+    short_titles.select(
+        pl.col("q_contentful_id").alias("contentful_id"),
+        pl.col("Short Title").alias("short_title")
+    )
+    .filter(pl.col("contentful_id").is_not_null())
+    .group_by("contentful_id")
+    .agg(
+        pl.col("short_title")
+        .filter(pl.col("short_title").is_not_null(),
+                pl.col("short_title") != "#N/A")
+        .first()
+        .alias("short_title")
+    )
+)
+
+short_titles
+
+question_entity = question_entity.join(
+    short_titles,
+    on="contentful_id",
+    how="left",
+)
 
 # Save as DDF entity
 question_entity.write_csv("../../ddf--entities--question.csv")
