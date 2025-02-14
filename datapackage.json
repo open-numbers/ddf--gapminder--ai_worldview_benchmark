@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-02-14T03:57:13.868Z",
+    "created": "2025-02-14T16:27:45.463Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -38,6 +38,9 @@
                     },
                     {
                         "name": "model_id"
+                    },
+                    {
+                        "name": "model_publish_date"
                     },
                     {
                         "name": "model_parameters"
@@ -370,6 +373,15 @@
                 "primaryKey": [
                     "latest_model"
                 ],
+                "value": "model_publish_date",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
                 "value": "repeat_times",
                 "resources": [
                     "ddf--entities--model_configuration"
@@ -443,6 +455,15 @@
                     "model_configuration"
                 ],
                 "value": "model_parameters",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "model_publish_date",
                 "resources": [
                     "ddf--entities--model_configuration"
                 ]
