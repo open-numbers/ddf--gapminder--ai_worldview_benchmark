@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-02-06T04:18:28.378Z",
+    "created": "2025-02-14T03:57:13.868Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -142,6 +142,23 @@
                 ],
                 "primaryKey": [
                     "question"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--average_correct_rate--by--model_configuration",
+            "path": "ddf--datapoints--average_correct_rate--by--model_configuration.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "average_correct_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "model_configuration"
                 ]
             }
         },
@@ -290,6 +307,15 @@
                 "primaryKey": [
                     "latest_model"
                 ],
+                "value": "average_correct_rate",
+                "resources": [
+                    "ddf--datapoints--average_correct_rate--by--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
                 "value": "is--latest_model",
                 "resources": [
                     "ddf--entities--model_configuration"
@@ -356,6 +382,15 @@
                 "value": "vendor",
                 "resources": [
                     "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "average_correct_rate",
+                "resources": [
+                    "ddf--datapoints--average_correct_rate--by--model_configuration"
                 ]
             },
             {

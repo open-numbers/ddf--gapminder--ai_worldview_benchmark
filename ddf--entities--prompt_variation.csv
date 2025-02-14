@@ -1,9 +1,4 @@
 prompt_variation,language,question_template,question_prompt_template
-no_option_letter_zh,zh-CN,"{question_text}
-是 {option_a}，{option_b}，还是 {option_c}？","问题：
-{question}
-答案：
-"
 no_option_letter,en-US,"{question_text}
 Is it: {option_a};  {option_b}; or {option_c}?","Question:
 {question} 
@@ -585,6 +580,11 @@ Example answer:
 Please follow the same structure and answer this question: 
 {question}
 Answer:"
+no_option_letter_zh,zh-CN,"{question_text}
+是 {option_a}，{option_b}，还是 {option_c}？","问题：
+{question}
+答案：
+"
 v_sensetive_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -598,7 +598,7 @@ C. {option_c}","请选择您认为最正确的答案，A、B 或 C。
 {question}"
 v_nobody_knows_zh,zh-CN,"{question_text}
 不过，即使我们无法确定，你觉得这些选项中哪个最有可能？
-{option_a};  {option_b}; 还是 {option_c}?","没有人知道这个问题的确切答案：
+{option_a}; {option_b}; 还是 {option_c}?","没有人知道这个问题的确切答案：
 {question}"
 v_help_me_guess_zh,zh-CN,"{question_text}
 A. {option_a}
@@ -829,7 +829,7 @@ occupation_journalists_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}","请向我解释为什么这个问题的正确答案对铁路工人很重要，并给出正确答案的简单表述，包括数字，让他们能够理解：
- {question}"
+{question}"
 occupation_teachers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -854,7 +854,7 @@ occupation_office_workers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}","请向我解释为什么这个问题的正确答案对上班族来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
- {question}"
+{question}"
 occupation_bankers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -879,12 +879,12 @@ occupation_bakers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}","请向我解释为什么这个问题的正确答案对面包师来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
- {question}"
+{question}"
 occupation_farmers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}","请向我解释为什么这个问题的正确答案对农民来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
- {question}"
+{question}"
 occupation_prime_ministers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}

@@ -155,8 +155,17 @@ for rate_type in ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_r
 
 rates
 
-master_output
+# also create the average correct rate for each model.
+avg_rates = rates.group_by("model_configuration").agg(
+    pl.col("correct_rate").mean().alias("average_correct_rate")
+).with_columns(pl.col("average_correct_rate").round(0).cast(pl.Int32))
 
+avg_rates.sort("model_configuration")
+
+avg_rates.write_csv("../../ddf--datapoints--average_correct_rate--by--model_configuration.csv")
+
+
+master_output
 
 # next create entities for model configuration
 # read model list
@@ -190,7 +199,7 @@ model_confs = model_confs.join(
 )
 
 # Add is_latest_model column
-latest_models = ["mc045", "mc044", "mc043", "mc041", "mc039", "mc040"]
+latest_models = ["mc045", "mc044", "mc043", "mc041", "mc046", "mc040", "mc047"]
 model_confs = model_confs.with_columns(
     [
         pl.col("model_config_id")
@@ -467,13 +476,17 @@ string_concepts = pl.DataFrame(
 # Create concepts dataframe for measure columns
 measure_concepts = pl.DataFrame(
     {
-        "concept": ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_rate"],
-        "concept_type": ["measure"] * 4,
+        "concept": ["correct_rate", "wrong_rate",
+                    "very_wrong_rate", "indecisive_rate",
+                    "average_correct_rate"
+        ],
+        "concept_type": ["measure"] * 5,
         "name": [
             "Correct Rate (excluding indecisive answers)",
             "Wrong Rate (excluding indecisive answers)",
             "Very Wrong Rate (excluding indecisive answers)",
             "Indecisive Rate",
+            "Average Correct Rate"
         ],
     }
 )
