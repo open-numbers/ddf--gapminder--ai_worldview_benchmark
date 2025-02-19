@@ -1,0 +1,25 @@
+name,description,prompt,choices,choice_scores
+correctness,Is the answer correct?,"You are assessing a submitted answer on a given task based on a criterion. Here is the data:
+- Task: Answer a question.
+- Is the answer correct?
+[Input]: {question_text}
+Possible Options and Correctness of Options:
+A. {option_a} ({option_a_correctness})
+B. {option_b} ({option_b_correctness})
+C. {option_c} ({option_c_correctness})
+[Result]: {raw_output}
+[Assessment requirements]:
+Assess the answer by selecting one of the following options. Please note that the question was asked in some context so the answer would contain some more contextual information. You should conclude which option this answer has chosen.
+A The answer looks like some kind of exception / error message; or it's an equivocal answer; or it doesn't answer to the question at all.
+B The answer is not correct, and matches/is close to the Very Wrong answer.
+C The answer is not correct, and matches/is close to the Wrong answer.
+D The answer is correct, i.e. matches the Correct answer.
+[Instruction]:
+First, write out in a step by step manner your reasoning to be sure that your
+conclusion is correct.
+Avoid simply stating the correct answer at the outset.
+Then print only a single choice from A,B,C,D (without quotes or punctuation)
+on its own line corresponding to the correct answer.
+At the end, repeat just the answer by itself on a new line.
+Reasoning:
+","A, B, C, D","0, 1, 2, 3"

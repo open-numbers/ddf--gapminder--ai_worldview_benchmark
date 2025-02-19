@@ -1,0 +1,50 @@
+model_id,vendor,model_name
+gpt-3.5-turbo-0613,OpenAI,GPT3.5 June 2023
+gpt-4-0613,OpenAI,GPT4 June 2023
+nan,OpenAI,"GPT4 (with vision, not publicly available yet)"
+nan,Microsoft,Bing
+nan,Meta,LLaMA
+spark,iFlyTek,Spark
+tiiuae/falcon-7b-instruct,HuggingFace,Falcon 7B
+google/flan-t5-large,HuggingFace,Flan T5 Large (780M)
+TheBloke/orca_mini_13B-GGML,HuggingFace,orca mini 13b (GGML ver.)
+bard,Google,Bard
+palm/text-bison,Google,PaLM (Text Bison)
+palm/chat-bison,Google,PaLM (Chat Bison)
+fakellm,Dummy,Dummy model
+claude,Anthropic,Claude
+qwen-turbo,Alibaba,Qianwen
+qwen-plus,Alibaba,Qianwen Plus
+qwen-v1,Alibaba,Qianwen V1
+nan,nan,Amazon Titan
+nan,nan,OpenAssistant
+nan,nan,TruthGPT
+replicate/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3,Meta,llama2 (hosted on replicate)
+gemini/gemini-pro,Google,Gemini Pro
+gemini/gemini-1.0-pro,Google,Gemini Pro (1.0)
+gemini/gemini-1.5-pro-latest,Google,Gemini Pro (1.5)
+qwen-max-1201,Alibaba,Qianwen Max 2023-12-01
+gpt-3.5-turbo-1106,OpenAI,GPT3.5 Nov 2023'
+gpt-4-1106-preview,OpenAI,GPT4 Turbo Nov 2023
+gpt-4-0125-preview,OpenAI,GPT4 Turbo Jan 2024
+vertex_ai/gemini-1.5-pro-preview-0409,Google,Gemini Pro 1.5 on Vertex AI
+qwen-max-0403,Alibaba,Qianwen Max 2024-04-03
+vertex_ai/claude-3-sonnet@20240229,Anthropic,Claude 3 Sonnet on Vertex AI
+vertex_ai/claude-3-opus@20240229,Anthropic,Claude 3 Opus on Vertex AI
+gpt-4o-2024-05-13,OpenAI,GPT-4-o 2024-05-13
+replicate/meta/meta-llama-3-70b-instruct,Meta,Llama3 70B instruction fine tuned
+qwen-max-0428,Alibaba,Qianwen Max 2024-04-28
+gpt-4o-2024-08-06,OpenAI,OpenAI gpt-4o-2024-08-06
+vertex_ai/claude-3-5-sonnet@20240620,Anthropic,Claude 3.5 Sonnet on Vertex AI
+replicate/meta/meta-llama-3.1-405b-instruct,Meta,Llama 3.1 450B
+fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,Meta,Llama 3.1 450B Instruct on fireworks
+qwen-max-2024-09-19,Alibaba,Qianwen Max 2024-09-19
+gpt-4o-2024-11-20,OpenAI,GPT-4-o 2024-11-20
+vertex_ai/claude-3-5-sonnet-v2@20241022,Anthropic,Claude 3.5 Sonnet 20241022 on Vertex AI
+xai/grok-beta,XAI,XAI grok beta
+vertex_ai/gemini-1.5-pro-002,Google,Gemini Pro 1.5 002 on Vertex AI
+o1-preview-2024-09-12,OpenAI,OpenAI o1 model
+fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct,Meta,Llama 3.3 70B Instruct on Fireworks.ai
+anthropic/claude-3-5-sonnet-20241022,Anthropic,Claude 3.5 Sonnect 20241022
+openai/qwen-max-2025-01-25,Alibaba,Qwen Max 2025-01-25
+fireworks_ai/accounts/fireworks/models/deepseek-v3,DeepSeek,DeepSeek V3 on fireworks.ai

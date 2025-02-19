@@ -1,0 +1,4843 @@
+question_option_id,question_id,language,letter,question_option,correctness_of_answer_option
+1-a1,1,en-US,A,Decreased about 25%,1
+1-a2,1,en-US,B,Stayed about the same,2
+1-a3,1,en-US,C,Increased about 25%,3
+10-a1,10,en-US,A,Around 2%,3
+10-a2,10,en-US,B,Around 10%,2
+10-a3,10,en-US,C,Around 18%,1
+100-a1,100,en-US,A,Decreased around 50%,3
+100-a2,100,en-US,B,Decreased around 30%,2
+100-a3,100,en-US,C,Decreased around 10%,1
+1000-a1,1000,en-US,A,Less than 5%,3
+1000-a2,1000,en-US,B,Around 30%,2
+1000-a3,1000,en-US,C,Around 85%,1
+1001-a1,1001,en-US,A,Around 25%,3
+1001-a2,1001,en-US,B,Around 60%,2
+1001-a3,1001,en-US,C,Around 90%,1
+1002-a1,1002,en-US,A,Around 30%,3
+1002-a2,1002,en-US,B,Around 70%,2
+1002-a3,1002,en-US,C,More than 95%,1
+1003-a1,1003,en-US,A,Around 30%,3
+1003-a2,1003,en-US,B,Around 70%,2
+1003-a3,1003,en-US,C,More than 95%,1
+1004-a1,1004,en-US,A,Less than 5%,3
+1004-a2,1004,en-US,B,Around 40%,2
+1004-a3,1004,en-US,C,Around 75%,1
+1005-a1,1005,en-US,A,Less than 5%,3
+1005-a2,1005,en-US,B,Around 25%,2
+1005-a3,1005,en-US,C,Around 45%,1
+1006-a1,1006,en-US,A,Around 35%,3
+1006-a2,1006,en-US,B,Around 65%,2
+1006-a3,1006,en-US,C,More than 90%,1
+1007-a1,1007,en-US,A,Around 30%,3
+1007-a2,1007,en-US,B,Around 70%,2
+1007-a3,1007,en-US,C,More than 95%,1
+1008-a1,1008,en-US,A,Around 30%,3
+1008-a2,1008,en-US,B,Around 70%,2
+1008-a3,1008,en-US,C,More than 95%,1
+1009-a1,1009,en-US,A,Around 20%,3
+1009-a2,1009,en-US,B,Around 65%,2
+1009-a3,1009,en-US,C,More than 90%,1
+101-a1,101,en-US,A,Less than 10%,3
+101-a2,101,en-US,B,Around 20%,2
+101-a3,101,en-US,C,More than 30%,1
+1010-a1,1010,en-US,A,Around 50%,3
+1010-a2,1010,en-US,B,Around 75%,2
+1010-a3,1010,en-US,C,Around 90%,1
+1011-a1,1011,en-US,A,Around 15%,3
+1011-a2,1011,en-US,B,Around 50%,2
+1011-a3,1011,en-US,C,More than 95%,1
+1012-a1,1012,en-US,A,Around 20%,3
+1012-a2,1012,en-US,B,Around 50%,2
+1012-a3,1012,en-US,C,Around 90%,1
+1013-a1,1013,en-US,A,Around 20%,3
+1013-a2,1013,en-US,B,Around 50%,2
+1013-a3,1013,en-US,C,More than 90%,1
+1014-a1,1014,en-US,A,Around 30%,3
+1014-a2,1014,en-US,B,Around 70%,2
+1014-a3,1014,en-US,C,More than 95%,1
+1015-a1,1015,en-US,A,Around 35%,3
+1015-a2,1015,en-US,B,Around 65%,2
+1015-a3,1015,en-US,C,More than 90%,1
+1016-a1,1016,en-US,A,Around 30%,3
+1016-a2,1016,en-US,B,Around 70%,2
+1016-a3,1016,en-US,C,More than 95%,1
+1017-a1,1017,en-US,A,Around 30%,3
+1017-a2,1017,en-US,B,Around 70%,2
+1017-a3,1017,en-US,C,More than 95%,1
+1018-a1,1018,en-US,A,Around 30%,3
+1018-a2,1018,en-US,B,Around 70%,2
+1018-a3,1018,en-US,C,More than 95%,1
+1019-a1,1019,en-US,A,Around 30%,3
+1019-a2,1019,en-US,B,Around 70%,2
+1019-a3,1019,en-US,C,More than 95%,1
+102-a1,102,en-US,A,It doubled,3
+102-a2,102,en-US,B,It didn’t change much,2
+102-a3,102,en-US,C,It halved,1
+1020-a1,1020,en-US,A,Around 30%,3
+1020-a2,1020,en-US,B,Around 70%,2
+1020-a3,1020,en-US,C,More than 95%,1
+1021-a1,1021,en-US,A,Around 30%,3
+1021-a2,1021,en-US,B,Around 70%,2
+1021-a3,1021,en-US,C,More than 95%,1
+1022-a1,1022,en-US,A,Around 35%,3
+1022-a2,1022,en-US,B,Around 65%,2
+1022-a3,1022,en-US,C,More than 90%,1
+1023-a1,1023,en-US,A,Around 30%,3
+1023-a2,1023,en-US,B,Around 70%,2
+1023-a3,1023,en-US,C,More than 95%,1
+1024-a1,1024,en-US,A,Around 35%,3
+1024-a2,1024,en-US,B,Around 65%,2
+1024-a3,1024,en-US,C,More than 90%,1
+1025-a1,1025,en-US,A,Around 15%,3
+1025-a2,1025,en-US,B,Around 50%,2
+1025-a3,1025,en-US,C,More than 95%,1
+1026-a1,1026,en-US,A,Around 15%,3
+1026-a2,1026,en-US,B,Around 50%,2
+1026-a3,1026,en-US,C,More than 95%,1
+1027-a1,1027,en-US,A,Around 35%,3
+1027-a2,1027,en-US,B,Around 65%,2
+1027-a3,1027,en-US,C,More than 90%,1
+1028-a1,1028,en-US,A,Around 35%,3
+1028-a2,1028,en-US,B,Around 65%,2
+1028-a3,1028,en-US,C,More than 90%,1
+1029-a1,1029,en-US,A,Around 30%,3
+1029-a2,1029,en-US,B,Around 70%,2
+1029-a3,1029,en-US,C,More than 95%,1
+103-a1,103,en-US,A,Less than 15%,3
+103-a2,103,en-US,B,Around 25%,2
+103-a3,103,en-US,C,More than 50%,1
+1030-a1,1030,en-US,A,Around 20%,3
+1030-a2,1030,en-US,B,Around 50%,2
+1030-a3,1030,en-US,C,Around 80%,1
+1031-a1,1031,en-US,A,Around 15%,3
+1031-a2,1031,en-US,B,Around 50%,2
+1031-a3,1031,en-US,C,More than 95%,1
+1032-a1,1032,en-US,A,Around 35%,3
+1032-a2,1032,en-US,B,Around 65%,2
+1032-a3,1032,en-US,C,Around 80%,1
+1033-a1,1033,en-US,A,Around 20%,3
+1033-a2,1033,en-US,B,Around 50%,2
+1033-a3,1033,en-US,C,More than 90%,1
+1034-a1,1034,en-US,A,Around 15%,3
+1034-a2,1034,en-US,B,Around 50%,2
+1034-a3,1034,en-US,C,More than 95%,1
+1035-a1,1035,en-US,A,Around 30%,3
+1035-a2,1035,en-US,B,Around 70%,2
+1035-a3,1035,en-US,C,More than 95%,1
+1036-a1,1036,en-US,A,Around 30%,3
+1036-a2,1036,en-US,B,Around 70%,2
+1036-a3,1036,en-US,C,More than 95%,1
+1037-a1,1037,en-US,A,Around 30%,3
+1037-a2,1037,en-US,B,Around 70%,2
+1037-a3,1037,en-US,C,More than 95%,1
+1038-a1,1038,en-US,A,Around 15%,3
+1038-a2,1038,en-US,B,Around 50%,2
+1038-a3,1038,en-US,C,More than 95%,1
+1039-a1,1039,en-US,A,Around 20%,3
+1039-a2,1039,en-US,B,Around 65%,2
+1039-a3,1039,en-US,C,More than 90%,1
+104-a1,104,en-US,A,"Germany, Sweden, Netherlands, Ireland",2
+104-a2,104,en-US,B,"Ethiopia, Rwanda, Bangladesh, India, Nepal",1
+104-a3,104,en-US,C,"France, USA, Japan, S Korea, Switzerland, UK",3
+1040-a1,1040,en-US,A,Around 25%,3
+1040-a2,1040,en-US,B,Around 50%,2
+1040-a3,1040,en-US,C,Around 70%,1
+1041-a1,1041,en-US,A,Around 15%,3
+1041-a2,1041,en-US,B,Around 50%,2
+1041-a3,1041,en-US,C,More than 95%,1
+1042-a1,1042,en-US,A,Around 30%,3
+1042-a2,1042,en-US,B,Around 70%,2
+1042-a3,1042,en-US,C,More than 95%,1
+1043-a1,1043,en-US,A,Around 25%,3
+1043-a2,1043,en-US,B,Around 60%,2
+1043-a3,1043,en-US,C,Around 90%,1
+1044-a1,1044,en-US,A,Around 20%,3
+1044-a2,1044,en-US,B,Around 50%,2
+1044-a3,1044,en-US,C,More than 90%,1
+1045-a1,1045,en-US,A,Around 30%,3
+1045-a2,1045,en-US,B,Around 70%,2
+1045-a3,1045,en-US,C,More than 95%,1
+1046-a1,1046,en-US,A,Around 35%,3
+1046-a2,1046,en-US,B,Around 65%,2
+1046-a3,1046,en-US,C,More than 90%,1
+1047-a1,1047,en-US,A,Around 30%,3
+1047-a2,1047,en-US,B,Around 70%,2
+1047-a3,1047,en-US,C,More than 95%,1
+1048-a1,1048,en-US,A,Around 15%,3
+1048-a2,1048,en-US,B,Around 50%,2
+1048-a3,1048,en-US,C,More than 95%,1
+1049-a1,1049,en-US,A,Around 30%,3
+1049-a2,1049,en-US,B,Around 70%,2
+1049-a3,1049,en-US,C,More than 95%,1
+105-a1,105,en-US,A,Around 20%,3
+105-a2,105,en-US,B,Around 45%,2
+105-a3,105,en-US,C,Around 70%,1
+1050-a1,1050,en-US,A,Around 15%,3
+1050-a2,1050,en-US,B,Around 50%,2
+1050-a3,1050,en-US,C,More than 95%,1
+1051-a1,1051,en-US,A,Around 30%,3
+1051-a2,1051,en-US,B,Around 70%,2
+1051-a3,1051,en-US,C,More than 95%,1
+1052-a1,1052,en-US,A,Around 15%,3
+1052-a2,1052,en-US,B,Around 50%,2
+1052-a3,1052,en-US,C,Around 85%,1
+1053-a1,1053,en-US,A,Around 30%,3
+1053-a2,1053,en-US,B,Around 70%,2
+1053-a3,1053,en-US,C,More than 95%,1
+1054-a1,1054,en-US,A,Around 40%,3
+1054-a2,1054,en-US,B,Around 60%,2
+1054-a3,1054,en-US,C,Around 90%,1
+1055-a1,1055,en-US,A,Around 20%,3
+1055-a2,1055,en-US,B,Around 65%,2
+1055-a3,1055,en-US,C,Around 90%,1
+1056-a1,1056,en-US,A,Around 15%,3
+1056-a2,1056,en-US,B,Around 70%,2
+1056-a3,1056,en-US,C,More than 95%,1
+1057-a1,1057,en-US,A,Around 15%,3
+1057-a2,1057,en-US,B,Around 50%,2
+1057-a3,1057,en-US,C,Around 85%,1
+1058-a1,1058,en-US,A,Around 15%,3
+1058-a2,1058,en-US,B,Around 50%,2
+1058-a3,1058,en-US,C,More than 95%,1
+1059-a1,1059,en-US,A,Around 10%,3
+1059-a2,1059,en-US,B,Around 25%,2
+1059-a3,1059,en-US,C,Around 45%,1
+106-a1,106,en-US,A,Less than 30%,3
+106-a2,106,en-US,B,Around 45%,2
+106-a3,106,en-US,C,More than 60%,1
+1060-a1,1060,en-US,A,Around 30%,3
+1060-a2,1060,en-US,B,Around 70%,2
+1060-a3,1060,en-US,C,More than 95%,1
+1061-a1,1061,en-US,A,Around 30%,3
+1061-a2,1061,en-US,B,Around 70%,2
+1061-a3,1061,en-US,C,More than 95%,1
+107-a1,107,en-US,A,23% of countries,3
+107-a2,107,en-US,B,41% of countries,2
+107-a3,107,en-US,C,62% of countries,1
+108-a1,108,en-US,A,They were cut by one third,1
+108-a2,108,en-US,B,They stayed roughly the same,2
+108-a3,108,en-US,C,They increased by one third,3
+109-a1,109,en-US,A,Around 4%,1
+109-a2,109,en-US,B,Around 8%,2
+109-a3,109,en-US,C,Around 12%,3
+11-a1,11,en-US,A,Around 9%,1
+11-a2,11,en-US,B,Around 37%,2
+11-a3,11,en-US,C,Around 61%,3
+110-a1,110,en-US,A,Around 40%,3
+110-a2,110,en-US,B,Around 60%,2
+110-a3,110,en-US,C,Around 80%,1
+111-a1,111,en-US,A,Around 5%,1
+111-a2,111,en-US,B,Around 25%,2
+111-a3,111,en-US,C,Around 50%,3
+112-a1,112,en-US,A,20%,3
+112-a2,112,en-US,B,50%,2
+112-a3,112,en-US,C,80%,1
+113-a1,113,en-US,A,Less than 1%,1
+113-a2,113,en-US,B,Around 30%,2
+113-a3,113,en-US,C,Around 60%,3
+114-a1,114,en-US,A,Low-income,3
+114-a2,114,en-US,B,Middle-income,2
+114-a3,114,en-US,C,High-income,1
+115-a1,115,en-US,A,Around 30%,3
+115-a2,115,en-US,B,Around 70%,2
+115-a3,115,en-US,C,More than 95%,1
+116-a1,116,en-US,A,Around 35%,3
+116-a2,116,en-US,B,Around 65%,2
+116-a3,116,en-US,C,More than 90%,1
+1162-a1,1162,en-US,A,Around 15%,3
+1162-a2,1162,en-US,B,Around 50%,2
+1162-a3,1162,en-US,C,Around 85%,1
+1163-a1,1163,en-US,A,Around 25%,1
+1163-a2,1163,en-US,B,Around 50%,2
+1163-a3,1163,en-US,C,More than 95%,3
+1164-a1,1164,en-US,A,Around 25%,3
+1164-a2,1164,en-US,B,Around 50%,2
+1164-a3,1164,en-US,C,Around 75%,1
+1165-a1,1165,en-US,A,Around 20%,3
+1165-a2,1165,en-US,B,Around 50%,2
+1165-a3,1165,en-US,C,Around 65%,1
+1166-a1,1166,en-US,A,Around 35%,3
+1166-a2,1166,en-US,B,Around 65%,2
+1166-a3,1166,en-US,C,More than 90%,1
+1167-a1,1167,en-US,A,Around 30%,3
+1167-a2,1167,en-US,B,Around 70%,2
+1167-a3,1167,en-US,C,More than 95%,1
+1168-a1,1168,en-US,A,Around 30%,3
+1168-a2,1168,en-US,B,Around 70%,2
+1168-a3,1168,en-US,C,More than 95%,1
+1169-a1,1169,en-US,A,Around 30%,3
+1169-a2,1169,en-US,B,Around 70%,2
+1169-a3,1169,en-US,C,More than 95%,1
+117-a1,117,en-US,A,Around 20%,3
+117-a2,117,en-US,B,Around 65%,2
+117-a3,117,en-US,C,More than 90%,1
+1170-a1,1170,en-US,A,Around 20%,3
+1170-a2,1170,en-US,B,Around 65%,2
+1170-a3,1170,en-US,C,More than 90%,1
+1171-a1,1171,en-US,A,Less than 5%,3
+1171-a2,1171,en-US,B,Around 25%,2
+1171-a3,1171,en-US,C,Around 45%,1
+1172-a1,1172,en-US,A,Around 15%,3
+1172-a2,1172,en-US,B,Around 50%,2
+1172-a3,1172,en-US,C,More than 95%,1
+1173-a1,1173,en-US,A,Around 35%,3
+1173-a2,1173,en-US,B,Around 65%,2
+1173-a3,1173,en-US,C,More than 90%,1
+1174-a1,1174,en-US,A,Around 30%,3
+1174-a2,1174,en-US,B,Around 70%,2
+1174-a3,1174,en-US,C,More than 95%,1
+1175-a1,1175,en-US,A,Around 30%,3
+1175-a2,1175,en-US,B,Around 70%,2
+1175-a3,1175,en-US,C,More than 95%,1
+1176-a1,1176,en-US,A,Around 30%,3
+1176-a2,1176,en-US,B,Around 70%,2
+1176-a3,1176,en-US,C,More than 95%,1
+1177-a1,1177,en-US,A,Around 30%,3
+1177-a2,1177,en-US,B,Around 70%,2
+1177-a3,1177,en-US,C,More than 95%,1
+1178-a1,1178,en-US,A,Around 20%,3
+1178-a2,1178,en-US,B,Around 50%,2
+1178-a3,1178,en-US,C,More than 90%,1
+1179-a1,1179,en-US,A,Around 30%,3
+1179-a2,1179,en-US,B,Around 70%,2
+1179-a3,1179,en-US,C,More than 95%,1
+118-a1,118,en-US,A,More than halved,1
+118-a2,118,en-US,B,Remained more or less the same,2
+118-a3,118,en-US,C,Almost doubled,3
+1180-a1,1180,en-US,A,Around 30%,3
+1180-a2,1180,en-US,B,Around 70%,2
+1180-a3,1180,en-US,C,More than 95%,1
+1181-a1,1181,en-US,A,Around 30%,3
+1181-a2,1181,en-US,B,Around 70%,2
+1181-a3,1181,en-US,C,More than 95%,1
+1182-a1,1182,en-US,A,Around 30%,3
+1182-a2,1182,en-US,B,Around 70%,2
+1182-a3,1182,en-US,C,More than 95%,1
+1183-a1,1183,en-US,A,Around 30%,3
+1183-a2,1183,en-US,B,Around 70%,2
+1183-a3,1183,en-US,C,More than 95%,1
+1184-a1,1184,en-US,A,Around 30%,3
+1184-a2,1184,en-US,B,Around 70%,2
+1184-a3,1184,en-US,C,More than 95%,1
+1185-a1,1185,en-US,A,Around 40%,3
+1185-a2,1185,en-US,B,Around 60%,2
+1185-a3,1185,en-US,C,Around 90%,1
+1186-a1,1186,en-US,A,Around 35%,3
+1186-a2,1186,en-US,B,Around 65%,2
+1186-a3,1186,en-US,C,More than 90%,1
+1187-a1,1187,en-US,A,Around 35%,3
+1187-a2,1187,en-US,B,Around 65%,2
+1187-a3,1187,en-US,C,More than 90%,1
+1188-a1,1188,en-US,A,Around 35%,3
+1188-a2,1188,en-US,B,Around 65%,2
+1188-a3,1188,en-US,C,Around 80%,1
+1189-a1,1189,en-US,A,Around 25%,1
+1189-a2,1189,en-US,B,Around 50%,2
+1189-a3,1189,en-US,C,Around 75%,3
+119-a1,119,en-US,A,It decreased more than 30%,1
+119-a2,119,en-US,B,It stayed about the same,2
+119-a3,119,en-US,C,It increased more than 30%,3
+1190-a1,1190,en-US,A,Around 35%,3
+1190-a2,1190,en-US,B,Around 65%,2
+1190-a3,1190,en-US,C,More than 90%,1
+1191-a1,1191,en-US,A,Around 15%,3
+1191-a2,1191,en-US,B,Around 50%,2
+1191-a3,1191,en-US,C,More than 95%,1
+1192-a1,1192,en-US,A,Around 30%,3
+1192-a2,1192,en-US,B,Around 70%,2
+1192-a3,1192,en-US,C,More than 95%,1
+1193-a1,1193,en-US,A,Around 15%,3
+1193-a2,1193,en-US,B,Around 50%,2
+1193-a3,1193,en-US,C,More than 95%,1
+1194-a1,1194,en-US,A,Around 15%,3
+1194-a2,1194,en-US,B,Around 50%,2
+1194-a3,1194,en-US,C,Around 85%,1
+1195-a1,1195,en-US,A,Around 40%,3
+1195-a2,1195,en-US,B,Around 60%,2
+1195-a3,1195,en-US,C,Around 75%,1
+1196-a1,1196,en-US,A,Around 25%,3
+1196-a2,1196,en-US,B,Around 60%,2
+1196-a3,1196,en-US,C,Around 90%,1
+1197-a1,1197,en-US,A,Around 35%,3
+1197-a2,1197,en-US,B,Around 65%,2
+1197-a3,1197,en-US,C,More than 90%,1
+1198-a1,1198,en-US,A,Around 15%,3
+1198-a2,1198,en-US,B,Around 50%,2
+1198-a3,1198,en-US,C,More than 95%,1
+1199-a1,1199,en-US,A,Around 10%,3
+1199-a2,1199,en-US,B,Around 40%,2
+1199-a3,1199,en-US,C,Around 60%,1
+12-a1,12,en-US,A,Around 11%,1
+12-a2,12,en-US,B,Around 23%,2
+12-a3,12,en-US,C,Around 37%,3
+120-a1,120,en-US,A,Zero cases,1
+120-a2,120,en-US,B,One hundred thousand cases,2
+120-a3,120,en-US,C,One million cases,3
+1200-a1,1200,en-US,A,Around 5%,3
+1200-a2,1200,en-US,B,Around 20%,2
+1200-a3,1200,en-US,C,Around 50%,1
+1201-a1,1201,en-US,A,Around 15%,3
+1201-a2,1201,en-US,B,Around 50%,2
+1201-a3,1201,en-US,C,More than 95%,1
+1202-a1,1202,en-US,A,Around 30%,3
+1202-a2,1202,en-US,B,Around 70%,2
+1202-a3,1202,en-US,C,More than 95%,1
+1203-a1,1203,en-US,A,Around 30%,3
+1203-a2,1203,en-US,B,Around 70%,2
+1203-a3,1203,en-US,C,More than 95%,1
+1204-a1,1204,en-US,A,Around 15%,3
+1204-a2,1204,en-US,B,Around 50%,2
+1204-a3,1204,en-US,C,More than 95%,1
+1205-a1,1205,en-US,A,Around 25%,3
+1205-a2,1205,en-US,B,Around 60%,2
+1205-a3,1205,en-US,C,Around 90%,1
+1206-a1,1206,en-US,A,Less than 10%,3
+1206-a2,1206,en-US,B,Around 35%,2
+1206-a3,1206,en-US,C,Around 65%,1
+1207-a1,1207,en-US,A,Around 35%,3
+1207-a2,1207,en-US,B,Around 65%,2
+1207-a3,1207,en-US,C,More than 90%,1
+1208-a1,1208,en-US,A,Around 40%,3
+1208-a2,1208,en-US,B,Around 60%,2
+1208-a3,1208,en-US,C,Around 80%,1
+1209-a1,1209,en-US,A,Around 15%,3
+1209-a2,1209,en-US,B,Around 50%,2
+1209-a3,1209,en-US,C,More than 95%,1
+121-a1,121,en-US,A,Less than 30%,3
+121-a2,121,en-US,B,Around 60%,2
+121-a3,121,en-US,C,More than 90%,1
+1210-a1,1210,en-US,A,Around 30%,3
+1210-a2,1210,en-US,B,Around 70%,2
+1210-a3,1210,en-US,C,More than 95%,1
+1211-a1,1211,en-US,A,Around 25%,3
+1211-a2,1211,en-US,B,Around 60%,2
+1211-a3,1211,en-US,C,Around 90%,1
+1212-a1,1212,en-US,A,Less than 10%,3
+1212-a2,1212,en-US,B,Around 50%,2
+1212-a3,1212,en-US,C,More than 90%,1
+1213-a1,1213,en-US,A,day,1
+1213-a2,1213,en-US,B,week,2
+1213-a3,1213,en-US,C,month,3
+1214-a1,1214,en-US,A,Less than 1%,1
+1214-a2,1214,en-US,B,43%,2
+1214-a3,1214,en-US,C,78%,3
+1215-a1,1215,en-US,A,Climate Ambassador,2
+1215-a2,1215,en-US,B,Tech Ambassador,1
+1215-a3,1215,en-US,C,Ambassador for Seniors,3
+1217-a1,1217,en-US,A,Around 30%,1
+1217-a2,1217,en-US,B,Around 70%,2
+1217-a3,1217,en-US,C,Around 85%,3
+1218-a1,1218,en-US,A,Around 25%,3
+1218-a2,1218,en-US,B,Around 60%,2
+1218-a3,1218,en-US,C,Around 90%,1
+1219-a1,1219,en-US,A,Less than 5%,3
+1219-a2,1219,en-US,B,Around 25%,2
+1219-a3,1219,en-US,C,Around 45%,1
+122-a1,122,en-US,A,Motorcycles,2
+122-a2,122,en-US,B,Drones,1
+122-a3,122,en-US,C,Runners,3
+1220-a1,1220,en-US,A,Around 20%,3
+1220-a2,1220,en-US,B,Around 50%,2
+1220-a3,1220,en-US,C,More than 90%,1
+1221-a1,1221,en-US,A,Around 15%,3
+1221-a2,1221,en-US,B,Around 50%,2
+1221-a3,1221,en-US,C,More than 95%,1
+1222-a1,1222,en-US,A,Around 35%,3
+1222-a2,1222,en-US,B,Around 65%,2
+1222-a3,1222,en-US,C,More than 90%,1
+1223-a1,1223,en-US,A,Around 20%,3
+1223-a2,1223,en-US,B,Around 65%,2
+1223-a3,1223,en-US,C,More than 90%,1
+1224-a1,1224,en-US,A,Around 15%,1
+1224-a2,1224,en-US,B,Around 25%,2
+1224-a3,1224,en-US,C,Around 50%,3
+1225-a1,1225,en-US,A,Around 30%,3
+1225-a2,1225,en-US,B,Around 70%,2
+1225-a3,1225,en-US,C,More than 95%,1
+1226-a1,1226,en-US,A,Around 15%,3
+1226-a2,1226,en-US,B,Around 50%,2
+1226-a3,1226,en-US,C,More than 95%,1
+1227-a1,1227,en-US,A,Around 35%,3
+1227-a2,1227,en-US,B,Around 65%,2
+1227-a3,1227,en-US,C,More than 90%,1
+1228-a1,1228,en-US,A,Around 5%,3
+1228-a2,1228,en-US,B,Around 35%,2
+1228-a3,1228,en-US,C,Around 55%,1
+1229-a1,1229,en-US,A,Less than 10%,3
+1229-a2,1229,en-US,B,Around 35%,2
+1229-a3,1229,en-US,C,Around 65%,1
+123-a1,123,en-US,A,Less than 40%,3
+123-a2,123,en-US,B,Around 65%,2
+123-a3,123,en-US,C,More than 90%,1
+1230-a1,1230,en-US,A,Around 5%,3
+1230-a2,1230,en-US,B,Around 50%,2
+1230-a3,1230,en-US,C,Around 90%,1
+1231-a1,1231,en-US,A,Around 15%,1
+1231-a2,1231,en-US,B,Around 25%,2
+1231-a3,1231,en-US,C,Around 50%,3
+1232-a1,1232,en-US,A,Around 5%,3
+1232-a2,1232,en-US,B,Around 35%,2
+1232-a3,1232,en-US,C,Around 55%,1
+1233-a1,1233,en-US,A,Around 15%,3
+1233-a2,1233,en-US,B,Around 50%,2
+1233-a3,1233,en-US,C,More than 95%,1
+1234-a1,1234,en-US,A,Around 30%,3
+1234-a2,1234,en-US,B,Around 70%,2
+1234-a3,1234,en-US,C,Around 85%,1
+1235-a1,1235,en-US,A,Around 30%,3
+1235-a2,1235,en-US,B,Around 70%,2
+1235-a3,1235,en-US,C,More than 95%,1
+1236-a1,1236,en-US,A,Around 35%,3
+1236-a2,1236,en-US,B,Around 65%,2
+1236-a3,1236,en-US,C,More than 90%,1
+1237-a1,1237,en-US,A,Around 30%,3
+1237-a2,1237,en-US,B,Around 70%,2
+1237-a3,1237,en-US,C,More than 95%,1
+1238-a1,1238,en-US,A,Around 30%,3
+1238-a2,1238,en-US,B,Around 70%,2
+1238-a3,1238,en-US,C,More than 95%,1
+1239-a1,1239,en-US,A,Around 35%,3
+1239-a2,1239,en-US,B,Around 65%,2
+1239-a3,1239,en-US,C,More than 90%,1
+124-a1,124,en-US,A,Less than 400,3
+124-a2,124,en-US,B,Still around 500,2
+124-a3,124,en-US,C,More than 600,1
+1240-a1,1240,en-US,A,Around 30%,3
+1240-a2,1240,en-US,B,Around 70%,2
+1240-a3,1240,en-US,C,More than 95%,1
+1241-a1,1241,en-US,A,Around 20%,3
+1241-a2,1241,en-US,B,Around 65%,2
+1241-a3,1241,en-US,C,More than 90%,1
+1242-a1,1242,en-US,A,Around 25%,3
+1242-a2,1242,en-US,B,Around 60%,2
+1242-a3,1242,en-US,C,Around 90%,1
+1243-a1,1243,en-US,A,Around 25%,3
+1243-a2,1243,en-US,B,Around 60%,2
+1243-a3,1243,en-US,C,Around 90%,1
+1244-a1,1244,en-US,A,Around 30%,3
+1244-a2,1244,en-US,B,Around 70%,2
+1244-a3,1244,en-US,C,More than 95%,1
+1245-a1,1245,en-US,A,Around 30%,3
+1245-a2,1245,en-US,B,Around 70%,2
+1245-a3,1245,en-US,C,More than 95%,1
+1246-a1,1246,en-US,A,Around 40%,3
+1246-a2,1246,en-US,B,Around 60%,2
+1246-a3,1246,en-US,C,Around 90%,1
+1247-a1,1247,en-US,A,Around 30%,3
+1247-a2,1247,en-US,B,Around 70%,2
+1247-a3,1247,en-US,C,More than 95%,1
+1248-a1,1248,en-US,A,Around 30%,3
+1248-a2,1248,en-US,B,Around 70%,2
+1248-a3,1248,en-US,C,More than 95%,1
+1249-a1,1249,en-US,A,Around 30%,3
+1249-a2,1249,en-US,B,Around 70%,2
+1249-a3,1249,en-US,C,More than 95%,1
+125-a1,125,en-US,A,Around 20%,3
+125-a2,125,en-US,B,Around 40%,2
+125-a3,125,en-US,C,Around 60%,1
+1250-a1,1250,en-US,A,Less than 10%,3
+1250-a2,1250,en-US,B,Around 35%,2
+1250-a3,1250,en-US,C,Around 65%,1
+1251-a1,1251,en-US,A,Less than 5%,3
+1251-a2,1251,en-US,B,Around 30%,2
+1251-a3,1251,en-US,C,Around 85%,1
+1252-a1,1252,en-US,A,Around 15%,3
+1252-a2,1252,en-US,B,Around 50%,2
+1252-a3,1252,en-US,C,Around 70%,1
+1253-a1,1253,en-US,A,Around 15%,3
+1253-a2,1253,en-US,B,Around 50%,2
+1253-a3,1253,en-US,C,Around 85%,1
+1254-a1,1254,en-US,A,Around 15%,3
+1254-a2,1254,en-US,B,Around 50%,2
+1254-a3,1254,en-US,C,More than 95%,1
+1255-a1,1255,en-US,A,Around 25%,3
+1255-a2,1255,en-US,B,Around 60%,2
+1255-a3,1255,en-US,C,Around 90%,1
+1256-a1,1256,en-US,A,Around 20%,3
+1256-a2,1256,en-US,B,Around 50%,2
+1256-a3,1256,en-US,C,More than 90%,1
+1257-a1,1257,en-US,A,Around 25%,3
+1257-a2,1257,en-US,B,Around 60%,2
+1257-a3,1257,en-US,C,Around 75%,1
+1258-a1,1258,en-US,A,Around 20%,3
+1258-a2,1258,en-US,B,Around 50%,2
+1258-a3,1258,en-US,C,More than 90%,1
+1259-a1,1259,en-US,A,Around 35%,3
+1259-a2,1259,en-US,B,Around 65%,2
+1259-a3,1259,en-US,C,More than 90%,1
+126-a1,126,en-US,A,Around 1 day,1
+126-a2,126,en-US,B,Around 11 days,2
+126-a3,126,en-US,C,Around 21 days,3
+1260-a1,1260,en-US,A,Around 30%,3
+1260-a2,1260,en-US,B,Around 70%,2
+1260-a3,1260,en-US,C,More than 95%,1
+1261-a1,1261,en-US,A,Around 30%,3
+1261-a2,1261,en-US,B,Around 70%,2
+1261-a3,1261,en-US,C,More than 95%,1
+1262-a1,1262,en-US,A,Around 5%,3
+1262-a2,1262,en-US,B,Around 35%,2
+1262-a3,1262,en-US,C,Around 50%,1
+1263-a1,1263,en-US,A,Around 25%,3
+1263-a2,1263,en-US,B,Around 45%,2
+1263-a3,1263,en-US,C,Around 60%,1
+1264-a1,1264,en-US,A,Around 35%,3
+1264-a2,1264,en-US,B,Around 65%,2
+1264-a3,1264,en-US,C,More than 90%,1
+1265-a1,1265,en-US,A,Around 20%,3
+1265-a2,1265,en-US,B,Around 50%,2
+1265-a3,1265,en-US,C,More than 90%,1
+1266-a1,1266,en-US,A,Around 30%,3
+1266-a2,1266,en-US,B,Around 70%,2
+1266-a3,1266,en-US,C,More than 95%,1
+1267-a1,1267,en-US,A,Around 15%,3
+1267-a2,1267,en-US,B,Around 50%,2
+1267-a3,1267,en-US,C,More than 95%,1
+1268-a1,1268,en-US,A,Around 10%,3
+1268-a2,1268,en-US,B,Around 25%,2
+1268-a3,1268,en-US,C,Around 45%,1
+1269-a1,1269,en-US,A,Around 30%,3
+1269-a2,1269,en-US,B,Around 70%,2
+1269-a3,1269,en-US,C,More than 95%,1
+127-a1,127,en-US,A,Less than 30%,3
+127-a2,127,en-US,B,Around 45%,2
+127-a3,127,en-US,C,Around 70%,1
+1270-a1,1270,en-US,A,Around 30%,3
+1270-a2,1270,en-US,B,Around 70%,2
+1270-a3,1270,en-US,C,More than 95%,1
+1271-a1,1271,en-US,A,Around 30%,3
+1271-a2,1271,en-US,B,Around 70%,2
+1271-a3,1271,en-US,C,More than 95%,1
+1272-a1,1272,en-US,A,Around 30%,3
+1272-a2,1272,en-US,B,Around 70%,2
+1272-a3,1272,en-US,C,More than 95%,1
+1273-a1,1273,en-US,A,Around 30%,3
+1273-a2,1273,en-US,B,Around 70%,2
+1273-a3,1273,en-US,C,More than 95%,1
+1274-a1,1274,en-US,A,Around 30%,3
+1274-a2,1274,en-US,B,Around 70%,2
+1274-a3,1274,en-US,C,More than 95%,1
+1275-a1,1275,en-US,A,Around 15%,3
+1275-a2,1275,en-US,B,Around 50%,2
+1275-a3,1275,en-US,C,More than 95%,1
+1276-a1,1276,en-US,A,Around 30%,3
+1276-a2,1276,en-US,B,Around 70%,2
+1276-a3,1276,en-US,C,More than 95%,1
+1277-a1,1277,en-US,A,Around 50%,3
+1277-a2,1277,en-US,B,Around 70%,2
+1277-a3,1277,en-US,C,Around 85%,1
+1278-a1,1278,en-US,A,Around 35%,3
+1278-a2,1278,en-US,B,Around 65%,2
+1278-a3,1278,en-US,C,More than 90%,1
+1279-a1,1279,en-US,A,Around 30%,3
+1279-a2,1279,en-US,B,Around 70%,2
+1279-a3,1279,en-US,C,More than 95%,1
+128-a1,128,en-US,A,Around 1984,1
+128-a2,128,en-US,B,Around 2006,2
+128-a3,128,en-US,C,Albania has not reached that yet,3
+1280-a1,1280,en-US,A,Around 30%,3
+1280-a2,1280,en-US,B,Around 70%,2
+1280-a3,1280,en-US,C,More than 95%,1
+1281-a1,1281,en-US,A,Around 30%,3
+1281-a2,1281,en-US,B,Around 70%,2
+1281-a3,1281,en-US,C,More than 95%,1
+1282-a1,1282,en-US,A,Around 30%,3
+1282-a2,1282,en-US,B,Around 70%,2
+1282-a3,1282,en-US,C,More than 95%,1
+1285-a1,1285,en-US,A,Around 35%,3
+1285-a2,1285,en-US,B,Around 65%,2
+1285-a3,1285,en-US,C,More than 90%,1
+1286-a1,1286,en-US,A,Around 35%,3
+1286-a2,1286,en-US,B,Around 65%,2
+1286-a3,1286,en-US,C,More than 90%,1
+1287-a1,1287,en-US,A,Around 30%,3
+1287-a2,1287,en-US,B,Around 70%,2
+1287-a3,1287,en-US,C,More than 95%,1
+1288-a1,1288,en-US,A,Around 25%,3
+1288-a2,1288,en-US,B,Around 50%,2
+1288-a3,1288,en-US,C,Around 60%,1
+1289-a1,1289,en-US,A,Around 10%,3
+1289-a2,1289,en-US,B,Around 35%,2
+1289-a3,1289,en-US,C,Around 55%,1
+129-a1,129,en-US,A,2%,3
+129-a2,129,en-US,B,14%,2
+129-a3,129,en-US,C,30%,1
+1290-a1,1290,en-US,A,Around 25%,3
+1290-a2,1290,en-US,B,Around 50%,2
+1290-a3,1290,en-US,C,Around 75%,1
+1291-a1,1291,en-US,A,Around 15%,3
+1291-a2,1291,en-US,B,Around 50%,2
+1291-a3,1291,en-US,C,More than 95%,1
+1292-a1,1292,en-US,A,Around 20%,3
+1292-a2,1292,en-US,B,Around 50%,2
+1292-a3,1292,en-US,C,Around 65%,1
+1293-a1,1293,en-US,A,Around 30%,3
+1293-a2,1293,en-US,B,Around 70%,2
+1293-a3,1293,en-US,C,More than 95%,1
+1294-a1,1294,en-US,A,Around 30%,3
+1294-a2,1294,en-US,B,Around 70%,2
+1294-a3,1294,en-US,C,More than 95%,1
+1295-a1,1295,en-US,A,Around 30%,3
+1295-a2,1295,en-US,B,Around 70%,2
+1295-a3,1295,en-US,C,More than 95%,1
+1296-a1,1296,en-US,A,Around 20%,3
+1296-a2,1296,en-US,B,Around 50%,2
+1296-a3,1296,en-US,C,Around 65%,1
+1297-a1,1297,en-US,A,Around 35%,3
+1297-a2,1297,en-US,B,Around 65%,2
+1297-a3,1297,en-US,C,More than 90%,1
+1298-a1,1298,en-US,A,Less than 10%,3
+1298-a2,1298,en-US,B,Around 35%,2
+1298-a3,1298,en-US,C,Around 70%,1
+1299-a1,1299,en-US,A,Around 35%,3
+1299-a2,1299,en-US,B,Around 65%,2
+1299-a3,1299,en-US,C,More than 90%,1
+13-a1,13,en-US,A,Around 8%,1
+13-a2,13,en-US,B,Around 28%,2
+13-a3,13,en-US,C,Around 48%,3
+130-a1,130,en-US,A,Less than 55%,3
+130-a2,130,en-US,B,Around 75%,2
+130-a3,130,en-US,C,More than 95%,1
+1300-a1,1300,en-US,A,Around 25%,1
+1300-a2,1300,en-US,B,Around 75%,2
+1300-a3,1300,en-US,C,More than 95%,3
+1301-a1,1301,en-US,A,Around 5%,3
+1301-a2,1301,en-US,B,Around 35%,2
+1301-a3,1301,en-US,C,Around 80%,1
+1302-a1,1302,en-US,A,Around 15%,3
+1302-a2,1302,en-US,B,Around 50%,2
+1302-a3,1302,en-US,C,Around 85%,1
+1303-a1,1303,en-US,A,Around 25%,3
+1303-a2,1303,en-US,B,Around 50%,2
+1303-a3,1303,en-US,C,Around 90%,1
+1304-a1,1304,en-US,A,Around 30%,3
+1304-a2,1304,en-US,B,Around 70%,2
+1304-a3,1304,en-US,C,More than 95%,1
+1305-a1,1305,en-US,A,Less than 5%,3
+1305-a2,1305,en-US,B,Around 10%,2
+1305-a3,1305,en-US,C,Around 45%,1
+1306-a1,1306,en-US,A,Less than 10%,3
+1306-a2,1306,en-US,B,Around 20%,2
+1306-a3,1306,en-US,C,Around 35%,1
+1307-a1,1307,en-US,A,Around 15%,3
+1307-a2,1307,en-US,B,Around 50%,2
+1307-a3,1307,en-US,C,More than 95%,1
+1308-a1,1308,en-US,A,Less than 10%,3
+1308-a2,1308,en-US,B,Around 20%,2
+1308-a3,1308,en-US,C,Around 35%,1
+1309-a1,1309,en-US,A,Around 5%,3
+1309-a2,1309,en-US,B,Around 20%,2
+1309-a3,1309,en-US,C,Around 50%,1
+131-a1,131,en-US,A,Around 30%,3
+131-a2,131,en-US,B,Around 70%,2
+131-a3,131,en-US,C,More than 95%,1
+1310-a1,1310,en-US,A,Around 25%,1
+1310-a2,1310,en-US,B,Around 70%,2
+1310-a3,1310,en-US,C,Around 95%,3
+1311-a1,1311,en-US,A,Around 25%,3
+1311-a2,1311,en-US,B,Around 60%,2
+1311-a3,1311,en-US,C,Around 90%,1
+1312-a1,1312,en-US,A,Around 20%,3
+1312-a2,1312,en-US,B,Around 65%,2
+1312-a3,1312,en-US,C,More than 90%,1
+1313-a1,1313,en-US,A,Around 15%,3
+1313-a2,1313,en-US,B,Around 50%,2
+1313-a3,1313,en-US,C,Around 70%,1
+1314-a1,1314,en-US,A,Around 25%,3
+1314-a2,1314,en-US,B,Around 50%,2
+1314-a3,1314,en-US,C,Around 75%,1
+1315-a1,1315,en-US,A,Around 35%,3
+1315-a2,1315,en-US,B,Around 65%,2
+1315-a3,1315,en-US,C,Around 80%,1
+1316-a1,1316,en-US,A,Around 30%,3
+1316-a2,1316,en-US,B,Around 70%,2
+1316-a3,1316,en-US,C,More than 95%,1
+1317-a1,1317,en-US,A,Around 30%,3
+1317-a2,1317,en-US,B,Around 70%,2
+1317-a3,1317,en-US,C,More than 95%,1
+1318-a1,1318,en-US,A,Around 30%,3
+1318-a2,1318,en-US,B,Around 70%,2
+1318-a3,1318,en-US,C,More than 95%,1
+1319-a1,1319,en-US,A,Around 35%,3
+1319-a2,1319,en-US,B,Around 65%,2
+1319-a3,1319,en-US,C,More than 90%,1
+132-a1,132,en-US,A,Fewer than 10,3
+132-a2,132,en-US,B,Around 35,2
+132-a3,132,en-US,C,More than 60,1
+1320-a1,1320,en-US,A,Around 30%,3
+1320-a2,1320,en-US,B,Around 70%,2
+1320-a3,1320,en-US,C,More than 95%,1
+1321-a1,1321,en-US,A,Around 30%,3
+1321-a2,1321,en-US,B,Around 70%,2
+1321-a3,1321,en-US,C,More than 95%,1
+1322-a1,1322,en-US,A,Around 30%,3
+1322-a2,1322,en-US,B,Around 70%,2
+1322-a3,1322,en-US,C,More than 95%,1
+1323-a1,1323,en-US,A,Around 30%,3
+1323-a2,1323,en-US,B,Around 70%,2
+1323-a3,1323,en-US,C,More than 95%,1
+1324-a1,1324,en-US,A,Around 20%,3
+1324-a2,1324,en-US,B,Around 50%,2
+1324-a3,1324,en-US,C,Around 80%,1
+1325-a1,1325,en-US,A,Around 25%,3
+1325-a2,1325,en-US,B,Around 50%,2
+1325-a3,1325,en-US,C,Around 75%,1
+1326-a1,1326,en-US,A,Around 25%,3
+1326-a2,1326,en-US,B,Around 60%,2
+1326-a3,1326,en-US,C,Around 90%,1
+1327-a1,1327,en-US,A,Around 30%,3
+1327-a2,1327,en-US,B,Around 70%,2
+1327-a3,1327,en-US,C,More than 95%,1
+1328-a1,1328,en-US,A,Around 15%,3
+1328-a2,1328,en-US,B,Around 50%,2
+1328-a3,1328,en-US,C,Around 85%,1
+1329-a1,1329,en-US,A,Around 30%,3
+1329-a2,1329,en-US,B,Around 70%,2
+1329-a3,1329,en-US,C,Around 85%,1
+133-a1,133,en-US,A,4%,3
+133-a2,133,en-US,B,24%,2
+133-a3,133,en-US,C,44%,1
+1330-a1,1330,en-US,A,Less than 5%,3
+1330-a2,1330,en-US,B,Around 30%,2
+1330-a3,1330,en-US,C,Around 70%,1
+1331-a1,1331,en-US,A,Around 10%,1
+1331-a2,1331,en-US,B,Around 30%,2
+1331-a3,1331,en-US,C,Around 70%,3
+1332-a1,1332,en-US,A,Around 30%,3
+1332-a2,1332,en-US,B,Around 70%,2
+1332-a3,1332,en-US,C,More than 95%,1
+1333-a1,1333,en-US,A,Around 5%,3
+1333-a2,1333,en-US,B,Around 35%,2
+1333-a3,1333,en-US,C,Around 50%,1
+1334-a1,1334,en-US,A,Around 15%,3
+1334-a2,1334,en-US,B,Around 50%,2
+1334-a3,1334,en-US,C,More than 95%,1
+1335-a1,1335,en-US,A,Around 30%,3
+1335-a2,1335,en-US,B,Around 70%,2
+1335-a3,1335,en-US,C,More than 95%,1
+1336-a1,1336,en-US,A,Around 30%,3
+1336-a2,1336,en-US,B,Around 70%,2
+1336-a3,1336,en-US,C,More than 95%,1
+1337-a1,1337,en-US,A,Around 30%,3
+1337-a2,1337,en-US,B,Around 70%,2
+1337-a3,1337,en-US,C,More than 95%,1
+1338-a1,1338,en-US,A,Around 20%,3
+1338-a2,1338,en-US,B,Around 50%,2
+1338-a3,1338,en-US,C,More than 90%,1
+1339-a1,1339,en-US,A,Around 30%,3
+1339-a2,1339,en-US,B,Around 70%,2
+1339-a3,1339,en-US,C,Around 95%,1
+134-a1,134,en-US,A,Around 2000,1
+134-a2,134,en-US,B,Around 2016,2
+134-a3,134,en-US,C,Algeria hasn't reached that yet,3
+1340-a1,1340,en-US,A,Around 15%,3
+1340-a2,1340,en-US,B,Around 70%,2
+1340-a3,1340,en-US,C,More than 95%,1
+1341-a1,1341,en-US,A,Around 30%,3
+1341-a2,1341,en-US,B,Around 70%,2
+1341-a3,1341,en-US,C,More than 95%,1
+1342-a1,1342,en-US,A,Around 15%,3
+1342-a2,1342,en-US,B,Around 50%,2
+1342-a3,1342,en-US,C,More than 95%,1
+1343-a1,1343,en-US,A,Around 35%,3
+1343-a2,1343,en-US,B,Around 65%,2
+1343-a3,1343,en-US,C,More than 90%,1
+1344-a1,1344,en-US,A,Around 30%,3
+1344-a2,1344,en-US,B,Around 70%,2
+1344-a3,1344,en-US,C,More than 95%,1
+1345-a1,1345,en-US,A,Around 15%,3
+1345-a2,1345,en-US,B,Around 50%,2
+1345-a3,1345,en-US,C,More than 95%,1
+1346-a1,1346,en-US,A,Around 30%,3
+1346-a2,1346,en-US,B,Around 70%,2
+1346-a3,1346,en-US,C,More than 95%,1
+1347-a1,1347,en-US,A,Around 15%,3
+1347-a2,1347,en-US,B,Around 50%,2
+1347-a3,1347,en-US,C,Around 85%,1
+1348-a1,1348,en-US,A,Around 5%,3
+1348-a2,1348,en-US,B,Around 35%,2
+1348-a3,1348,en-US,C,Around 80%,1
+1349-a1,1349,en-US,A,Around 10%,3
+1349-a2,1349,en-US,B,Around 60%,2
+1349-a3,1349,en-US,C,Around 90%,1
+135-a1,135,en-US,A,Around 30%,3
+135-a2,135,en-US,B,Around 70%,2
+135-a3,135,en-US,C,More than 95%,1
+1350-a1,1350,en-US,A,Less than 10%,3
+1350-a2,1350,en-US,B,Around 20%,2
+1350-a3,1350,en-US,C,Around 35%,1
+1351-a1,1351,en-US,A,Around 20%,3
+1351-a2,1351,en-US,B,Around 65%,2
+1351-a3,1351,en-US,C,More than 90%,1
+1352-a1,1352,en-US,A,Around 10%,3
+1352-a2,1352,en-US,B,Around 25%,2
+1352-a3,1352,en-US,C,Around 40%,1
+1353-a1,1353,en-US,A,Around 40%,3
+1353-a2,1353,en-US,B,Around 60%,2
+1353-a3,1353,en-US,C,Around 90%,1
+1354-a1,1354,en-US,A,Around 40%,3
+1354-a2,1354,en-US,B,Around 60%,2
+1354-a3,1354,en-US,C,Around 90%,1
+1355-a1,1355,en-US,A,Around 15%,3
+1355-a2,1355,en-US,B,Around 50%,2
+1355-a3,1355,en-US,C,More than 95%,1
+1356-a1,1356,en-US,A,Around 15%,3
+1356-a2,1356,en-US,B,Around 50%,2
+1356-a3,1356,en-US,C,More than 95%,1
+1357-a1,1357,en-US,A,Around 30%,3
+1357-a2,1357,en-US,B,Around 70%,2
+1357-a3,1357,en-US,C,More than 95%,1
+1358-a1,1358,en-US,A,Around 35%,3
+1358-a2,1358,en-US,B,Around 65%,2
+1358-a3,1358,en-US,C,More than 90%,1
+1359-a1,1359,en-US,A,Around 35%,3
+1359-a2,1359,en-US,B,Around 65%,2
+1359-a3,1359,en-US,C,More than 90%,1
+136-a1,136,en-US,A,1,3
+136-a2,136,en-US,B,5,2
+136-a3,136,en-US,C,10,1
+1360-a1,1360,en-US,A,Around 50%,3
+1360-a2,1360,en-US,B,Around 85%,2
+1360-a3,1360,en-US,C,More than 95%,1
+1361-a1,1361,en-US,A,Around 35%,3
+1361-a2,1361,en-US,B,Around 65%,2
+1361-a3,1361,en-US,C,More than 90%,1
+1362-a1,1362,en-US,A,Around 30%,3
+1362-a2,1362,en-US,B,Around 70%,2
+1362-a3,1362,en-US,C,More than 95%,1
+1363-a1,1363,en-US,A,Around 30%,3
+1363-a2,1363,en-US,B,Around 70%,2
+1363-a3,1363,en-US,C,More than 95%,1
+1364-a1,1364,en-US,A,Around 30%,3
+1364-a2,1364,en-US,B,Around 70%,2
+1364-a3,1364,en-US,C,More than 95%,1
+1365-a1,1365,en-US,A,Around 30%,3
+1365-a2,1365,en-US,B,Around 70%,2
+1365-a3,1365,en-US,C,More than 95%,1
+1366-a1,1366,en-US,A,Around 25%,3
+1366-a2,1366,en-US,B,Around 60%,2
+1366-a3,1366,en-US,C,Around 90%,1
+1367-a1,1367,en-US,A,Around 25%,3
+1367-a2,1367,en-US,B,Around 60%,2
+1367-a3,1367,en-US,C,Around 90%,1
+1368-a1,1368,en-US,A,Around 30%,3
+1368-a2,1368,en-US,B,Around 70%,2
+1368-a3,1368,en-US,C,More than 95%,1
+1369-a1,1369,en-US,A,Around 30%,3
+1369-a2,1369,en-US,B,Around 70%,2
+1369-a3,1369,en-US,C,More than 95%,1
+137-a1,137,en-US,A,Around 15%,3
+137-a2,137,en-US,B,Around 50%,2
+137-a3,137,en-US,C,More than 95%,1
+1370-a1,1370,en-US,A,Around 20%,3
+1370-a2,1370,en-US,B,Around 65%,2
+1370-a3,1370,en-US,C,More than 90%,1
+1371-a1,1371,en-US,A,Around 15%,3
+1371-a2,1371,en-US,B,Around 50%,2
+1371-a3,1371,en-US,C,More than 95%,1
+1372-a1,1372,en-US,A,Around 10%,3
+1372-a2,1372,en-US,B,Around 50%,2
+1372-a3,1372,en-US,C,Around 90%,1
+1373-a1,1373,en-US,A,Around 35%,3
+1373-a2,1373,en-US,B,Around 65%,2
+1373-a3,1373,en-US,C,More than 90%,1
+1374-a1,1374,en-US,A,Around 10%,3
+1374-a2,1374,en-US,B,Around 40%,2
+1374-a3,1374,en-US,C,Around 60%,1
+1375-a1,1375,en-US,A,Around 20%,3
+1375-a2,1375,en-US,B,Around 65%,2
+1375-a3,1375,en-US,C,More than 90%,1
+1376-a1,1376,en-US,A,Around 10%,3
+1376-a2,1376,en-US,B,Around 50%,2
+1376-a3,1376,en-US,C,Around 90%,1
+1377-a1,1377,en-US,A,Less than 5%,3
+1377-a2,1377,en-US,B,Around 30%,2
+1377-a3,1377,en-US,C,Around 85%,1
+1378-a1,1378,en-US,A,Around 15%,3
+1378-a2,1378,en-US,B,Around 50%,2
+1378-a3,1378,en-US,C,Around 70%,1
+1379-a1,1379,en-US,A,Around 10%,3
+1379-a2,1379,en-US,B,Around 40%,2
+1379-a3,1379,en-US,C,Around 60%,1
+138-a1,138,en-US,A,1970,1
+138-a2,138,en-US,B,1985,2
+138-a3,138,en-US,C,2000,3
+1380-a1,1380,en-US,A,Around 40%,3
+1380-a2,1380,en-US,B,Around 60%,2
+1380-a3,1380,en-US,C,Around 90%,1
+1381-a1,1381,en-US,A,Around 15%,3
+1381-a2,1381,en-US,B,Around 50%,2
+1381-a3,1381,en-US,C,Around 85%,1
+1382-a1,1382,en-US,A,Around 40%,3
+1382-a2,1382,en-US,B,Around 60%,2
+1382-a3,1382,en-US,C,Around 85%,1
+1383-a1,1383,en-US,A,Around 15%,3
+1383-a2,1383,en-US,B,Around 50%,2
+1383-a3,1383,en-US,C,Around 85%,1
+1384-a1,1384,en-US,A,Around 10%,3
+1384-a2,1384,en-US,B,Around 25%,2
+1384-a3,1384,en-US,C,Around 40%,1
+1385-a1,1385,en-US,A,Around 20%,3
+1385-a2,1385,en-US,B,Around 65%,2
+1385-a3,1385,en-US,C,More than 90%,1
+1386-a1,1386,en-US,A,Around 20%,3
+1386-a2,1386,en-US,B,Around 65%,2
+1386-a3,1386,en-US,C,More than 90%,1
+1387-a1,1387,en-US,A,Around 10%,3
+1387-a2,1387,en-US,B,Around 25%,2
+1387-a3,1387,en-US,C,Around 40%,1
+1388-a1,1388,en-US,A,8%,1
+1388-a2,1388,en-US,B,28%,2
+1388-a3,1388,en-US,C,48%,3
+1389-a1,1389,en-US,A,7%,1
+1389-a2,1389,en-US,B,37%,2
+1389-a3,1389,en-US,C,67%,3
+139-a1,139,en-US,A,19%,3
+139-a2,139,en-US,B,39%,2
+139-a3,139,en-US,C,59%,1
+1390-a1,1390,en-US,A,1.1 million,3
+1390-a2,1390,en-US,B,4.2 million,2
+1390-a3,1390,en-US,C,7.6 million,1
+1391-a1,1391,en-US,A,Around 40,3
+1391-a2,1391,en-US,B,Around 80,2
+1391-a3,1391,en-US,C,Around 140,1
+1392-a1,1392,en-US,A,Around 55%,3
+1392-a2,1392,en-US,B,Around 75%,2
+1392-a3,1392,en-US,C,More than 95%,1
+1393-a1,1393,en-US,A,38 years,3
+1393-a2,1393,en-US,B,51 years,2
+1393-a3,1393,en-US,C,64 years,1
+1394-a1,1394,en-US,A,Berlin 1936,1
+1394-a2,1394,en-US,B,Beijing 2008,2
+1394-a3,1394,en-US,C,It hasn't happened yet,3
+1395-a1,1395,en-US,A,2005,1
+1395-a2,1395,en-US,B,Women cannot run for office in Ukraine,3
+1395-a3,1395,en-US,C,It hasn't happened yet,2
+1396-a1,1396,en-US,A,22%,3
+1396-a2,1396,en-US,B,42%,2
+1396-a3,1396,en-US,C,62%,1
+1398-a1,1398,en-US,A,Around 15%,1
+1398-a2,1398,en-US,B,Around 40%,2
+1398-a3,1398,en-US,C,Around 65%,3
+1399-a1,1399,en-US,A,10%,1
+1399-a2,1399,en-US,B,30%,2
+1399-a3,1399,en-US,C,50%,3
+14-a1,14,en-US,A,Less than 1%,1
+14-a2,14,en-US,B,Around 36%,2
+14-a3,14,en-US,C,More than 66%,3
+140-a1,140,en-US,A,Electronics and machines,1
+140-a2,140,en-US,B,Vegetables and meat,3
+140-a3,140,en-US,C,Minerals and gold,2
+1400-a1,1400,en-US,A,Around 16%,1
+1400-a2,1400,en-US,B,Around 36%,2
+1400-a3,1400,en-US,C,Around 56%,3
+1403-a1,1403,en-US,A,About the same,3
+1403-a2,1403,en-US,B,Around 50% more,2
+1403-a3,1403,en-US,C,Twice as many,1
+1404-a1,1404,en-US,A,31%,1
+1404-a2,1404,en-US,B,51%,2
+1404-a3,1404,en-US,C,71%,3
+1405-a1,1405,en-US,A,Less than 45%,3
+1405-a2,1405,en-US,B,Around 65%,2
+1405-a3,1405,en-US,C,More than 85%,1
+1406-a1,1406,en-US,A,0%,1
+1406-a2,1406,en-US,B,11%,2
+1406-a3,1406,en-US,C,29%,3
+1407-a1,1407,en-US,A,Slum,2
+1407-a2,1407,en-US,B,Crafts fair,1
+1407-a3,1407,en-US,C,Swamp,3
+1408-a1,1408,en-US,A,1960,1
+1408-a2,1408,en-US,B,2000,2
+1408-a3,1408,en-US,C,Burkina Faso never became independent,3
+1409-a1,1409,en-US,A,The UK,3
+1409-a2,1409,en-US,B,Burundi,1
+1409-a3,1409,en-US,C,Germany,2
+141-a1,141,en-US,A,Fewer than 5,3
+141-a2,141,en-US,B,Around 10,2
+141-a3,141,en-US,C,More than 25,1
+1410-a1,1410,en-US,A,Around 15 million,3
+1410-a2,1410,en-US,B,Around 20 million,2
+1410-a3,1410,en-US,C,Around 25 million,1
+1411-a1,1411,en-US,A,Less than 10%,1
+1411-a2,1411,en-US,B,Around 30%,2
+1411-a3,1411,en-US,C,More than 50%,3
+1412-a1,1412,en-US,A,74,3
+1412-a2,1412,en-US,B,157,2
+1412-a3,1412,en-US,C,230,1
+1413-a1,1413,en-US,A,Around 20%,3
+1413-a2,1413,en-US,B,Around 40%,2
+1413-a3,1413,en-US,C,Around 60%,1
+1414-a1,1414,en-US,A,Around 19%,1
+1414-a2,1414,en-US,B,Around 39%,2
+1414-a3,1414,en-US,C,Around 59%,3
+1415-a1,1415,en-US,A,Wood,1
+1415-a2,1415,en-US,B,Raw cotton,3
+1415-a3,1415,en-US,C,Diamonds,2
+1416-a1,1416,en-US,A,12%,1
+1416-a2,1416,en-US,B,24%,2
+1416-a3,1416,en-US,C,36%,3
+1417-a1,1417,en-US,A,Less than 5%,1
+1417-a2,1417,en-US,B,Around 25%,2
+1417-a3,1417,en-US,C,More than 45%,3
+1418-a1,1418,en-US,A,Around 8%,1
+1418-a2,1418,en-US,B,Around 38%,2
+1418-a3,1418,en-US,C,Around 68%,3
+1419-a1,1419,en-US,A,There is no such thing as refugee schools,3
+1419-a2,1419,en-US,B,8 schools,2
+1419-a3,1419,en-US,C,108 schools,1
+142-a1,142,en-US,A,1976,1
+142-a2,142,en-US,B,2006,2
+142-a3,142,en-US,C,It is not a member,3
+1420-a1,1420,en-US,A,Less than 10%,1
+1420-a2,1420,en-US,B,Around 35%,2
+1420-a3,1420,en-US,C,More than 65%,3
+1421-a1,1421,en-US,A,5,3
+1421-a2,1421,en-US,B,60,2
+1421-a3,1421,en-US,C,120,1
+1422-a1,1422,en-US,A,19%,1
+1422-a2,1422,en-US,B,39%,2
+1422-a3,1422,en-US,C,59%,3
+1423-a1,1423,en-US,A,Less than 7%,1
+1423-a2,1423,en-US,B,Around 27%,2
+1423-a3,1423,en-US,C,More than 47%,3
+1424-a1,1424,en-US,A,Cobalt,1
+1424-a2,1424,en-US,B,Palm oil,2
+1424-a3,1424,en-US,C,Dried fruits,3
+1425-a1,1425,en-US,A,Crude petroleum,1
+1425-a2,1425,en-US,B,Coffee,2
+1425-a3,1425,en-US,C,Cocoa beans,3
+1426-a1,1426,en-US,A,1,3
+1426-a2,1426,en-US,B,4,2
+1426-a3,1426,en-US,C,More than 20,1
+1427-a1,1427,en-US,A,ICT and Services,1
+1427-a2,1427,en-US,B,Coffee,3
+1427-a3,1427,en-US,C,Bananas & plantains,2
+1428-a1,1428,en-US,A,Around 10%,1
+1428-a2,1428,en-US,B,Around 20%,2
+1428-a3,1428,en-US,C,Around 30%,3
+1429-a1,1429,en-US,A,"Around 250,000",3
+1429-a2,1429,en-US,B,Around 1.2 million,2
+1429-a3,1429,en-US,C,Around 2 million,1
+143-a1,143,en-US,A,Fewer than 25,2
+143-a2,143,en-US,B,More than 250,1
+143-a3,143,en-US,C,Airbnb is not allowed in Angola,3
+1430-a1,1430,en-US,A,800 meters,2
+1430-a2,1430,en-US,B,Marathon,3
+1430-a3,1430,en-US,C,Taekwondo,1
+1431-a1,1431,en-US,A,Less than 10%,1
+1431-a2,1431,en-US,B,Around 30%,2
+1431-a3,1431,en-US,C,More than 50%,3
+1433-a1,1433,en-US,A,Around 20,3
+1433-a2,1433,en-US,B,Around 200,2
+1433-a3,1433,en-US,C,More than 2000,1
+1434-a1,1434,en-US,A,Around 15%,3
+1434-a2,1434,en-US,B,Around 50%,2
+1434-a3,1434,en-US,C,More than 95%,1
+1435-a1,1435,en-US,A,Around 5%,1
+1435-a2,1435,en-US,B,Around 29%,2
+1435-a3,1435,en-US,C,Around 53%,3
+1438-a1,1438,en-US,A,2.6 babies per woman,1
+1438-a2,1438,en-US,B,4.6 babies per woman,2
+1438-a3,1438,en-US,C,6.6 babies per woman,3
+1439-a1,1439,en-US,A,Around 1.3 million,1
+1439-a2,1439,en-US,B,Around 2.3 million,2
+1439-a3,1439,en-US,C,Around 3.3 million,3
+144-a1,144,en-US,A,Around 47 million,3
+144-a2,144,en-US,B,Around 62 million,2
+144-a3,144,en-US,C,Around 77 million,1
+1440-a1,1440,en-US,A,38%,3
+1440-a2,1440,en-US,B,58%,2
+1440-a3,1440,en-US,C,78%,1
+1444-a1,1444,en-US,A,Around 4%,1
+1444-a2,1444,en-US,B,Around 26%,2
+1444-a3,1444,en-US,C,Around 48%,3
+1446-a1,1446,en-US,A,2000,1
+1446-a2,1446,en-US,B,it has not happened yet,2
+1446-a3,1446,en-US,C,female sports are not allowed,3
+1447-a1,1447,en-US,A,France,3
+1447-a2,1447,en-US,B,UK,2
+1447-a3,1447,en-US,C,Spain,1
+1448-a1,1448,en-US,A,34%,3
+1448-a2,1448,en-US,B,55%,2
+1448-a3,1448,en-US,C,74%,1
+1449-a1,1449,en-US,A,5%,3
+1449-a2,1449,en-US,B,50%,2
+1449-a3,1449,en-US,C,95%,1
+145-a1,145,en-US,A,Around 25%,3
+145-a2,145,en-US,B,Around 55%,2
+145-a3,145,en-US,C,Around 85%,1
+1450-a1,1450,en-US,A,Less than 30%,3
+1450-a2,1450,en-US,B,Around 55%,2
+1450-a3,1450,en-US,C,More than 80%,1
+1451-a1,1451,en-US,A,Less than 5%,1
+1451-a2,1451,en-US,B,Around 30%,2
+1451-a3,1451,en-US,C,Around 50%,3
+1453-a1,1453,en-US,A,1,3
+1453-a2,1453,en-US,B,5,2
+1453-a3,1453,en-US,C,10,1
+1454-a1,1454,en-US,A,Less than 25%,1
+1454-a2,1454,en-US,B,Around 45%,2
+1454-a3,1454,en-US,C,More than 65%,3
+1459-a1,1459,en-US,A,11%,1
+1459-a2,1459,en-US,B,41%,2
+1459-a3,1459,en-US,C,71%,3
+146-a1,146,en-US,A,Around 25%,3
+146-a2,146,en-US,B,Around 45%,2
+146-a3,146,en-US,C,Around 65%,1
+1460-a1,1460,en-US,A,Roughly the same,3
+1460-a2,1460,en-US,B,5 times more,2
+1460-a3,1460,en-US,C,10 times more,1
+1461-a1,1461,en-US,A,0,3
+1461-a2,1461,en-US,B,4,2
+1461-a3,1461,en-US,C,20 or more,1
+1465-a1,1465,en-US,A,2011,1
+1465-a2,1465,en-US,B,2017,2
+1465-a3,1465,en-US,C,Ghana is still a low-income country,3
+1469-a1,1469,en-US,A,1962,1
+1469-a2,1469,en-US,B,2002,2
+1469-a3,1469,en-US,C,Guinea is not a member yet,3
+147-a1,147,en-US,A,Around 3%,3
+147-a2,147,en-US,B,Around 12%,2
+147-a3,147,en-US,C,Around 20%,1
+1470-a1,1470,en-US,A,1991,1
+1470-a2,1470,en-US,B,2013,2
+1470-a3,1470,en-US,C,Women are not allowed to play football,3
+1471-a1,1471,en-US,A,Close to 0%,1
+1471-a2,1471,en-US,B,Around 15%,2
+1471-a3,1471,en-US,C,More than 30%,3
+1472-a1,1472,en-US,A,Senegal,3
+1472-a2,1472,en-US,B,India,1
+1472-a3,1472,en-US,C,Spain,2
+1473-a1,1473,en-US,A,1974,1
+1473-a2,1473,en-US,B,1989,2
+1473-a3,1473,en-US,C,2004,3
+148-a1,148,en-US,A,1%,1
+148-a2,148,en-US,B,6%,2
+148-a3,148,en-US,C,11%,3
+1486-a1,1486,en-US,A,Decreased,3
+1486-a2,1486,en-US,B,Stayed about the same,2
+1486-a3,1486,en-US,C,Increased,1
+1487-a1,1487,en-US,A,Around 1%,1
+1487-a2,1487,en-US,B,Around 21%,2
+1487-a3,1487,en-US,C,Around 41%,3
+1488-a1,1488,en-US,A,Around 20,3
+1488-a2,1488,en-US,B,Around 40,2
+1488-a3,1488,en-US,C,Around 60,1
+1489-a1,1489,en-US,A,Before 1996,1
+1489-a2,1489,en-US,B,In 2015,2
+1489-a3,1489,en-US,C,There are no regulations,3
+149-a1,149,en-US,A,Less than 45%,3
+149-a2,149,en-US,B,Around 70%,2
+149-a3,149,en-US,C,More than 95%,1
+1490-a1,1490,en-US,A,Around 30%,3
+1490-a2,1490,en-US,B,Around 70%,2
+1490-a3,1490,en-US,C,More than 95%,1
+1491-a1,1491,en-US,A,1948,1
+1491-a2,1491,en-US,B,1996,2
+1491-a3,1491,en-US,C,It hasn’t yet,3
+1493-a1,1493,en-US,A,Around 60%,3
+1493-a2,1493,en-US,B,Around 80%,2
+1493-a3,1493,en-US,C,Close to 100%,1
+1494-a1,1494,en-US,A,Around 30%,3
+1494-a2,1494,en-US,B,Around 70%,2
+1494-a3,1494,en-US,C,More than 95%,1
+1495-a1,1495,en-US,A,Around 31%,1
+1495-a2,1495,en-US,B,Around 51%,2
+1495-a3,1495,en-US,C,Around 71%,3
+1496-a1,1496,en-US,A,Started drilling for oil,2
+1496-a2,1496,en-US,B,First put salmon on sushi,1
+1496-a3,1496,en-US,C,Launched a citizen to space,3
+1497-a1,1497,en-US,A,Roughly 10%,3
+1497-a2,1497,en-US,B,Roughly 35%,2
+1497-a3,1497,en-US,C,Roughly 55%,1
+1498-a1,1498,en-US,A,Around 10% decline,3
+1498-a2,1498,en-US,B,Around 40% decline,2
+1498-a3,1498,en-US,C,Around 70% decline,1
+1499-a1,1499,en-US,A,Around 5%,1
+1499-a2,1499,en-US,B,Around 25%,2
+1499-a3,1499,en-US,C,Around 55%,3
+15-a1,15,en-US,A,Around 0.6%,1
+15-a2,15,en-US,B,Around 6%,2
+15-a3,15,en-US,C,Around 16%,3
+150-a1,150,en-US,A,Around 20%,3
+150-a2,150,en-US,B,Around 50%,2
+150-a3,150,en-US,C,More than 75%,1
+1500-a1,1500,en-US,A,50% more,3
+1500-a2,1500,en-US,B,Around twice as much,2
+1500-a3,1500,en-US,C,Around three times more,1
+1501-a1,1501,en-US,A,A,3
+1501-a2,1501,en-US,B,B,1
+1501-a3,1501,en-US,C,C,2
+1502-a1,1502,en-US,A,0 targets,1
+1502-a2,1502,en-US,B,14 targets,2
+1502-a3,1502,en-US,C,34 targets,3
+1504-a1,1504,en-US,A,40%,3
+1504-a2,1504,en-US,B,60%,2
+1504-a3,1504,en-US,C,80%,1
+1505-a1,1505,en-US,A,children (below age 15),3
+1505-a2,1505,en-US,B,adults (age 15 to 74),1
+1505-a3,1505,en-US,C,very old (above age 75),2
+1506-a1,1506,en-US,A,4 billion,3
+1506-a2,1506,en-US,B,3 billion,2
+1506-a3,1506,en-US,C,2 billion,1
+1507-a1,1507,en-US,A,A,3
+1507-a2,1507,en-US,B,B,2
+1507-a3,1507,en-US,C,C,1
+1508-a1,1508,en-US,A,Around 5%,1
+1508-a2,1508,en-US,B,Around 25%,2
+1508-a3,1508,en-US,C,Around 45%,3
+1509-a1,1509,en-US,A,Less than 40%,3
+1509-a2,1509,en-US,B,Around 60%,2
+1509-a3,1509,en-US,C,More than 80%,1
+151-a1,151,en-US,A,3%,1
+151-a2,151,en-US,B,19%,2
+151-a3,151,en-US,C,35%,3
+1510-a1,1510,en-US,A,Less than 25%,3
+1510-a2,1510,en-US,B,Around 60%,2
+1510-a3,1510,en-US,C,More than 85%,1
+1511-a1,1511,en-US,A,Less than 20%,3
+1511-a2,1511,en-US,B,Around 50%,2
+1511-a3,1511,en-US,C,More than 80%,1
+1512-a1,1512,en-US,A,Increased by 50%,2
+1512-a2,1512,en-US,B,Stayed about the same,1
+1512-a3,1512,en-US,C,Decreased by 50%,3
+1513-a1,1513,en-US,A,$9 billion,1
+1513-a2,1513,en-US,B,$39 billion,2
+1513-a3,1513,en-US,C,$69 billion,3
+1514-a1,1514,en-US,A,Low-income countries,2
+1514-a2,1514,en-US,B,Middle-income countries,1
+1514-a3,1514,en-US,C,High-income countries,3
+1515-a1,1515,en-US,A,50 years,3
+1515-a2,1515,en-US,B,60 years,2
+1515-a3,1515,en-US,C,70 years,1
+1516-a1,1516,en-US,A,2.4 years,3
+1516-a2,1516,en-US,B,5.4 years,2
+1516-a3,1516,en-US,C,8.4 years,1
+1517-a1,1517,en-US,A,1850,3
+1517-a2,1517,en-US,B,1900,2
+1517-a3,1517,en-US,C,1950,1
+1518-a1,1518,en-US,A,None of them,1
+1518-a2,1518,en-US,B,One of them,2
+1518-a3,1518,en-US,C,Two of them,3
+1519-a1,1519,en-US,A,Get warmer,1
+1519-a2,1519,en-US,B,Remain the same,2
+1519-a3,1519,en-US,C,Get colder,3
+152-a1,152,en-US,A,Around 30%,3
+152-a2,152,en-US,B,Around 70%,2
+152-a3,152,en-US,C,More than 95%,1
+1520-a1,1520,en-US,A,It decreased by roughly 30%,2
+1520-a2,1520,en-US,B,It stayed about the same,1
+1520-a3,1520,en-US,C,It increased by roughly 30%,3
+1521-a1,1521,en-US,A,...around 5%,3
+1521-a2,1521,en-US,B,...around 20%,2
+1521-a3,1521,en-US,C,...more than 35%,1
+1522-a1,1522,en-US,A,Declined to half,3
+1522-a2,1522,en-US,B,Stayed roughly the same,2
+1522-a3,1522,en-US,C,More than doubled,1
+1523-a1,1523,en-US,A,Around $0.2 a day,3
+1523-a2,1523,en-US,B,Around $1 a day,2
+1523-a3,1523,en-US,C,Around $10 a day,1
+1524-a1,1524,en-US,A,95% (some less),3
+1524-a2,1524,en-US,B,120% (some more),2
+1524-a3,1524,en-US,C,145% (much more),1
+1525-a1,1525,en-US,A,52%,1
+1525-a2,1525,en-US,B,62%,2
+1525-a3,1525,en-US,C,72%,3
+1527-a1,1527,en-US,A,Fewer than 80,3
+1527-a2,1527,en-US,B,Around 130,2
+1527-a3,1527,en-US,C,More than 180,1
+1528-a1,1528,en-US,A,Around 25%,3
+1528-a2,1528,en-US,B,Around 55%,2
+1528-a3,1528,en-US,C,Around 85%,1
+1529-a1,1529,en-US,A,Decreased by 58%,3
+1529-a2,1529,en-US,B,Decreased by 8%,2
+1529-a3,1529,en-US,C,Increased by 8%,1
+153-a1,153,en-US,A,Less than 45%,3
+153-a2,153,en-US,B,Around 70%,2
+153-a3,153,en-US,C,More than 95%,1
+1530-a1,1530,en-US,A,Around 15%,3
+1530-a2,1530,en-US,B,Around 30%,2
+1530-a3,1530,en-US,C,Around 60%,1
+1538-a1,1538,en-US,A,Around 25%,3
+1538-a2,1538,en-US,B,Around 35%,2
+1538-a3,1538,en-US,C,Around 50%,1
+1539-a1,1539,en-US,A,Around 5%,1
+1539-a2,1539,en-US,B,Around 15%,2
+1539-a3,1539,en-US,C,Around 35%,3
+154-a1,154,en-US,A,Less than 1,3
+154-a2,154,en-US,B,2,2
+154-a3,154,en-US,C,4,1
+1540-a1,1540,en-US,A,Around 10 thousand deaths,3
+1540-a2,1540,en-US,B,Around 100 thousand deaths,2
+1540-a3,1540,en-US,C,More than 1 million deaths,1
+1541-a1,1541,en-US,A,Around 5%,1
+1541-a2,1541,en-US,B,Around 55%,2
+1541-a3,1541,en-US,C,Around 105%,3
+1542-a1,1542,en-US,A,Around 10%,3
+1542-a2,1542,en-US,B,Around 20%,2
+1542-a3,1542,en-US,C,Around 30%,1
+1543-a1,1543,en-US,A,Around 80,3
+1543-a2,1543,en-US,B,Around 210,2
+1543-a3,1543,en-US,C,Around 340,1
+1544-a1,1544,en-US,A,Around 25%,3
+1544-a2,1544,en-US,B,Around 50%,2
+1544-a3,1544,en-US,C,Around 75%,1
+1545-a1,1545,en-US,A,Conflict and war,3
+1545-a2,1545,en-US,B,Heart disease and stroke,1
+1545-a3,1545,en-US,C,HIV / AIDS,2
+1546-a1,1546,en-US,A,Around 5%,3
+1546-a2,1546,en-US,B,Around 15%,2
+1546-a3,1546,en-US,C,Around 25%,1
+1547-a1,1547,en-US,A,Around 15%,1
+1547-a2,1547,en-US,B,Around 35%,2
+1547-a3,1547,en-US,C,Around 55%,3
+1548-a1,1548,en-US,A,Around 25%,3
+1548-a2,1548,en-US,B,Around 35%,2
+1548-a3,1548,en-US,C,Around 50%,1
+1549-a1,1549,en-US,A,32%,1
+1549-a2,1549,en-US,B,52%,2
+1549-a3,1549,en-US,C,72%,3
+155-a1,155,en-US,A,Almost 0%,1
+155-a2,155,en-US,B,Around 15%,2
+155-a3,155,en-US,C,Around 30%,3
+1550-a1,1550,en-US,A,Around 5%,1
+1550-a2,1550,en-US,B,Around 35%,2
+1550-a3,1550,en-US,C,Around 65%,3
+1551-a1,1551,en-US,A,It almost halved,2
+1551-a2,1551,en-US,B,It stayed about the same,1
+1551-a3,1551,en-US,C,It almost doubled,3
+1552-a1,1552,en-US,A,15%,3
+1552-a2,1552,en-US,B,30%,2
+1552-a3,1552,en-US,C,45%,1
+1553-a1,1553,en-US,A,Around 60%,1
+1553-a2,1553,en-US,B,Around 70%,2
+1553-a3,1553,en-US,C,Around 80%,3
+1554-a1,1554,en-US,A,Around 5%,3
+1554-a2,1554,en-US,B,Around 15%,2
+1554-a3,1554,en-US,C,Around 30%,1
+1555-a1,1555,en-US,A,Around $15 a day,3
+1555-a2,1555,en-US,B,Around $30 a day,2
+1555-a3,1555,en-US,C,Around $60 a day,1
+1556-a1,1556,en-US,A,Less than 30%,3
+1556-a2,1556,en-US,B,About 50%,2
+1556-a3,1556,en-US,C,More than 70%,1
+1557-a1,1557,en-US,A,Around 25%,3
+1557-a2,1557,en-US,B,Around 45%,2
+1557-a3,1557,en-US,C,Around 65%,1
+1558-a1,1558,en-US,A,Around 15%,1
+1558-a2,1558,en-US,B,Around 35%,2
+1558-a3,1558,en-US,C,Around 65%,3
+1559-a1,1559,en-US,A,Remained about the same,3
+1559-a2,1559,en-US,B,Almost doubled,2
+1559-a3,1559,en-US,C,More than tripled,1
+156-a1,156,en-US,A,Around 50%,3
+156-a2,156,en-US,B,Around 70%,2
+156-a3,156,en-US,C,Around 90%,1
+1560-a1,1560,en-US,A,Around 40%,3
+1560-a2,1560,en-US,B,Around 60%,2
+1560-a3,1560,en-US,C,Around 80%,1
+1561-a1,1561,en-US,A,Around 40%,3
+1561-a2,1561,en-US,B,Around 60%,2
+1561-a3,1561,en-US,C,Around 80%,1
+1562-a1,1562,en-US,A,Around 40%,1
+1562-a2,1562,en-US,B,Around 55%,2
+1562-a3,1562,en-US,C,Around 70%,3
+1563-a1,1563,en-US,A,Less than 6%,1
+1563-a2,1563,en-US,B,Around 16%,2
+1563-a3,1563,en-US,C,More than 26%,3
+1564-a1,1564,en-US,A,Less than 10%,1
+1564-a2,1564,en-US,B,Around 25%,2
+1564-a3,1564,en-US,C,More than 50%,3
+1565-a1,1565,en-US,A,Around 5%,3
+1565-a2,1565,en-US,B,Around 25%,2
+1565-a3,1565,en-US,C,Around 50%,1
+1566-a1,1566,en-US,A,Around 0.5%,1
+1566-a2,1566,en-US,B,Around 2.5%,2
+1566-a3,1566,en-US,C,Around 6.5%,3
+1567-a1,1567,en-US,A,Around 10 countries,3
+1567-a2,1567,en-US,B,Around 30 countries,2
+1567,1567,en-US,C,Around 50 countries,1
+1568-a1,1568,en-US,A,Roughly 25%,3
+1568-a2,1568,en-US,B,Roughly 55%,2
+1568-a3,1568,en-US,C,Roughly 85%,1
+1569-a1,1569,en-US,A,Around 8%,1
+1569-a2,1569,en-US,B,Around 28%,2
+1569-a3,1569,en-US,C,Around 48%,3
+157-a1,157,en-US,A,1993,1
+157-a2,157,en-US,B,2003,2
+157-a3,157,en-US,C,2013,3
+1570-a1,1570,en-US,A,Dirty water,3
+1570-a2,1570,en-US,B,Polluted air,1
+1570-a3,1570,en-US,C,Contaminated food,2
+1571-a1,1571,en-US,A,10%,1
+1571-a2,1571,en-US,B,30%,2
+1571-a3,1571,en-US,C,50%,3
+1572-a1,1572,en-US,A,Less than 10%,1
+1572-a2,1572,en-US,B,Around 20%,2
+1572-a3,1572,en-US,C,More than 30%,3
+1573-a1,1573,en-US,A,Around 25%,3
+1573-a2,1573,en-US,B,Around 55%,1
+1573-a3,1573,en-US,C,Around 85%,2
+1574-a1,1574,en-US,A,Around 20,1
+1574-a2,1574,en-US,B,Around 80,2
+1574-a3,1574,en-US,C,Around 140,3
+1575-a1,1575,en-US,A,Around 55%,1
+1575-a2,1575,en-US,B,Around 65%,2
+1575-a3,1575,en-US,C,Around 75%,3
+1576-a1,1576,en-US,A,Around 20%,3
+1576-a2,1576,en-US,B,Around 40%,2
+1576-a3,1576,en-US,C,Around 60%,1
+1577-a1,1577,en-US,A,Around 20%,3
+1577-a2,1577,en-US,B,Around 40%,2
+1577-a3,1577,en-US,C,Around 70%,1
+1578-a1,1578,en-US,A,Around 25%,3
+1578-a2,1578,en-US,B,Around 50%,2
+1578-a3,1578,en-US,C,Around 75%,1
+1579-a1,1579,en-US,A,Around 15%,1
+1579-a2,1579,en-US,B,Around 35%,2
+1579-a3,1579,en-US,C,Around 55%,3
+158-a1,158,en-US,A,48 years,3
+158-a2,158,en-US,B,62 years,2
+158-a3,158,en-US,C,76 years,1
+1580-a1,1580,en-US,A,Around 10%,1
+1580-a2,1580,en-US,B,Around 30%,2
+1580-a3,1580,en-US,C,Around 50%,3
+1581-a1,1581,en-US,A,Around 30%,1
+1581-a2,1581,en-US,B,Around 40%,2
+1581-a3,1581,en-US,C,Around 50%,3
+1582-a1,1582,en-US,A,Around 12,3
+1582-a2,1582,en-US,B,Around 23,2
+1582-a3,1582,en-US,C,Around 35,1
+1583-a1,1583,en-US,A,Around 600,1
+1583-a2,1583,en-US,B,"Around 60,000",2
+1583-a3,1583,en-US,C,"Around 600,000",3
+1584-a1,1584,en-US,A,Around 50,3
+1584-a2,1584,en-US,B,Around 90,2
+1584-a3,1584,en-US,C,Around 140,1
+1585-a1,1585,en-US,A,Around 14%,1
+1585-a2,1585,en-US,B,Around 28%,2
+1585-a3,1585,en-US,C,Around 42%,3
+1586-a1,1586,en-US,A,Double the amount of waste,3
+1586-a2,1586,en-US,B,About the same,2
+1586-a3,1586,en-US,C,Half the amount of waste,1
+1587-a1,1587,en-US,A,Around 15%,1
+1587-a2,1587,en-US,B,Around 25%,2
+1587-a3,1587,en-US,C,Around 35%,3
+1588-a1,1588,en-US,A,Around 35%,3
+1588-a2,1588,en-US,B,Around 65%,2
+1588-a3,1588,en-US,C,Around 95%,1
+1589-a1,1589,en-US,A,Around 39%,1
+1589-a2,1589,en-US,B,Around 42%,2
+1589-a3,1589,en-US,C,Around 46%,3
+159-a1,159,en-US,A,2,3
+159-a2,159,en-US,B,Around 10,2
+159-a3,159,en-US,C,Around 50,1
+1590-a1,1590,en-US,A,Water vapor does not contribute,2
+1590-a2,1590,en-US,B,Water vapor contributes significantly,1
+1590-a3,1590,en-US,C,Water vapor is not a greenhouse gas,3
+1591-a1,1591,en-US,A,A,2
+1591-a2,1591,en-US,B,B,1
+1591-a3,1591,en-US,C,C,3
+1592-a1,1592,en-US,A,2mm per year (0.08 inches),1
+1592-a2,1592,en-US,B,20mm per year (0.8 inches),2
+1592-a3,1592,en-US,C,200mm per year (8 inches),3
+1593-a1,1593,en-US,A,15%,1
+1593-a2,1593,en-US,B,35%,2
+1593-a3,1593,en-US,C,55%,3
+1594-a1,1594,en-US,A,46 million (0.6%),1
+1594-a2,1594,en-US,B,480 million (6%),2
+1594-a3,1594,en-US,C,720 million (9%),3
+1596-a1,1596,en-US,A,Less than 1%,1
+1596-a2,1596,en-US,B,30%,2
+1596-a3,1596,en-US,C,60%,3
+1597-a1,1597,en-US,A,Around 25%,1
+1597-a2,1597,en-US,B,Around 55%,2
+1597-a3,1597,en-US,C,Around 85%,3
+1598-a1,1598,en-US,A,Around 15%,1
+1598-a2,1598,en-US,B,Around 35%,2
+1598-a3,1598,en-US,C,Around 55%,3
+1599-a1,1599,en-US,A,Around 2%,1
+1599-a2,1599,en-US,B,Around 20%,2
+1599-a3,1599,en-US,C,Around 40%,3
+16-a1,16,en-US,A,Oil,2
+16-a2,16,en-US,B,Sand,1
+16-a3,16,en-US,C,Wood,3
+160-a1,160,en-US,A,Fewer than 30,2
+160-a2,160,en-US,B,More than 300,1
+160-a3,160,en-US,C,Airbnb is not allowed in Armenia,3
+1600-a1,1600,en-US,A,Around 20%,1
+1600-a2,1600,en-US,B,Around 40%,2
+1600-a3,1600,en-US,C,Around 60%,3
+1601-a1,1601,en-US,A,Around 3.5 years longer,1
+1601-a2,1601,en-US,B,Around 11.5 years longer,2
+1601-a3,1601,en-US,C,Around 19.5 years longer,3
+1602-a1,1602,en-US,A,Decreased by 25%,1
+1602-a2,1602,en-US,B,Stayed about the same,2
+1602-a3,1602,en-US,C,Increased by 25%,3
+1603-a1,1603,en-US,A,Low-income countries,3
+1603-a2,1603,en-US,B,Middle-income countries,2
+1603-a3,1603,en-US,C,High-income countries,1
+1604-a1,1604,en-US,A,Around 10%,1
+1604-a2,1604,en-US,B,Around 25%,2
+1604-a3,1604,en-US,C,Around 40%,3
+1605-a1,1605,en-US,A,Around 30%,3
+1605-a2,1605,en-US,B,Around 60%,2
+1605-a3,1605,en-US,C,Around 90%,1
+1606-a1,1606,en-US,A,Around 15%,1
+1606-a2,1606,en-US,B,Around 30%,2
+1606-a3,1606,en-US,C,Around 45%,3
+1607-a1,1607,en-US,A,Around 5%,1
+1607-a2,1607,en-US,B,Around 25%,2
+1607-a3,1607,en-US,C,Around 45%,3
+1608-a1,1608,en-US,A,78 years,1
+1608-a2,1608,en-US,B,82 years,2
+1608-a3,1608,en-US,C,86 years,3
+1609-a1,1609,en-US,A,Direct Investment by foreign companies,3
+1609-a2,1609,en-US,B,Development Aid from foreign governments,2
+1609-a3,1609,en-US,C,Remittance transfers from Africans abroad,1
+161-a1,161,en-US,A,Around 30%,3
+161-a2,161,en-US,B,Around 70%,2
+161-a3,161,en-US,C,More than 95%,1
+1610-a1,1610,en-US,A,Roughly 18%,3
+1610-a2,1610,en-US,B,Roughly 33%,2
+1610-a3,1610,en-US,C,Roughly 48%,1
+1611-a1,1611,en-US,A,Around 25%,3
+1611-a2,1611,en-US,B,Around 50%,2
+1611-a3,1611,en-US,C,Around 75%,1
+1612-a1,1612,en-US,A,Around 10%,3
+1612-a2,1612,en-US,B,Around 20%,2
+1612-a3,1612,en-US,C,Around 30%,1
+1613-a1,1613,en-US,A,Cancer,2
+1613-a2,1613,en-US,B,Heart disease and strokes,1
+1613-a3,1613,en-US,C,Lack of food,3
+1614-a1,1614,en-US,A,High-income export around 2 times more,1
+1614-a2,1614,en-US,B,High-income export around 20 times more,2
+1614-a3,1614,en-US,C,High-income export around 40 times more,3
+1615-a1,1615,en-US,A,Around 50%,1
+1615-a2,1615,en-US,B,Around 70%,2
+1615-a3,1615,en-US,C,Around 90%,3
+1616-a1,1616,en-US,A,Roughly 6%,1
+1616-a2,1616,en-US,B,Roughly 26%,2
+1616-a3,1616,en-US,C,Roughly 46%,3
+1617-a1,1617,en-US,A,Around 10%,1
+1617-a2,1617,en-US,B,Around 35%,2
+1617-a3,1617,en-US,C,Around 50%,3
+1618-a1,1618,en-US,A,Zero times,3
+1618-a2,1618,en-US,B,25 times,2
+1618-a3,1618,en-US,C,25 thousand times,1
+1619-a1,1619,en-US,A,Around 30%,1
+1619-a2,1619,en-US,B,Around 50%,2
+1619-a3,1619,en-US,C,Around 70%,3
+162-a1,162,en-US,A,2 days,1
+162-a2,162,en-US,B,12 days,2
+162-a3,162,en-US,C,22 days,3
+1620-a1,1620,en-US,A,Around 10%,1
+1620-a2,1620,en-US,B,Around 25%,2
+1620-a3,1620,en-US,C,Around 40%,3
+1621-a1,1621,en-US,A,Low-income countries,3
+1621-a2,1621,en-US,B,Middle-income countries,2
+1621-a3,1621,en-US,C,High-income countries,1
+1622-a1,1622,en-US,A,Around 10.5 billion,1
+1622-a2,1622,en-US,B,Around 16.5 billion,2
+1622-a3,1622,en-US,C,Around 22.5 billion,3
+1623-a1,1623,en-US,A,-18C,1
+1623-a2,1623,en-US,B,+6C,2
+1623-a3,1623,en-US,C,+21C,3
+1624-a1,1624,en-US,A,Less than 10% of total aid,3
+1624-a2,1624,en-US,B,Around 30% of total aid,2
+1624-a3,1624,en-US,C,More than 200% of total aid,1
+1625-a1,1625,en-US,A,Around 15%,1
+1625-a2,1625,en-US,B,Around 30%,2
+1625-a3,1625,en-US,C,Around 45%,3
+1626-a1,1626,en-US,A,Around 10%,1
+1626-a2,1626,en-US,B,Around 25%,2
+1626-a3,1626,en-US,C,Around 50%,3
+1627-a1,1627,en-US,A,5%,3
+1627-a2,1627,en-US,B,15%,2
+1627-a3,1627,en-US,C,25%,1
+1628-a1,1628,en-US,A,Around 35%,1
+1628-a2,1628,en-US,B,Around 70%,2
+1628-a3,1628,en-US,C,Around 95%,3
+1629-a1,1629,en-US,A,Around 15 countries,1
+1629-a2,1629,en-US,B,Around 30 countries,2
+1629-a3,1629,en-US,C,Around 60 countries,3
+163-a1,163,en-US,A,Fewer than 8,3
+163-a2,163,en-US,B,Around 21,2
+163-a3,163,en-US,C,34 or more,1
+1630-a1,1630,en-US,A,About the same,3
+1630-a2,1630,en-US,B,50% more,2
+1630-a3,1630,en-US,C,More than double the price,1
+1631-a1,1631,en-US,A,Around 15%,3
+1631-a2,1631,en-US,B,Around 45%,2
+1631-a3,1631,en-US,C,Around 75%,1
+1632-a1,1632,en-US,A,Less than 10%,1
+1632-a2,1632,en-US,B,Around 25%,2
+1632-a3,1632,en-US,C,Around 40%,3
+1633-a1,1633,en-US,A,34%,3
+1633-a2,1633,en-US,B,64%,2
+1633-a3,1633,en-US,C,94%,1
+1634-a1,1634,en-US,A,24%,3
+1634-a2,1634,en-US,B,44%,2
+1634-a3,1634,en-US,C,64%,1
+1635-a1,1635,en-US,A,32,1
+1635-a2,1635,en-US,B,42,2
+1635-a3,1635,en-US,C,62,3
+1636-a1,1636,en-US,A,Around 5% less,1
+1636-a2,1636,en-US,B,Around 20% less,2
+1636-a3,1636,en-US,C,Around 40% less,3
+1637-a1,1637,en-US,A,Less than 10%,1
+1637-a2,1637,en-US,B,Around 20%,2
+1637-a3,1637,en-US,C,Around 35%,3
+1638-a1,1638,en-US,A,Less than 1%,3
+1638-a2,1638,en-US,B,Around 15%,2
+1638-a3,1638,en-US,C,Around 30%,1
+1639-a1,1639,en-US,A,Water vapor,2
+1639-a2,1639,en-US,B,Nitrogen gas,1
+1639-a3,1639,en-US,C,Ozone,3
+164-a1,164,en-US,A,4,3
+164-a2,164,en-US,B,12,2
+164-a3,164,en-US,C,20,1
+1640-a1,1640,en-US,A,$10 a day,3
+1640-a2,1640,en-US,B,$20 a day,2
+1640-a3,1640,en-US,C,$30 a day,1
+1641-a1,1641,en-US,A,Around 40 years,3
+1641-a2,1641,en-US,B,Around 50 years,2
+1641-a3,1641,en-US,C,Around 60 years,1
+1642-a1,1642,en-US,A,More than twice the price,3
+1642-a2,1642,en-US,B,Roughly half the price,2
+1642-a3,1642,en-US,C,Less than 20% of the price,1
+1643-a1,1643,en-US,A,Around 15%,3
+1643-a2,1643,en-US,B,Around 25%,2
+1643-a3,1643,en-US,C,Around 40%,1
+1644-a1,1644,en-US,A,17%,1
+1644-a2,1644,en-US,B,32%,2
+1644-a3,1644,en-US,C,47%,3
+1645-a1,1645,en-US,A,Around 25%,1
+1645-a2,1645,en-US,B,Around 45%,2
+1645-a3,1645,en-US,C,Around 65%,3
+1646-a1,1646,en-US,A,Around 25%,1
+1646-a2,1646,en-US,B,Around 50%,2
+1646-a3,1646,en-US,C,Around 75%,3
+1647-a1,1647,en-US,A,Around 10%,3
+1647-a2,1647,en-US,B,Around 40%,2
+1647-a3,1647,en-US,C,Around 70%,1
+1648-a1,1648,en-US,A,Around 25%,3
+1648-a2,1648,en-US,B,Around 45%,2
+1648-a3,1648,en-US,C,Around 65%,1
+1649-a1,1649,en-US,A,Around 1900,1
+1649-a2,1649,en-US,B,Around 1950,2
+1649-a3,1649,en-US,C,Around 1980,3
+165-a1,165,en-US,A,3%,1
+165-a2,165,en-US,B,23%,2
+165-a3,165,en-US,C,43%,3
+1650-a1,1650,en-US,A,Around 5,3
+1650-a2,1650,en-US,B,Around 10,2
+1650-a3,1650,en-US,C,Around 15,1
+1651-a1,1651,en-US,A,North Atlantic Free Trade Agreement (NAFTA),3
+1651-a2,1651,en-US,B,African Continental Free Trade Area,1
+1651-a3,1651,en-US,C,The European Union,2
+1652-a1,1652,en-US,A,Around 10%,3
+1652-a2,1652,en-US,B,Around 25%,2
+1652-a3,1652,en-US,C,Around 40%,1
+1653-a1,1653,en-US,A,Around 20%,3
+1653-a2,1653,en-US,B,Around 40%,2
+1653-a3,1653,en-US,C,Around 60%,1
+1654-a1,1654,en-US,A,2 years,3
+1654-a2,1654,en-US,B,7 years,2
+1654-a3,1654,en-US,C,12 years,1
+1655-a1,1655,en-US,A,Less than 1%,1
+1655-a2,1655,en-US,B,Around 10%,2
+1655-a3,1655,en-US,C,More than 20%,3
+1656-a1,1656,en-US,A,Around 15%,1
+1656-a2,1656,en-US,B,Around 35%,2
+1656-a3,1656,en-US,C,Around 55%,3
+1658-a1,1658,en-US,A,8,3
+1658-a2,1658,en-US,B,28,2
+1658-a3,1658,en-US,C,48,1
+1659-a1,1659,en-US,A,Around 5,3
+1659-a2,1659,en-US,B,Around 15,2
+1659-a3,1659,en-US,C,Around 50,1
+166-a1,166,en-US,A,Less than 8%,1
+166-a2,166,en-US,B,Around 31%,2
+166-a3,166,en-US,C,Around 55%,3
+1660-a1,1660,en-US,A,About 20%,3
+1660-a2,1660,en-US,B,About 50%,2
+1660-a3,1660,en-US,C,About 80%,1
+1661-a1,1661,en-US,A,"Around 9,000",3
+1661-a2,1661,en-US,B,"Around 90,000",2
+1661-a3,1661,en-US,C,"Around 900,000",1
+1662-a1,1662,en-US,A,Around 10%,3
+1662-a2,1662,en-US,B,Around 30%,2
+1662-a3,1662,en-US,C,Around 45%,1
+1663-a1,1663,en-US,A,Around 20%,3
+1663-a2,1663,en-US,B,Around 40%,2
+1663-a3,1663,en-US,C,Around 60%,1
+1664-a1,1664,en-US,A,0,1
+1664-a2,1664,en-US,B,10,2
+1664-a3,1664,en-US,C,25,3
+1665-a1,1665,en-US,A,Around 1%,3
+1665-a2,1665,en-US,B,Around 7%,2
+1665-a3,1665,en-US,C,Around 14%,1
+1666-a1,1666,en-US,A,A,3
+1666-a2,1666,en-US,B,B,2
+1666-a3,1666,en-US,C,C,1
+1667-a1,1667,en-US,A,Less than 25%,3
+1667-a2,1667,en-US,B,Around 50%,2
+1667-a3,1667,en-US,C,More than 85%,1
+1668-a1,1668,en-US,A,Around 5%,3
+1668-a2,1668,en-US,B,Around 15%,2
+1668-a3,1668,en-US,C,Around 25%,1
+1669-a1,1669,en-US,A,75 countries,3
+1669-a2,1669,en-US,B,135 countries,2
+1669-a3,1669,en-US,C,195 countries,1
+167-a1,167,en-US,A,1895,1
+167-a2,167,en-US,B,1935,2
+167-a3,167,en-US,C,1965,3
+1670-a1,1670,en-US,A,Less than 20%,1
+1670-a2,1670,en-US,B,Around 35%,2
+1670-a3,1670,en-US,C,More than 50%,3
+1671-a1,1671,en-US,A,It will decrease around 10%,1
+1671-a2,1671,en-US,B,It will stay about the same,2
+1671-a3,1671,en-US,C,It will increase around 10%,3
+1672-a1,1672,en-US,A,Around 40%,3
+1672-a2,1672,en-US,B,Around 50%,2
+1672-a3,1672,en-US,C,Around 60%,1
+1673-a1,1673,en-US,A,Around 20%,1
+1673-a2,1673,en-US,B,Around 30%,2
+1673-a3,1673,en-US,C,Around 40%,3
+1674-a1,1674,en-US,A,Around 1 million,3
+1674-a2,1674,en-US,B,Around 5 million,2
+1674-a3,1674,en-US,C,Around 9 million,1
+1675-a1,1675,en-US,A,Around 30%,3
+1675-a2,1675,en-US,B,Around 60%,2
+1675-a3,1675,en-US,C,Around 90%,1
+1676-a1,1676,en-US,A,Less than $3 billion,3
+1676-a2,1676,en-US,B,Around $5 billion,2
+1676-a3,1676,en-US,C,More than $20 billion,1
+1677-a1,1677,en-US,A,Slightly less,3
+1677-a2,1677,en-US,B,2 times more,2
+1677-a3,1677,en-US,C,5 times more,1
+1678-a1,1678,en-US,A,Around $1,1
+1678-a2,1678,en-US,B,Around $25,2
+1678-a3,1678,en-US,C,Around $45,3
+1679-a1,1679,en-US,A,About the same,3
+1679-a2,1679,en-US,B,50% more,2
+1679-a3,1679,en-US,C,150% more,1
+168-a1,168,en-US,A,Around 23%,1
+168-a2,168,en-US,B,Around 43%,2
+168-a3,168,en-US,C,Around 63%,3
+1680-a1,1680,en-US,A,Around 15,3
+1680-a2,1680,en-US,B,Around 40,2
+1680-a3,1680,en-US,C,Around 80,1
+1681-a1,1681,en-US,A,About $1.50 a day,1
+1681-a2,1681,en-US,B,About $5 a day,2
+1681-a3,1681,en-US,C,About $10 a day,3
+1682-a1,1682,en-US,A,Stayed more or less the same,2
+1682-a2,1682,en-US,B,It increased by around 50%,1
+1682-a3,1682,en-US,C,It increased by around 250%,3
+1683-a1,1683,en-US,A,Around 50%,3
+1683-a2,1683,en-US,B,Around 70%,2
+1683-a3,1683,en-US,C,Around 90%,1
+1684-a1,1684,en-US,A,Around 15%,1
+1684-a2,1684,en-US,B,Around 25%,2
+1684-a3,1684,en-US,C,Around 45%,3
+1685-a1,1685,en-US,A,East Asia and Pacific,2
+1685-a2,1685,en-US,B,Sub-Saharan Africa,1
+1685-a3,1685,en-US,C,Europe and Central Asia,3
+1686-a1,1686,en-US,A,Dropped to less than half,1
+1686-a2,1686,en-US,B,Stayed about the same,2
+1686-a3,1686,en-US,C,Doubled,3
+1687-a1,1687,en-US,A,16%,1
+1687-a2,1687,en-US,B,36%,2
+1687-a3,1687,en-US,C,56%,3
+1688-a1,1688,en-US,A,Around 5%,1
+1688-a2,1688,en-US,B,Around 25%,2
+1688-a3,1688,en-US,C,Around 50%,3
+1689-a1,1689,en-US,A,Around 52%,3
+1689-a2,1689,en-US,B,Around 64%,2
+1689-a3,1689,en-US,C,Around 82%,1
+169-a1,169,en-US,A,Around 40,3
+169-a2,169,en-US,B,Around 110,2
+169-a3,169,en-US,C,Around 410,1
+1690-a1,1690,en-US,A,Around 12%,1
+1690-a2,1690,en-US,B,Around 22%,2
+1690-a3,1690,en-US,C,Around 32%,3
+1691-a1,1691,en-US,A,Around 20%,1
+1691-a2,1691,en-US,B,Around 50%,2
+1691-a3,1691,en-US,C,Around 80%,3
+1692-a1,1692,en-US,A,About the same,3
+1692-a2,1692,en-US,B,10 times more affordable,2
+1692-a3,1692,en-US,C,200 times more affordable,1
+1694-a1,1694,en-US,A,Less than 1%,1
+1694-a2,1694,en-US,B,Around 50%,2
+1694,1694,en-US,C,More than 75%,3
+1695-a1,1695,en-US,A,Around 40%,1
+1695-a2,1695,en-US,B,Around 60%,2
+1695-a3,1695,en-US,C,Around 80%,3
+1696-a1,1696,en-US,A,53,3
+1696-a2,1696,en-US,B,113,2
+1696-a3,1696,en-US,C,173,1
+1697-a1,1697,en-US,A,Around 1 million,3
+1697-a2,1697,en-US,B,Around 5 million,2
+1697-a3,1697,en-US,C,Around 10 million,1
+1698-a1,1698,en-US,A,About the same,3
+1698-a2,1698,en-US,B,Double,2
+1698-a3,1698,en-US,C,Over three times more,1
+1699-a1,1699,en-US,A,About the same,3
+1699-a2,1699,en-US,B,Around 260,2
+1699-a3,1699,en-US,C,Around 360,1
+17-a1,17,en-US,A,Around 30%,3
+17-a2,17,en-US,B,Around 50%,2
+17-a3,17,en-US,C,Around 70%,1
+170-a1,170,en-US,A,5%,1
+170-a2,170,en-US,B,35%,2
+170-a3,170,en-US,C,65%,3
+1700-a1,1700,en-US,A,Around 25%,3
+1700-a2,1700,en-US,B,Around 65%,2
+1700-a3,1700,en-US,C,Close to 100%,1
+1701-a1,1701,en-US,A,Drugs and Violence,3
+1701-a2,1701,en-US,B,Heart Disease & Strokes,1
+1701-a3,1701,en-US,C,Diabetes and Undernourishment,2
+1702-a1,1702,en-US,A,Around 40%,3
+1702-a2,1702,en-US,B,Around 60%,2
+1702-a3,1702,en-US,C,Around 80%,1
+1703-a1,1703,en-US,A,64,3
+1703-a2,1703,en-US,B,114,2
+1703-a3,1703,en-US,C,194,1
+1704-a1,1704,en-US,A,2%,1
+1704-a2,1704,en-US,B,8%,2
+1704-a3,1704,en-US,C,22%,3
+1705-a1,1705,en-US,A,Charities give 20 times more,3
+1705-a2,1705,en-US,B,Governments give 20 times more,1
+1705-a3,1705,en-US,C,They give roughly the same,2
+1706-a1,1706,en-US,A,Around 0.3%,1
+1706-a2,1706,en-US,B,Around 3%,2
+1706-a3,1706,en-US,C,Around 30%,3
+1707-a1,1707,en-US,A,Asia,2
+1707-a2,1707,en-US,B,Africa,1
+1707-a3,1707,en-US,C,America,3
+1708-a1,1708,en-US,A,25% decrease,1
+1708-a2,1708,en-US,B,About the same,2
+1708-a3,1708,en-US,C,25% increase,3
+1709-a1,1709,en-US,A,4,1
+1709-a2,1709,en-US,B,6,2
+1709-a3,1709,en-US,C,9,3
+171-a1,171,en-US,A,Around 7%,1
+171-a2,171,en-US,B,Around 19%,2
+171-a3,171,en-US,C,Around 31%,3
+1710-a1,1710,en-US,A,Around 45%,1
+1710-a2,1710,en-US,B,Around 55%,2
+1710-a3,1710,en-US,C,Around 65%,3
+1711-a1,1711,en-US,A,Around 20%,3
+1711-a2,1711,en-US,B,Around 30%,2
+1711-a3,1711,en-US,C,Around 40%,1
+1712-a1,1712,en-US,A,Around 5%,3
+1712-a2,1712,en-US,B,Around 15%,2
+1712-a3,1712,en-US,C,Around 30%,1
+1713-a1,1713,en-US,A,Decreased 15%,3
+1713-a2,1713,en-US,B,Increased 5%,2
+1713-a3,1713,en-US,C,Increased 55%,1
+1714-a1,1714,en-US,A,1900,3
+1714-a2,1714,en-US,B,1940,2
+1714-a3,1714,en-US,C,1980,1
+1715-a1,1715,en-US,A,Pollute air,3
+1715-a2,1715,en-US,B,Absorb heat,1
+1715-a3,1715,en-US,C,Reflect light and heat,2
+1716-a1,1716,en-US,A,North American Free Trade Agreement,3
+1716-a2,1716,en-US,B,African Continental Free Trade Area,1
+1716-a3,1716,en-US,C,The European Union,2
+1717-a1,1717,en-US,A,80% less,1
+1717-a2,1717,en-US,B,40% less,2
+1717-a3,1717,en-US,C,20% more,3
+1718-a1,1718,en-US,A,33 years of age,1
+1718-a2,1718,en-US,B,43 years of age,2
+1718-a3,1718,en-US,C,53 years of age,3
+1719-a1,1719,en-US,A,Around 25%,3
+1719-a2,1719,en-US,B,Around 50%,2
+1719-a3,1719,en-US,C,Around 75%,1
+172-a1,172,en-US,A,Less than 10%,1
+172-a2,172,en-US,B,Around 30%,2
+172-a3,172,en-US,C,More than 50%,3
+1720-a1,1720,en-US,A,Less than 25%,3
+1720-a2,1720,en-US,B,Around 50%,2
+1720-a3,1720,en-US,C,More than 75%,1
+1721-a1,1721,en-US,A,A,3
+1721-a2,1721,en-US,B,B,1
+1721-a3,1721,en-US,C,C,2
+1722-a1,1722,en-US,A,Less than 40%,3
+1722-a2,1722,en-US,B,Around 70%,2
+1722-a3,1722,en-US,C,More than 95%,1
+1723-a1,1723,en-US,A,Neighboring countries,2
+1723-a2,1723,en-US,B,Stay within their own country,1
+1723-a3,1723,en-US,C,High-income countries,3
+1724-a1,1724,en-US,A,Around 23%,3
+1724-a2,1724,en-US,B,Around 38%,2
+1724-a3,1724,en-US,C,Around 53%,1
+1725-a1,1725,en-US,A,$5 a day,3
+1725-a2,1725,en-US,B,$10 a day,2
+1725-a3,1725,en-US,C,$20 a day,1
+1726-a1,1726,en-US,A,Fewer than 5,3
+1726-a2,1726,en-US,B,Around 15,2
+1726-a3,1726,en-US,C,More than 30,1
+1727-a1,1727,en-US,A,28%,1
+1727-a2,1727,en-US,B,38%,2
+1727-a3,1727,en-US,C,53%,3
+1728-a1,1728,en-US,A,About 10 years,3
+1728-a2,1728,en-US,B,About 100 years,2
+1728-a3,1728,en-US,C,"Over 1,000 years",1
+1729-a1,1729,en-US,A,A,3
+1729-a2,1729,en-US,B,B,2
+1729-a3,1729,en-US,C,C,1
+173-a1,173,en-US,A,Fewer than 5,3
+173-a2,173,en-US,B,Around 10,2
+173-a3,173,en-US,C,More than 25,1
+1730-a1,1730,en-US,A,Half as much,3
+1730-a2,1730,en-US,B,Twice as much,2
+1730-a3,1730,en-US,C,Eight times more,1
+1731-a1,1731,en-US,A,Around 10%,3
+1731-a2,1731,en-US,B,Around 45%,2
+1731-a3,1731,en-US,C,Around 85%,1
+1732-a1,1732,en-US,A,Around 45%,3
+1732-a2,1732,en-US,B,Around 60%,2
+1732-a3,1732,en-US,C,Around 75%,1
+1733-a1,1733,en-US,A,Heroin,3
+1733-a2,1733,en-US,B,Marijuana,2
+1733-a3,1733,en-US,C,Cocaine,1
+1734-a1,1734,en-US,A,"Around 10,000 fewer",3
+1734-a2,1734,en-US,B,About the same,2
+1734-a3,1734,en-US,C,"Around 10,000 more",1
+1735-a1,1735,en-US,A,0,3
+1735-a2,1735,en-US,B,8,1
+1735-a3,1735,en-US,C,28,2
+1736-a1,1736,en-US,A,"United States, United Kingdom, The Netherlands",3
+1736-a2,1736,en-US,B,"Brazil, Kenya, Costa Rica",1
+1736-a3,1736,en-US,C,"Finland, Sweden, Spain",2
+1737-a1,1737,en-US,A,Around 20%,3
+1737-a2,1737,en-US,B,Around 50%,2
+1737a3,1737,en-US,C,Around 80%,1
+1738-a1,1738,en-US,A,Around 15 million,3
+1738-a2,1738,en-US,B,Around 40 million,2
+1738-a3,1738,en-US,C,Around 120 million,1
+1739-a1,1739,en-US,A,It decreased by 30%,1
+1739-a2,1739,en-US,B,It stayed the same,2
+1739-a3,1739,en-US,C,It increased by 30%,3
+174-a1,174,en-US,A,Around 40%,3
+174-a2,174,en-US,B,Around 60%,2
+174-a3,174,en-US,C,Around 90%,1
+1740-a1,1740,en-US,A,Around 25%,2
+1740-a2,1740,en-US,B,Around 40%,1
+1740-a3,1740,en-US,C,Around 65%,3
+1741-a1,1741,en-US,A,Around 25%,3
+1741-a2,1741,en-US,B,Around 45%,2
+1741-a3,1741,en-US,C,Around 65%,1
+1742-a1,1742,en-US,A,Around 5 times more,1
+1742-a2,1742,en-US,B,Around 30 times more,2
+1742-a3,1742,en-US,C,Around 60 times more,3
+1743-a1,1743,en-US,A,Around 10%,1
+1743-a2,1743,en-US,B,Around 20%,2
+1743-a3,1743,en-US,C,Around 30%,3
+1744-a1,1744,en-US,A,10%,1
+1744-a2,1744,en-US,B,25%,2
+1744-a3,1744,en-US,C,40%,3
+1745-a1,1745,en-US,A,Roughly the same,1
+1745-a2,1745,en-US,B,Two times higher,2
+1745-a3,1745,en-US,C,Four times higher,3
+1747-a1,1747,en-US,A,Around 3%,3
+1747-a2,1747,en-US,B,Around 13%,2
+1747-a3,1747,en-US,C,Around 23%,1
+1748-a1,1748,en-US,A,Around 10%,1
+1748-a2,1748,en-US,B,Around 30%,2
+1748-a3,1748,en-US,C,Around 50%,3
+1749-a1,1749,en-US,A,Less than 100 years,3
+1749-a2,1749,en-US,B,About 500 years,2
+1749-a3,1749,en-US,C,More than 1000 years,1
+175-a1,175,en-US,A,About the same,3
+175-a2,175,en-US,B,60% more,2
+175-a3,175,en-US,C,160% more,1
+1750-a1,1750,en-US,A,Around 30%,1
+1750-a2,1750,en-US,B,Around 40%,2
+1750-a3,1750,en-US,C,Around 50%,3
+1753-a1,1753,en-US,A,58,3
+1753-a2,1753,en-US,B,98,2
+1753-a3,1753,en-US,C,138,1
+1754-a1,1754,en-US,A,GDP per capita threshold,2
+1754-a2,1754,en-US,B,There is no procedure,1
+1754-a3,1754,en-US,C,Voting at the UN General Assembly,3
+1755-a1,1755,en-US,A,Less than 30%,3
+1755-a2,1755,en-US,B,Around 60%,2
+1755-a3,1755,en-US,C,Around 90%,1
+1756-a1,1756,en-US,A,About the same,3
+1756-a2,1756,en-US,B,20% more,2
+1756-a3,1756,en-US,C,Five times more,1
+1757-a1,1757,en-US,A,Around 14%,3
+1757-a2,1757,en-US,B,Around 20%,2
+1757-a3,1757,en-US,C,Around 40%,1
+1758-a1,1758,en-US,A,Around 30%,3
+1758-a2,1758,en-US,B,Around 45%,2
+1758-a3,1758,en-US,C,More than 60%,1
+1759-a1,1759,en-US,A,Around 50%,1
+1759-a2,1759,en-US,B,Around 75%,2
+1759-a3,1759,en-US,C,Around 90%,3
+176-a1,176,en-US,A,Less than 55%,3
+176-a2,176,en-US,B,Around 75%,2
+176-a3,176,en-US,C,More than 95%,1
+1760-a1,1760,en-US,A,60% less,3
+1760-a2,1760,en-US,B,About the same,2
+1760-a3,1760,en-US,C,60% more,1
+1761-a1,1761,en-US,A,30% less than what comes in,2
+1761-a2,1761,en-US,B,0.3% less than what comes in,1
+1761-a3,1761,en-US,C,30% more than what comes in,3
+1762-a1,1762,en-US,A,Less than 1%,1
+1762-a2,1762,en-US,B,Around 15%,2
+1762-a3,1762,en-US,C,Around 30%,3
+1763-a1,1763,en-US,A,1,1
+1763-a2,1763,en-US,B,23,2
+1763-a3,1763,en-US,C,46,3
+1764-a1,1764,en-US,A,They decreased 20%,1
+1764-a2,1764,en-US,B,They stayed the same,2
+1764-a3,1764,en-US,C,They increased 20%,3
+1765-a1,1765,en-US,A,7% more,3
+1765-a2,1765,en-US,B,70% more,2
+1765-a3,1765,en-US,C,700% more,1
+1766-a1,1766,en-US,A,Dropped to less than half,3
+1766-a2,1766,en-US,B,Stayed more or less the same,2
+1766-a3,1766,en-US,C,It nearly doubled,1
+1767-a1,1767,en-US,A,8 times higher,1
+1767-a2,1767,en-US,B,80 times higher,2
+1767-a3,1767,en-US,C,800 times higher,3
+1768-a1,1768,en-US,A,Fewer than 15,3
+1768-a2,1768,en-US,B,Around 50,2
+1768-a3,1768,en-US,C,More than 85,1
+1769-a1,1769,en-US,A,Around 60%,3
+1769-a2,1769,en-US,B,Around 70%,2
+1769-a3,1769,en-US,C,More than 80%,1
+177-a1,177,en-US,A,Fewer than 5,3
+177-a2,177,en-US,B,Around 20,2
+177-a3,177,en-US,C,More than 35,1
+1770-a1,1770,en-US,A,80% less,1
+1770-a2,1770,en-US,B,About the same,2
+1770-a3,1770,en-US,C,50% more,3
+1771-a1,1771,en-US,A,It declined about 30%,1
+1771-a2,1771,en-US,B,It declined about 10%,2
+1771-a3,1771,en-US,C,It stayed about the same,3
+1772-a1,1772,en-US,A,Around 1.5%,1
+1772-a2,1772,en-US,B,Around 15%,2
+1772-a3,1772,en-US,C,Around 35%,3
+1773-a1,1773,en-US,A,Around 14%,1
+1773-a2,1773,en-US,B,Around 24%,2
+1773-a3,1773,en-US,C,Around 34%,3
+1774-a1,1774,en-US,A,Around 1%,1
+1774-a2,1774,en-US,B,Around 15%,2
+1774-a3,1774,en-US,C,Around 25%,3
+1775-a1,1775,en-US,A,Financial Services,2
+1775-a2,1775,en-US,B,Education,1
+1775-a3,1775,en-US,C,Computer software services,3
+1776-a1,1776,en-US,A,"Around 100,000",3
+1776-a2,1776,en-US,B,"Around 500,000",2
+1776-a3,1776,en-US,C,Around 1 million,1
+1777-a1,1777,en-US,A,Around 7%,1
+1777-a2,1777,en-US,B,Around 22%,2
+1777-a3,1777,en-US,C,Around 37%,3
+1778-a1,1778,en-US,A,Around 5%,1
+1778-a2,1778,en-US,B,Around 25%,2
+1778-a3,1778,en-US,C,Around 45%,3
+1779-a1,1779,en-US,A,Around 20%,1
+1779-a2,1779,en-US,B,Around 45%,2
+1779-a3,1779,en-US,C,Around 70%,3
+178-a1,178,en-US,A,Around 30%,3
+178-a2,178,en-US,B,Around 70%,2
+178-a3,178,en-US,C,More than 95%,1
+1780-a1,1780,en-US,A,Around 30%,1
+1780-a2,1780,en-US,B,Around 50%,2
+1780-a3,1780,en-US,C,Around 70%,3
+1781-a1,1781,en-US,A,Less than 2%,1
+1781-a2,1781,en-US,B,Around 12%,2
+1781-a3,1781,en-US,C,Around 22%,3
+1782-a1,1782,en-US,A,Around 2%,1
+1782-a2,1782,en-US,B,Around 32%,2
+1782-a3,1782,en-US,C,Around 62%,3
+1783-a1,1783,en-US,A,Fewer than 20,3
+1783-a2,1783,en-US,B,Around 70,2
+1783-a3,1783,en-US,C,More than 150,1
+1784-a1,1784,en-US,A,Less than 15%,3
+1784-a2,1784,en-US,B,Around 50%,2
+1784-a3,1784,en-US,C,More than 85%,1
+1785-a1,1785,en-US,A,Europe,2
+1785-a2,1785,en-US,B,Central Asia,1
+1785-a3,1785,en-US,C,North America,3
+1786-a1,1786,en-US,A,It decreased 10%,3
+1786-a2,1786,en-US,B,Stayed about the same,2
+1786-a3,1786,en-US,C,It increased 240%,1
+1787-a1,1787,en-US,A,Around 4%,1
+1787-a2,1787,en-US,B,Around 24%,2
+1787-a3,1787,en-US,C,Around 44%,3
+1788-a1,1788,en-US,A,Around 60%,1
+1788-a2,1788,en-US,B,Around 75%,2
+1788-a3,1788,en-US,C,Around 95%,3
+1789-a1,1789,en-US,A,Decreased 10%,3
+1789-a2,1789,en-US,B,Stayed about the same,2
+1789-a3,1789,en-US,C,Increased 240%,1
+179-a1,179,en-US,A,2,3
+179-a2,179,en-US,B,7,2
+179-a3,179,en-US,C,16,1
+1790-a1,1790,en-US,A,Around 16%,1
+1790-a2,1790,en-US,B,Around 36%,2
+1790-a3,1790,en-US,C,Around 56%,3
+1791-a1,1791,en-US,A,Around 100,3
+1791-a2,1791,en-US,B,"Around 1,000",2
+1791-a3,1791,en-US,C,"Around 10,000",1
+1792-a1,1792,en-US,A,…smaller than ever,1
+1792-a2,1792,en-US,B,…the same as always,2
+1792-a3,1792,en-US,C,…larger than ever,3
+1793-a1,1793,en-US,A,Around 20%,1
+1793-a2,1793,en-US,B,Around 40%,2
+1793-a3,1793,en-US,C,Around 60%,3
+1794-a1,1794,en-US,A,Around 6%,1
+1794-a2,1794,en-US,B,Around 36%,2
+1794-a3,1794,en-US,C,Around 66%,3
+1795-a1,1795,en-US,A,Curing and rehabilitating care,1
+1795-a2,1795,en-US,B,Elderly and disability care,2
+1795-a3,1795,en-US,C,Administration,3
+1796-a1,1796,en-US,A,Around 53%,1
+1796-a2,1796,en-US,B,Around 47%,2
+1796-a3,1796,en-US,C,Around 42%,3
+18-a1,18,en-US,A,Around 5%,1
+18-a2,18,en-US,B,Around 25%,2
+18-a3,18,en-US,C,Around 45%,3
+180-a1,180,en-US,A,3%,1
+180-a2,180,en-US,B,13%,2
+180-a3,180,en-US,C,23%,3
+181-a1,181,en-US,A,Less than 20%,3
+181-a2,181,en-US,B,Around 50%,2
+181-a3,181,en-US,C,More than 80%,1
+182-a1,182,en-US,A,It stayed about the same,1
+182-a2,182,en-US,B,It decreased by 25%,2
+182-a3,182,en-US,C,It decreased by 50%,3
+183-a1,183,en-US,A,Around 40%,3
+183-a2,183,en-US,B,Around 70%,2
+183-a3,183,en-US,C,Close to 100%,1
+184-a1,184,en-US,A,Around 30%,3
+184-a2,184,en-US,B,Around 70%,2
+184-a3,184,en-US,C,More than 95%,1
+185-a1,185,en-US,A,1971,1
+185-a2,185,en-US,B,2011,2
+185-a3,185,en-US,C,It is not a member,3
+186-a1,186,en-US,A,Around 30%,3
+186-a2,186,en-US,B,Around 70%,2
+186-a3,186,en-US,C,More than 95%,1
+188-a1,188,en-US,A,Less than 35%,3
+188-a2,188,en-US,B,Around 65%,2
+188-a3,188,en-US,C,More than 95%,1
+189-a1,189,en-US,A,49%,3
+189-a2,189,en-US,B,69%,2
+189-a3,189,en-US,C,89%,1
+19-a1,19,en-US,A,Around 2%,1
+19-a2,19,en-US,B,Around 12%,2
+19-a3,19,en-US,C,Around 22%,3
+190-a1,190,en-US,A,Uber doesn't operate in Bangladesh,3
+190-a2,190,en-US,B,5,2
+190-a3,190,en-US,C,11,1
+191-a1,191,en-US,A,0 parks,3
+191-a2,191,en-US,B,5 parks,2
+191-a3,191,en-US,C,More than 8 parks,1
+193-a1,193,en-US,A,Around 15%,3
+193-a2,193,en-US,B,Around 50%,2
+193-a3,193,en-US,C,Around 85%,1
+194-a1,194,en-US,A,1991,1
+194-a2,194,en-US,B,2011,2
+194-a3,194,en-US,C,Never,3
+195-a1,195,en-US,A,Less than 30%,3
+195-a2,195,en-US,B,Around 50%,2
+195-a3,195,en-US,C,More than 70%,1
+196-a1,196,en-US,A,Around 40%,3
+196-a2,196,en-US,B,Around 75%,2
+196-a3,196,en-US,C,Around 90%,1
+197-a1,197,en-US,A,Among the highest in the world,1
+197-a2,197,en-US,B,Around world average,2
+197-a3,197,en-US,C,Among the lowest in the world,3
+198-a1,198,en-US,A,Less than 25%,1
+198-a2,198,en-US,B,Around 45%,2
+198-a3,198,en-US,C,More than 65%,3
+199-a1,199,en-US,A,Around 30%,3
+199-a2,199,en-US,B,Around 70%,2
+199-a3,199,en-US,C,More than 95%,1
+2-a1,2,en-US,A,More than doubled,3
+2-a2,2,en-US,B,Remained about the same,2
+2-a3,2,en-US,C,Decreased to less than half,1
+20-a1,20,en-US,A,A,2
+20-a2,20,en-US,B,B,1
+20-a3,20,en-US,C,C,3
+200-a1,200,en-US,A,2018,1
+200-a2,200,en-US,B,Women cannot run for office in Barbados,3
+200-a3,200,en-US,C,It hasn't happened yet,2
+201-a1,201,en-US,A,40%,1
+201-a2,201,en-US,B,60%,2
+201-a3,201,en-US,C,80%,3
+202-a1,202,en-US,A,In 1945 among the initial 51 members,1
+202-a2,202,en-US,B,In 1998 as member number 188,2
+202-a3,202,en-US,C,Belarus is not a UN member,3
+203-a1,203,en-US,A,5,3
+203-a2,203,en-US,B,16,2
+203-a3,203,en-US,C,100,1
+204-a1,204,en-US,A,Around 7%,1
+204-a2,204,en-US,B,Around 26%,2
+204-a3,204,en-US,C,Around 45%,3
+205-a1,205,en-US,A,Around 30%,3
+205-a2,205,en-US,B,Around 70%,2
+205-a3,205,en-US,C,More than 95%,1
+206-a1,206,en-US,A,nan,3
+206-a2,206,en-US,B,Around 4,2
+206-a3,206,en-US,C,8 or more,1
+207-a1,207,en-US,A,1,3
+207-a2,207,en-US,B,7,2
+207-a3,207,en-US,C,15,1
+208-a1,208,en-US,A,Around 1%,1
+208-a2,208,en-US,B,Around 16%,2
+208-a3,208,en-US,C,Around 31%,3
+209-a1,209,en-US,A,Around 2%,1
+209-a2,209,en-US,B,Around 33%,2
+209-a3,209,en-US,C,Around 63%,3
+21-a1,21,en-US,A,Around 10%,1
+21-a2,21,en-US,B,Around 30%,2
+21-a3,21,en-US,C,Around 50%,3
+210-a1,210,en-US,A,Around 30,3
+210-a2,210,en-US,B,Around 300,2
+210-a3,210,en-US,C,Around 600,1
+211-a1,211,en-US,A,6,3
+211-a2,211,en-US,B,20,2
+211-a3,211,en-US,C,142,1
+212-a1,212,en-US,A,Around 30%,3
+212-a2,212,en-US,B,Around 70%,2
+212-a3,212,en-US,C,More than 95%,1
+213-a1,213,en-US,A,12%,3
+213-a2,213,en-US,B,52%,2
+213-a3,213,en-US,C,82%,1
+214-a1,214,en-US,A,7%,1
+214-a2,214,en-US,B,31%,2
+214-a3,214,en-US,C,55%,3
+215-a1,215,en-US,A,Less than 45%,3
+215-a2,215,en-US,B,Around 70%,2
+215-a3,215,en-US,C,More than 90%,1
+216-a1,216,en-US,A,Around 15%,3
+216-a2,216,en-US,B,Around 50%,2
+216-a3,216,en-US,C,More than 95%,1
+217-a1,217,en-US,A,10%,3
+217-a2,217,en-US,B,20%,2
+217-a3,217,en-US,C,30%,1
+218-a1,218,en-US,A,1956,1
+218-a2,218,en-US,B,1986,2
+218-a3,218,en-US,C,2016,3
+219-a1,219,en-US,A,Less than 1%,3
+219-a2,219,en-US,B,Around 10%,2
+219-a3,219,en-US,C,More than 30%,1
+22-a1,22,en-US,A,46,3
+22-a2,22,en-US,B,116,2
+22-a3,22,en-US,C,186,1
+220-a1,220,en-US,A,2,3
+220-a2,220,en-US,B,Around 5,2
+220-a3,220,en-US,C,Around 25,1
+221-a1,221,en-US,A,Fewer than 30,2
+221-a2,221,en-US,B,More than 300,1
+221-a3,221,en-US,C,Airbnb is not allowed in Benin,3
+222-a1,222,en-US,A,Less than 20%,3
+222-a2,222,en-US,B,Around 45%,2
+222-a3,222,en-US,C,More than 70%,1
+223-a1,223,en-US,A,9%,3
+223-a2,223,en-US,B,29%,2
+223-a3,223,en-US,C,49%,1
+224-a1,224,en-US,A,Less than 10%,3
+224-a2,224,en-US,B,Around 20%,2
+224-a3,224,en-US,C,More than 30%,1
+226-a1,226,en-US,A,Less than 20%,3
+226-a2,226,en-US,B,Around 55%,2
+226-a3,226,en-US,C,More than 90%,1
+227-a1,227,en-US,A,Around 30%,3
+227-a2,227,en-US,B,Around 70%,2
+227-a3,227,en-US,C,More than 95%,1
+228-a1,228,en-US,A,Less than 35%,3
+228-a2,228,en-US,B,Around 60%,2
+228-a3,228,en-US,C,More than 85%,1
+229-a1,229,en-US,A,10%,3
+229-a2,229,en-US,B,31%,2
+229-a3,229,en-US,C,50%,1
+23-a1,23,en-US,A,14%,1
+23-a2,23,en-US,B,29%,2
+23-a3,23,en-US,C,44%,3
+230-a1,230,en-US,A,Around 30%,3
+230-a2,230,en-US,B,Around 50%,2
+230-a3,230,en-US,C,Around 70%,1
+231-a1,231,en-US,A,Less than 35%,3
+231-a2,231,en-US,B,Around 65%,2
+231-a3,231,en-US,C,More than 95%,1
+232-a1,232,en-US,A,Around 30%,3
+232-a2,232,en-US,B,Around 70%,2
+232-a3,232,en-US,C,More than 95%,1
+233-a1,233,en-US,A,Around 30%,3
+233-a2,233,en-US,B,Around 70%,2
+233-a3,233,en-US,C,More than 95%,1
+234-a1,234,en-US,A,Less than 3%,3
+234-a2,234,en-US,B,Around 13%,2
+234-a3,234,en-US,C,More than 23%,1
+235-a1,235,en-US,A,Less than 55%,3
+235-a2,235,en-US,B,Around 75%,2
+235-a3,235,en-US,C,More than 95%,1
+236-a1,236,en-US,A,2%,1
+236-a2,236,en-US,B,42%,2
+236-a3,236,en-US,C,82%,3
+237-a1,237,en-US,A,nan,3
+237-a2,237,en-US,B,Around 7,2
+237-a3,237,en-US,C,10 or more,1
+238-a1,238,en-US,A,Around 140,3
+238-a2,238,en-US,B,Around 700,2
+238-a3,238,en-US,C,Around 2500,1
+239-a1,239,en-US,A,2,3
+239-a2,239,en-US,B,5,2
+239-a3,239,en-US,C,39,1
+24-a1,24,en-US,A,Around 20%,3
+24-a2,24,en-US,B,Around 45%,2
+24-a3,24,en-US,C,Around 70%,1
+240-a1,240,en-US,A,Less than 35%,3
+240-a2,240,en-US,B,Around 65%,2
+240-a3,240,en-US,C,More than 95%,1
+241-a1,241,en-US,A,Around 30%,3
+241-a2,241,en-US,B,Around 70%,2
+241-a3,241,en-US,C,More than 95%,1
+242-a1,242,en-US,A,Fewer than 15,2
+242-a2,242,en-US,B,More than 150,1
+242-a3,242,en-US,C,Airbnb is not allowed in Brunei,3
+243-a1,243,en-US,A,Less than 55%,3
+243-a2,243,en-US,B,Around 75%,2
+243-a3,243,en-US,C,Close to 100%,1
+244-a1,244,en-US,A,1%,1
+244-a2,244,en-US,B,17%,2
+244-a3,244,en-US,C,33%,3
+245-a1,245,en-US,A,Less than 5%,1
+245-a2,245,en-US,B,Around 25%,2
+245-a3,245,en-US,C,More than 45%,3
+246-a1,246,en-US,A,1,3
+246-a2,246,en-US,B,5,2
+246-a3,246,en-US,C,10,1
+247-a1,247,en-US,A,24%,3
+247-a2,247,en-US,B,44%,2
+247-a3,247,en-US,C,60%,1
+248-a1,248,en-US,A,7%,1
+248-a2,248,en-US,B,27%,2
+248-a3,248,en-US,C,47%,3
+249-a1,249,en-US,A,2%,3
+249-a2,249,en-US,B,12%,2
+249-a3,249,en-US,C,25%,1
+25-a1,25,en-US,A,17kg,1
+25-a2,25,en-US,B,37kg,2
+25-a3,25,en-US,C,57kg,3
+250-a1,250,en-US,A,Less than 55%,3
+250-a2,250,en-US,B,Around 75%,2
+250-a3,250,en-US,C,More than 95%,1
+251-a1,251,en-US,A,37 years,3
+251-a2,251,en-US,B,49 years,2
+251-a3,251,en-US,C,62 years,1
+252-a1,252,en-US,A,6%,3
+252-a2,252,en-US,B,11%,2
+252-a3,252,en-US,C,16%,1
+253-a1,253,en-US,A,Less than 35%,3
+253-a2,253,en-US,B,Around 60%,2
+253-a3,253,en-US,C,More than 85%,1
+254-a1,254,en-US,A,Less than 4%,3
+254-a2,254,en-US,B,Around 18%,2
+254-a3,254,en-US,C,More than 32%,1
+255-a1,255,en-US,A,35%,1
+255-a2,255,en-US,B,50%,2
+255-a3,255,en-US,C,65%,3
+256-a1,256,en-US,A,1962,1
+256-a2,256,en-US,B,1992,2
+256-a3,256,en-US,C,It is not a member,3
+258-a1,258,en-US,A,2 which are state-owned hotels,2
+258-a2,258,en-US,B,Around 50,1
+258-a3,258,en-US,C,Airbnb is not allowed in Burundi,3
+259-a1,259,en-US,A,Around 40%,3
+259-a2,259,en-US,B,Around 75%,2
+259-a3,259,en-US,C,Around 90%,1
+26-a1,26,en-US,A,6%,1
+26-a2,26,en-US,B,26%,2
+26-a3,26,en-US,C,46%,3
+260-a1,260,en-US,A,Among the highest in the world,1
+260-a2,260,en-US,B,Around the world average,2
+260-a3,260,en-US,C,Among the lowest in the world,3
+261-a1,261,en-US,A,Less than 30%,3
+261-a2,261,en-US,B,Around 60%,2
+261-a3,261,en-US,C,More than 90%,1
+262-a1,262,en-US,A,Less than 30%,1
+262-a2,262,en-US,B,Around 50%,2
+262-a3,262,en-US,C,More than 70%,3
+263-a1,263,en-US,A,Around 50%,3
+263-a2,263,en-US,B,Around 75%,2
+263-a3,263,en-US,C,Around 90%,1
+264-a1,264,en-US,A,46 years,3
+264-a2,264,en-US,B,58 years,2
+264-a3,264,en-US,C,70 years,1
+265-a1,265,en-US,A,5%,3
+265-a2,265,en-US,B,15%,2
+265-a3,265,en-US,C,40%,1
+266-a1,266,en-US,A,Less than 15%,3
+266-a2,266,en-US,B,Around 30%,2
+266-a3,266,en-US,C,More than 50%,1
+267-a1,267,en-US,A,52%,3
+267-a2,267,en-US,B,76%,2
+267-a3,267,en-US,C,Close to 100%,1
+268-a1,268,en-US,A,Around 30%,3
+268-a2,268,en-US,B,Around 70%,2
+268-a3,268,en-US,C,More than 95%,1
+269-a1,269,en-US,A,Around 40%,3
+269-a2,269,en-US,B,Around 60%,2
+269-a3,269,en-US,C,Around 90%,1
+27-a1,27,en-US,A,Less than 10,3
+27-a2,27,en-US,B,Around 50,2
+27-a3,27,en-US,C,Around 100,1
+270-a1,270,en-US,A,1,3
+270-a2,270,en-US,B,6,2
+270-a3,270,en-US,C,11,1
+271-a1,271,en-US,A,Less than 1%,3
+271-a2,271,en-US,B,Around 10%,2
+271-a3,271,en-US,C,More than 20%,1
+272-a1,272,en-US,A,Low-income country,2
+272-a2,272,en-US,B,Middle-income country,1
+272-a3,272,en-US,C,High-income country,3
+273-a1,273,en-US,A,Around 2,3
+273-a2,273,en-US,B,Around 10,2
+273-a3,273,en-US,C,Around 40,1
+274-a1,274,en-US,A,Fewer than 30,2
+274-a2,274,en-US,B,More than 300,1
+274-a3,274,en-US,C,Airbnb is not allowed in Cameroon,3
+275-a1,275,en-US,A,Fewer than 2,3
+275-a2,275,en-US,B,Around 14,2
+275-a3,275,en-US,C,25 or more,1
+276-a1,276,en-US,A,Less than 2%,1
+276-a2,276,en-US,B,Around 27%,2
+276-a3,276,en-US,C,More than 52%,3
+277-a1,277,en-US,A,Around 18%,1
+277-a2,277,en-US,B,Around 32%,2
+277-a3,277,en-US,C,Around 46%,3
+278-a1,278,en-US,A,1993,1
+278-a2,278,en-US,B,2013,2
+278-a3,278,en-US,C,It hasn't happened yet,3
+279-a1,279,en-US,A,1960,1
+279-a2,279,en-US,B,2009,2
+279-a3,279,en-US,C,It is not a member,3
+28-a1,28,en-US,A,North Africa & Middle East,3
+28-a2,28,en-US,B,South Asia,1
+28-a3,28,en-US,C,Sub-Saharan Africa,2
+280-a1,280,en-US,A,6%,3
+280-a2,280,en-US,B,13%,2
+280-a3,280,en-US,C,21%,1
+281-a1,281,en-US,A,0,3
+281-a2,281,en-US,B,4,2
+281-a3,281,en-US,C,9,1
+282-a1,282,en-US,A,Fewer than 15,3
+282-a2,282,en-US,B,Around 50,2
+282-a3,282,en-US,C,More than 85,1
+283-a1,283,en-US,A,Around 35%,3
+283-a2,283,en-US,B,Around 65%,2
+283-a3,283,en-US,C,Around 95%,1
+284-a1,284,en-US,A,Around 49%,3
+284-a2,284,en-US,B,Around 74%,2
+284-a3,284,en-US,C,Around 99%,1
+285-a1,285,en-US,A,Around 30%,3
+285-a2,285,en-US,B,Around 70%,2
+285-a3,285,en-US,C,More than 95%,1
+286-a1,286,en-US,A,Around 20%,3
+286-a2,286,en-US,B,Around 55%,2
+286-a3,286,en-US,C,Around 80%,1
+287-a1,287,en-US,A,12%,1
+287-a2,287,en-US,B,26%,2
+287-a3,287,en-US,C,40%,3
+288-a1,288,en-US,A,38%,3
+288-a2,288,en-US,B,68%,2
+288-a3,288,en-US,C,98%,1
+289-a1,289,en-US,A,Less than 10%,1
+289-a2,289,en-US,B,Around 30%,2
+289-a3,289,en-US,C,More than 50%,3
+29-a1,29,en-US,A,100 million USD,1
+29-a2,29,en-US,B,"1,000 million USD",2
+29-a3,29,en-US,C,"10,000 million USD",3
+290-a1,290,en-US,A,7%,3
+290-a2,290,en-US,B,37%,2
+290-a3,290,en-US,C,67%,1
+291-a1,291,en-US,A,Around 15%,3
+291-a2,291,en-US,B,Around 50%,2
+291-a3,291,en-US,C,More than 95%,1
+292-a1,292,en-US,A,2006,1
+292-a2,292,en-US,B,Women are not allowed to play,3
+292-a3,292,en-US,C,It hasn't happened yet,2
+294-a1,294,en-US,A,Less than 10%,1
+294-a2,294,en-US,B,Around 30%,2
+294-a3,294,en-US,C,More than 50%,3
+295-a1,295,en-US,A,Less than 1%,3
+295-a2,295,en-US,B,Around 6%,2
+295-a3,295,en-US,C,More than 14%,1
+296-a1,296,en-US,A,Fewer than 30,2
+296-a2,296,en-US,B,More than 300,1
+296-a3,296,en-US,C,Airbnb is not allowed in DRC,3
+297-a1,297,en-US,A,Less than 30%,3
+297-a2,297,en-US,B,Around 50%,2
+297-a3,297,en-US,C,More than 70%,1
+298-a1,298,en-US,A,Around 20%,3
+298-a2,298,en-US,B,Around 50%,2
+298-a3,298,en-US,C,Around 80%,1
+299-a1,299,en-US,A,2 state-owned hotels,2
+299-a2,299,en-US,B,200 private accommodations,1
+299-a3,299,en-US,C,Airbnb is not allowed in Congo,3
+3-a1,3,en-US,A,Around 20%,3
+3-a2,3,en-US,B,Around 40%,2
+3-a3,3,en-US,C,Around 60%,1
+30-a1,30,en-US,A,40 years,3
+30-a2,30,en-US,B,50 years,2
+30-a3,30,en-US,C,60 years,1
+300-a1,300,en-US,A,4%,3
+300-a2,300,en-US,B,21%,2
+300-a3,300,en-US,C,45%,1
+301-a1,301,en-US,A,Less than 25%,3
+301-a2,301,en-US,B,Around 55%,2
+301-a3,301,en-US,C,More than 90%,1
+302-a1,302,en-US,A,Less than 35%,3
+302-a2,302,en-US,B,Around 65%,2
+302-a3,302,en-US,C,More than 95%,1
+303-a1,303,en-US,A,Around 15%,3
+303-a2,303,en-US,B,Around 50%,2
+303-a3,303,en-US,C,More than 95%,1
+304-a1,304,en-US,A,Less than 10%,3
+304-a2,304,en-US,B,Around 20%,2
+304-a3,304,en-US,C,More than 30%,1
+305-a1,305,en-US,A,Fewer than 30,2
+305-a2,305,en-US,B,More than 300,1
+305-a3,305,en-US,C,Airbnb is not allowed in Côte d’Ivoire,3
+306-a1,306,en-US,A,6%,1
+306-a2,306,en-US,B,26%,2
+306-a3,306,en-US,C,46%,3
+308-a1,308,en-US,A,Around 30%,3
+308-a2,308,en-US,B,Around 70%,2
+308-a3,308,en-US,C,More than 95%,1
+309-a1,309,en-US,A,Fewer than 10,3
+309-a2,309,en-US,B,Around 25,2
+309-a3,309,en-US,C,More than 50,1
+31-a1,31,en-US,A,Less than 30%,3
+31-a2,31,en-US,B,Around 50%,2
+31-a3,31,en-US,C,More than 80%,1
+310-a1,310,en-US,A,1,3
+310-a2,310,en-US,B,5,2
+310-a3,310,en-US,C,9,1
+311-a1,311,en-US,A,Zero because Cuba bans AirBnB,3
+311-a2,311,en-US,B,Zero because embargoes block AirBnB,2
+311-a3,311,en-US,C,More than 300,1
+312-a1,312,en-US,A,1,3
+312-a2,312,en-US,B,4,2
+312-a3,312,en-US,C,13,1
+313-a1,313,en-US,A,13%,1
+313-a2,313,en-US,B,23%,2
+313-a3,313,en-US,C,33%,3
+314-a1,314,en-US,A,Less than 10%,3
+314-a2,314,en-US,B,Around 25%,2
+314-a3,314,en-US,C,More than 40%,1
+315-a1,315,en-US,A,Around 10,3
+315-a2,315,en-US,B,Around 50,2
+315-a3,315,en-US,C,Around 170,1
+316-a1,316,en-US,A,2%,1
+316-a2,316,en-US,B,22%,2
+316-a3,316,en-US,C,42%,3
+317-a1,317,en-US,A,Less than 45%,3
+317-a2,317,en-US,B,Around 70%,2
+317-a3,317,en-US,C,More than 95%,1
+318-a1,318,en-US,A,Fewer than 5,3
+318-a2,318,en-US,B,Around 20,2
+318-a3,318,en-US,C,More than 35,1
+319-a1,319,en-US,A,13 weeks,3
+319-a2,319,en-US,B,31 weeks,2
+319-a3,319,en-US,C,53 weeks,1
+32-a1,32,en-US,A,Low-income countries,1
+32-a2,32,en-US,B,Middle-income countries,2
+32-a3,32,en-US,C,High-income countries,3
+320-a1,320,en-US,A,1,3
+320-a2,320,en-US,B,8,2
+320-a3,320,en-US,C,16,1
+321-a1,321,en-US,A,Fewer than 30,2
+321-a2,321,en-US,B,More than 300,1
+321-a3,321,en-US,C,Airbnb is not allowed in the Czech Republic,3
+322-a1,322,en-US,A,Less than 5%,1
+322-a2,322,en-US,B,Around 25%,2
+322-a3,322,en-US,C,More than 45%,3
+323-a1,323,en-US,A,Around 4%,1
+323-a2,323,en-US,B,Around 16%,2
+323-a3,323,en-US,C,Around 28%,3
+324-a1,324,en-US,A,Around 20%,3
+324-a2,324,en-US,B,Around 65%,2
+324-a3,324,en-US,C,More than 90%,1
+325-a1,325,en-US,A,2 which are state-owned hotels,2
+325-a2,325,en-US,B,Around 40 private accommodations,1
+325-a3,325,en-US,C,Airbnb is not allowed in Djibouti,3
+326-a1,326,en-US,A,Around 25%,3
+326-a2,326,en-US,B,Around 40%,2
+326-a3,326,en-US,C,Around 60%,1
+327-a1,327,en-US,A,Less than 40%,3
+327-a2,327,en-US,B,Around 60%,2
+327-a3,327,en-US,C,More than 80%,1
+328-a1,328,en-US,A,Around 40%,3
+328-a2,328,en-US,B,Around 55%,2
+328-a3,328,en-US,C,Around 70%,1
+329-a1,329,en-US,A,Less than 45%,3
+329-a2,329,en-US,B,Around 70%,2
+329-a3,329,en-US,C,More than 95%,1
+33-a1,33,en-US,A,Less than 25%,3
+33-a2,33,en-US,B,Around 55%,2
+33-a3,33,en-US,C,More than 85%,1
+330-a1,330,en-US,A,Around 30%,3
+330-a2,330,en-US,B,Around 70%,2
+330-a3,330,en-US,C,More than 95%,1
+331-a1,331,en-US,A,1980,1
+331-a2,331,en-US,B,2002,2
+331-a3,331,en-US,C,It hasn't happened yet,3
+332-a1,332,en-US,A,25%,3
+332-a2,332,en-US,B,50%,2
+332-a3,332,en-US,C,75%,1
+333-a1,333,en-US,A,3%,3
+333-a2,333,en-US,B,14%,2
+333-a3,333,en-US,C,21%,1
+334-a1,334,en-US,A,Less than 55%,3
+334-a2,334,en-US,B,Around 75%,2
+334-a3,334,en-US,C,More than 95%,1
+335-a1,335,en-US,A,Around 30%,3
+335-a2,335,en-US,B,Around 70%,2
+335-a3,335,en-US,C,More than 95%,1
+336-a1,336,en-US,A,Fewer than 10,3
+336-a2,336,en-US,B,Around 50,2
+336-a3,336,en-US,C,Around 100,1
+337-a1,337,en-US,A,Close to 40%,3
+337-a2,337,en-US,B,Close to 70%,2
+337-a3,337,en-US,C,Close to 100%,1
+338-a1,338,en-US,A,1929,1
+338-a2,338,en-US,B,1949,2
+338-a3,338,en-US,C,1979,3
+339-a1,339,en-US,A,Fewer than 30,2
+339-a2,339,en-US,B,More than 300,1
+339-a3,339,en-US,C,Airbnb is not allowed in Ecuador,3
+34-a1,34,en-US,A,Less than 15%,3
+34-a2,34,en-US,B,Roughly 30%,2
+34-a3,34,en-US,C,More than 50%,1
+340-a1,340,en-US,A,Fewer than 15,3
+340-a2,340,en-US,B,Around 40,2
+340-a3,340,en-US,C,More than 65,1
+342-a1,342,en-US,A,Around 20,3
+342-a2,342,en-US,B,Around 140,2
+342-a3,342,en-US,C,Around 470,1
+343-a1,343,en-US,A,Less than 10%,1
+343-a2,343,en-US,B,Around 30%,2
+343-a3,343,en-US,C,More than 50%,3
+344-a1,344,en-US,A,5%,3
+344-a2,344,en-US,B,18%,2
+344-a3,344,en-US,C,31%,1
+345-a1,345,en-US,A,Less than 15%,3
+345-a2,345,en-US,B,Around 40%,2
+345-a3,345,en-US,C,More than 80%,1
+346-a1,346,en-US,A,Less than 55%,3
+346-a2,346,en-US,B,Around 75%,2
+346-a3,346,en-US,C,More than 95%,1
+347-a1,347,en-US,A,Around 5%,1
+347-a2,347,en-US,B,Around 25%,2
+347-a3,347,en-US,C,Around 45%,3
+348-a1,348,en-US,A,Around 30%,3
+348-a2,348,en-US,B,Around 70%,2
+348-a3,348,en-US,C,More than 95%,1
+349-a1,349,en-US,A,Less than 15%,3
+349-a2,349,en-US,B,Around 45%,2
+349-a3,349,en-US,C,More than 80%,1
+35-a1,35,en-US,A,Around 77%,3
+35-a2,35,en-US,B,Around 87%,2
+35-a3,35,en-US,C,Around 97%,1
+350-a1,350,en-US,A,35%,3
+350-a2,350,en-US,B,65%,2
+350-a3,350,en-US,C,95%,1
+351-a1,351,en-US,A,1968,1
+351-a2,351,en-US,B,2002,2
+351-a3,351,en-US,C,It is not a UN member,3
+352-a1,352,en-US,A,Around 37 years,3
+352-a2,352,en-US,B,Around 48 years,2
+352-a3,352,en-US,C,Around 64 years,1
+353-a1,353,en-US,A,0,3
+353-a2,353,en-US,B,1,2
+353-a3,353,en-US,C,4,1
+355-a1,355,en-US,A,25 weeks,3
+355-a2,355,en-US,B,55 weeks,2
+355-a3,355,en-US,C,85 weeks,1
+356-a1,356,en-US,A,Less than 1%,1
+356-a2,356,en-US,B,Around 20%,2
+356-a3,356,en-US,C,More than 40%,3
+357-a1,357,en-US,A,3%,1
+357-a2,357,en-US,B,23%,2
+357-a3,357,en-US,C,43%,3
+358-a1,358,en-US,A,20%,1
+358-a2,358,en-US,B,30%,2
+358-a3,358,en-US,C,40%,3
+359-a1,359,en-US,A,Low-income,2
+359-a2,359,en-US,B,Middle-income,1
+359-a3,359,en-US,C,High-income,3
+36-a1,36,en-US,A,30%,3
+36-a2,36,en-US,B,50%,2
+36-a3,36,en-US,C,70%,1
+360-a1,360,en-US,A,Around 30%,3
+360-a2,360,en-US,B,Around 70%,2
+360-a3,360,en-US,C,More than 95%,1
+361-a1,361,en-US,A,Less than 5%,3
+361-a2,361,en-US,B,Around 15%,2
+361-a3,361,en-US,C,More than 25%,1
+362-a1,362,en-US,A,Less than 50%,3
+362-a2,362,en-US,B,Around 65%,2
+362-a3,362,en-US,C,More than 80%,1
+363-a1,363,en-US,A,Around 300,1
+363-a2,363,en-US,B,A single state-owned hotel,2
+363-a3,363,en-US,C,Airbnb is banned in Eswatini,3
+364-a1,364,en-US,A,41 years,3
+364-a2,364,en-US,B,55 years,2
+364-a3,364,en-US,C,69 years,1
+365-a1,365,en-US,A,2,3
+365-a2,365,en-US,B,7,2
+365-a3,365,en-US,C,17,1
+366-a1,366,en-US,A,Coal,3
+366-a2,366,en-US,B,Hydropower,1
+366-a3,366,en-US,C,Oil,2
+367-a1,367,en-US,A,Fewer than 30,2
+367-a2,367,en-US,B,More than 300,1
+367-a3,367,en-US,C,Airbnb is not allowed in Ethiopia,3
+368-a1,368,en-US,A,Around 15%,3
+368-a2,368,en-US,B,Around 50%,2
+368-a3,368,en-US,C,More than 95%,1
+369-a1,369,en-US,A,1970,1
+369-a2,369,en-US,B,1990,2
+369-a3,369,en-US,C,Fiji is not a member,3
+37-a1,37,en-US,A,Around 10%,3
+37-a2,37,en-US,B,Around 30%,2
+37-a3,37,en-US,C,Around 50%,1
+371-a1,371,en-US,A,nan,3
+371-a2,371,en-US,B,Around 4,2
+371-a3,371,en-US,C,7 or more,1
+372-a1,372,en-US,A,4%,1
+372-a2,372,en-US,B,19%,2
+372-a3,372,en-US,C,34%,3
+373-a1,373,en-US,A,2000,1
+373-a2,373,en-US,B,2020,2
+373-a3,373,en-US,C,It hasn't happened yet,3
+374-a1,374,en-US,A,Fewer than 4,3
+374-a2,374,en-US,B,Around 16,2
+374-a3,374,en-US,C,23 or more,1
+375-a1,375,en-US,A,3%,1
+375-a2,375,en-US,B,23%,2
+375-a3,375,en-US,C,43%,3
+376-a1,376,en-US,A,Around 4%,1
+376-a2,376,en-US,B,Around 16%,2
+376-a3,376,en-US,C,Around 28%,3
+377-a1,377,en-US,A,42 years,3
+377-a2,377,en-US,B,54 years,2
+377-a3,377,en-US,C,68 years,1
+378-a1,378,en-US,A,2%,3
+378-a2,378,en-US,B,12%,2
+378-a3,378,en-US,C,22%,1
+379-a1,379,en-US,A,Less than 5%,3
+379-a2,379,en-US,B,Around 20%,2
+379-a3,379,en-US,C,More than 40%,1
+38-a1,38,en-US,A,Around 20%,3
+38-a2,38,en-US,B,Around 40%,2
+38-a3,38,en-US,C,Around 60%,1
+380-a1,380,en-US,A,Around 50%,3
+380-a2,380,en-US,B,Around 75%,2
+380-a3,380,en-US,C,Around 90%,1
+381-a1,381,en-US,A,2009,1
+381-a2,381,en-US,B,Women cannot run for office in Gabon,3
+381-a3,381,en-US,C,It hasn't happened yet,2
+383-a1,383,en-US,A,Less than 40%,3
+383-a2,383,en-US,B,Around 60%,2
+383-a3,383,en-US,C,More than 80%,1
+384-a1,384,en-US,A,Around 25%,1
+384-a2,384,en-US,B,Around 50%,2
+384-a3,384,en-US,C,Around 75%,3
+385-a1,385,en-US,A,Less than 15%,3
+385-a2,385,en-US,B,Around 45%,2
+385-a3,385,en-US,C,More than 85%,1
+386-a1,386,en-US,A,7%,1
+386-a2,386,en-US,B,25%,2
+386-a3,386,en-US,C,43%,3
+387-a1,387,en-US,A,Fewer than 14,3
+387-a2,387,en-US,B,Around 29,2
+387-a3,387,en-US,C,45 or more,1
+388-a1,388,en-US,A,6,3
+388-a2,388,en-US,B,31,2
+388-a3,388,en-US,C,51,1
+389-a1,389,en-US,A,Around 30%,3
+389-a2,389,en-US,B,Around 50%,2
+389-a3,389,en-US,C,Around 70%,1
+39-a1,39,en-US,A,Less than 20%,3
+39-a2,39,en-US,B,Around 40%,2
+39-a3,39,en-US,C,More than 60%,1
+390-a1,390,en-US,A,Around 180,3
+390-a2,390,en-US,B,Around 300,2
+390-a3,390,en-US,C,Around 3800,1
+391-a1,391,en-US,A,5%,3
+391-a2,391,en-US,B,10%,2
+391-a3,391,en-US,C,15%,1
+392-a1,392,en-US,A,Around 15%,3
+392-a2,392,en-US,B,Around 50%,2
+392-a3,392,en-US,C,Around 85%,1
+393-a1,393,en-US,A,Less than 6%,3
+393-a2,393,en-US,B,Around 22%,2
+393-a3,393,en-US,C,More than 38%,1
+394-a1,394,en-US,A,Less than 15%,3
+394-a2,394,en-US,B,Around 45%,2
+394-a3,394,en-US,C,More than 75%,1
+395-a1,395,en-US,A,Around 5%,3
+395-a2,395,en-US,B,Around 35%,2
+395-a3,395,en-US,C,Around 80%,1
+396-a1,396,en-US,A,Less than 50%,3
+396-a2,396,en-US,B,Around 65%,2
+396-a3,396,en-US,C,More than 90%,1
+397-a1,397,en-US,A,Less than 20%,3
+397-a2,397,en-US,B,Around 30%,2
+397-a3,397,en-US,C,More than 40%,1
+398-a1,398,en-US,A,Around 10,3
+398-a2,398,en-US,B,Around 50,2
+398-a3,398,en-US,C,Around 170,1
+399-a1,399,en-US,A,Around 22%,1
+399-a2,399,en-US,B,Around 37%,2
+399-a3,399,en-US,C,Around 52%,3
+4-a1,4,en-US,A,Less than 1%,1
+4-a2,4,en-US,B,Around 11%,2
+4-a3,4,en-US,C,Around 21%,3
+40-a1,40,en-US,A,Around 5%,3
+40-a2,40,en-US,B,Around 15%,2
+40-a3,40,en-US,C,Around 25%,1
+400-a1,400,en-US,A,Less than 45%,3
+400-a2,400,en-US,B,Around 70%,2
+400-a3,400,en-US,C,More than 95%,1
+401-a1,401,en-US,A,Around 35%,3
+401-a2,401,en-US,B,Around 65%,2
+401-a3,401,en-US,C,More than 90%,1
+402-a1,402,en-US,A,4%,3
+402-a2,402,en-US,B,21%,2
+402-a3,402,en-US,C,36%,1
+403-a1,403,en-US,A,5%,1
+403-a2,403,en-US,B,35%,2
+403-a3,403,en-US,C,65%,3
+404-a1,404,en-US,A,Around 20%,3
+404-a2,404,en-US,B,Around 50%,2
+404-a3,404,en-US,C,More than 90%,1
+405-a1,405,en-US,A,2%,3
+405-a2,405,en-US,B,11%,2
+405-a3,405,en-US,C,20%,1
+406-a1,406,en-US,A,Less than 1%,3
+406-a2,406,en-US,B,Around 5%,2
+406-a3,406,en-US,C,More than 15%,1
+407-a1,407,en-US,A,Around 35%,3
+407-a2,407,en-US,B,Around 65%,2
+407-a3,407,en-US,C,More than 85%,1
+408-a1,408,en-US,A,Less than 50%,3
+408-a2,408,en-US,B,Around 70%,2
+408-a3,408,en-US,C,More than 90%,1
+409-a1,409,en-US,A,2 state-owned hotels,2
+409-a2,409,en-US,B,Around 200 private accommodations,1
+409-a3,409,en-US,C,Airbnb is not allowed in Guinea,3
+41-a1,41,en-US,A,Pill,3
+41-a2,41,en-US,B,Sterilization,1
+41-a3,41,en-US,C,Intrauterine Device (IUD),2
+410-a1,410,en-US,A,Around 37 years,3
+410-a2,410,en-US,B,Around 49 years,2
+410-a3,410,en-US,C,Around 61 years,1
+411-a1,411,en-US,A,Less than 30%,3
+411-a2,411,en-US,B,Around 50%,2
+411-a3,411,en-US,C,More than 70%,1
+412-a1,412,en-US,A,Guinea is not part of it,3
+412-a2,412,en-US,B,20 municipalities,2
+412-a3,412,en-US,C,40 municipalities,1
+413-a1,413,en-US,A,Less than 5%,3
+413-a2,413,en-US,B,Around 10%,2
+413-a3,413,en-US,C,More than 15%,1
+414-a1,414,en-US,A,1974,1
+414-a2,414,en-US,B,1994,2
+414-a3,414,en-US,C,it is not a member yet,3
+415-a1,415,en-US,A,Around 30%,3
+415-a2,415,en-US,B,Around 60%,2
+415-a3,415,en-US,C,More than 90%,1
+416-a1,416,en-US,A,12%,3
+416-a2,416,en-US,B,22%,2
+416-a3,416,en-US,C,33%,1
+417-a1,417,en-US,A,Less than 50%,3
+417-a2,417,en-US,B,Around 70%,2
+417-a3,417,en-US,C,More than 90%,1
+418-a1,418,en-US,A,Around 50%,3
+418-a2,418,en-US,B,Around 75%,2
+418-a3,418,en-US,C,Around 90%,1
+419-a1,419,en-US,A,In 1945 among the initial 51 nations,1
+419-a2,419,en-US,B,In 1977 as member number 149,2
+419-a3,419,en-US,C,In 1992 as member number 179,3
+42-a1,42,en-US,A,39,3
+42-a2,42,en-US,B,59,2
+42-a3,42,en-US,C,89,1
+420-a1,420,en-US,A,Less than 20%,3
+420-a2,420,en-US,B,Around 40%,2
+420-a3,420,en-US,C,More than 60%,1
+421-a1,421,en-US,A,48 years,3
+421-a2,421,en-US,B,60 years,2
+421-a3,421,en-US,C,72 years,1
+422-a1,422,en-US,A,1957,1
+422-a2,422,en-US,B,1987,2
+422-a3,422,en-US,C,No female politicians have been elected yet,3
+423-a1,423,en-US,A,Around 4%,3
+423-a2,423,en-US,B,Around 12%,2
+423-a3,423,en-US,C,Around 20%,1
+424-a1,424,en-US,A,Less than 20%,3
+424-a2,424,en-US,B,Around 40%,2
+424-a3,424,en-US,C,More than 60%,1
+425-a1,425,en-US,A,Less than 70%,3
+425-a2,425,en-US,B,Around 85%,2
+425-a3,425,en-US,C,Close to 100%,1
+426-a1,426,en-US,A,Around 6%,1
+426-a2,426,en-US,B,Around 17%,2
+426-a3,426,en-US,C,Around 28%,3
+427-a1,427,en-US,A,5%,1
+427-a2,427,en-US,B,23%,2
+427-a3,427,en-US,C,41%,3
+428-a1,428,en-US,A,nan,3
+428-a2,428,en-US,B,Two,2
+428-a3,428,en-US,C,14 or more,1
+429-a1,429,en-US,A,1st,1
+429-a2,429,en-US,B,10th,2
+429-a3,429,en-US,C,20th,3
+43-a1,43,en-US,A,13,3
+43-a2,43,en-US,B,73,2
+43-a3,43,en-US,C,113,1
+430-a1,430,en-US,A,Less than 25%,3
+430-a2,430,en-US,B,Around 55%,2
+430-a3,430,en-US,C,More than 85%,1
+431-a1,431,en-US,A,Fewer than 35,3
+431-a2,431,en-US,B,Around 110,2
+431-a3,431,en-US,C,More than 180,1
+432-a1,432,en-US,A,Low-income country,3
+432-a2,432,en-US,B,Middle-income country,1
+432-a3,432,en-US,C,High-income country,2
+433-a1,433,en-US,A,Around 30%,3
+433-a2,433,en-US,B,Around 70%,2
+433-a3,433,en-US,C,More than 95%,1
+435-a1,435,en-US,A,Fewer than 45,3
+435-a2,435,en-US,B,Around 70,2
+435-a3,435,en-US,C,More than 95,1
+436-a1,436,en-US,A,Around 60%,3
+436-a2,436,en-US,B,Around 80%,2
+436-a3,436,en-US,C,Close to 100%,1
+437-a1,437,en-US,A,2 state-owned hotels,2
+437-a2,437,en-US,B,80 private accommodations,1
+437-a3,437,en-US,C,Airbnb is not allowed in Iraq,3
+438-a1,438,en-US,A,Around 50 years,3
+438-a2,438,en-US,B,Around 60 years,2
+438-a3,438,en-US,C,Around 70 years,1
+439-a1,439,en-US,A,2010,1
+439-a2,439,en-US,B,Not yet,2
+439-a3,439,en-US,C,Women are not allowed to play football,3
+44-a1,44,en-US,A,50,3
+44-a2,44,en-US,B,120,2
+44-a3,44,en-US,C,190,1
+440-a1,440,en-US,A,2%,3
+440-a2,440,en-US,B,14%,2
+440-a3,440,en-US,C,26%,1
+441-a1,441,en-US,A,Around 9%,1
+441-a2,441,en-US,B,Around 19%,2
+441-a3,441,en-US,C,Around 29%,3
+442-a1,442,en-US,A,Low-income,3
+442-a2,442,en-US,B,Middle-income,2
+442-a3,442,en-US,C,High-income,1
+443-a1,443,en-US,A,Around 5%,1
+443-a2,443,en-US,B,Around 17%,2
+443-a3,443,en-US,C,Around 29%,3
+444-a1,444,en-US,A,Less than 2%,1
+444-a2,444,en-US,B,Around 17%,2
+444-a3,444,en-US,C,More than 32%,3
+445-a1,445,en-US,A,Fewer than 8,3
+445-a2,445,en-US,B,Around 22,2
+445-a3,445,en-US,C,35 or more,1
+446-a1,446,en-US,A,27%,3
+446-a2,446,en-US,B,47%,2
+446-a3,446,en-US,C,67%,1
+447-a1,447,en-US,A,Less than 5%,1
+447-a2,447,en-US,B,Around 30%,2
+447-a3,447,en-US,C,Around 55%,3
+448-a1,448,en-US,A,Around 30%,3
+448-a2,448,en-US,B,Around 50%,2
+448-a3,448,en-US,C,Around 80%,1
+449-a1,449,en-US,A,Around 60,3
+449-a2,449,en-US,B,Around 300,2
+449-a3,449,en-US,C,Around 1000,1
+45-a1,45,en-US,A,Less than 10%,1
+45-a2,45,en-US,B,Around 30%,2
+45-a3,45,en-US,C,More than 60%,3
+450-a1,450,en-US,A,Less than 40%,3
+450-a2,450,en-US,B,Around 65%,2
+450-a3,450,en-US,C,More than 90%,1
+451-a1,451,en-US,A,Around 30%,3
+451-a2,451,en-US,B,Around 50%,2
+451-a3,451,en-US,C,Around 70%,1
+452-a1,452,en-US,A,Around 35%,3
+452-a2,452,en-US,B,Around 65%,2
+452-a3,452,en-US,C,More than 90%,1
+453-a1,453,en-US,A,Less than 35%,3
+453-a2,453,en-US,B,Around 65%,2
+453-a3,453,en-US,C,More than 95%,1
+454-a1,454,en-US,A,2006,1
+454-a2,454,en-US,B,Women cannot run for office in Jamaica,3
+454-a3,454,en-US,C,It hasn't happened yet,2
+455-a1,455,en-US,A,3%,1
+455-a2,455,en-US,B,18%,2
+455-a3,455,en-US,C,33%,3
+456-a1,456,en-US,A,28%,1
+456-a2,456,en-US,B,43%,2
+456-a3,456,en-US,C,58%,3
+457-a1,457,en-US,A,Less than 10%,1
+457-a2,457,en-US,B,Around 30%,2
+457-a3,457,en-US,C,Around 50%,3
+458-a1,458,en-US,A,Less than 50%,3
+458-a2,458,en-US,B,Around 70%,2
+458-a3,458,en-US,C,More than 90%,1
+459-a1,459,en-US,A,Fewer than 10,3
+459-a2,459,en-US,B,Around 35,2
+459-a3,459,en-US,C,More than 60,1
+46-a1,46,en-US,A,Roughly 10%,1
+46-a2,46,en-US,B,Roughly 30%,2
+46-a3,46,en-US,C,Roughly 50%,3
+460-a1,460,en-US,A,Kazakhstan is not part of it,3
+460-a2,460,en-US,B,5,2
+460-a3,460,en-US,C,25,1
+461-a1,461,en-US,A,Less than 35%,3
+461-a2,461,en-US,B,Around 65%,2
+461-a3,461,en-US,C,More than 95%,1
+462-a1,462,en-US,A,Around 15%,3
+462-a2,462,en-US,B,Around 50%,2
+462-a3,462,en-US,C,More than 95%,1
+463-a1,463,en-US,A,Coal,3
+463-a2,463,en-US,B,Renewable energy,1
+463-a3,463,en-US,C,Natural gas,2
+464-a1,464,en-US,A,Less than 10%,3
+464-a2,464,en-US,B,Around 40%,2
+464-a3,464,en-US,C,More than 70%,1
+466-a1,466,en-US,A,Less than 25%,3
+466-a2,466,en-US,B,Around 45%,2
+466-a3,466,en-US,C,More than 65%,1
+467-a1,467,en-US,A,Among the highest in the world,1
+467-a2,467,en-US,B,Around world average,2
+467-a3,467,en-US,C,Among the lowest in the world,3
+468-a1,468,en-US,A,Less than 5%,1
+468-a2,468,en-US,B,Around 25%,2
+468-a3,468,en-US,C,More than 45%,3
+469-a1,469,en-US,A,Around 30%,3
+469-a2,469,en-US,B,Around 70%,2
+469-a3,469,en-US,C,More than 95%,1
+47-a1,47,en-US,A,Around 30%,3
+47-a2,47,en-US,B,Around 50%,2
+47-a3,47,en-US,C,Around 70%,1
+470-a1,470,en-US,A,Around 37 years,3
+470-a2,470,en-US,B,Around 55 years,2
+470-a3,470,en-US,C,Around 73 years,1
+471-a1,471,en-US,A,Fewer than 5,3
+471-a2,471,en-US,B,Around 25,2
+471-a3,471,en-US,C,More than 45,1
+472-a1,472,en-US,A,It is not part of UNESCO,3
+472-a2,472,en-US,B,nan,2
+472-a3,472,en-US,C,2,1
+473-a1,473,en-US,A,Fewer than 4,3
+473-a2,473,en-US,B,Around 11,2
+473-a3,473,en-US,C,19 or more,1
+474-a1,474,en-US,A,Around 30%,3
+474-a2,474,en-US,B,Around 55%,2
+474-a3,474,en-US,C,Around 80%,1
+475-a1,475,en-US,A,Around 9%,1
+475-a2,475,en-US,B,Around 29%,2
+475-a3,475,en-US,C,Around 49%,3
+476-a1,476,en-US,A,Around 16%,1
+476-a2,476,en-US,B,Around 30%,2
+476-a3,476,en-US,C,Around 44%,3
+477-a1,477,en-US,A,52,3
+477-a2,477,en-US,B,62,2
+477-a3,477,en-US,C,72,1
+478-a1,478,en-US,A,55%,3
+478-a2,478,en-US,B,75%,2
+478-a3,478,en-US,C,95%,1
+479-a1,479,en-US,A,Less than 1%,1
+479-a2,479,en-US,B,10%,2
+479-a3,479,en-US,C,20%,3
+48-a1,48,en-US,A,30,3
+48-a2,48,en-US,B,100,2
+48-a3,48,en-US,C,180,1
+480-a1,480,en-US,A,Around 50%,3
+480-a2,480,en-US,B,Around 75%,2
+480-a3,480,en-US,C,Close to 100%,1
+481-a1,481,en-US,A,55%,3
+481-a2,481,en-US,B,75%,2
+481-a3,481,en-US,C,95%,1
+482-a1,482,en-US,A,2009,1
+482-a2,482,en-US,B,2019,2
+482-a3,482,en-US,C,No woman has been elected yet,3
+483-a1,483,en-US,A,5,3
+483-a2,483,en-US,B,Around 15,2
+483-a3,483,en-US,C,Around 50,1
+484-a1,484,en-US,A,Less than 60%,3
+484-a2,484,en-US,B,Around 80%,2
+484-a3,484,en-US,C,Close to 100%,1
+485-a1,485,en-US,A,Around 30%,3
+485-a2,485,en-US,B,Around 70%,2
+485-a3,485,en-US,C,More than 95%,1
+486-a1,486,en-US,A,Oil,3
+486-a2,486,en-US,B,hydropower,1
+486-a3,486,en-US,C,coal,2
+487-a1,487,en-US,A,Less than 50%,3
+487-a2,487,en-US,B,Around 70%,2
+487-a3,487,en-US,C,More than 90%,1
+488-a1,488,en-US,A,1992,1
+488-a2,488,en-US,B,2002,2
+488-a3,488,en-US,C,it has not happened yet,3
+489-a1,489,en-US,A,Fewer than 30,2
+489-a2,489,en-US,B,More than 300,1
+489-a3,489,en-US,C,Airbnb is not allowed in Kyrgyzstan,3
+49-a1,49,en-US,A,30%,3
+49-a2,49,en-US,B,50%,2
+49-a3,49,en-US,C,70%,1
+490-a1,490,en-US,A,Around 15%,3
+490-a2,490,en-US,B,Around 50%,2
+490-a3,490,en-US,C,More than 95%,1
+491-a1,491,en-US,A,Around 10%,3
+491-a2,491,en-US,B,Around 25%,2
+491-a3,491,en-US,C,Around 40%,1
+492-a1,492,en-US,A,Less than 30%,3
+492-a2,492,en-US,B,Around 55%,2
+492-a3,492,en-US,C,More than 80%,1
+493-a1,493,en-US,A,Less than 50%,3
+493-a2,493,en-US,B,Around 70%,2
+493-a3,493,en-US,C,More than 90%,1
+494-a1,494,en-US,A,Around 15 weeks,3
+494-a2,494,en-US,B,Around 30 weeks,2
+494-a3,494,en-US,C,Around 50 weeks,1
+495-a1,495,en-US,A,7%,1
+495-a2,495,en-US,B,27%,2
+495-a3,495,en-US,C,47%,3
+496-a1,496,en-US,A,Around 21%,1
+496-a2,496,en-US,B,Around 36%,2
+496-a3,496,en-US,C,Around 51%,3
+497-a1,497,en-US,A,1999,1
+497-a2,497,en-US,B,2019,2
+497-a3,497,en-US,C,It hasn't happened yet,3
+498-a1,498,en-US,A,Less than 50%,3
+498-a2,498,en-US,B,Around 70%,2
+498-a3,498,en-US,C,More than 90%,1
+499-a1,499,en-US,A,1952,1
+499-a2,499,en-US,B,1982,2
+499-a3,499,en-US,C,2012,3
+5-a1,5,en-US,A,Around 9%,3
+5-a2,5,en-US,B,Around 49%,2
+5-a3,5,en-US,C,Around 89%,1
+50-a1,50,en-US,A,Around 30%,3
+50-a2,50,en-US,B,Around 60%,2
+50-a3,50,en-US,C,Around 90%,1
+500-a1,500,en-US,A,16%,1
+500-a2,500,en-US,B,28%,2
+500-a3,500,en-US,C,40%,3
+501-a1,501,en-US,A,Around 10%,3
+501-a2,501,en-US,B,Around 20%,2
+501-a3,501,en-US,C,Around 30%,1
+502-a1,502,en-US,A,Around 40%,3
+502-a2,502,en-US,B,Around 75%,2
+502-a3,502,en-US,C,Around 90%,1
+503-a1,503,en-US,A,2 which are state-owned hotels,2
+503-a2,503,en-US,B,More than 100,1
+503-a3,503,en-US,C,Airbnb is not allowed in Lesotho,3
+504-a1,504,en-US,A,Less than 25%,3
+504-a2,504,en-US,B,Around 55%,2
+504-a3,504,en-US,C,More than 85%,1
+505-a1,505,en-US,A,Fewer than 5,3
+505-a2,505,en-US,B,Around 10,2
+505-a3,505,en-US,C,More than 20,1
+506-a1,506,en-US,A,7%,3
+506-a2,506,en-US,B,22%,2
+506-a3,506,en-US,C,37%,1
+507-a1,507,en-US,A,Around 45 years,3
+507-a2,507,en-US,B,Around 59 years,2
+507-a3,507,en-US,C,Around 75 years,1
+508-a1,508,en-US,A,Fewer than 10,3
+508-a2,508,en-US,B,Around 30,2
+508-a3,508,en-US,C,More than 60,1
+509-a1,509,en-US,A,Less than 35%,3
+509-a2,509,en-US,B,Around 60%,2
+509-a3,509,en-US,C,More than 85%,1
+51-a1,51,en-US,A,Around 5%,1
+51-a2,51,en-US,B,Around 25%,2
+51-a3,51,en-US,C,Around 45%,3
+510-a1,510,en-US,A,Less than 50%,3
+510-a2,510,en-US,B,Around 75%,2
+510-a3,510,en-US,C,Close to 100%,1
+511-a1,511,en-US,A,12 weeks,3
+511-a2,511,en-US,B,32 weeks,2
+511-a3,511,en-US,C,62 weeks,1
+512-a1,512,en-US,A,Less than 8%,1
+512-a2,512,en-US,B,Around 23%,2
+512-a3,512,en-US,C,More than 38%,3
+513-a1,513,en-US,A,1990,1
+513-a2,513,en-US,B,2010,2
+513-a3,513,en-US,C,It hasn't happened yet,3
+514-a1,514,en-US,A,Around 5%,3
+514-a2,514,en-US,B,Around 20%,2
+514-a3,514,en-US,C,More than 40%,1
+515-a1,515,en-US,A,Around 5%,1
+515-a2,515,en-US,B,Around 18%,2
+515-a3,515,en-US,C,Around 32%,3
+516-a1,516,en-US,A,0,3
+516-a2,516,en-US,B,6,2
+516-a3,516,en-US,C,26,1
+517-a1,517,en-US,A,Less than 25%,3
+517-a2,517,en-US,B,Around 45%,2
+517-a3,517,en-US,C,More than 65%,1
+518-a1,518,en-US,A,1%,3
+518-a2,518,en-US,B,10%,2
+518-a3,518,en-US,C,17%,1
+519-a1,519,en-US,A,25%,1
+519-a2,519,en-US,B,50%,2
+519-a3,519,en-US,C,75%,3
+52-a1,52,en-US,A,Around 21%,1
+52-a2,52,en-US,B,Around 41%,2
+52-a3,52,en-US,C,Around 61%,3
+520-a1,520,en-US,A,There are no protection programs,3
+520-a2,520,en-US,B,13%,2
+520-a3,520,en-US,C,23%,1
+522-a1,522,en-US,A,Less than 25%,3
+522-a2,522,en-US,B,Around 55%,2
+522-a3,522,en-US,C,More than 85%,1
+523-a1,523,en-US,A,Less than 25%,1
+523-a2,523,en-US,B,Around 55%,2
+523-a3,523,en-US,C,More than 80%,3
+524-a1,524,en-US,A,2012,1
+524-a2,524,en-US,B,Women cannot run for office in Malawi,3
+524-a3,524,en-US,C,It hasn't happened yet,2
+525-a1,525,en-US,A,Fewer than 5,3
+525-a2,525,en-US,B,Around 15,2
+525-a3,525,en-US,C,More than 35,1
+526-a1,526,en-US,A,Less than 1%,3
+526-a2,526,en-US,B,Around 10%,2
+526-a3,526,en-US,C,More than 20%,1
+527-a1,527,en-US,A,Around 15%,3
+527-a2,527,en-US,B,Around 70%,2
+527-a3,527,en-US,C,More than 95%,1
+528-a1,528,en-US,A,Fewer than 50,3
+528-a2,528,en-US,B,Around 450,2
+528-a3,528,en-US,C,More than 900,1
+529-a1,529,en-US,A,Around 30%,3
+529-a2,529,en-US,B,Around 70%,2
+529-a3,529,en-US,C,More than 95%,1
+53-a1,53,en-US,A,Industry,3
+53-a2,53,en-US,B,Agriculture,1
+53-a3,53,en-US,C,Services,2
+530-a1,530,en-US,A,Less than 40%,3
+530-a2,530,en-US,B,Around 65%,2
+530-a3,530,en-US,C,More than 95%,1
+531-a1,531,en-US,A,Less than 45%,3
+531-a2,531,en-US,B,Around 70%,2
+531-a3,531,en-US,C,More than 95%,1
+532-a1,532,en-US,A,8%,1
+532-a2,532,en-US,B,24%,2
+532-a3,532,en-US,C,42%,3
+533-a1,533,en-US,A,0,3
+533-a2,533,en-US,B,3,2
+533-a3,533,en-US,C,More than 7,1
+534-a1,534,en-US,A,1960,1
+534-a2,534,en-US,B,2012,2
+534-a3,534,en-US,C,Mali is not a UN member,3
+535-a1,535,en-US,A,Around 20%,3
+535-a2,535,en-US,B,Around 50%,2
+535-a3,535,en-US,C,Around 80%,1
+536-a1,536,en-US,A,2011,1
+536-a2,536,en-US,B,Women cannot run for office in Mali,3
+536-a3,536,en-US,C,It hasn't happened yet,2
+537-a1,537,en-US,A,Around 1%,1
+537-a2,537,en-US,B,Around 16%,2
+537-a3,537,en-US,C,Around 31%,3
+538-a1,538,en-US,A,Less than 35%,3
+538-a2,538,en-US,B,Around 65%,2
+538-a3,538,en-US,C,More than 95%,1
+539-a1,539,en-US,A,1982,1
+539-a2,539,en-US,B,2002,2
+539-a3,539,en-US,C,It hasn't happened yet,3
+54-a1,54,en-US,A,Around 10%,3
+54-a2,54,en-US,B,Around 25%,2
+54-a3,54,en-US,C,Around 40%,1
+540-a1,540,en-US,A,3,3
+540-a2,540,en-US,B,6,2
+540-a3,540,en-US,C,9,1
+542-a1,542,en-US,A,Around 20%,3
+542-a2,542,en-US,B,Around 50%,2
+542-a3,542,en-US,C,More than 90%,1
+543-a1,543,en-US,A,Less than 20%,3
+543-a2,543,en-US,B,Around 50%,2
+543-a3,543,en-US,C,More than 80%,1
+544-a1,544,en-US,A,1978,1
+544-a2,544,en-US,B,2018,2
+544-a3,544,en-US,C,Never,3
+545-a1,545,en-US,A,Around 5%,3
+545-a2,545,en-US,B,Around 35%,2
+545-a3,545,en-US,C,Around 80%,1
+546-a1,546,en-US,A,Less than 10%,3
+546-a2,546,en-US,B,Around 50%,2
+546-a3,546,en-US,C,More than 90%,1
+547-a1,547,en-US,A,1961,1
+547-a2,547,en-US,B,2004,2
+547-a3,547,en-US,C,Mauritania is not a UN member,3
+548-a1,548,en-US,A,Less than 40%,3
+548-a2,548,en-US,B,Around 65%,2
+548-a3,548,en-US,C,More than 90%,1
+549-a1,549,en-US,A,Less than 30%,3
+549-a2,549,en-US,B,Around 60%,2
+549-a3,549,en-US,C,More than 90%,1
+55-a1,55,en-US,A,1% of the 1980 cost,1
+55-a2,55,en-US,B,21% of the 1980 cost,2
+55-a3,55,en-US,C,41% of the 1980 cost,3
+550-a1,550,en-US,A,1956,1
+550-a2,550,en-US,B,1976,2
+550-a3,550,en-US,C,1996,3
+551-a1,551,en-US,A,Low-income,3
+551-a2,551,en-US,B,Middle-income,1
+551-a3,551,en-US,C,High-income,2
+552-a1,552,en-US,A,5,3
+552-a2,552,en-US,B,20,2
+552-a3,552,en-US,C,35,1
+553-a1,553,en-US,A,5%,3
+553-a2,553,en-US,B,25%,2
+553-a3,553,en-US,C,48%,1
+554-a1,554,en-US,A,8%,1
+554-a2,554,en-US,B,21%,2
+554-a3,554,en-US,C,34%,3
+555-a1,555,en-US,A,Around 30%,3
+555-a2,555,en-US,B,Around 70%,2
+555-a3,555,en-US,C,More than 95%,1
+556-a1,556,en-US,A,Low-income,2
+556-a2,556,en-US,B,Middle-income,1
+556-a3,556,en-US,C,High-income,3
+557-a1,557,en-US,A,Agriculture,2
+557-a2,557,en-US,B,Services,1
+557-a3,557,en-US,C,Industry,3
+558-a1,558,en-US,A,Among the highest in the world,1
+558-a2,558,en-US,B,Around world average,2
+558-a3,558,en-US,C,Among the lowest in the world,3
+559-a1,559,en-US,A,Around 25%,1
+559-a2,559,en-US,B,Around 50%,2
+559-a3,559,en-US,C,Around 75%,3
+56-a1,56,en-US,A,50%,2
+56-a2,56,en-US,B,60%,1
+56-a3,56,en-US,C,70%,3
+560-a1,560,en-US,A,Less than 30%,3
+560-a2,560,en-US,B,Around 50%,2
+560-a3,560,en-US,C,More than 70%,1
+562-a1,562,en-US,A,Less than 35%,3
+562-a2,562,en-US,B,Around 65%,2
+562-a3,562,en-US,C,More than 95%,1
+563-a1,563,en-US,A,Around 30%,3
+563-a2,563,en-US,B,Around 70%,2
+563-a3,563,en-US,C,More than 95%,1
+564-a1,564,en-US,A,2008,1
+564-a2,564,en-US,B,Women cannot run for office in Moldova,3
+564-a3,564,en-US,C,It hasn't happened yet,2
+565-a1,565,en-US,A,0%,1
+565-a2,565,en-US,B,3%,2
+565-a3,565,en-US,C,6%,3
+566-a1,566,en-US,A,3%,3
+566-a2,566,en-US,B,15%,2
+566-a3,566,en-US,C,33%,1
+567-a1,567,en-US,A,Around 39%,3
+567-a2,567,en-US,B,Around 69%,2
+567-a3,567,en-US,C,Around 99%,1
+568-a1,568,en-US,A,Low-income,2
+568-a2,568,en-US,B,Middle-income,1
+568-a3,568,en-US,C,High-income,3
+569-a1,569,en-US,A,Around 10%,3
+569-a2,569,en-US,B,Around 25%,2
+569-a3,569,en-US,C,Around 40%,1
+57-a1,57,en-US,A,Around 25%,3
+57-a2,57,en-US,B,Around 45%,2
+57-a3,57,en-US,C,Around 75%,1
+571-a1,571,en-US,A,Less than 35%,3
+571-a2,571,en-US,B,Around 65%,2
+571-a3,571,en-US,C,More than 95%,1
+572-a1,572,en-US,A,Around 15%,3
+572-a2,572,en-US,B,Around 50%,2
+572-a3,572,en-US,C,More than 95%,1
+573-a1,573,en-US,A,3%,3
+573-a2,573,en-US,B,13%,2
+573-a3,573,en-US,C,25%,1
+574-a1,574,en-US,A,Less than 35%,3
+574-a2,574,en-US,B,Around 65%,2
+574-a3,574,en-US,C,More than 95%,1
+575-a1,575,en-US,A,Around 30%,3
+575-a2,575,en-US,B,Around 70%,2
+575-a3,575,en-US,C,More than 95%,1
+576-a1,576,en-US,A,Fewer than 5,3
+576-a2,576,en-US,B,Around 10,2
+576-a3,576,en-US,C,More than 25,1
+577-a1,577,en-US,A,1963,1
+577-a2,577,en-US,B,1993,2
+577-a3,577,en-US,C,Women are not allowed to vote yet,3
+578-a1,578,en-US,A,Around 30%,3
+578-a2,578,en-US,B,Around 70%,2
+578-a3,578,en-US,C,More than 95%,1
+579-a1,579,en-US,A,6,3
+579-a2,579,en-US,B,Around 20,2
+579-a3,579,en-US,C,Around 60,1
+58-a1,58,en-US,A,Stayed about the same,3
+58-a2,58,en-US,B,Increased about 35%,2
+58-a3,58,en-US,C,Increased about 70%,1
+580-a1,580,en-US,A,Less than 50%,3
+580-a2,580,en-US,B,Around 70%,2
+580-a3,580,en-US,C,More than 90%,1
+581-a1,581,en-US,A,Less than 5%,1
+581-a2,581,en-US,B,Around 25%,2
+581-a3,581,en-US,C,More than 45%,3
+582-a1,582,en-US,A,2004,1
+582-a2,582,en-US,B,Women cannot run for office in Mozambique,3
+582-a3,582,en-US,C,It hasn't happened yet,2
+583-a1,583,en-US,A,Fewer than 5,3
+583-a2,583,en-US,B,Around 15,2
+583-a3,583,en-US,C,More than 30,1
+584-a1,584,en-US,A,Less than 5%,3
+584-a2,584,en-US,B,Around 20%,2
+584-a3,584,en-US,C,More than 35%,1
+585-a1,585,en-US,A,Less than 50%,3
+585-a2,585,en-US,B,Around 70%,2
+585-a3,585,en-US,C,More than 90%,1
+586-a1,586,en-US,A,Less than 25%,1
+586-a2,586,en-US,B,Around 45%,2
+586-a3,586,en-US,C,More than 65%,3
+587-a1,587,en-US,A,Hydropower,1
+587-a2,587,en-US,B,Coal,2
+587-a3,587,en-US,C,Oil,3
+588-a1,588,en-US,A,Less than 15%,3
+588-a2,588,en-US,B,Around 25%,2
+588-a3,588,en-US,C,More than 40%,1
+59-a1,59,en-US,A,Reduced to less than half,3
+59-a2,59,en-US,B,Remained about the same,2
+59-a3,59,en-US,C,More than doubled,1
+590-a1,590,en-US,A,1999,1
+590-a2,590,en-US,B,2019,2
+590-a3,590,en-US,C,It has not happened yet,3
+592-a1,592,en-US,A,Around 50%,3
+592-a2,592,en-US,B,Around 70%,2
+592-a3,592,en-US,C,More than 90%,1
+593-a1,593,en-US,A,Around 15%,3
+593-a2,593,en-US,B,Around 50%,2
+593-a3,593,en-US,C,More than 95%,1
+594-a1,594,en-US,A,Around 20%,3
+594-a2,594,en-US,B,Around 50%,2
+594-a3,594,en-US,C,More than 90%,1
+596-a1,596,en-US,A,Around 25%,1
+596-a2,596,en-US,B,Around 50%,2
+596-a3,596,en-US,C,Around 75%,3
+597-a1,597,en-US,A,nan,3
+597-a2,597,en-US,B,6,2
+597-a3,597,en-US,C,13,1
+598-a1,598,en-US,A,Around 560,3
+598-a2,598,en-US,B,Around 2800,2
+598-a3,598,en-US,C,Around 9400,1
+599-a1,599,en-US,A,Around 5%,1
+599-a2,599,en-US,B,Around 17%,2
+599-a3,599,en-US,C,Around 29%,3
+6-a1,6,en-US,A,Around 50%,3
+6-a2,6,en-US,B,Around 70%,2
+6-a3,6,en-US,C,Around 90%,1
+60-a1,60,en-US,A,Around 78%,1
+60-a2,60,en-US,B,Around 85%,2
+60-a3,60,en-US,C,Around 92%,3
+600-a1,600,en-US,A,1893,1
+600-a2,600,en-US,B,1933,2
+600-a3,600,en-US,C,1973,3
+601-a1,601,en-US,A,1 day,1
+601-a2,601,en-US,B,11 days,2
+601-a3,601,en-US,C,21 days,3
+602-a1,602,en-US,A,nan,3
+602-a2,602,en-US,B,Around 3,2
+602-a3,602,en-US,C,8 or more,1
+603-a1,603,en-US,A,Around 6%,1
+603-a2,603,en-US,B,Around 36%,2
+603-a3,603,en-US,C,Around 66%,3
+604-a1,604,en-US,A,Less than 10%,1
+604-a2,604,en-US,B,Around 25%,2
+604-a3,604,en-US,C,More than 40%,3
+605-a1,605,en-US,A,37 years,3
+605-a2,605,en-US,B,55 years,2
+605-a3,605,en-US,C,75 years,1
+606-a1,606,en-US,A,Less than 1%,3
+606-a2,606,en-US,B,Around 10%,2
+606-a3,606,en-US,C,More than 25%,1
+607-a1,607,en-US,A,Agriculture,3
+607-a2,607,en-US,B,Services,1
+607-a3,607,en-US,C,Industry,2
+608-a1,608,en-US,A,Around 33,3
+608-a2,608,en-US,B,Around 48,2
+608-a3,608,en-US,C,Around 63,1
+609-a1,609,en-US,A,1948,1
+609-a2,609,en-US,B,1998,2
+609-a3,609,en-US,C,Women can't vote in Niger,3
+61-a1,61,en-US,A,Less than 200 million,3
+61-a2,61,en-US,B,Around 300 million,2
+61-a3,61,en-US,C,More than 400 million,1
+610-a1,610,en-US,A,1960,1
+610-a2,610,en-US,B,1990,2
+610-a3,610,en-US,C,it has not happened yet,3
+611-a1,611,en-US,A,2 which are state-owned hotels,2
+611-a2,611,en-US,B,Around 65,1
+611-a3,611,en-US,C,Airbnb is not allowed in Niger,3
+612-a1,612,en-US,A,Fewer than 5,3
+612-a2,612,en-US,B,Around 20,2
+612-a3,612,en-US,C,More than 35,1
+613-a1,613,en-US,A,Less than 10%,3
+613-a2,613,en-US,B,Around 35%,2
+613-a3,613,en-US,C,Around 65%,1
+614-a1,614,en-US,A,Around 20,3
+614-a2,614,en-US,B,Around 200,2
+614-a3,614,en-US,C,Around 900,1
+615-a1,615,en-US,A,Fewer than 30,2
+615-a2,615,en-US,B,More than 300,1
+615-a3,615,en-US,C,Airbnb is not allowed in Nigeria,3
+616-a1,616,en-US,A,5%,3
+616-a2,616,en-US,B,21%,2
+616-a3,616,en-US,C,38%,1
+617-a1,617,en-US,A,Fewer than 10,3
+617-a2,617,en-US,B,Around 35,2
+617-a3,617,en-US,C,More than 60,1
+618-a1,618,en-US,A,Around 31%,1
+618-a2,618,en-US,B,Around 51%,2
+618-a3,618,en-US,C,Around 71%,3
+619-a1,619,en-US,A,2%,1
+619-a2,619,en-US,B,19%,2
+619-a3,619,en-US,C,36%,3
+62-a1,62,en-US,A,Around 15%,1
+62-a2,62,en-US,B,Around 35%,2
+62-a3,62,en-US,C,Around 55%,3
+620-a1,620,en-US,A,1981,1
+620-a2,620,en-US,B,2002,2
+620-a3,620,en-US,C,It hasn't happened yet,3
+621-a1,621,en-US,A,Around 20%,3
+621-a2,621,en-US,B,Around 50%,2
+621-a3,621,en-US,C,More than 90%,1
+622-a1,622,en-US,A,nan,3
+622-a2,622,en-US,B,2,2
+622-a3,622,en-US,C,5,1
+624-a1,624,en-US,A,Less than 35%,3
+624-a2,624,en-US,B,Around 65%,2
+624-a3,624,en-US,C,More than 95%,1
+625-a1,625,en-US,A,Fewer than 15,3
+625-a2,625,en-US,B,Around 60,2
+625-a3,625,en-US,C,More than 100,1
+626-a1,626,en-US,A,Less than 30%,3
+626-a2,626,en-US,B,Around 50%,2
+626-a3,626,en-US,C,More than 70%,1
+627-a1,627,en-US,A,2%,3
+627-a2,627,en-US,B,11%,2
+627-a3,627,en-US,C,20%,1
+628-a1,628,en-US,A,Less than 5%,3
+628-a2,628,en-US,B,Around 35%,2
+628-a3,628,en-US,C,More than 65%,1
+629-a1,629,en-US,A,Around 5%,1
+629-a2,629,en-US,B,Around 17%,2
+629-a3,629,en-US,C,Around 29%,3
+63-a1,63,en-US,A,Around 40%,3
+63-a2,63,en-US,B,Around 65%,2
+63-a3,63,en-US,C,Around 90%,1
+630-a1,630,en-US,A,Less than 40%,3
+630-a2,630,en-US,B,Around 65%,2
+630-a3,630,en-US,C,More than 90%,1
+631-a1,631,en-US,A,Among the highest in the world,1
+631-a2,631,en-US,B,Around world average,2
+631-a3,631,en-US,C,Among the lowest in the world,3
+632-a1,632,en-US,A,Around 4%,1
+632-a2,632,en-US,B,Around 21%,2
+632-a3,632,en-US,C,Around 38%,3
+633-a1,633,en-US,A,Around 35%,3
+633-a2,633,en-US,B,Around 65%,2
+633-a3,633,en-US,C,More than 90%,1
+634-a1,634,en-US,A,Less than 25%,1
+634-a2,634,en-US,B,Around 40%,2
+634-a3,634,en-US,C,More than 55%,3
+635-a1,635,en-US,A,Fewer than 10,3
+635-a2,635,en-US,B,Around 30,2
+635-a3,635,en-US,C,More than 50,1
+636-a1,636,en-US,A,Less than 30%,3
+636-a2,636,en-US,B,Around 50%,2
+636-a3,636,en-US,C,More than 90%,1
+637-a1,637,en-US,A,Around 3%,1
+637-a2,637,en-US,B,Around 19%,2
+637-a3,637,en-US,C,Around 36%,3
+638-a1,638,en-US,A,Around 30%,3
+638-a2,638,en-US,B,Around 70%,2
+638-a3,638,en-US,C,More than 95%,1
+639-a1,639,en-US,A,1999,1
+639-a2,639,en-US,B,2019,2
+639-a3,639,en-US,C,It hasn't happened yet,3
+64-a1,64,en-US,A,Around 65%,1
+64-a2,64,en-US,B,Around 80%,2
+64-a3,64,en-US,C,Around 95%,3
+640-a1,640,en-US,A,1964,1
+640-a2,640,en-US,B,1984,2
+640-a3,640,en-US,C,2004,3
+641-a1,641,en-US,A,Around 25%,3
+641-a2,641,en-US,B,Around 50%,2
+641-a3,641,en-US,C,Around 75%,1
+642-a1,642,en-US,A,7,3
+642-a2,642,en-US,B,27,2
+642-a3,642,en-US,C,47,1
+643-a1,643,en-US,A,Around 53 years,3
+643-a2,643,en-US,B,Around 63 years,2
+643-a3,643,en-US,C,Around 77 years,1
+644-a1,644,en-US,A,Fewer than 4,3
+644-a2,644,en-US,B,Around 9,2
+644-a3,644,en-US,C,More than 14,1
+645-a1,645,en-US,A,Less than 30%,3
+645-a2,645,en-US,B,Around 45%,2
+645-a3,645,en-US,C,More than 70%,1
+646-a1,646,en-US,A,Around 40%,3
+646-a2,646,en-US,B,Around 65%,2
+646-a3,646,en-US,C,More than 80%,1
+647-a1,647,en-US,A,Less than 35%,3
+647-a2,647,en-US,B,Around 65%,2
+647-a3,647,en-US,C,More than 95%,1
+648-a1,648,en-US,A,Around 15%,3
+648-a2,648,en-US,B,Around 50%,2
+648-a3,648,en-US,C,More than 95%,1
+649-a1,649,en-US,A,Around 11,3
+649-a2,649,en-US,B,Around 90,2
+649-a3,649,en-US,C,Around 190,1
+65-a1,65,en-US,A,Germany,2
+65-a2,65,en-US,B,Lebanon,1
+65-a3,65,en-US,C,Sweden,3
+650-a1,650,en-US,A,Around 10%,3
+650-a2,650,en-US,B,Around 30%,2
+650-a3,650,en-US,C,Around 50%,1
+651-a1,651,en-US,A,Peru is not part of it,3
+651-a2,651,en-US,B,85 cities,2
+651-a3,651,en-US,C,185 cities,1
+652-a1,652,en-US,A,2%,3
+652-a2,652,en-US,B,14%,2
+652-a3,652,en-US,C,30%,1
+653-a1,653,en-US,A,Around 20%,3
+653-a2,653,en-US,B,Around 50%,2
+653-a3,653,en-US,C,More than 90%,1
+654-a1,654,en-US,A,Less than 40%,3
+654-a2,654,en-US,B,Around 65%,2
+654-a3,654,en-US,C,More than 90%,1
+655-a1,655,en-US,A,Less than 15%,3
+655-a2,655,en-US,B,Around 35%,2
+655-a3,655,en-US,C,More than 55%,1
+656-a1,656,en-US,A,10%,1
+656-a2,656,en-US,B,29%,2
+656-a3,656,en-US,C,49%,3
+657-a1,657,en-US,A,Fewer than 10,3
+657-a2,657,en-US,B,Around 45,2
+657-a3,657,en-US,C,More than 80,1
+658-a1,658,en-US,A,1,3
+658-a2,658,en-US,B,8,2
+658-a3,658,en-US,C,17,1
+659-a1,659,en-US,A,Around 40,3
+659-a2,659,en-US,B,Around 420,2
+659-a3,659,en-US,C,Around 780,1
+66-a1,66,en-US,A,Around 15%,1
+66-a2,66,en-US,B,Around 25%,2
+66-a3,66,en-US,C,Around 35%,3
+660-a1,660,en-US,A,Less than 55%,3
+660-a2,660,en-US,B,Around 75%,2
+660-a3,660,en-US,C,More than 95%,1
+661-a1,661,en-US,A,1992,1
+661-a2,661,en-US,B,2012,2
+661-a3,661,en-US,C,It hasn't happened yet,3
+662-a1,662,en-US,A,3,3
+662-a2,662,en-US,B,10,2
+662-a3,662,en-US,C,17,1
+663-a1,663,en-US,A,Less than 45%,3
+663-a2,663,en-US,B,Around 70%,2
+663-a3,663,en-US,C,More than 95%,1
+664-a1,664,en-US,A,2%,1
+664-a2,664,en-US,B,17%,2
+664-a3,664,en-US,C,32%,3
+665-a1,665,en-US,A,23%,1
+665-a2,665,en-US,B,37%,2
+665-a3,665,en-US,C,51%,3
+666-a1,666,en-US,A,1979,1
+666-a2,666,en-US,B,2001,2
+666-a3,666,en-US,C,It hasn't happened yet,3
+667-a1,667,en-US,A,50 years,3
+667-a2,667,en-US,B,63 years,2
+667-a3,667,en-US,C,80 years,1
+668-a1,668,en-US,A,Doubled,3
+668-a2,668,en-US,B,Increased almost 5 times,2
+668-a3,668,en-US,C,Increased almost 50 times,1
+669-a1,669,en-US,A,Fewer than 30,2
+669-a2,669,en-US,B,More than 300,1
+669-a3,669,en-US,C,Airbnb is not allowed in Qatar,3
+670-a1,670,en-US,A,Less than 55%,3
+670-a2,670,en-US,B,Around 75%,2
+670-a3,670,en-US,C,Close to 100%,1
+671-a1,671,en-US,A,Around 20,3
+671-a2,671,en-US,B,Around 110,2
+671-a3,671,en-US,C,Around 390,1
+672-a1,672,en-US,A,2018,1
+672-a2,672,en-US,B,Women cannot run for office in Romania,3
+672-a3,672,en-US,C,It hasn't happened yet,2
+673-a1,673,en-US,A,Around 40%,3
+673-a2,673,en-US,B,Around 60%,2
+673-a3,673,en-US,C,More than 80%,1
+674-a1,674,en-US,A,10,3
+674-a2,674,en-US,B,20,2
+674-a3,674,en-US,C,30,1
+675-a1,675,en-US,A,Less than 5%,3
+675-a2,675,en-US,B,Around 15%,2
+675-a3,675,en-US,C,More than 25%,1
+676-a1,676,en-US,A,Less than 5%,1
+676-a2,676,en-US,B,Around 25%,2
+676-a3,676,en-US,C,More than 45%,3
+677-a1,677,en-US,A,Around 30,3
+677-a2,677,en-US,B,Around 180,2
+677-a3,677,en-US,C,Around 620,1
+678-a1,678,en-US,A,Less than 50%,3
+678-a2,678,en-US,B,Around 75%,2
+678-a3,678,en-US,C,Close to 100%,1
+679-a1,679,en-US,A,Around 50%,3
+679-a2,679,en-US,B,Around 75%,2
+679-a3,679,en-US,C,Close to 100%,1
+680-a1,680,en-US,A,Around 2%,1
+680-a2,680,en-US,B,Around 18%,2
+680-a3,680,en-US,C,Around 34%,3
+681-a1,681,en-US,A,Less than 45%,3
+681-a2,681,en-US,B,Around 70%,2
+681-a3,681,en-US,C,More than 95%,1
+682-a1,682,en-US,A,Around 15%,3
+682-a2,682,en-US,B,Around 50%,2
+682-a3,682,en-US,C,More than 95%,1
+683-a1,683,en-US,A,Among the highest in the world,1
+683-a2,683,en-US,B,Around the world average,2
+683-a3,683,en-US,C,Among the lowest in the world,3
+684-a1,684,en-US,A,Less than 45%,3
+684-a2,684,en-US,B,Around 70%,2
+684-a3,684,en-US,C,More than 95%,1
+685-a1,685,en-US,A,Less than 60%,1
+685-a2,685,en-US,B,Around 75%,2
+685-a3,685,en-US,C,More than 90%,3
+686-a1,686,en-US,A,Less than 5%,1
+686-a2,686,en-US,B,Around 25%,2
+686-a3,686,en-US,C,More than 45%,3
+687-a1,687,en-US,A,Less than 35%,3
+687-a2,687,en-US,B,Around 65%,2
+687-a3,687,en-US,C,More than 95%,1
+688-a1,688,en-US,A,Less than 35%,1
+688-a2,688,en-US,B,Around 50%,2
+688-a3,688,en-US,C,More than 65%,3
+689-a1,689,en-US,A,Around 15%,3
+689-a2,689,en-US,B,Around 50%,2
+689-a3,689,en-US,C,More than 95%,1
+69-a1,69,en-US,A,Less than 30%,3
+69-a2,69,en-US,B,Around 45%,2
+69-a3,69,en-US,C,More than 60%,1
+690-a1,690,en-US,A,1976,1
+690-a2,690,en-US,B,2006,2
+690-a3,690,en-US,C,not yet,3
+691-a1,691,en-US,A,5,3
+691-a2,691,en-US,B,35,2
+691-a3,691,en-US,C,65,1
+692-a1,692,en-US,A,Among the highest in the world,1
+692-a2,692,en-US,B,Around world average,2
+692-a3,692,en-US,C,Among the lowest in the world,3
+693-a1,693,en-US,A,Around 10%,1
+693-a2,693,en-US,B,Around 32%,2
+693-a3,693,en-US,C,Around 53%,3
+694-a1,694,en-US,A,Around 15%,3
+694-a2,694,en-US,B,Around 50%,2
+694-a3,694,en-US,C,More than 95%,1
+695-a1,695,en-US,A,1959,1
+695-a2,695,en-US,B,1979,2
+695-a3,695,en-US,C,1999,3
+696-a1,696,en-US,A,Less than 10%,1
+696-a2,696,en-US,B,Around 25%,2
+696-a3,696,en-US,C,More than 40%,3
+698-a1,698,en-US,A,Less than 35%,3
+698-a2,698,en-US,B,Around 60%,2
+698-a3,698,en-US,C,More than 85%,1
+699-a1,699,en-US,A,Agriculture,3
+699-a2,699,en-US,B,Services,1
+699-a3,699,en-US,C,Industry,2
+7-a1,7,en-US,A,Around 11%,1
+7-a2,7,en-US,B,Around 31%,2
+7-a3,7,en-US,C,Around 51%,3
+70-a1,70,en-US,A,Fled to a different country,1
+70-a2,70,en-US,B,Fled to another part of their country,3
+70-a3,70,en-US,C,Both of the above,2
+700-a1,700,en-US,A,Among the highest in the world,1
+700-a2,700,en-US,B,Around the world average,2
+700-a3,700,en-US,C,Among the lowest in the world,3
+701-a1,701,en-US,A,Less than 25%,1
+701-a2,701,en-US,B,Around 40%,2
+701-a3,701,en-US,C,More than 55%,3
+702-a1,702,en-US,A,33%,3
+702-a2,702,en-US,B,63%,2
+702-a3,702,en-US,C,96%,1
+703-a1,703,en-US,A,Fewer than 15,3
+703-a2,703,en-US,B,Around 45,2
+703-a3,703,en-US,C,More than 75,1
+704-a1,704,en-US,A,Less than 20%,3
+704-a2,704,en-US,B,Around 35%,2
+704-a3,704,en-US,C,More than 50%,1
+705-a1,705,en-US,A,Low-income,2
+705-a2,705,en-US,B,Middle-income,1
+705-a3,705,en-US,C,High-income,3
+707-a1,707,en-US,A,Fewer than 30,2
+707-a2,707,en-US,B,More than 300,1
+707-a3,707,en-US,C,Airbnb is not allowed in Senegal,3
+708-a1,708,en-US,A,Around 30%,3
+708-a2,708,en-US,B,Around 70%,2
+708-a3,708,en-US,C,More than 95%,1
+709-a1,709,en-US,A,4%,3
+709-a2,709,en-US,B,20%,2
+709-a3,709,en-US,C,38%,1
+71-a1,71,en-US,A,Middle East,3
+71-a2,71,en-US,B,Europe,1
+71-a3,71,en-US,C,Sub-Saharan Africa,2
+710-a1,710,en-US,A,Around 55%,3
+710-a2,710,en-US,B,Around 75%,2
+710-a3,710,en-US,C,Close to 100%,1
+711-a1,711,en-US,A,Around 19%,1
+711-a2,711,en-US,B,Around 33%,2
+711-a3,711,en-US,C,Around 47%,3
+712-a1,712,en-US,A,Around 30%,3
+712-a2,712,en-US,B,Around 70%,2
+712-a3,712,en-US,C,More than 95%,1
+713-a1,713,en-US,A,2012,1
+713-a2,713,en-US,B,Women cannot run for office in Serbia,3
+713-a3,713,en-US,C,It hasn't happened yet,2
+714-a1,714,en-US,A,1948,1
+714-a2,714,en-US,B,1988,2
+714-a3,714,en-US,C,2018,3
+716-a1,716,en-US,A,Around 3%,1
+716-a2,716,en-US,B,Around 19%,2
+716-a3,716,en-US,C,Around 35%,3
+717-a1,717,en-US,A,Around 30%,3
+717-a2,717,en-US,B,Around 70%,2
+717-a3,717,en-US,C,More than 95%,1
+718-a1,718,en-US,A,Around 30%,3
+718-a2,718,en-US,B,Around 70%,2
+718-a3,718,en-US,C,More than 95%,1
+719-a1,719,en-US,A,Fewer than 30,2
+719-a2,719,en-US,B,Around 300,1
+719-a3,719,en-US,C,Airbnb is not allowed in Sierra Leone,3
+72-a1,72,en-US,A,4%,1
+72-a2,72,en-US,B,14%,2
+72-a3,72,en-US,C,24%,3
+720-a1,720,en-US,A,Around 35%,3
+720-a2,720,en-US,B,Around 55%,2
+720-a3,720,en-US,C,Around 85%,1
+721-a1,721,en-US,A,Around 120,3
+721-a2,721,en-US,B,Around 600,2
+721-a3,721,en-US,C,Around 2000,1
+722-a1,722,en-US,A,Less than 10%,1
+722-a2,722,en-US,B,Around 30%,2
+722-a3,722,en-US,C,More than 50%,3
+723-a1,723,en-US,A,2017,1
+723-a2,723,en-US,B,Women cannot run for office in Singapore,3
+723-a3,723,en-US,C,It hasn't happened yet,2
+724-a1,724,en-US,A,Fewer than 20,3
+724-a2,724,en-US,B,Around 40,2
+724-a3,724,en-US,C,More than 60,1
+725-a1,725,en-US,A,14 weeks,3
+725-a2,725,en-US,B,29 weeks,2
+725-a3,725,en-US,C,54 weeks,1
+726-a1,726,en-US,A,63 years,3
+726-a2,726,en-US,B,72 years,2
+726-a3,726,en-US,C,81 years,1
+727-a1,727,en-US,A,Around 10 weeks,3
+727-a2,727,en-US,B,Around 30 weeks,2
+727-a3,727,en-US,C,Around 50 weeks,1
+728-a1,728,en-US,A,Around 5%,1
+728-a2,728,en-US,B,Around 30%,2
+728-a3,728,en-US,C,Around 55%,3
+729-a1,729,en-US,A,2%,3
+729-a2,729,en-US,B,11%,2
+729-a3,729,en-US,C,20%,1
+73-a1,73,en-US,A,10 countries,3
+73-a2,73,en-US,B,80 countries,2
+73-a3,73,en-US,C,180 countries,1
+730-a1,730,en-US,A,Less than 35%,3
+730-a2,730,en-US,B,Around 50%,2
+730-a3,730,en-US,C,More than 75%,1
+732-a1,732,en-US,A,Less than 25%,3
+732-a2,732,en-US,B,Around 50%,2
+732-a3,732,en-US,C,More than 75%,1
+733-a1,733,en-US,A,Less than 10%,1
+733-a2,733,en-US,B,Around 30%,2
+733-a3,733,en-US,C,More than 50%,3
+734-a1,734,en-US,A,28 years,3
+734-a2,734,en-US,B,43 years,2
+734-a3,734,en-US,C,58 years,1
+735-a1,735,en-US,A,2 which are state-owned hotels,2
+735-a2,735,en-US,B,Around 40,1
+735-a3,735,en-US,C,Airbnb is not allowed in Somalia,3
+736-a1,736,en-US,A,Less than 20%,3
+736-a2,736,en-US,B,Around 50%,2
+736-a3,736,en-US,C,More than 80%,1
+737-a1,737,en-US,A,1,3
+737-a2,737,en-US,B,5,2
+737-a3,737,en-US,C,10,1
+738-a1,738,en-US,A,6%,3
+738-a2,738,en-US,B,25%,2
+738-a3,738,en-US,C,44%,1
+739-a1,739,en-US,A,Less than 35%,3
+739-a2,739,en-US,B,Around 65%,2
+739-a3,739,en-US,C,More than 95%,1
+74-a1,74,en-US,A,Around 20%,3
+74-a2,74,en-US,B,Around 45%,2
+74-a3,74,en-US,C,Around 70%,1
+740-a1,740,en-US,A,Around 2%,1
+740-a2,740,en-US,B,Around 10%,2
+740-a3,740,en-US,C,Around 18%,3
+741-a1,741,en-US,A,32%,1
+741-a2,741,en-US,B,47%,2
+741-a3,741,en-US,C,62%,3
+742-a1,742,en-US,A,Fewer than 5,3
+742-a2,742,en-US,B,Around 15,2
+742-a3,742,en-US,C,More than 25,1
+743-a1,743,en-US,A,8,3
+743-a2,743,en-US,B,28,2
+743-a3,743,en-US,C,49,1
+744-a1,744,en-US,A,30%,3
+744-a2,744,en-US,B,50%,2
+744-a3,744,en-US,C,70%,1
+745-a1,745,en-US,A,Less than 35%,3
+745-a2,745,en-US,B,Around 55%,2
+745-a3,745,en-US,C,More than 80%,1
+746-a1,746,en-US,A,Less than 25%,3
+746-a2,746,en-US,B,Around 60%,2
+746-a3,746,en-US,C,More than 95%,1
+747-a1,747,en-US,A,Around 15%,3
+747-a2,747,en-US,B,Around 50%,2
+747-a3,747,en-US,C,More than 95%,1
+748-a1,748,en-US,A,1960,1
+748-a2,748,en-US,B,1985,2
+748-a3,748,en-US,C,2010,3
+749-a1,749,en-US,A,46 years,3
+749-a2,749,en-US,B,58 years,2
+749-a3,749,en-US,C,70 years,1
+75-a1,75,en-US,A,4,3
+75-a2,75,en-US,B,8,2
+75-a3,75,en-US,C,12,1
+750-a1,750,en-US,A,Around 20%,3
+750-a2,750,en-US,B,Around 65%,2
+750-a3,750,en-US,C,More than 90%,1
+751-a1,751,en-US,A,Fewer than 20,2
+751-a2,751,en-US,B,Around 100,1
+751-a3,751,en-US,C,Airbnb is not allowed in Sudan,3
+752-a1,752,en-US,A,Less than 15%,3
+752-a2,752,en-US,B,Around 40%,2
+752-a3,752,en-US,C,More than 85%,1
+753-a1,753,en-US,A,Around 30%,3
+753-a2,753,en-US,B,Around 70%,2
+753-a3,753,en-US,C,Around 85%,1
+754-a1,754,en-US,A,2%,3
+754-a2,754,en-US,B,13%,2
+754-a3,754,en-US,C,30%,1
+755-a1,755,en-US,A,Around 35%,3
+755-a2,755,en-US,B,Around 65%,2
+755-a3,755,en-US,C,More than 90%,1
+756-a1,756,en-US,A,Around 4%,1
+756-a2,756,en-US,B,Around 16%,2
+756-a3,756,en-US,C,Around 28%,3
+757-a1,757,en-US,A,1,3
+757-a2,757,en-US,B,6,2
+757-a3,757,en-US,C,13,1
+758-a1,758,en-US,A,Around 24%,1
+758-a2,758,en-US,B,Around 44%,2
+758-a3,758,en-US,C,Around 64%,3
+759-a1,759,en-US,A,Around 4%,1
+759-a2,759,en-US,B,Around 16%,2
+759-a3,759,en-US,C,Around 28%,3
+76-a1,76,en-US,A,Almost halved,3
+76-a2,76,en-US,B,Stayed about the same,2
+76-a3,76,en-US,C,Almost doubled,1
+760-a1,760,en-US,A,Around 19%,1
+760-a2,760,en-US,B,Around 33%,2
+760-a3,760,en-US,C,Around 47%,3
+761-a1,761,en-US,A,In 1945 among the initial 51 nations,1
+761-a2,761,en-US,B,In 1992 as member number 179,2
+761-a3,761,en-US,C,Syria is not a UN member,3
+762-a1,762,en-US,A,Coal,2
+762-a2,762,en-US,B,Hydropower,1
+762-a3,762,en-US,C,Oil,3
+763-a1,763,en-US,A,Less than 45%,3
+763-a2,763,en-US,B,Around 70%,2
+763-a3,763,en-US,C,More than 95%,1
+764-a1,764,en-US,A,Around 30%,3
+764-a2,764,en-US,B,Around 70%,2
+764-a3,764,en-US,C,More than 95%,1
+765-a1,765,en-US,A,"Zero, Tajikistan bans Airbnb",3
+765-a2,765,en-US,B,Around 20,2
+765-a3,765,en-US,C,More than 150,1
+766-a1,766,en-US,A,Less than 30%,3
+766-a2,766,en-US,B,Around 60%,2
+766-a3,766,en-US,C,More than 90%,1
+767-a1,767,en-US,A,Less than 30%,3
+767-a2,767,en-US,B,Around 50%,2
+767-a3,767,en-US,C,More than 70%,1
+768-a1,768,en-US,A,1961,1
+768-a2,768,en-US,B,1991,2
+768-a3,768,en-US,C,Tanzania is still not a member,3
+769-a1,769,en-US,A,Around 30%,3
+769-a2,769,en-US,B,Around 70%,2
+769-a3,769,en-US,C,More than 95%,1
+77-a1,77,en-US,A,Less than 5%,1
+77-a2,77,en-US,B,Around 15%,2
+77-a3,77,en-US,C,More than 25%,3
+770-a1,770,en-US,A,16%,3
+770-a2,770,en-US,B,40%,2
+770-a3,770,en-US,C,64%,1
+771-a1,771,en-US,A,Less than 35%,3
+771-a2,771,en-US,B,Around 65%,2
+771-a3,771,en-US,C,More than 95%,1
+772-a1,772,en-US,A,Around 30%,3
+772-a2,772,en-US,B,Around 70%,2
+772-a3,772,en-US,C,More than 95%,1
+773-a1,773,en-US,A,Low income,2
+773-a2,773,en-US,B,Middle income,1
+773-a3,773,en-US,C,High income,3
+774-a1,774,en-US,A,2002,1
+774-a2,774,en-US,B,2012,2
+774-a3,774,en-US,C,It has not yet happened,3
+775-a1,775,en-US,A,Around 35%,3
+775-a2,775,en-US,B,Around 65%,2
+775-a3,775,en-US,C,More than 90%,1
+776-a1,776,en-US,A,5%,3
+776-a2,776,en-US,B,21%,2
+776-a3,776,en-US,C,37%,1
+777-a1,777,en-US,A,2 state-owned hotels,2
+777-a2,777,en-US,B,Around 50,1
+777-a3,777,en-US,C,Airbnb is not allowed in Timor-Leste,3
+778-a1,778,en-US,A,Less than 20%,1
+778-a2,778,en-US,B,Around 35%,2
+778-a3,778,en-US,C,More than 50%,3
+779-a1,779,en-US,A,Less than 1%,3
+779-a2,779,en-US,B,14%,2
+779-a3,779,en-US,C,28%,1
+78-a1,78,en-US,A,Fewer than 60,3
+78-a2,78,en-US,B,Around 70,2
+78-a3,78,en-US,C,More than 90,1
+780-a1,780,en-US,A,Less than 5%,3
+780-a2,780,en-US,B,Around 40%,2
+780-a3,780,en-US,C,More than 75%,1
+781-a1,781,en-US,A,Around 35%,3
+781-a2,781,en-US,B,Around 65%,2
+781-a3,781,en-US,C,More than 90%,1
+782-a1,782,en-US,A,Around 33%,3
+782-a2,782,en-US,B,Around 66%,2
+782-a3,782,en-US,C,Close to 99%,1
+783-a1,783,en-US,A,Less than 45%,3
+783-a2,783,en-US,B,Around 65%,2
+783-a3,783,en-US,C,More than 85%,1
+784-a1,784,en-US,A,Around 15%,3
+784-a2,784,en-US,B,Around 50%,2
+784-a3,784,en-US,C,More than 95%,1
+785-a1,785,en-US,A,Less than 15%,1
+785-a2,785,en-US,B,Around 35%,2
+785-a3,785,en-US,C,More than 55%,3
+786-a1,786,en-US,A,Around 30%,3
+786-a2,786,en-US,B,Around 70%,2
+786-a3,786,en-US,C,More than 95%,1
+787-a1,787,en-US,A,2%,3
+787-a2,787,en-US,B,16%,2
+787-a3,787,en-US,C,32%,1
+789-a1,789,en-US,A,Around 1%,1
+789-a2,789,en-US,B,Around 16%,2
+789-a3,789,en-US,C,Around 31%,3
+79-a1,79,en-US,A,Around 9%,1
+79-a2,79,en-US,B,Around 39%,2
+79-a3,79,en-US,C,Around 69%,3
+790-a1,790,en-US,A,Around 15%,3
+790-a2,790,en-US,B,Around 50%,2
+790-a3,790,en-US,C,More than 95%,1
+791-a1,791,en-US,A,Around 7,3
+791-a2,791,en-US,B,Around 17,2
+791-a3,791,en-US,C,Around 70,1
+792-a1,792,en-US,A,Less than 35%,3
+792-a2,792,en-US,B,Around 65%,2
+792-a3,792,en-US,C,More than 95%,1
+793-a1,793,en-US,A,Around 35%,3
+793-a2,793,en-US,B,Around 65%,2
+793-a3,793,en-US,C,More than 90%,1
+794-a1,794,en-US,A,nan,3
+794-a2,794,en-US,B,Around 4,2
+794-a3,794,en-US,C,8 or more,1
+795-a1,795,en-US,A,Around 30,3
+795-a2,795,en-US,B,Around 270,2
+795-a3,795,en-US,C,Around 690,1
+796-a1,796,en-US,A,Around 7%,1
+796-a2,796,en-US,B,Around 25%,2
+796-a3,796,en-US,C,Around 43%,3
+797-a1,797,en-US,A,1993,1
+797-a2,797,en-US,B,2013,2
+797-a3,797,en-US,C,It hasn't happened yet,3
+798-a1,798,en-US,A,Less than 40%,3
+798-a2,798,en-US,B,Around 70%,2
+798-a3,798,en-US,C,Close to 100%,1
+799-a1,799,en-US,A,Less than 45%,3
+799-a2,799,en-US,B,Around 70%,2
+799-a3,799,en-US,C,More than 95%,1
+8-a1,8,en-US,A,Around 30%,1
+8-a2,8,en-US,B,Around 60%,2
+8-a3,8,en-US,C,Around 90%,3
+80-a1,80,en-US,A,Roughly the same,3
+80-a2,80,en-US,B,4 times more,2
+80-a3,80,en-US,C,40 times more,1
+801-a1,801,en-US,A,Around 30%,3
+801-a2,801,en-US,B,Around 70%,2
+801-a3,801,en-US,C,More than 95%,1
+802-a1,802,en-US,A,Among the highest in the world,1
+802-a2,802,en-US,B,Around world average,2
+802-a3,802,en-US,C,Among the lowest in the world,3
+803-a1,803,en-US,A,Around 15%,3
+803-a2,803,en-US,B,Around 50%,2
+803-a3,803,en-US,C,More than 95%,1
+804-a1,804,en-US,A,40 years,3
+804-a2,804,en-US,B,53 years,2
+804-a3,804,en-US,C,66 years,1
+805-a1,805,en-US,A,Less than 25%,3
+805-a2,805,en-US,B,Around 45%,2
+805-a3,805,en-US,C,More than 65%,1
+806-a1,806,en-US,A,Around 40%,3
+806-a2,806,en-US,B,Around 75%,2
+806-a3,806,en-US,C,Around 90%,1
+807-a1,807,en-US,A,Less than 5%,1
+807-a2,807,en-US,B,Around 25%,2
+807-a3,807,en-US,C,More than 45%,3
+808-a1,808,en-US,A,Around 2%,1
+808-a2,808,en-US,B,Around 13%,2
+808-a3,808,en-US,C,Around 24%,3
+809-a1,809,en-US,A,Less than 10%,1
+809-a2,809,en-US,B,Around 30%,2
+809-a3,809,en-US,C,More than 50%,3
+81-a1,81,en-US,A,14 years,1
+81-a2,81,en-US,B,24 years,2
+81-a3,81,en-US,C,34 years,3
+810-a1,810,en-US,A,1%,1
+810-a2,810,en-US,B,16%,2
+810-a3,810,en-US,C,31%,3
+811-a1,811,en-US,A,Around 580,3
+811-a2,811,en-US,B,Around 2900,2
+811-a3,811,en-US,C,Around 9700,1
+812-a1,812,en-US,A,Around 6%,1
+812-a2,812,en-US,B,Around 17%,2
+812-a3,812,en-US,C,Around 28%,3
+813-a1,813,en-US,A,Around 1%,1
+813-a2,813,en-US,B,Around 21%,2
+813-a3,813,en-US,C,Around 41%,3
+814-a1,814,en-US,A,Around 20%,3
+814-a2,814,en-US,B,Around 40%,2
+814-a3,814,en-US,C,Around 60%,1
+815-a1,815,en-US,A,Around 10%,1
+815-a2,815,en-US,B,Around 20%,2
+815-a3,815,en-US,C,Around 30%,3
+816-a1,816,en-US,A,Less than 45%,3
+816-a2,816,en-US,B,Around 70%,2
+816-a3,816,en-US,C,More than 95%,1
+817-a1,817,en-US,A,Among the highest in the world,1
+817-a2,817,en-US,B,Around world average,2
+817-a3,817,en-US,C,Among the lowest in the world,3
+818-a1,818,en-US,A,Around 5,3
+818-a2,818,en-US,B,Around 15,2
+818-a3,818,en-US,C,Around 50,1
+819-a1,819,en-US,A,Fewer than 30,2
+819-a2,819,en-US,B,More than 300,1
+819-a3,819,en-US,C,Airbnb is not allowed in Uruguay,3
+82-a1,82,en-US,A,About 10%,3
+82-a2,82,en-US,B,About 30%,2
+82-a3,82,en-US,C,About 60%,1
+820-a1,820,en-US,A,1,3
+820-a2,820,en-US,B,3,2
+820-a3,820,en-US,C,20,1
+821-a1,821,en-US,A,Less than 40%,3
+821-a2,821,en-US,B,Around 70%,2
+821-a3,821,en-US,C,Close to 100%,1
+822-a1,822,en-US,A,Less than 30,2
+822-a2,822,en-US,B,More than 300,1
+822-a3,822,en-US,C,Airbnb does not operate in Uzbekistan,3
+823-a1,823,en-US,A,Around 26%,1
+823-a2,823,en-US,B,Around 56%,2
+823-a3,823,en-US,C,Around 86%,3
+824-a1,824,en-US,A,Less than 30%,3
+824-a2,824,en-US,B,Around 55%,2
+824-a3,824,en-US,C,More than 80%,1
+825-a1,825,en-US,A,Less than 40%,3
+825-a2,825,en-US,B,Around 65%,2
+825-a3,825,en-US,C,More than 90%,1
+826-a1,826,en-US,A,1945,1
+826-a2,826,en-US,B,2019,2
+826-a3,826,en-US,C,It has not happened yet,3
+827-a1,827,en-US,A,Less than 30%,3
+827-a2,827,en-US,B,Around 45%,2
+827-a3,827,en-US,C,More than 70%,1
+828-a1,828,en-US,A,Agriculture,3
+828-a2,828,en-US,B,Services,1
+828-a3,828,en-US,C,Industry,2
+829-a1,829,en-US,A,Around 50,3
+829-a2,829,en-US,B,Around 350,2
+829-a3,829,en-US,C,Around 750,1
+83-a1,83,en-US,A,Around 15%,1
+83-a2,83,en-US,B,Around 30%,2
+83-a3,83,en-US,C,Around 45%,3
+830-a1,830,en-US,A,Around 5%,3
+830-a2,830,en-US,B,Around 25%,2
+830-a3,830,en-US,C,Around 50%,1
+831-a1,831,en-US,A,Fewer than 30,2
+831-a2,831,en-US,B,More than 300,1
+831-a3,831,en-US,C,Airbnb is not allowed in Vietnam,3
+832-a1,832,en-US,A,0,3
+832-a2,832,en-US,B,2,2
+832-a3,832,en-US,C,4,1
+833-a1,833,en-US,A,Around 3%,1
+833-a2,833,en-US,B,Around 15%,2
+833-a3,833,en-US,C,Around 27%,3
+834-a1,834,en-US,A,Less than 45%,3
+834-a2,834,en-US,B,Around 70%,2
+834-a3,834,en-US,C,More than 95%,1
+835-a1,835,en-US,A,Less than 5%,1
+835-a2,835,en-US,B,Around 25%,2
+835-a3,835,en-US,C,More than 45%,3
+836-a1,836,en-US,A,Less than 35%,3
+836-a2,836,en-US,B,Around 60%,2
+836-a3,836,en-US,C,More than 85%,1
+837-a1,837,en-US,A,1,3
+837-a2,837,en-US,B,3,2
+837-a3,837,en-US,C,5,1
+838-a1,838,en-US,A,Less than 5%,1
+838-a2,838,en-US,B,Around 25%,2
+838-a3,838,en-US,C,More than 45%,3
+839-a1,839,en-US,A,Around 15%,3
+839-a2,839,en-US,B,Around 50%,2
+839-a3,839,en-US,C,Around 70%,1
+84-a1,84,en-US,A,Around 12%,1
+84-a2,84,en-US,B,Around 42%,2
+84-a3,84,en-US,C,Around 72%,3
+840-a1,840,en-US,A,Around 10%,3
+840-a2,840,en-US,B,Around 25%,2
+840-a3,840,en-US,C,Around 40%,1
+841-a1,841,en-US,A,Around 20%,3
+841-a2,841,en-US,B,Around 50%,2
+841-a3,841,en-US,C,More than 90%,1
+842-a1,842,en-US,A,Around 30%,3
+842-a2,842,en-US,B,Around 70%,2
+842-a3,842,en-US,C,More than 95%,1
+843-a1,843,en-US,A,Around 15%,3
+843-a2,843,en-US,B,Around 50%,2
+843-a3,843,en-US,C,More than 95%,1
+844-a1,844,en-US,A,Around 30%,3
+844-a2,844,en-US,B,Around 70%,2
+844-a3,844,en-US,C,More than 95%,1
+845-a1,845,en-US,A,Around 30%,3
+845-a2,845,en-US,B,Around 70%,2
+845-a3,845,en-US,C,More than 95%,1
+846-a1,846,en-US,A,Around 30%,3
+846-a2,846,en-US,B,Around 70%,2
+846-a3,846,en-US,C,More than 95%,1
+847-a1,847,en-US,A,Around 30%,3
+847-a2,847,en-US,B,Around 70%,2
+847-a3,847,en-US,C,More than 95%,1
+848-a1,848,en-US,A,Around 15%,3
+848-a2,848,en-US,B,Around 50%,2
+848-a3,848,en-US,C,More than 95%,1
+849-a1,849,en-US,A,Around 20%,3
+849-a2,849,en-US,B,Around 65%,2
+849-a3,849,en-US,C,More than 90%,1
+85-a1,85,en-US,A,It decreases,3
+85-a2,85,en-US,B,It stays the same,2
+85-a3,85,en-US,C,It keeps increasing,1
+850-a1,850,en-US,A,Around 30%,3
+850-a2,850,en-US,B,Around 70%,2
+850-a3,850,en-US,C,More than 95%,1
+851-a1,851,en-US,A,Around 40%,3
+851-a2,851,en-US,B,Around 60%,2
+851-a3,851,en-US,C,Around 90%,1
+852-a1,852,en-US,A,Around 30%,3
+852-a2,852,en-US,B,Around 70%,2
+852-a3,852,en-US,C,More than 95%,1
+853-a1,853,en-US,A,Around 30%,3
+853-a2,853,en-US,B,Around 70%,2
+853-a3,853,en-US,C,More than 95%,1
+854-a1,854,en-US,A,Around 30%,3
+854-a2,854,en-US,B,Around 70%,2
+854-a3,854,en-US,C,More than 95%,1
+855-a1,855,en-US,A,Around 35%,3
+855-a2,855,en-US,B,Around 65%,2
+855-a3,855,en-US,C,More than 90%,1
+856-a1,856,en-US,A,Around 35%,3
+856-a2,856,en-US,B,Around 65%,2
+856-a3,856,en-US,C,More than 90%,1
+857-a1,857,en-US,A,Around 30%,3
+857-a2,857,en-US,B,Around 70%,2
+857-a3,857,en-US,C,More than 95%,1
+858-a1,858,en-US,A,Around 40%,3
+858-a2,858,en-US,B,Around 60%,2
+858-a3,858,en-US,C,Around 90%,1
+859-a1,859,en-US,A,Around 35%,3
+859-a2,859,en-US,B,Around 65%,2
+859-a3,859,en-US,C,More than 90%,1
+86-a1,86,en-US,A,92,3
+86-a2,86,en-US,B,142,2
+86-a3,86,en-US,C,192,1
+860-a1,860,en-US,A,Around 30%,3
+860-a2,860,en-US,B,Around 70%,2
+860-a3,860,en-US,C,More than 95%,1
+861-a1,861,en-US,A,Around 30%,3
+861-a2,861,en-US,B,Around 70%,2
+861-a3,861,en-US,C,More than 95%,1
+862-a1,862,en-US,A,Around 40%,3
+862-a2,862,en-US,B,Around 60%,2
+862-a3,862,en-US,C,Around 90%,1
+863-a1,863,en-US,A,Around 20%,3
+863-a2,863,en-US,B,Around 65%,2
+863-a3,863,en-US,C,More than 90%,1
+864-a1,864,en-US,A,Around 10%,1
+864-a2,864,en-US,B,Around 30%,2
+864-a3,864,en-US,C,Around 70%,3
+865-a1,865,en-US,A,Around 30%,3
+865-a2,865,en-US,B,Around 70%,2
+865-a3,865,en-US,C,More than 95%,1
+866-a1,866,en-US,A,Around 30%,3
+866-a2,866,en-US,B,Around 70%,2
+866-a3,866,en-US,C,More than 95%,1
+867-a1,867,en-US,A,Around 30%,3
+867-a2,867,en-US,B,Around 70%,2
+867-a3,867,en-US,C,More than 95%,1
+868-a1,868,en-US,A,Around 20%,3
+868-a2,868,en-US,B,Around 50%,2
+868-a3,868,en-US,C,More than 90%,1
+869-a1,869,en-US,A,Around 25%,3
+869-a2,869,en-US,B,Around 60%,2
+869-a3,869,en-US,C,Around 90%,1
+870-a1,870,en-US,A,Around 10%,3
+870-a2,870,en-US,B,Around 25%,2
+870-a3,870,en-US,C,Around 40%,1
+871-a1,871,en-US,A,Around 20%,3
+871-a2,871,en-US,B,Around 50%,2
+871-a3,871,en-US,C,Around 80%,1
+872-a1,872,en-US,A,Around 30%,3
+872-a2,872,en-US,B,Around 70%,2
+872-a3,872,en-US,C,More than 95%,1
+873-a1,873,en-US,A,Around 15%,1
+873-a2,873,en-US,B,Around 50%,2
+873-a3,873,en-US,C,Around 75%,3
+874-a1,874,en-US,A,Around 15%,3
+874-a2,874,en-US,B,Around 50%,2
+874-a3,874,en-US,C,More than 95%,1
+875-a1,875,en-US,A,Around 15%,3
+875-a2,875,en-US,B,Around 50%,2
+875-a3,875,en-US,C,Around 85%,1
+876-a1,876,en-US,A,Around 35%,3
+876-a2,876,en-US,B,Around 65%,2
+876-a3,876,en-US,C,More than 90%,1
+877-a1,877,en-US,A,Around 30%,3
+877-a2,877,en-US,B,Around 70%,2
+877-a3,877,en-US,C,More than 95%,1
+878-a1,878,en-US,A,Around 30%,3
+878-a2,878,en-US,B,Around 70%,2
+878-a3,878,en-US,C,More than 95%,1
+879-a1,879,en-US,A,Around 30%,3
+879-a2,879,en-US,B,Around 70%,2
+879-a3,879,en-US,C,More than 95%,1
+880-a1,880,en-US,A,Around 25%,3
+880-a2,880,en-US,B,Around 50%,2
+880-a3,880,en-US,C,Around 75%,1
+881-a1,881,en-US,A,Around 15%,3
+881-a2,881,en-US,B,Around 50%,2
+881-a3,881,en-US,C,Around 85%,1
+882-a1,882,en-US,A,Around 35%,3
+882-a2,882,en-US,B,Around 65%,2
+882-a3,882,en-US,C,More than 90%,1
+883-a1,883,en-US,A,Around 35%,3
+883-a2,883,en-US,B,Around 65%,2
+883-a3,883,en-US,C,More than 90%,1
+884-a1,884,en-US,A,Around 30%,3
+884-a2,884,en-US,B,Around 70%,2
+884-a3,884,en-US,C,More than 95%,1
+885-a1,885,en-US,A,Around 30%,3
+885-a2,885,en-US,B,Around 70%,2
+885-a3,885,en-US,C,More than 95%,1
+886-a1,886,en-US,A,Around 40%,3
+886-a2,886,en-US,B,Around 75%,2
+886-a3,886,en-US,C,Around 90%,1
+887-a1,887,en-US,A,Around 35%,3
+887-a2,887,en-US,B,Around 50%,2
+887-a3,887,en-US,C,Around 80%,1
+888-a1,888,en-US,A,Around 35%,3
+888-a2,888,en-US,B,Around 65%,2
+888-a3,888,en-US,C,More than 90%,1
+889-a1,889,en-US,A,Around 30%,3
+889-a2,889,en-US,B,Around 70%,2
+889-a3,889,en-US,C,More than 95%,1
+89-a1,89,en-US,A,Decreased tenfold,1
+89-a2,89,en-US,B,Stayed about the same,2
+89-a3,89,en-US,C,Increased tenfold,3
+890-a1,890,en-US,A,Around 40%,3
+890-a2,890,en-US,B,Around 75%,2
+890-a3,890,en-US,C,Around 90%,1
+891-a1,891,en-US,A,Around 30%,3
+891-a2,891,en-US,B,Around 70%,2
+891-a3,891,en-US,C,More than 95%,1
+892-a1,892,en-US,A,Around 35%,3
+892-a2,892,en-US,B,Around 65%,2
+892-a3,892,en-US,C,More than 90%,1
+893-a1,893,en-US,A,Around 30%,3
+893-a2,893,en-US,B,Around 70%,2
+893-a3,893,en-US,C,More than 95%,1
+894-a1,894,en-US,A,Around 30%,3
+894-a2,894,en-US,B,Around 70%,2
+894-a3,894,en-US,C,More than 95%,1
+895-a1,895,en-US,A,Around 40%,3
+895-a2,895,en-US,B,Around 60%,2
+895-a3,895,en-US,C,Around 90%,1
+896-a1,896,en-US,A,Around 35%,3
+896-a2,896,en-US,B,Around 65%,2
+896-a3,896,en-US,C,More than 90%,1
+897-a1,897,en-US,A,Less than 10%,3
+897-a2,897,en-US,B,Around 35%,2
+897-a3,897,en-US,C,Around 65%,1
+898-a1,898,en-US,A,Less than 5%,3
+898-a2,898,en-US,B,Around 40%,2
+898-a3,898,en-US,C,Around 75%,1
+899-a1,899,en-US,A,Around 30%,3
+899-a2,899,en-US,B,Around 70%,2
+899-a3,899,en-US,C,More than 95%,1
+9-a1,9,en-US,A,Around 40%,3
+9-a2,9,en-US,B,Around 60%,2
+9-a3,9,en-US,C,Around 80%,1
+90-a1,90,en-US,A,Oil and gas,2
+90-a2,90,en-US,B,Tourism,1
+90-a3,90,en-US,C,Wave energy,3
+900-a1,900,en-US,A,Around 40%,3
+900-a2,900,en-US,B,Around 60%,2
+900-a3,900,en-US,C,Around 90%,1
+901-a1,901,en-US,A,Around 30%,3
+901-a2,901,en-US,B,Around 70%,2
+901-a3,901,en-US,C,More than 95%,1
+902-a1,902,en-US,A,Around 30%,3
+902-a2,902,en-US,B,Around 70%,2
+902-a3,902,en-US,C,More than 95%,1
+903-a1,903,en-US,A,Around 35%,3
+903-a2,903,en-US,B,Around 65%,2
+903-a3,903,en-US,C,More than 90%,1
+904-a1,904,en-US,A,Around 30%,3
+904-a2,904,en-US,B,Around 70%,2
+904-a3,904,en-US,C,More than 95%,1
+905-a1,905,en-US,A,Around 35%,3
+905-a2,905,en-US,B,Around 65%,2
+905-a3,905,en-US,C,More than 90%,1
+906-a1,906,en-US,A,Around 30%,3
+906-a2,906,en-US,B,Around 70%,2
+906-a3,906,en-US,C,More than 95%,1
+907-a1,907,en-US,A,Around 30%,3
+907-a2,907,en-US,B,Around 70%,2
+907-a3,907,en-US,C,More than 95%,1
+908-a1,908,en-US,A,Around 25%,3
+908-a2,908,en-US,B,Around 50%,2
+908-a3,908,en-US,C,Around 90%,1
+909-a1,909,en-US,A,Around 10%,3
+909-a2,909,en-US,B,Around 50%,2
+909-a3,909,en-US,C,Around 90%,1
+91-a1,91,en-US,A,Around 3kg,3
+91-a2,91,en-US,B,Around 6kg,2
+91-a3,91,en-US,C,Around 10kg,1
+910-a1,910,en-US,A,Less than 10%,3
+910-a2,910,en-US,B,Around 35%,2
+910-a3,910,en-US,C,Around 65%,1
+911-a1,911,en-US,A,Around 25%,3
+911-a2,911,en-US,B,Around 60%,2
+911-a3,911,en-US,C,Around 90%,1
+912-a1,912,en-US,A,Around 20%,3
+912-a2,912,en-US,B,Around 50%,2
+912-a3,912,en-US,C,Around 80%,1
+913-a1,913,en-US,A,Around 25%,3
+913-a2,913,en-US,B,Around 50%,2
+913-a3,913,en-US,C,Around 60%,1
+914-a1,914,en-US,A,Around 15%,3
+914-a2,914,en-US,B,Around 50%,2
+914-a3,914,en-US,C,Around 70%,1
+915-a1,915,en-US,A,Around 20%,1
+915-a2,915,en-US,B,Around 35%,2
+915-a3,915,en-US,C,Around 50%,3
+916-a1,916,en-US,A,Around 15%,3
+916-a2,916,en-US,B,Around 50%,1
+916-a3,916,en-US,C,Around 85%,2
+917-a1,917,en-US,A,Around 15%,3
+917-a2,917,en-US,B,Around 50%,2
+917-a3,917,en-US,C,More than 95%,1
+918-a1,918,en-US,A,Around 35%,3
+918-a2,918,en-US,B,Around 65%,2
+918-a3,918,en-US,C,More than 90%,1
+919-a1,919,en-US,A,Around 35%,3
+919-a2,919,en-US,B,Around 50%,2
+919-a3,919,en-US,C,Around 80%,1
+92-a1,92,en-US,A,Decreased by about 75%,3
+92-a2,92,en-US,B,Stayed about the same,2
+92-a3,92,en-US,C,Increased by about 75%,1
+920-a1,920,en-US,A,Around 35%,3
+920-a2,920,en-US,B,Around 65%,2
+920-a3,920,en-US,C,More than 90%,1
+921-a1,921,en-US,A,Around 35%,3
+921-a2,921,en-US,B,Around 50%,2
+921-a3,921,en-US,C,Around 80%,1
+922-a1,922,en-US,A,Around 30%,3
+922-a2,922,en-US,B,Around 70%,2
+922-a3,922,en-US,C,More than 95%,1
+923-a1,923,en-US,A,Around 35%,3
+923-a2,923,en-US,B,Around 65%,2
+923-a3,923,en-US,C,More than 90%,1
+924-a1,924,en-US,A,Around 30%,3
+924-a2,924,en-US,B,Around 70%,2
+924-a3,924,en-US,C,More than 95%,1
+925-a1,925,en-US,A,Around 15%,3
+925-a2,925,en-US,B,Around 50%,2
+925-a3,925,en-US,C,More than 95%,1
+926-a1,926,en-US,A,Around 15%,3
+926-a2,926,en-US,B,Around 50%,2
+926-a3,926,en-US,C,More than 95%,1
+927-a1,927,en-US,A,Around 15%,3
+927-a2,927,en-US,B,Around 50%,2
+927-a3,927,en-US,C,More than 95%,1
+928-a1,928,en-US,A,Around 35%,3
+928-a2,928,en-US,B,Around 65%,2
+928-a3,928,en-US,C,More than 90%,1
+929-a1,929,en-US,A,Around 15%,3
+929-a2,929,en-US,B,Around 50%,2
+929-a3,929,en-US,C,More than 95%,1
+93-a1,93,en-US,A,49 countries,3
+93-a2,93,en-US,B,109 countries,2
+93-a3,93,en-US,C,169 countries,1
+930-a1,930,en-US,A,Around 40%,3
+930-a2,930,en-US,B,Around 60%,2
+930-a3,930,en-US,C,Around 90%,1
+931-a1,931,en-US,A,Around 20%,3
+931-a2,931,en-US,B,Around 50%,2
+931-a3,931,en-US,C,More than 90%,1
+932-a1,932,en-US,A,Around 30%,3
+932-a2,932,en-US,B,Around 70%,2
+932-a3,932,en-US,C,More than 95%,1
+933-a1,933,en-US,A,Around 40%,3
+933-a2,933,en-US,B,Around 60%,2
+933-a3,933,en-US,C,Around 90%,1
+934-a1,934,en-US,A,Around 35%,3
+934-a2,934,en-US,B,Around 65%,2
+934-a3,934,en-US,C,More than 90%,1
+935-a1,935,en-US,A,Around 30%,3
+935-a2,935,en-US,B,Around 70%,2
+935-a3,935,en-US,C,More than 95%,1
+936-a1,936,en-US,A,Less than 10%,3
+936-a2,936,en-US,B,Around 35%,2
+936-a3,936,en-US,C,Around 65%,1
+937-a1,937,en-US,A,Around 30%,3
+937-a2,937,en-US,B,Around 70%,2
+937-a3,937,en-US,C,More than 95%,1
+938-a1,938,en-US,A,Around 30%,3
+938-a2,938,en-US,B,Around 70%,2
+938-a3,938,en-US,C,More than 95%,1
+939-a1,939,en-US,A,Around 30%,3
+939-a2,939,en-US,B,Around 70%,2
+939-a3,939,en-US,C,More than 95%,1
+94-a1,94,en-US,A,37 years,1
+94-a2,94,en-US,B,47 years,2
+94-a3,94,en-US,C,57 years,3
+940-a1,940,en-US,A,Around 35%,3
+940-a2,940,en-US,B,Around 65%,2
+940-a3,940,en-US,C,More than 90%,1
+941-a1,941,en-US,A,Around 30%,3
+941-a2,941,en-US,B,Around 70%,2
+941-a3,941,en-US,C,More than 95%,1
+942-a1,942,en-US,A,Around 40%,3
+942-a2,942,en-US,B,Around 75%,2
+942-a3,942,en-US,C,Around 90%,1
+943-a1,943,en-US,A,Around 30%,3
+943-a2,943,en-US,B,Around 70%,2
+943-a3,943,en-US,C,More than 95%,1
+944-a1,944,en-US,A,Around 30%,3
+944-a2,944,en-US,B,Around 70%,2
+944-a3,944,en-US,C,More than 95%,1
+945-a1,945,en-US,A,Around 30%,3
+945-a2,945,en-US,B,Around 70%,2
+945-a3,945,en-US,C,More than 95%,1
+946-a1,946,en-US,A,Around 30%,3
+946-a2,946,en-US,B,Around 70%,2
+946-a3,946,en-US,C,Around 85%,1
+947-a1,947,en-US,A,Around 30%,3
+947-a2,947,en-US,B,Around 70%,2
+947-a3,947,en-US,C,More than 95%,1
+948-a1,948,en-US,A,Around 30%,3
+948-a2,948,en-US,B,Around 70%,2
+948-a3,948,en-US,C,More than 95%,1
+949-a1,949,en-US,A,Around 20%,3
+949-a2,949,en-US,B,Around 65%,2
+949-a3,949,en-US,C,More than 90%,1
+95-a1,95,en-US,A,Around 4%,1
+95-a2,95,en-US,B,Around 9%,2
+95-a3,95,en-US,C,Around 14%,3
+950-a1,950,en-US,A,Around 15%,3
+950-a2,950,en-US,B,Around 50%,2
+950-a3,950,en-US,C,More than 95%,1
+951-a1,951,en-US,A,Around 5%,3
+951-a2,951,en-US,B,Around 35%,2
+951-a3,951,en-US,C,Around 50%,1
+952-a1,952,en-US,A,Around 30%,3
+952-a2,952,en-US,B,Around 70%,2
+952-a3,952,en-US,C,More than 95%,1
+953-a1,953,en-US,A,Around 5%,3
+953-a2,953,en-US,B,Around 20%,2
+953-a3,953,en-US,C,Around 50%,1
+954-a1,954,en-US,A,Around 35%,3
+954-a2,954,en-US,B,Around 65%,2
+954-a3,954,en-US,C,More than 90%,1
+955-a1,955,en-US,A,Around 30%,3
+955-a2,955,en-US,B,Around 70%,2
+955-a3,955,en-US,C,More than 95%,1
+956-a1,956,en-US,A,Around 30%,3
+956-a2,956,en-US,B,Around 70%,2
+956-a3,956,en-US,C,More than 95%,1
+957-a1,957,en-US,A,Around 40%,3
+957-a2,957,en-US,B,Around 60%,2
+957-a3,957,en-US,C,Around 90%,1
+958-a1,958,en-US,A,Around 40%,3
+958-a2,958,en-US,B,Around 60%,2
+958-a3,958,en-US,C,Around 90%,1
+959-a1,959,en-US,A,Around 30%,3
+959-a2,959,en-US,B,Around 70%,2
+959-a3,959,en-US,C,More than 95%,1
+96-a1,96,en-US,A,Increased 20%,3
+96-a2,96,en-US,B,Stayed about the same,2
+96-a3,96,en-US,C,Decreased 20%,1
+960-a1,960,en-US,A,Around 15%,3
+960-a2,960,en-US,B,Around 50%,2
+960-a3,960,en-US,C,Around 85%,1
+961-a1,961,en-US,A,Around 15%,3
+961-a2,961,en-US,B,Around 50%,2
+961-a3,961,en-US,C,Around 70%,1
+962-a1,962,en-US,A,Less than 5%,3
+962-a2,962,en-US,B,Around 25%,2
+962-a3,962,en-US,C,Around 45%,1
+963-a1,963,en-US,A,Around 30%,3
+963-a2,963,en-US,B,Around 70%,2
+963-a3,963,en-US,C,More than 95%,1
+964-a1,964,en-US,A,Around 35%,3
+964-a2,964,en-US,B,Around 65%,2
+964-a3,964,en-US,C,More than 90%,1
+965-a1,965,en-US,A,Around 30%,3
+965-a2,965,en-US,B,Around 70%,2
+965-a3,965,en-US,C,More than 95%,1
+966-a1,966,en-US,A,Around 15%,3
+966-a2,966,en-US,B,Around 50%,2
+966-a3,966,en-US,C,More than 95%,1
+967-a1,967,en-US,A,Around 15%,3
+967-a2,967,en-US,B,Around 50%,2
+967-a3,967,en-US,C,More than 95%,1
+968-a1,968,en-US,A,Around 30%,3
+968-a2,968,en-US,B,Around 70%,2
+968-a3,968,en-US,C,More than 95%,1
+969-a1,969,en-US,A,Around 35%,3
+969-a2,969,en-US,B,Around 65%,2
+969-a3,969,en-US,C,More than 90%,1
+97-a1,97,en-US,A,Birds,2
+97-a2,97,en-US,B,Mammals,3
+97-a3,97,en-US,C,Amphibians,1
+970-a1,970,en-US,A,Around 30%,3
+970-a2,970,en-US,B,Around 70%,2
+970-a3,970,en-US,C,More than 95%,1
+971-a1,971,en-US,A,Around 30%,3
+971-a2,971,en-US,B,Around 70%,2
+971-a3,971,en-US,C,Around 85%,1
+972-a1,972,en-US,A,Around 30%,3
+972-a2,972,en-US,B,Around 70%,2
+972-a3,972,en-US,C,Around 85%,1
+973-a1,973,en-US,A,Around 5%,3
+973-a2,973,en-US,B,Around 35%,2
+973-a3,973,en-US,C,Around 80%,1
+974-a1,974,en-US,A,Around 25%,3
+974-a2,974,en-US,B,Around 60%,2
+974-a3,974,en-US,C,Around 90%,1
+975-a1,975,en-US,A,Around 30%,3
+975-a2,975,en-US,B,Around 70%,2
+975-a3,975,en-US,C,More than 95%,1
+976-a1,976,en-US,A,Around 40%,3
+976-a2,976,en-US,B,Around 60%,2
+976-a3,976,en-US,C,Around 90%,1
+977-a1,977,en-US,A,Around 30%,3
+977-a2,977,en-US,B,Around 70%,2
+977-a3,977,en-US,C,More than 95%,1
+978-a1,978,en-US,A,Around 15%,3
+978-a2,978,en-US,B,Around 50%,2
+978-a3,978,en-US,C,More than 95%,1
+979-a1,979,en-US,A,Around 15%,3
+979-a2,979,en-US,B,Around 50%,2
+979-a3,979,en-US,C,More than 95%,1
+98-a1,98,en-US,A,Around 5%,1
+98-a2,98,en-US,B,Around 25%,2
+98-a3,98,en-US,C,Around 50%,3
+980-a1,980,en-US,A,Around 30%,3
+980-a2,980,en-US,B,Around 70%,2
+980-a3,980,en-US,C,More than 95%,1
+981-a1,981,en-US,A,Around 20%,3
+981-a2,981,en-US,B,Around 65%,2
+981-a3,981,en-US,C,More than 90%,1
+982-a1,982,en-US,A,Less than 5%,3
+982-a2,982,en-US,B,Around 40%,2
+982-a3,982,en-US,C,Around 75%,1
+983-a1,983,en-US,A,Less than 5%,3
+983-a2,983,en-US,B,Around 30%,2
+983-a3,983,en-US,C,Around 70%,1
+984-a1,984,en-US,A,Less than 5%,3
+984-a2,984,en-US,B,Around 25%,2
+984-a3,984,en-US,C,Around 45%,1
+985-a1,985,en-US,A,Around 20%,3
+985-a2,985,en-US,B,Around 50%,2
+985-a3,985,en-US,C,Around 80%,1
+986-a1,986,en-US,A,Around 25%,3
+986-a2,986,en-US,B,Around 60%,2
+986-a3,986,en-US,C,Around 90%,1
+987-a1,987,en-US,A,Around 25%,3
+987-a2,987,en-US,B,Around 40%,2
+987-a3,987,en-US,C,Around 60%,1
+988-a1,988,en-US,A,Around 30%,3
+988-a2,988,en-US,B,Around 70%,2
+988-a3,988,en-US,C,Around 85%,1
+989-a1,989,en-US,A,Less than 5%,3
+989-a2,989,en-US,B,Around 15%,2
+989-a3,989,en-US,C,Around 30%,1
+99-a1,99,en-US,A,Roughly 25%,3
+99-a2,99,en-US,B,Roughly 50%,2
+99-a3,99,en-US,C,Roughly 80%,1
+990-a1,990,en-US,A,Less than 5%,3
+990-a2,990,en-US,B,Around 25%,2
+990-a3,990,en-US,C,Around 45%,1
+991-a1,991,en-US,A,Around 15%,3
+991-a2,991,en-US,B,Around 50%,2
+991-a3,991,en-US,C,Around 85%,1
+992-a1,992,en-US,A,Less than 10%,3
+992-a2,992,en-US,B,Around 35%,2
+992-a3,992,en-US,C,Around 65%,1
+993-a1,993,en-US,A,Around 30%,3
+993-a2,993,en-US,B,Around 70%,2
+993-a3,993,en-US,C,More than 95%,1
+994-a1,994,en-US,A,Around 30%,3
+994-a2,994,en-US,B,Around 70%,2
+994-a3,994,en-US,C,More than 95%,1
+995-a1,995,en-US,A,Around 30%,3
+995-a2,995,en-US,B,Around 70%,2
+995-a3,995,en-US,C,More than 95%,1
+996-a1,996,en-US,A,Around 30%,3
+996-a2,996,en-US,B,Around 70%,2
+996-a3,996,en-US,C,More than 95%,1
+997-a1,997,en-US,A,Around 40%,3
+997-a2,997,en-US,B,Around 60%,2
+997-a3,997,en-US,C,Around 90%,1
+998-a1,998,en-US,A,Around 30%,3
+998-a2,998,en-US,B,Around 70%,2
+998-a3,998,en-US,C,More than 95%,1
+999-a1,999,en-US,A,Around 35%,3
+999-a2,999,en-US,B,Around 65%,2
+999-a3,999,en-US,C,Around 80%,1
