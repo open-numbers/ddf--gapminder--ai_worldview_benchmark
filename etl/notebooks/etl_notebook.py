@@ -23,7 +23,10 @@ date_check = (
         ["question_id", "prompt_variation_id", "model_configuration_id"]
     )
     .agg(
-        [pl.col("last_evaluation_datetime").n_unique().alias("unique_dates"), pl.col("last_evaluation_datetime").alias("dates")]
+        [
+            pl.col("last_evaluation_datetime").n_unique().alias("unique_dates"),
+            pl.col("last_evaluation_datetime").alias("dates"),
+        ]
     )
     .filter(pl.col("unique_dates") > 1)
     .sort("unique_dates", descending=True)
@@ -35,7 +38,12 @@ print(date_check)
 # Keep only the latest datapoint for each combination
 master_output = (
     master_output.sort(
-        ["question_id", "prompt_variation_id", "model_configuration_id", "last_evaluation_datetime"]
+        [
+            "question_id",
+            "prompt_variation_id",
+            "model_configuration_id",
+            "last_evaluation_datetime",
+        ]
     )
     .group_by(["question_id", "prompt_variation_id", "model_configuration_id"])
     .agg(pl.all().last())  # Keep the last (most recent) record for each group
@@ -156,14 +164,126 @@ for rate_type in ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_r
 rates
 
 # also create the average correct rate for each model.
-avg_rates = rates.group_by("model_configuration").agg(
-    pl.col("correct_rate").mean().alias("average_correct_rate")
-).with_columns(pl.col("average_correct_rate").round(0).cast(pl.Int32))
+avg_rates = (
+    rates.group_by("model_configuration")
+    .agg(pl.col("correct_rate").mean().alias("average_correct_rate"))
+    .with_columns(pl.col("average_correct_rate").round(0).cast(pl.Int32))
+)
 
 avg_rates.sort("model_configuration")
 
-avg_rates.write_csv("../../ddf--datapoints--average_correct_rate--by--model_configuration.csv")
+avg_rates.write_csv(
+    "../../ddf--datapoints--average_correct_rate--by--model_configuration.csv"
+)
 
+# another aggregated rates
+rates_by_prompt = (
+    master_output.group_by(["model_configuration_id", "prompt_variation_id"])
+    .agg(
+        [
+            pl.col("result").count().alias("total_all_answers"),
+            (pl.col("result") == "correct").sum().alias("correct_count"),
+            (pl.col("result") == "wrong").sum().alias("wrong_count"),
+            (pl.col("result") == "very_wrong").sum().alias("very_wrong_count"),
+            (pl.col("result").is_in(["fail", "n/a"])).sum().alias("indecisive_count"),
+        ]
+    )
+    .with_columns(
+        [
+            # Calculate rates for decisive answers (excluding fail/n/a)
+            (
+                pl.when(pl.col("total_all_answers") == pl.col("indecisive_count"))
+                .then(0.0)
+                .otherwise(
+                    pl.col("correct_count")
+                    / (pl.col("total_all_answers") - pl.col("indecisive_count"))
+                    * 100
+                )
+                .alias("correct_rate")
+            ),
+            (
+                pl.when(pl.col("total_all_answers") == pl.col("indecisive_count"))
+                .then(0.0)
+                .otherwise(
+                    pl.col("wrong_count")
+                    / (pl.col("total_all_answers") - pl.col("indecisive_count"))
+                    * 100
+                )
+                .alias("wrong_rate")
+            ),
+            (
+                pl.when(pl.col("total_all_answers") == pl.col("indecisive_count"))
+                .then(0.0)
+                .otherwise(
+                    pl.col("very_wrong_count")
+                    / (pl.col("total_all_answers") - pl.col("indecisive_count"))
+                    * 100
+                )
+                .alias("very_wrong_rate")
+            ),
+            # Calculate indecisive rate from total answers
+            (pl.col("indecisive_count") / pl.col("total_all_answers") * 100).alias(
+                "indecisive_rate"
+            ),
+        ]
+    )
+    .sort(["model_configuration_id", "prompt_variation_id"])
+)
+
+rates_by_prompt
+
+# Rename columns and drop unnecessary ones before saving
+rates_by_prompt = rates_by_prompt.rename(
+    {
+        "model_configuration_id": "model_configuration",
+        "prompt_variation_id": "prompt_variation",
+    }
+).drop(
+    [
+        "total_all_answers",
+        "correct_count",
+        "wrong_count",
+        "very_wrong_count",
+        "indecisive_count",
+    ]
+)
+
+# Create and save separate CSV files for each rate
+for rate_type in ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_rate"]:
+    (
+        rates_by_prompt.select(
+            ["model_configuration", "prompt_variation", rate_type]
+        ).write_csv(
+            f"../../ddf--datapoints--{rate_type}--by--model_configuration--prompt_variation.csv"
+        )
+    )
+
+# get the top and bottom for each model
+rates_by_prompt_correct = rates_by_prompt.select(
+   ["model_configuration", "prompt_variation", "correct_rate"]
+)
+rates_by_prompt_correct
+
+# group by model_configuration, sort correct rate and and
+# add a rank column.
+bottom = rates_by_prompt_correct.group_by("model_configuration").map_groups(
+    lambda x: x.sort("correct_rate").head(5)
+).group_by("model_configuration").agg(
+    pl.col("correct_rate").mean()
+).sort(
+    ["model_configuration"]
+)
+bottom.write_csv("./bottom_rates.csv")
+
+# 
+top = rates_by_prompt_correct.group_by("model_configuration").map_groups(
+    lambda x: x.sort("correct_rate").tail(5)
+).group_by("model_configuration").agg(
+    pl.col("correct_rate").mean()
+).sort(
+    ["model_configuration"]
+)
+top.write_csv("./top_rates.csv")
 
 master_output
 
@@ -175,14 +295,12 @@ models = pl.read_csv("../source/ai_eval_sheets/gen_ai_models.csv")
 models = models.rename({col: col.lower().replace(" ", "_") for col in models.columns})
 
 # Remove rows with null model_id
-models = models.filter(pl.col("model_id") != 'nan')
+models = models.filter(pl.col("model_id") != "nan")
 
 models
 
 # model configurations list
-model_confs = pl.read_csv(
-    "../source/ai_eval_sheets/gen_ai_model_configs.csv"
-)
+model_confs = pl.read_csv("../source/ai_eval_sheets/gen_ai_model_configs.csv")
 
 # Convert column names to lowercase and connect with underscore
 model_confs = model_confs.rename(
@@ -335,9 +453,7 @@ ai_eval_qs = ai_eval_qs.rename(
 )
 
 # Read question options
-question_options = pl.read_csv(
-    "../source/ai_eval_sheets/question_options.csv"
-)
+question_options = pl.read_csv("../source/ai_eval_sheets/question_options.csv")
 
 # Convert column names to lowercase and connect with underscore
 question_options = question_options.rename(
@@ -348,26 +464,43 @@ question_options
 
 # Create pivot table for answers with options A, B, C
 answers_pivot = (
-    question_options
-    .sort(["question_id", "letter"])  # Ensure consistent ordering
+    question_options.sort(["question_id", "letter"])  # Ensure consistent ordering
     .group_by(["question_id", "language"])
-    .agg([
-        pl.col("question_option").filter(pl.col("letter") == "A").first().alias("option_a"),
-        pl.col("correctness_of_answer_option").filter(pl.col("letter") == "A").first().alias("option_a_correctness"),
-        pl.col("question_option").filter(pl.col("letter") == "B").first().alias("option_b"),
-        pl.col("correctness_of_answer_option").filter(pl.col("letter") == "B").first().alias("option_b_correctness"),
-        pl.col("question_option").filter(pl.col("letter") == "C").first().alias("option_c"),
-        pl.col("correctness_of_answer_option").filter(pl.col("letter") == "C").first().alias("option_c_correctness"),
-    ])
+    .agg(
+        [
+            pl.col("question_option")
+            .filter(pl.col("letter") == "A")
+            .first()
+            .alias("option_a"),
+            pl.col("correctness_of_answer_option")
+            .filter(pl.col("letter") == "A")
+            .first()
+            .alias("option_a_correctness"),
+            pl.col("question_option")
+            .filter(pl.col("letter") == "B")
+            .first()
+            .alias("option_b"),
+            pl.col("correctness_of_answer_option")
+            .filter(pl.col("letter") == "B")
+            .first()
+            .alias("option_b_correctness"),
+            pl.col("question_option")
+            .filter(pl.col("letter") == "C")
+            .first()
+            .alias("option_c"),
+            pl.col("correctness_of_answer_option")
+            .filter(pl.col("letter") == "C")
+            .first()
+            .alias("option_c_correctness"),
+        ]
+    )
 )
 
 answers_pivot.filter(pl.col("question_id") == 1)
 question_options.filter(pl.col("question_id") == 1)
 
 # change question_id to string
-answers_pivot = answers_pivot.with_columns(
-    pl.col("question_id").cast(pl.Utf8)
-)
+answers_pivot = answers_pivot.with_columns(pl.col("question_id").cast(pl.Utf8))
 
 # Prepare question entity
 question_entity = ai_eval_qs.rename(
@@ -382,7 +515,7 @@ question_entity = question_entity.join(
     answers_pivot,
     left_on=["contentful_id", "language"],
     right_on=["question_id", "language"],
-    how="left"
+    how="left",
 )
 
 question_entity
@@ -392,14 +525,13 @@ short_titles = pl.read_csv("../source/Short titles for AI - Sheet2.csv")
 short_titles = (
     short_titles.select(
         pl.col("q_contentful_id").alias("contentful_id"),
-        pl.col("Short Title").alias("short_title")
+        pl.col("Short Title").alias("short_title"),
     )
     .filter(pl.col("contentful_id").is_not_null())
     .group_by("contentful_id")
     .agg(
         pl.col("short_title")
-        .filter(pl.col("short_title").is_not_null(),
-                pl.col("short_title") != "#N/A")
+        .filter(pl.col("short_title").is_not_null(), pl.col("short_title") != "#N/A")
         .first()
         .alias("short_title")
     )
@@ -421,9 +553,7 @@ contentful_qs
 
 
 # Create prompt variation entity
-prompt_variations = pl.read_csv(
-    "../source/ai_eval_sheets/prompt_variations.csv"
-)
+prompt_variations = pl.read_csv("../source/ai_eval_sheets/prompt_variations.csv")
 
 # Convert column names to lowercase and connect with underscore
 prompt_variations = prompt_variations.rename(
@@ -476,9 +606,12 @@ string_concepts = pl.DataFrame(
 # Create concepts dataframe for measure columns
 measure_concepts = pl.DataFrame(
     {
-        "concept": ["correct_rate", "wrong_rate",
-                    "very_wrong_rate", "indecisive_rate",
-                    "average_correct_rate"
+        "concept": [
+            "correct_rate",
+            "wrong_rate",
+            "very_wrong_rate",
+            "indecisive_rate",
+            "average_correct_rate",
         ],
         "concept_type": ["measure"] * 5,
         "name": [
@@ -486,7 +619,7 @@ measure_concepts = pl.DataFrame(
             "Wrong Rate (excluding indecisive answers)",
             "Very Wrong Rate (excluding indecisive answers)",
             "Indecisive Rate",
-            "Average Correct Rate"
+            "Average Correct Rate",
         ],
     }
 )

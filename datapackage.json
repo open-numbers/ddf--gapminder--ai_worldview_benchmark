@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-02-14T16:27:45.463Z",
+    "created": "2025-02-19T06:02:22.583Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -166,6 +166,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--correct_rate--by--model_configuration--prompt_variation",
+            "path": "ddf--datapoints--correct_rate--by--model_configuration--prompt_variation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "prompt_variation"
+                    },
+                    {
+                        "name": "correct_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--correct_rate--by--question--model_configuration",
             "path": "ddf--datapoints--correct_rate--by--question--model_configuration.csv",
             "schema": {
@@ -212,6 +233,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--indecisive_rate--by--model_configuration--prompt_variation",
+            "path": "ddf--datapoints--indecisive_rate--by--model_configuration--prompt_variation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "prompt_variation"
+                    },
+                    {
+                        "name": "indecisive_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--indecisive_rate--by--question--model_configuration",
             "path": "ddf--datapoints--indecisive_rate--by--question--model_configuration.csv",
             "schema": {
@@ -233,6 +275,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--very_wrong_rate--by--model_configuration--prompt_variation",
+            "path": "ddf--datapoints--very_wrong_rate--by--model_configuration--prompt_variation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "prompt_variation"
+                    },
+                    {
+                        "name": "very_wrong_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--very_wrong_rate--by--question--model_configuration",
             "path": "ddf--datapoints--very_wrong_rate--by--question--model_configuration.csv",
             "schema": {
@@ -250,6 +313,27 @@
                 "primaryKey": [
                     "question",
                     "model_configuration"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--wrong_rate--by--model_configuration--prompt_variation",
+            "path": "ddf--datapoints--wrong_rate--by--model_configuration--prompt_variation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model_configuration"
+                    },
+                    {
+                        "name": "prompt_variation"
+                    },
+                    {
+                        "name": "wrong_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
                 ]
             }
         },
@@ -644,6 +728,46 @@
             {
                 "primaryKey": [
                     "latest_model",
+                    "prompt_variation"
+                ],
+                "value": "correct_rate",
+                "resources": [
+                    "ddf--datapoints--correct_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model",
+                    "prompt_variation"
+                ],
+                "value": "indecisive_rate",
+                "resources": [
+                    "ddf--datapoints--indecisive_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model",
+                    "prompt_variation"
+                ],
+                "value": "very_wrong_rate",
+                "resources": [
+                    "ddf--datapoints--very_wrong_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model",
+                    "prompt_variation"
+                ],
+                "value": "wrong_rate",
+                "resources": [
+                    "ddf--datapoints--wrong_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model",
                     "prompt_variation",
                     "question"
                 ],
@@ -690,6 +814,46 @@
                 "value": "wrong_rate",
                 "resources": [
                     "ddf--datapoints--wrong_rate--by--question--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ],
+                "value": "correct_rate",
+                "resources": [
+                    "ddf--datapoints--correct_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ],
+                "value": "indecisive_rate",
+                "resources": [
+                    "ddf--datapoints--indecisive_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ],
+                "value": "very_wrong_rate",
+                "resources": [
+                    "ddf--datapoints--very_wrong_rate--by--model_configuration--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration",
+                    "prompt_variation"
+                ],
+                "value": "wrong_rate",
+                "resources": [
+                    "ddf--datapoints--wrong_rate--by--model_configuration--prompt_variation"
                 ]
             },
             {
