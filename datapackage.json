@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-02-19T06:02:22.583Z",
+    "created": "2025-02-21T14:38:31.916Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -41,6 +41,9 @@
                     },
                     {
                         "name": "model_publish_date"
+                    },
+                    {
+                        "name": "first_experiment_date"
                     },
                     {
                         "name": "model_parameters"
@@ -403,6 +406,15 @@
                 "primaryKey": [
                     "latest_model"
                 ],
+                "value": "first_experiment_date",
+                "resources": [
+                    "ddf--entities--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "latest_model"
+                ],
                 "value": "is--latest_model",
                 "resources": [
                     "ddf--entities--model_configuration"
@@ -487,6 +499,15 @@
                 "value": "average_correct_rate",
                 "resources": [
                     "ddf--datapoints--average_correct_rate--by--model_configuration"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "model_configuration"
+                ],
+                "value": "first_experiment_date",
+                "resources": [
+                    "ddf--entities--model_configuration"
                 ]
             },
             {
