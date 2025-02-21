@@ -521,11 +521,11 @@ question_entity = question_entity.join(
 question_entity
 
 # read and add the short titles
-short_titles = pl.read_csv("../source/Short titles for AI - Sheet2.csv")
+short_titles = pl.read_csv("../source/Short titles for AI.csv")
 short_titles = (
     short_titles.select(
-        pl.col("q_contentful_id").alias("contentful_id"),
-        pl.col("Short Title").alias("short_title"),
+        pl.col("id").alias("contentful_id").cast(pl.Utf8),
+        pl.col("short_title"),
     )
     .filter(pl.col("contentful_id").is_not_null())
     .group_by("contentful_id")
