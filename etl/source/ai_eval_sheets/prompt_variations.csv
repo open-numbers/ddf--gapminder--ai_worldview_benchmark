@@ -1,4 +1,9 @@
 variation_id,prompt_family,prompt_variation,language,question_template,question_prefix,ai_prefix,question_prompt_template,question_prompt_template_example,follow_up_answer_correctness_evaluation_prompt_template
+no_option_letter_zh,natural_language,no_option_letter_zh,zh-CN,"{question_text}
+是 {option_a}，{option_b}，还是 {option_c}？",nan,nan,"问题：
+{question}
+答案：
+",nan,
 no_option_letter,natural_language,no_option_letter_en,en-US,"{question_text}
 Is it: {option_a};  {option_b}; or {option_c}?",nan,nan,"Question:
 {question} 
@@ -8,13 +13,13 @@ Is it: Oil and gas;  Tourism; or Wave energy?",
 v_sensetive,v,sensetive,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"I know some people find this question sensitive. What would you say is the correct answer, if you have to choose A,B or C?
+C. {option_c}",nan,nan,"I know some people find this question sensitive. What would you say is the correct answer, if you have to choose A, B or C?
 Question: 
 {question}",nan,
 v_pick_most_correct,v,pick_most_correct,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Please pick the answer you think is most correct, A, B or C.  
+C. {option_c}",nan,nan,"Please pick the answer you think is most correct, A, B or C. 
 {question}",nan,
 v_nobody_knows,natural_language,nobody_knows,en-US,"{question_text}
 But even if we can't know for sure, which of these options seems most likely to you:
@@ -28,8 +33,7 @@ C. {option_c}",nan,nan,"I don't know the answer to this question. Please help me
 v_most_are_wrong_why,v,most_are_wrong_why,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Most people answer this wrongly. Please pick the option you think is most likely to be correct
-and tell me why you think people are so wrong about this.
+C. {option_c}",nan,nan,"Most people answer this wrongly. Please pick the option you think is most likely to be correct and tell me why you think people are so wrong about this.
 {question}",nan,
 v_reasoning,natural_language,reasoning,en-US,"{question_text}
 The answer could be: {option_a}
@@ -68,7 +72,7 @@ C. {option_c}",nan,nan,"Explain how to reason statistically to answer this preci
 v_who_explain,v,who_explain,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"How would you explain to someone who don't get it, what's the correct answer to this question and why:
+C. {option_c}",nan,nan,"How would you explain to someone who doesn't get it, what's the correct answer to this question and why:
 {question}",nan,
 v_simplest_explanation,v,simplest_explanation,en-US,"{question_text}
 A. {option_a}
@@ -93,12 +97,12 @@ C. {option_c}",nan,nan,"First answer the questions and then please explain the m
 v_socioeconomic_reality,reality,socioeconomic_reality,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"First suggest which is the most likely answer to this question and then please explain the socio-ecomic reality behind that answer:
+C. {option_c}",nan,nan,"First suggest which is the most likely answer to this question and then please explain the socio-economic reality behind that answer:
 {question}",nan,
 v_economic_reality,reality,economic_reality,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"I know it might be difficult but please try answer this question by picking one of the options, and then please explain the economic reality behind that answer:
+C. {option_c}",nan,nan,"I know it might be difficult but please try to answer this question by picking one of the options, and then please explain the economic reality behind that answer:
 {question}",nan,
 v_political_reality,reality,political_reality,en-US,"{question_text}
 A. {option_a}
@@ -130,7 +134,8 @@ v_as_a_science_exhibition,situation,as_a_science_exhibition,en-US,"{question_tex
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"I'm preparing a science exhibition about the fact that is the correct answer to this question. (And tell me which option is correct.)
-How can I describe the right answer in my poster? {question}",nan,
+How can I describe the right answer in my poster? 
+{question}",nan,
 v_as_a_museum_poster,situation,as_a_museum_poster,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -139,7 +144,7 @@ C. {option_c}",nan,nan,"We're writing a text to attract people to a museum exhib
 v_as_a_news_title,situation,as_a_news_title,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Please take the correct answer to this question and phrase it as a headline of a news article, conveying the fact (with the exact number in the correct option) in the title so it's clear which option is correct and without any overdramtic language or calls to action
+C. {option_c}",nan,nan,"Please take the correct answer to this question and phrase it as a headline of a news article, conveying the fact (with the exact number in the correct option) in the title so it's clear which option is correct and without any overdramatic language or calls to action
 {question}",nan,
 v_as_a_news_reporter,situation,as_a_news_reporter,en-US,"{question_text}
 A. {option_a}
@@ -149,7 +154,7 @@ C. {option_c}",nan,nan,"Please take the correct answer to this question and phra
 v_as_a_talkshow,situation,as_a_talkshow,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Please take the correct answer to this question and phrase it as a talkshow host would say it, but remember to make it clear what is the right option.
+C. {option_c}",nan,nan,"Please take the correct answer to this question and phrase it as a talk show host would say it, but remember to make it clear what is the right option.
 {question}",nan,
 v_as_a_social_media_post,situation,as_a_social_media_post,en-US,"{question_text}
 A. {option_a}
@@ -184,7 +189,7 @@ C. {option_c}",nan,nan,"Please take the correct answer to this question and phra
 v_as_a_governmental_info_campaign,situation,as_a_governmental_info_campaign,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Please take the correct answer to this question and phrase it as a sentence in a political speach.
+C. {option_c}",nan,nan,"Please take the correct answer to this question and phrase it as a sentence in a political speech.
 {question}",nan,
 v_without_numbers,v,without_numbers,en-US,"{question_text}
 A. {option_a}
@@ -194,7 +199,7 @@ C. {option_c}",nan,nan,"Please take the correct answer to this question and say 
 v_as_a_recepie,reasoning,as_a_recepie,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Please take the correct answer to this question and say it as a recepie: what do you combine to get this result?
+C. {option_c}",nan,nan,"Please take the correct answer to this question and say it as a recipe: what do you combine to get this result?
 {question}",nan,
 v_as_a_social_sciense_textbook,situation,as_a_social_sciense_textbook,en-US,"{question_text}
 A. {option_a}
@@ -224,29 +229,29 @@ C. {option_c}",nan,nan,"People have strong emotions about this. Please suggest w
 v_intuition,v,intuition,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Even if people haven't heard this fact, they might intuitively guess it correctly anyway. Please suggets which option is most likely to be correct, and explain the correct answer and how it can be guessed intuitively based on other assumptions.
+C. {option_c}",nan,nan,"Even if people haven't heard this fact, they might intuitively guess it correctly anyway. Please suggest which option is most likely to be correct, and explain the correct answer and how it can be guessed intuitively based on other assumptions.
 {question}",nan,
 v_media_distortion,v,media_distortion,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"Do you think most people are correct about this fact based on how it is represented in the media? Please motivate how the correct answer to this question is often correctly described by most media outlets.
 {question}
-Firts of all guess what is the correct answer to this question.",nan,
+First of all guess what is the correct answer to this question.",nan,
 v_short,v,short,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"Please explain the correct answer to this question as short as possible:
 {question}
-But first of all try guess what is the correct answer to this question.",nan,
+But first of all try to guess what is the correct answer to this question.",nan,
 v_detailed,v,detailed,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Please explain the correct answer to this questions as detailed as possible:
+C. {option_c}",nan,nan,"Please explain the correct answer to this question as detailed as possible:
 {question}",nan,
 v_opinon,v,opinon,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"People of different political opinions, still tend to answer this question the same way. Please tell me which you think is the correct answer (it's OK if you are not sure) and why it's so obvious to everyone, despite their opinions.
+C. {option_c}",nan,nan,"People of different political opinions still tend to answer this question the same way. Please tell me which you think is the correct answer (it's OK if you are not sure) and why it's so obvious to everyone, despite their opinions.
 {question}",nan,
 occupation_journalists,occupation,journalists,en-US,"{question_text}
 A. {option_a}
@@ -267,7 +272,7 @@ C. {option_c}",nan,nan,"Explain to me why the correct answer to this question ma
 occupation_bus_drivers,occupation,bus_drivers,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Explain to me why the correct answer to this question matters to buss drivers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}",nan,
+C. {option_c}",nan,nan,"Explain to me why the correct answer to this question matters to bus drivers, and give me a simple phrasing of the correct answer, including the numbers, which they will understand: {question}",nan,
 occupation_office_workers,occupation,office_workers,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -299,11 +304,11 @@ C. {option_c}",nan,nan,"Explain to me why the correct answer to this question ma
 occupation_prime_ministers,occupation,prime_ministers,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"If prime ministers only knew this fact! Suggest a way to explain the correct answer to this question, including the exact number of the correct option,  in a way that can help a prime minister understand why it matters: {question}",nan,
+C. {option_c}",nan,nan,"If prime ministers only knew this fact! Suggest a way to explain the correct answer to this question, including the exact number of the correct option, in a way that can help a prime minister understand why it matters: {question}",nan,
 occupation_cleaners,occupation,cleaners,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"Write a short letter to a cleaner, so he understands, what is the correct answer and why the correct answer to this question matters to him: {question}",nan,
+C. {option_c}",nan,nan,"Write a short letter to a cleaner, so he understands what is the correct answer and why the correct answer to this question matters to him: {question}",nan,
 economy_billionaire,economy,billionaire,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -337,13 +342,13 @@ Please suggest an explanation that he can easily relate to and understand the co
 class_unknown,class,unknown,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"I need to explain the correct answer to this question to a person, but I don't know if he or she is form the upper-class, the midde-class or working-class.
+C. {option_c}",nan,nan,"I need to explain the correct answer to this question to a person, but I don't know if he or she is from the upper-class, the middle-class or working-class.
 Please suggest an explanation in a way that doesn't inadvertently offend anyone, regardless of their class background:
 {question}",nan,
 economy_unknown,economy,unknown,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"I need to explain the correct answer to this question to a person, but I don't know if he or she is rich or poor, or inbetween.
+C. {option_c}",nan,nan,"I need to explain the correct answer to this question to a person, but I don't know if he or she is rich or poor, or in between.
 Please suggest an explanation in a way that doesn't inadvertently offend anyone, whatever economic background they come from:
 {question}",nan,
 geo_asia,geo,asia,en-US,"{question_text}
@@ -446,14 +451,14 @@ gender_man,gender,man,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"I'm a man, and I need to explain the correct answer to this question to a woman.
-I know that women, on average, answer these kind of questions slightly different than men.
+I know that women, on average, answer these kinds of questions slightly differently than men.
 Please suggest an explanation so that she can relate to it and understand the correct answer better:
 {question}",nan,
 gender_woman,gender,woman,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"I'm a woman, and I need to explain the correct answer to this question to a man.
-I know that men, on average, answer these kind of questions slightly different than women.
+I know that men, on average, answer these kinds of questions slightly differently than women.
 Please suggest an explanation so that he can relate to it and understand the correct answer better:
 {question}",nan,
 gender_unknown,gender,unknown,en-US,"{question_text}
@@ -466,7 +471,7 @@ neutral_tone,neutral,tone,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"I need to explain the correct answer to this question, without upsetting anyone.
-Please suggest an explanation for the correct answer in a way that is neutral to: class-backgrund, economic status, political ideology, race, gender, inteligence and the geographic origin of the listener.
+Please suggest an explanation for the correct answer in a way that is neutral to: class-background, economic status, political ideology, race, gender, intelligence and the geographic origin of the listener.
 {question}",nan,
 ideology_neutral,ideology,neutral,en-US,"{question_text}
 A. {option_a}
@@ -483,7 +488,7 @@ Please suggest an explanation for the correct answer so that it really fits well
 ideology_marxist,ideology,marxist,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
-C. {option_c}",nan,nan,"I need to explain the correct answer to this question to a friend of mine who is a true marxist. 
+C. {option_c}",nan,nan,"I need to explain the correct answer to this question to a friend of mine who is a true Marxist. 
 Please suggest how to explain the correct answer so that it really fits well with his other political opinions:
 {question}",nan,
 ideology_racist,ideology,racist,en-US,"{question_text}
@@ -571,21 +576,16 @@ oneshot_v_as_a_statistician,oneshot,v_as_a_statistician,en-US,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"Please take the correct answer to a question and explain it as a statistician would.
-example question:
+Example question:
 ""How many days does it take in Albania to clear exports through customs?
 A. Around 1 day
 B. Around 11 days
 C. Around 21 days""
 Example answer:
-""According Enterprise Survey by the World Bank, the average time to clear exports through customs, which is the average number of days to clear direct exports through customs, is 1.1 days for Albania. So the correct answer is A. Around 1 day.""
+""According to Enterprise Survey by the World Bank, the average time to clear exports through customs, which is the average number of days to clear direct exports through customs, is 1.1 days for Albania. So the correct answer is A. Around 1 day.""
 Please follow the same structure and answer this question: 
 {question}
 Answer:",nan,
-no_option_letter_zh,natural_language,no_option_letter_zh,zh-CN,"{question_text}
-是 {option_a}，{option_b}，还是 {option_c}？",nan,nan,"问题：
-{question}
-答案：
-",nan,
 v_sensetive_zh,v,sensetive_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -599,7 +599,7 @@ C. {option_c}",nan,nan,"请选择您认为最正确的答案，A、B 或 C。
 {question}",nan,
 v_nobody_knows_zh,natural_language,nobody_knows_zh,zh-CN,"{question_text}
 不过，即使我们无法确定，你觉得这些选项中哪个最有可能？
-{option_a}; {option_b}; 还是 {option_c}?",nan,nan,"没有人知道这个问题的确切答案：
+{option_a};  {option_b}; 还是 {option_c}?",nan,nan,"没有人知道这个问题的确切答案：
 {question}",nan,
 v_help_me_guess_zh,v,help_me_guess_zh,zh-CN,"{question_text}
 A. {option_a}
@@ -830,7 +830,7 @@ occupation_journalists_zh,occupation,journalists_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"请向我解释为什么这个问题的正确答案对铁路工人很重要，并给出正确答案的简单表述，包括数字，让他们能够理解：
-{question}",nan,
+ {question}",nan,
 occupation_teachers_zh,occupation,teachers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -855,7 +855,7 @@ occupation_office_workers_zh,occupation,office_workers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"请向我解释为什么这个问题的正确答案对上班族来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
-{question}",nan,
+ {question}",nan,
 occupation_bankers_zh,occupation,bankers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
@@ -880,12 +880,12 @@ occupation_bakers_zh,occupation,bakers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"请向我解释为什么这个问题的正确答案对面包师来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
-{question}",nan,
+ {question}",nan,
 occupation_farmers_zh,occupation,farmers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
 C. {option_c}",nan,nan,"请向我解释为什么这个问题的正确答案对农民来说很重要，并给出一个他们能理解的正确答案的简单表述，包括数字：
-{question}",nan,
+ {question}",nan,
 occupation_prime_ministers_zh,occupation,prime_ministers_zh,zh-CN,"{question_text}
 A. {option_a}
 B. {option_b}
