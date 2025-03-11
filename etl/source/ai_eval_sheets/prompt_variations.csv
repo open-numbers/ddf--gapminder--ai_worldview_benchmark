@@ -1173,3 +1173,8 @@ C. 21 天左右”。
 请按照同样的结构回答这个问题： 
 {question}
 答案：",nan,
+source_wikipedia,source,wikipedia,en_US,"{question_text}
+A. {option_a}
+B. {option_b}
+C. {option_c}",nan,nan,"Please answer the following multiple-choice question using ONLY information from Wikipedia:
+{question} ",nan,
