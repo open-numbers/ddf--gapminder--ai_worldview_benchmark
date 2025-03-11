@@ -1,21 +1,22 @@
-model_configuration,model_id,model_publish_date,first_experiment_date,model_parameters,repeat_times,memory,memory_size,vendor,model_name,is--latest_model
-mc026,qwen-max-1201,2023-12-01,2024-04-01,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen (1.0) Max ,FALSE
-mc027,gpt-4-0125-preview,2024-01-25,2024-04-05,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4 Turbo,FALSE
-mc028,gemini/gemini-1.0-pro,2023-12-06,2024-03-29,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro (1.0),FALSE
-mc030,vertex_ai/gemini-1.5-pro-preview-0409,2024-04-09,2024-04-20,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 on Vertex AI,FALSE
-mc031,qwen-max-0403,2024-04-03,2024-05-01,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen 1.5 Max,FALSE
-mc032,gpt-4o-2024-05-13,2024-05-13,2024-05-24,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4o,FALSE
-mc033,vertex_ai/claude-3-opus@20240229,2024-02-29,2024-05-29,"{""temperature"": 0.01}",1,false,0,Anthropic,Opus 3 on Vertex AI,FALSE
-mc034,replicate/meta/meta-llama-3-70b-instruct,2024-04-18,2024-05-28,"{""temperature"": 0.01}",1,false,0,Meta,Llama3 70B Instruct fine tuned,FALSE
-mc035,qwen-max-0428,2024-04-28,2024-06-04,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen 1.5 Max,FALSE
-mc036,gpt-4o-2024-08-06,2024-08-06,2024-08-29,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4o,FALSE
-mc037,vertex_ai/claude-3-5-sonnet@20240620,2024-06-20,2024-08-31,"{""temperature"": 0.01}",1,false,0,Anthropic,Sonnet 3.5 on Vertex AI,FALSE
-mc038,fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,2024-07-23,2024-09-10,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.1 450B Instruct on Fireworks.ai,FALSE
-mc039,qwen-max-2024-09-19,2024-09-19,2024-09-21,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen 2 Max,FALSE
-mc040,xai/grok-beta,2024-08-13,2024-11-22,"{""temperature"": 0.01}",1,false,0,XAI,Grok beta,TRUE
-mc041,vertex_ai/gemini-1.5-pro-002,2024-09-24,2024-12-06,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 002 on Vertex AI,TRUE
-mc043,anthropic/claude-3-5-sonnet-20241022,2024-10-22,2025-01-09,"{""temperature"": 0.01}",1,false,0,Anthropic,Sonnet 3.5,TRUE
-mc044,fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct,2024-12-07,2025-01-09,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.3 70B Instruct on Fireworks.ai,TRUE
-mc045,gpt-4o-2024-11-20,2024-11-20,2025-01-09,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4o,TRUE
-mc046,qwen-max-2025-01-25,2025-01-25,2025-02-05,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen 2.5 Max,TRUE
-mc047,fireworks_ai/accounts/fireworks/models/deepseek-v3,2024-12-26,2025-02-08,"{""temperature"": 0.01}",1,false,0,DeepSeek,DeepSeek V3 on fireworks.ai,TRUE
+model_configuration,model_id,name,model_parameters,repeat_times,memory,memory_size,vendor,model_name,is--latest_model
+mc039,qwen-max-2024-09-19,,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-09-19,FALSE
+mc040,xai/grok-beta,,"{""temperature"": 0.01}",1,false,0,XAI,XAI grok beta,TRUE
+mc041,vertex_ai/gemini-1.5-pro-002,,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 002 on Vertex AI,TRUE
+mc043,anthropic/claude-3-5-sonnet-20241022,,"{""temperature"": 0.01}",1,false,0,Anthropic,Claude 3.5 Sonnect 20241022,TRUE
+mc044,fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct,,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.3 70B Instruct on Fireworks.ai,TRUE
+mc045,gpt-4o-2024-11-20,,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4-o 2024-11-20,FALSE
+mc046,openai/qwen-max-2025-01-25,,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen Max 2025-01-25,TRUE
+mc047,fireworks_ai/accounts/fireworks/models/deepseek-v3,,"{""temperature"": 0.01}",1,false,0,DeepSeek,DeepSeek V3 on fireworks.ai,TRUE
+mc026,qwen-max-1201,,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2023-12-01,FALSE
+mc028,gemini/gemini-1.0-pro,,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro (1.0),FALSE
+mc030,vertex_ai/gemini-1.5-pro-preview-0409,,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 on Vertex AI,FALSE
+mc032,gpt-4o-2024-05-13,,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4-o 2024-05-13,FALSE
+mc033,vertex_ai/claude-3-opus@20240229,,"{""temperature"": 0.01}",1,false,0,Anthropic,Claude 3 Opus on Vertex AI,FALSE
+mc034,replicate/meta/meta-llama-3-70b-instruct,,"{""temperature"": 0.01}",1,false,0,Meta,Llama3 70B instruction fine tuned,FALSE
+mc035,qwen-max-0428,,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-04-28,FALSE
+mc036,gpt-4o-2024-08-06,,"{""temperature"": 0.01}",1,false,0,OpenAI,OpenAI gpt-4o-2024-08-06,FALSE
+mc037,vertex_ai/claude-3-5-sonnet@20240620,,"{""temperature"": 0.01}",1,false,0,Anthropic,Claude 3.5 Sonnet on Vertex AI,FALSE
+mc038,fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.1 450B Instruct on fireworks,FALSE
+mc027,gpt-4-0125-preview,,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT4 Turbo Jan 2024,FALSE
+mc031,qwen-max-0403,,"{""temperature"": 0.01}",1,false,0,Alibaba,Qianwen Max 2024-04-03,FALSE
+mc049,o3-mini-2025-01-31,o3-mini high,"{""temperature"": 1, ""reasoning_effort"": ""high"", ""max_completion_tokens"": 10000}",1,false,0,OpenAI,o3-mini 2025-01-31,TRUE

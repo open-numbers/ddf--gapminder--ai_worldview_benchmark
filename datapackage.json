@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-02-27T13:28:10.017Z",
+    "created": "2025-03-11T03:53:28.752Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -40,10 +40,7 @@
                         "name": "model_id"
                     },
                     {
-                        "name": "model_publish_date"
-                    },
-                    {
-                        "name": "first_experiment_date"
+                        "name": "name"
                     },
                     {
                         "name": "model_parameters"
@@ -406,15 +403,6 @@
                 "primaryKey": [
                     "latest_model"
                 ],
-                "value": "first_experiment_date",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
                 "value": "is--latest_model",
                 "resources": [
                     "ddf--entities--model_configuration"
@@ -469,7 +457,7 @@
                 "primaryKey": [
                     "latest_model"
                 ],
-                "value": "model_publish_date",
+                "value": "name",
                 "resources": [
                     "ddf--entities--model_configuration"
                 ]
@@ -505,15 +493,6 @@
                 "primaryKey": [
                     "model_configuration"
                 ],
-                "value": "first_experiment_date",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "model_configuration"
-                ],
                 "value": "is--latest_model",
                 "resources": [
                     "ddf--entities--model_configuration"
@@ -568,7 +547,7 @@
                 "primaryKey": [
                     "model_configuration"
                 ],
-                "value": "model_publish_date",
+                "value": "name",
                 "resources": [
                     "ddf--entities--model_configuration"
                 ]
