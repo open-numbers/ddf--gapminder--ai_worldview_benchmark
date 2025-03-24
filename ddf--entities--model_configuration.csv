@@ -22,3 +22,4 @@ mc047,fireworks_ai/accounts/fireworks/models/deepseek-v3,2024-12-26,2025-02-08,"
 mc049,o3-mini-2025-01-31,2025-01-31,2025-03-06,"{""temperature"": 1, ""reasoning_effort"": ""high"", ""max_completion_tokens"": 10000}",1,false,0,OpenAI,o3-mini,TRUE
 mc054,perplexity/sonar,2025-02-11,2025-03-12,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,Perplexity,Sonar,TRUE
 mc050,anthropic/claude-3-7-sonnet-20250219,2025-02-19,2025-03-18,"{""temperature"": 1, ""thinking"":{""type"":""enabled"", ""budget_tokens"":6000}, ""max_tokens"": 8000}",1,false,0,Anthropic,Sonnet 3.7 (Thinking),TRUE
+mc056,mistral/mistral-large-2411,2024-11-18,2025-03-20,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,Mistral,Mistral Large 24.11,TRUE
