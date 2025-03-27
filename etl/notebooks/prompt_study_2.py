@@ -34,7 +34,8 @@ def load_evaluation_results():
 
     # do not include the chinese prompts, 
     # and also the "source_wikipedia" prompt because it's new and don't have enough datapoints.
-    return df.filter(~pl.col("prompt_variation").str.ends_with("_zh"), pl.col("prompt_variation") != "source_wikipedia")
+    # return df.filter(~pl.col("prompt_variation").str.ends_with("_zh"), pl.col("prompt_variation") != "source_wikipedia")
+    return df.filter(~pl.col("prompt_variation").str.ends_with("_zh"))
 
 
 def add_prompt_category(df):
@@ -958,7 +959,7 @@ def find_optimal_prompt_set(df, num_prompts=15):
     """
     # Try all methods: random sampling, PCA, K-means, and category-based
     methods = ["random", "pca", "kmeans", "category"]
-    iterations = [0, 1, 0, 0]  # PCA, K-means and category methods don't use iterations
+    iterations = [0, 0, 0, 1]  # PCA, K-means and category methods don't use iterations
 
     best_score = 0
     best_method = None
@@ -1067,7 +1068,7 @@ def save_comparison_to_csv(comparison_results, output_dir="comparison_results"):
 # +
 # Usage example
 # if __name__ == "__main__":
-outpath = "comparison_results/sample4"
+outpath = "comparison_results/sample3"
 num_prompts = 35
 
 df = load_evaluation_results()
@@ -1084,6 +1085,21 @@ results = find_optimal_prompt_set(df, num_prompts=num_prompts)
 print("\nResults:")
 print(f"Best method: {results['method']}")
 print(f"Similarity score: {results['similarity_score']:.4f}")
+# +
+#FIXME: update doc
+# I did some manual change to the result from category method, to add the top ones from PCA
+df = load_evaluation_results()
+manual_best_prompts = ["v_short" ,"v_reasoning" ,"v_reason_statistically" ,"v_nobody_knows" ,
+                       "v_most_are_wrong_why" ,"v_help_me_guess" ,"v_exact_then_abc" ,"v_deduction_three_steps" ,
+                       "v_cant_believe_it" ,"v_as_a_social_media_post" ,"v_as_a_museum_poster" ,
+                       "oneshot_v_as_a_statistician" ,"occupation_prime_ministers" ,"occupation_cleaners" ,
+                       "no_option_letter" ,"music_techno" ,"music_classical" ,"mental_depression" ,
+                       "mental_adhd" ,"iq_low" ,"iq_high" ,"ideology_racist" ,"ideology_neoliberal" ,
+                       "ideology_marxist" ,"ideology_environmentalist" ,"geo_unknown" ,"geo_soviet" ,
+                       "gender_woman" ,"gender_unknown" ,"film_romantic" ,"film_comedy" ,
+                       "economy_unknown" ,"economy_billionaire" ,"class_upper" ,"class_unknown" ,"source_wikipedia"]
+
+results["best_prompt_set"] = manual_best_prompts
 
 # Compare model performance
 print("\nComparing model performance...")
@@ -1110,5 +1126,10 @@ print("\nSaving comparison data to CSV files...")
 model_comparison["best_prompt_set"] = results["best_prompt_set"]  # Add the best prompt set to model_comparison
 save_comparison_to_csv(model_comparison, output_dir=outpath)
 # -
+
+calculate_correct_rate(subset_df, exclude_fail=True)
+
+calculate_similarity_score(df, subset_df)
+
 
 
