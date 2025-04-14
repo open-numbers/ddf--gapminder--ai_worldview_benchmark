@@ -13,15 +13,17 @@ mc037,vertex_ai/claude-3-5-sonnet@20240620,2024-06-20,2024-08-31,"{""temperature
 mc038,fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,2024-07-23,2024-09-10,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.1 450B Instruct on Fireworks.ai,FALSE
 mc039,qwen-max-2024-09-19,2024-09-19,2024-09-21,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen 2 Max,FALSE
 mc040,xai/grok-beta,2024-08-13,2024-11-22,"{""temperature"": 0.01}",1,false,0,XAI,Grok beta,TRUE
-mc041,vertex_ai/gemini-1.5-pro-002,2024-09-24,2024-12-06,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 002 on Vertex AI,TRUE
+mc041,vertex_ai/gemini-1.5-pro-002,2024-09-24,2024-12-06,"{""temperature"": 0.01}",1,false,0,Google,Gemini Pro 1.5 002 on Vertex AI,FALSE
 mc043,anthropic/claude-3-5-sonnet-20241022,2024-10-22,2025-01-09,"{""temperature"": 0.01}",1,false,0,Anthropic,Sonnet 3.5,FALSE
 mc044,fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct,2024-12-07,2025-01-09,"{""temperature"": 0.01}",1,false,0,Meta,Llama 3.3 70B Instruct on Fireworks.ai,FALSE
 mc045,gpt-4o-2024-11-20,2024-11-20,2025-01-09,"{""temperature"": 0.01}",1,false,0,OpenAI,GPT-4o,FALSE
 mc046,qwen-max-2025-01-25,2025-01-25,2025-02-05,"{""temperature"": 0.01}",1,false,0,Alibaba,Qwen 2.5 Max,TRUE
-mc047,fireworks_ai/accounts/fireworks/models/deepseek-v3,2024-12-26,2025-02-08,"{""temperature"": 0.01}",1,false,0,DeepSeek,DeepSeek V3 on fireworks.ai,TRUE
+mc047,fireworks_ai/accounts/fireworks/models/deepseek-v3,2024-12-26,2025-02-08,"{""temperature"": 0.01}",1,false,0,DeepSeek,DeepSeek V3 on fireworks.ai,FALSE
 mc049,o3-mini-2025-01-31,2025-01-31,2025-03-06,"{""temperature"": 1, ""reasoning_effort"": ""high"", ""max_completion_tokens"": 10000}",1,false,0,OpenAI,o3-mini,TRUE
 mc054,perplexity/sonar,2025-02-11,2025-03-12,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,Perplexity,Sonar,FALSE
 mc050,anthropic/claude-3-7-sonnet-20250219,2025-02-19,2025-03-18,"{""temperature"": 1, ""thinking"":{""type"":""enabled"", ""budget_tokens"":6000}, ""max_tokens"": 8000}",1,false,0,Anthropic,Sonnet 3.7 (Thinking),TRUE
 mc056,mistral/mistral-large-2411,2024-11-18,2025-03-20,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,Mistral,Mistral Large 24.11,TRUE
 mc053,perplexity/sonar-reasoning-pro,2025-02-11,2025-04-03,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,FALSE,0,Perplexity,Sonar Reasoning Pro,TRUE
 mc058,fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic,2025-04-05,2025-04-08,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,FALSE,0,Meta,Llama 4 Maverick Instruct (Basic) on Fireworks.ai,TRUE
+mc057,deepseek/deepseek-reasoner,2025-01-20,2025-04-10,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,FALSE,0,DeepSeek,R1,TRUE
+mc060,vertex_ai/gemini-2.5-pro-exp-03-25,2025-03-25,2025-04-12,"{""temperature"": 0.01, ""max_output_tokens"": 5000}",1,FALSE,0,Google,Gemini Pro 2.5 Experimental,TRUE
