@@ -30,5 +30,6 @@ mc060,vertex_ai/gemini-2.5-pro-exp-03-25,2025-03-25,2025-04-12,"{""temperature""
 mc059,o1-2024-12-17,2024-12-17,2025-04-15,"{""temperature"": 1, ""reasoning_effort"": ""medium"", ""max_completion_tokens"": 5000}",1,FALSE,0,OpenAI,o1 (Medium),FALSE
 mc062,qwq-plus,2025-03-05,2025-04-17,"{""temperature"": 0, ""max_tokens"": 5000}",1,FALSE,0,Alibaba,QwQ Plus,TRUE
 mc063,deepseek/deepseek-chat,2025-03-24,2025-04-17,"{""temperature"": 0, ""max_tokens"": 3000}",1,FALSE,0,DeepSeek,V3-20250324,TRUE
-mc065,gpt-4.1-2025-04-14,2025-04-14,2025-04-17,"{""temperature"": 0, ""max_completion_tokens"": 5000}",1,FALSE,0,OpenAI,GPT 4.1,TRUE
+mc065,gpt-4.1-2025-04-14,2025-04-14,2025-04-17,"{""temperature"": 0, ""max_completion_tokens"": 5000}",1,FALSE,0,OpenAI,GPT 4.1,FALSE
 mc061,xai/grok-3-beta,2025-02-19,2025-04-15,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,FALSE,0,XAI,Grok 3 Beta,TRUE
+mc064,o3-2025-04-16,2025-04-16,2025-04-29,"{""temperature"": 1, ""reasoning_effort"": ""medium"", ""max_completion_tokens"": 5000}",1,FALSE,0,OpenAI,o3 (Medium),TRUE
