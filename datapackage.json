@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-04-29T08:55:32.191Z",
+    "created": "2025-06-10T09:00:46.246Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -40,10 +40,13 @@
                         "name": "model_id"
                     },
                     {
+                        "name": "first_experiment_date"
+                    },
+                    {
                         "name": "model_publish_date"
                     },
                     {
-                        "name": "first_experiment_date"
+                        "name": "model_name"
                     },
                     {
                         "name": "model_parameters"
@@ -52,16 +55,13 @@
                         "name": "repeat_times"
                     },
                     {
+                        "name": "vendor"
+                    },
+                    {
                         "name": "memory"
                     },
                     {
                         "name": "memory_size"
-                    },
-                    {
-                        "name": "vendor"
-                    },
-                    {
-                        "name": "model_name"
                     },
                     {
                         "name": "is--latest_model"
