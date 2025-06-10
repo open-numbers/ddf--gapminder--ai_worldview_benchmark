@@ -15,11 +15,9 @@ B The answer is not correct, and matches/is close to the Very Wrong answer.
 C The answer is not correct, and matches/is close to the Wrong answer.
 D The answer is correct, i.e. matches the Correct answer.
 [Instruction]:
-First, write out in a step by step manner your reasoning to be sure that your
-conclusion is correct.
-Avoid simply stating the correct answer at the outset.
-Then print only a single choice from A,B,C,D (without quotes or punctuation)
-on its own line corresponding to the correct answer.
-At the end, repeat just the answer by itself on a new line.
-Reasoning:
-","A, B, C, D","0, 1, 2, 3"
+1. First, write out in a step by step manner your reasoning to be sure that your
+conclusion is correct. Avoid simply stating the final answer at the outset.
+2. Finally print only a single choice from A,B,C,D (without quotes or punctuation)
+on its own line corresponding to the assessment.
+
+Reasoning:","A, B, C, D","0, 1, 2, 3"
