@@ -298,6 +298,12 @@ model_confs = model_confs.rename(
     {col: col.lower().replace(" ", "_") for col in model_confs.columns}
 )
 
+# Remove rows where first_experiment_date is nan
+model_confs = model_confs.filter(
+    pl.col("first_experiment_date").is_not_null() &
+    (pl.col("first_experiment_date") != "nan")
+)
+
 model_confs
 
 # Add is_latest_model column

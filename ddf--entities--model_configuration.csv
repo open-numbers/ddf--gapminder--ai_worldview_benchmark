@@ -14,20 +14,15 @@ mc038,fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct,Meta,2024-
 mc039,qwen-max-2024-09-19,Alibaba,2024-09-19,2024-09-21,Qwen 2 Max,"{""temperature"": 0.01}",1,false,0,FALSE
 mc040,xai/grok-beta,XAI,2024-08-13,2024-11-22,Grok beta,"{""temperature"": 0.01}",1,false,0,FALSE
 mc041,vertex_ai/gemini-1.5-pro-002,Google,2024-09-24,2024-12-06,Gemini Pro 1.5 002 on Vertex AI,"{""temperature"": 0.01}",1,false,0,FALSE
-mc042,o1-preview-2024-09-12,OpenAI,2024-09-12,nan,o1 preview,"{""temperature"": 1}",1,false,0,FALSE
 mc043,anthropic/claude-3-5-sonnet-20241022,Anthropic,2024-10-22,2025-01-09,Sonnet 3.5,"{""temperature"": 0.01}",1,false,0,FALSE
 mc044,fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct,Meta,2024-12-07,2025-01-09,Llama 3.3 70B Instruct on Fireworks.ai,"{""temperature"": 0.01}",1,false,0,FALSE
 mc045,gpt-4o-2024-11-20,OpenAI,2024-11-20,2025-01-09,GPT-4o,"{""temperature"": 0.01}",1,false,0,FALSE
 mc046,qwen-max-2025-01-25,Alibaba,2025-01-25,2025-02-05,Qwen 2.5 Max,"{""temperature"": 0.01}",1,false,0,FALSE
 mc047,fireworks_ai/accounts/fireworks/models/deepseek-v3,DeepSeek,2024-12-26,2025-02-08,DeepSeek V3 on fireworks.ai,"{""temperature"": 0.01}",1,false,0,FALSE
-mc048,xai/grok-2-1212,XAI,2024-12-12,nan,Grok-2,"{""temperature"": 0.01}",1,false,0,FALSE
 mc049,o3-mini-2025-01-31,OpenAI,2025-01-31,2025-03-06,o3-mini (High),"{""temperature"": 1, ""reasoning_effort"": ""high"", ""max_completion_tokens"": 10000}",1,false,0,FALSE
 mc050,anthropic/claude-3-7-sonnet-20250219,Anthropic,2025-02-19,2025-03-18,Sonnet 3.7 (Thinking),"{""temperature"": 1, ""thinking"":{""type"":""enabled"", ""budget_tokens"":6000}, ""max_tokens"": 8000}",1,false,0,FALSE
-mc051,anthropic/claude-3-7-sonnet-20250219,Anthropic,2025-02-19,nan,Sonnet 3.7,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,false,0,FALSE
-mc052,perplexity/sonar-pro,Perplexity,2025-02-11,nan,Sonar Pro,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,FALSE
 mc053,perplexity/sonar-reasoning-pro,Perplexity,2025-02-11,2025-04-03,Sonar Reasoning Pro,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,false,0,TRUE
 mc054,perplexity/sonar,Perplexity,2025-02-11,2025-03-12,Sonar,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,FALSE
-mc055,perplexity/sonar-reasoning,Perplexity,2025-02-11,nan,Sonar Reasoning,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,false,0,FALSE
 mc056,mistral/mistral-large-2411,Mistral,2024-11-20,2025-03-20,Large 24.11,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,TRUE
 mc057,deepseek/deepseek-reasoner,DeepSeek,2025-01-20,2025-04-10,R1,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,false,0,TRUE
 mc058,fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic,Meta,2025-04-05,2025-04-08,Llama 4 Maverick Instruct (Basic) on Fireworks.ai,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,TRUE
@@ -38,10 +33,5 @@ mc062,alibaba/qwq-plus,Alibaba,2025-03-05,2025-04-17,QwQ Plus,"{""temperature"":
 mc063,deepseek/deepseek-chat,DeepSeek,2025-03-24,2025-04-17,V3,"{""temperature"": 0, ""max_tokens"": 3000}",1,false,0,FALSE
 mc064,openai/o3-2025-04-16,OpenAI,2025-04-16,2025-04-29,o3 (Medium),"{""temperature"": 1, ""reasoning_effort"": ""medium"", ""max_completion_tokens"": 5000}",1,false,0,TRUE
 mc065,openai/gpt-4.1-2025-04-14,OpenAI,2025-04-14,2025-04-17,GPT 4.1,"{""temperature"": 0, ""max_completion_tokens"": 5000}",1,false,0,FALSE
-mc066,vertex_ai/publishers/google/models/gemini-2.5-pro-preview-05-06,Google,2025-05-06,nan,Gemini Pro 2.5 Preview,"{""temperature"": 0, ""max_output_tokens"": 5000}",1,false,0,FALSE
-mc067,vertex_ai/publishers/google/models/gemini-2.0-flash-001,Google,2025-01-30,nan,Gemini 2.0 Flash,"{""temperature"": 0, ""max_output_tokens"": 5000}",1,false,0,FALSE
 mc068,anthropic/claude-sonnet-4-20250514,Anthropic,2025-05-14,2025-06-10,Claude 4 Sonnet (Thinking),"{""temperature"": 1, ""thinking"":{""type"":""enabled"", ""budget_tokens"":3000}, ""max_tokens"": 5000}",1,false,0,TRUE
-mc069,anthropic/claude-opus-4-20250514,Anthropic,2025-05-14,nan,Claude 4 Opus (Thinking),"{""temperature"": 1, ""thinking"":{""type"":""enabled"", ""budget_tokens"":3000}, ""max_tokens"": 5000}",1,false,0,FALSE
-mc070,perplexity/sonar-reasoning-pro,Perplexity,2025-03-01,nan,Sonar Reasoning Pro (Medium Search Context),"{""temperature"": 0.0, ""max_tokens"": 5000}",1,false,0,FALSE
 mc071,alibaba/qwen-plus-latest,Alibaba,2025-04-28,2025-06-10,Qwen 3 (Thinking),"{""temperature"": 1, ""max_tokens"": 2000, ""extra_body"":{""enable_thinking"": true, ""thinking_budget"": 3000}}",1,false,0,TRUE
-mc072,deepseek/deepseek-reasoner,DeepSeek,2025-05-28,nan,R1,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,false,0,FALSE
