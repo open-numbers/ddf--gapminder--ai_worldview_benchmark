@@ -156,7 +156,9 @@ rates = rates.rename(
 # Create and save separate CSV files for each rate
 for rate_type in ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_rate"]:
     (
-        rates.select(["question", "model_configuration", rate_type]).write_csv(
+        rates.select(["question", "model_configuration", rate_type])
+        .sort(["question", "model_configuration"])
+        .write_csv(
             f"../../ddf--datapoints--{rate_type}--by--question--model_configuration.csv"
         )
     )
@@ -251,54 +253,43 @@ rates_by_prompt = rates_by_prompt.rename(
 # Create and save separate CSV files for each rate
 for rate_type in ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_rate"]:
     (
-        rates_by_prompt.select(
-            ["model_configuration", "prompt_variation", rate_type]
-        ).write_csv(
+        rates_by_prompt.select(["model_configuration", "prompt_variation", rate_type])
+        .sort(["model_configuration", "prompt_variation"])
+        .write_csv(
             f"../../ddf--datapoints--{rate_type}--by--model_configuration--prompt_variation.csv"
         )
     )
 
 # get the top and bottom for each model
 rates_by_prompt_correct = rates_by_prompt.select(
-   ["model_configuration", "prompt_variation", "correct_rate"]
+    ["model_configuration", "prompt_variation", "correct_rate"]
 )
 rates_by_prompt_correct
 
 # group by model_configuration, sort correct rate and and
 # add a rank column.
-bottom = rates_by_prompt_correct.group_by("model_configuration").map_groups(
-    lambda x: x.sort("correct_rate").head(5)
-).group_by("model_configuration").agg(
-    pl.col("correct_rate").mean()
-).sort(
-    ["model_configuration"]
+bottom = (
+    rates_by_prompt_correct.group_by("model_configuration")
+    .map_groups(lambda x: x.sort("correct_rate").head(5))
+    .group_by("model_configuration")
+    .agg(pl.col("correct_rate").mean())
+    .sort(["model_configuration"])
 )
 bottom.write_csv("./bottom_rates.csv")
 
-# 
-top = rates_by_prompt_correct.group_by("model_configuration").map_groups(
-    lambda x: x.sort("correct_rate").tail(5)
-).group_by("model_configuration").agg(
-    pl.col("correct_rate").mean()
-).sort(
-    ["model_configuration"]
+#
+top = (
+    rates_by_prompt_correct.group_by("model_configuration")
+    .map_groups(lambda x: x.sort("correct_rate").tail(5))
+    .group_by("model_configuration")
+    .agg(pl.col("correct_rate").mean())
+    .sort(["model_configuration"])
 )
 top.write_csv("./top_rates.csv")
 
 master_output
 
 # next create entities for model configuration
-# read model list
-models = pl.read_csv("../source/ai_eval_sheets/gen_ai_models.csv")
-
-# Convert column names to lowercase and connect with underscore
-models = models.rename({col: col.lower().replace(" ", "_") for col in models.columns})
-
-# Remove rows with null model_id
-models = models.filter(pl.col("model_id") != "nan")
-
-models
-
 # model configurations list
 model_confs = pl.read_csv("../source/ai_eval_sheets/gen_ai_model_configs.csv")
 
@@ -309,27 +300,24 @@ model_confs = model_confs.rename(
 
 model_confs
 
-# Join model_confs with models to include additional model information
-model_confs = model_confs.join(
-    models.select(["model_id", "vendor", "model_name"]),
-    on="model_id",
-    how="left",
-)
-
 # Add is_latest_model column
-latest_models = ["mc045", "mc044", "mc043", "mc041", "mc046", "mc040", "mc047"]
 model_confs = model_confs.with_columns(
     [
-        pl.col("model_config_id")
-        .is_in(latest_models)
+        pl.col("latest")
         .map_elements(lambda x: "TRUE" if x else "FALSE", return_dtype=str)
         .alias("is--latest_model")
     ]
-)
+).drop("latest")
 
 
 # Rename model_configuration_id to model_configuration and save as DDF entity
-model_confs = model_confs.rename({"model_config_id": "model_configuration"})
+model_confs = model_confs.rename(
+    {
+        "model_config_id": "model_configuration",
+        "name": "model_name",
+        "model_published_date": "model_publish_date",
+    }
+)
 model_confs.write_csv("../../ddf--entities--model_configuration.csv")
 
 model_confs
@@ -664,72 +652,3 @@ concepts_df = concepts_df.with_columns(
 
 # Save as DDF concepts
 concepts_df.write_csv("../../ddf--concepts.csv")
-
-# Check specific combinations after all processing
-questions_to_check = [
-    "1757",
-    "11",
-    "1764",
-    "59",
-    "1632",
-    "1546",
-    "1508",
-    "1",
-    "32",
-    "1601",
-    "1593",
-    "814",
-]
-models_to_check = ["mc036", "mc037", "mc038", "mc039", "mc040"]
-
-filtered_rates = rates.filter(
-    pl.col("question").cast(pl.Utf8).is_in(questions_to_check)
-    & pl.col("model_configuration").is_in(models_to_check)
-).sort(["question", "model_configuration"])
-
-print("\nFiltered correct rates for specific combinations:")
-print(filtered_rates)
-
-# Calculate missing combinations
-all_combinations = pl.DataFrame(
-    {
-        "question": questions_to_check * len(models_to_check),
-        "model_configuration": [
-            model for model in models_to_check for _ in questions_to_check
-        ],
-    }
-)
-
-missing_combinations = all_combinations.join(
-    filtered_rates.select(["question", "model_configuration"]),
-    on=["question", "model_configuration"],
-    how="anti",
-).sort(["question", "model_configuration"])
-
-print("\nMissing combinations:")
-print(missing_combinations)
-
-# Check if any questions from our checking list are missing from question entities
-missing_from_entities = (
-    pl.DataFrame({"question": questions_to_check})
-    .join(question_entity.select("question"), on="question", how="anti")
-    .sort("question")
-)
-
-print("\nQuestions from checking list that are missing from question entities:")
-print(missing_from_entities)
-
-# filter results
-master_output
-master_output.filter(pl.col("question_id").is_in(questions_to_check))
-
-
-# check average rates for xai
-rates.filter(pl.col("model_configuration") == "mc036").select(
-    [
-        pl.col("correct_rate").mean().alias("avg_correct_rate"),
-        pl.col("wrong_rate").mean().alias("avg_wrong_rate"),
-        pl.col("very_wrong_rate").mean().alias("avg_very_wrong_rate"),
-        pl.col("indecisive_rate").mean().alias("avg_indecisive_rate"),
-    ]
-)
