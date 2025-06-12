@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-06-10T09:00:46.246Z",
+    "created": "2025-06-12T02:36:14.970Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -40,10 +40,13 @@
                         "name": "model_id"
                     },
                     {
-                        "name": "first_experiment_date"
+                        "name": "vendor"
                     },
                     {
                         "name": "model_publish_date"
+                    },
+                    {
+                        "name": "first_experiment_date"
                     },
                     {
                         "name": "model_name"
@@ -53,9 +56,6 @@
                     },
                     {
                         "name": "repeat_times"
-                    },
-                    {
-                        "name": "vendor"
                     },
                     {
                         "name": "memory"
