@@ -28,7 +28,7 @@ mc052,perplexity/sonar-pro,Perplexity,2025-02-11,nan,False,Sonar Pro,"{""tempera
 mc053,perplexity/sonar-reasoning-pro,Perplexity,2025-02-11,2025-04-03,True,Sonar Reasoning Pro,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,False,0
 mc054,perplexity/sonar,Perplexity,2025-02-11,2025-03-12,False,Sonar,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,False,0
 mc055,perplexity/sonar-reasoning,Perplexity,2025-02-11,nan,False,Sonar Reasoning,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,False,0
-mc056,mistral/mistral-large-2411,Mistral,2024-11-20,2025-03-20,True,Large 24.11,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,False,0
+mc056,mistral/mistral-large-2411,Mistral,2024-11-20,2025-03-20,False,Large 24.11,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,False,0
 mc057,deepseek/deepseek-reasoner,DeepSeek,2025-01-20,2025-04-10,True,R1,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,False,0
 mc058,fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic,Meta,2025-04-05,2025-04-08,True,Llama 4 Maverick Instruct (Basic) on Fireworks.ai,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,False,0
 mc059,o1-2024-12-17,OpenAI,2024-12-17,2025-04-15,False,o1 (Medium),"{""temperature"": 1, ""reasoning_effort"": ""medium"", ""max_completion_tokens"": 5000}",1,False,0
@@ -45,3 +45,4 @@ mc069,anthropic/claude-opus-4-20250514,Anthropic,2025-05-14,nan,False,Claude 4 O
 mc070,perplexity/sonar-reasoning-pro,Perplexity,2025-03-01,nan,False,Sonar Reasoning Pro (Medium Search Context),"{""temperature"": 0.0, ""max_tokens"": 5000}",1,False,0
 mc071,alibaba/qwen-plus-latest,Alibaba,2025-04-28,2025-06-10,True,Qwen 3 (Thinking),"{""temperature"": 1, ""max_tokens"": 2000, ""extra_body"":{""enable_thinking"": true, ""thinking_budget"": 3000}}",1,False,0
 mc072,deepseek/deepseek-reasoner,DeepSeek,2025-05-28,nan,False,R1,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,False,0
+mc073,mistral/magistral-medium-2506,Mistral,2025-06-10,2025-06-13,True,Magistral,"{""temperature"": 1.0, ""max_tokens"": 10000}",1,False,0
