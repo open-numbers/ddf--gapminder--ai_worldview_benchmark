@@ -27,8 +27,8 @@ mc056,mistral/mistral-large-2411,Mistral,2024-11-20,2025-03-20,Large 24.11,"{""t
 mc057,deepseek/deepseek-reasoner,DeepSeek,2025-01-20,2025-04-10,R1,"{""temperature"": 0.01, ""max_tokens"": 5000}",1,false,0,TRUE
 mc058,fireworks_ai/accounts/fireworks/models/llama4-maverick-instruct-basic,Meta,2025-04-05,2025-04-08,Llama 4 Maverick Instruct (Basic) on Fireworks.ai,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,TRUE
 mc059,o1-2024-12-17,OpenAI,2024-12-17,2025-04-15,o1 (Medium),"{""temperature"": 1, ""reasoning_effort"": ""medium"", ""max_completion_tokens"": 5000}",1,false,0,FALSE
-mc060,vertex_ai/publishers/google/models/gemini-2.5-pro-exp-03-25,Google,2025-03-25,2025-04-12,Gemini Pro 2.5 Experimental,"{""temperature"": 0.01, ""max_output_tokens"": 5000}",1,false,0,FALSE
-mc061,xai/grok-3-beta,XAI,2025-02-19,2025-04-15,Grok 3 Beta,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,FALSE
+mc060,vertex_ai/publishers/google/models/gemini-2.5-pro-exp-03-25,Google,2025-03-25,2025-04-12,Gemini Pro 2.5 Experimental,"{""temperature"": 0.01, ""max_output_tokens"": 5000}",1,false,0,TRUE
+mc061,xai/grok-3-beta,XAI,2025-02-19,2025-04-15,Grok 3 Beta,"{""temperature"": 0.01, ""max_tokens"": 3000}",1,false,0,TRUE
 mc062,alibaba/qwq-plus,Alibaba,2025-03-05,2025-04-17,QwQ Plus,"{""temperature"": 0, ""max_tokens"": 5000}",1,false,0,FALSE
 mc063,deepseek/deepseek-chat,DeepSeek,2025-03-24,2025-04-17,V3,"{""temperature"": 0, ""max_tokens"": 3000}",1,false,0,FALSE
 mc064,openai/o3-2025-04-16,OpenAI,2025-04-16,2025-04-29,o3 (Medium),"{""temperature"": 1, ""reasoning_effort"": ""medium"", ""max_completion_tokens"": 5000}",1,false,0,TRUE
