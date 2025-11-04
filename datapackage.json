@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-06-17T03:19:15.856Z",
+    "created": "2025-11-04T02:58:55.347Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -62,9 +62,6 @@
                     },
                     {
                         "name": "memory_size"
-                    },
-                    {
-                        "name": "is--latest_model"
                     }
                 ],
                 "primaryKey": [
@@ -82,6 +79,18 @@
                     },
                     {
                         "name": "language"
+                    },
+                    {
+                        "name": "prompt_family_id"
+                    },
+                    {
+                        "name": "prompt_specific_id"
+                    },
+                    {
+                        "name": "prompt_family"
+                    },
+                    {
+                        "name": "prompt_specific"
                     },
                     {
                         "name": "question_template"
@@ -395,105 +404,6 @@
         "entities": [
             {
                 "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "average_correct_rate",
-                "resources": [
-                    "ddf--datapoints--average_correct_rate--by--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "first_experiment_date",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "is--latest_model",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "memory",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "memory_size",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "model_id",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "model_name",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "model_parameters",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "model_publish_date",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "repeat_times",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model"
-                ],
-                "value": "vendor",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
                     "model_configuration"
                 ],
                 "value": "average_correct_rate",
@@ -506,15 +416,6 @@
                     "model_configuration"
                 ],
                 "value": "first_experiment_date",
-                "resources": [
-                    "ddf--entities--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "model_configuration"
-                ],
-                "value": "is--latest_model",
                 "resources": [
                     "ddf--entities--model_configuration"
                 ]
@@ -596,6 +497,42 @@
                     "prompt_variation"
                 ],
                 "value": "language",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "prompt_family",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "prompt_family_id",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "prompt_specific",
+                "resources": [
+                    "ddf--entities--prompt_variation"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "prompt_variation"
+                ],
+                "value": "prompt_specific_id",
                 "resources": [
                     "ddf--entities--prompt_variation"
                 ]
@@ -746,97 +683,6 @@
             }
         ],
         "datapoints": [
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "prompt_variation"
-                ],
-                "value": "correct_rate",
-                "resources": [
-                    "ddf--datapoints--correct_rate--by--model_configuration--prompt_variation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "prompt_variation"
-                ],
-                "value": "indecisive_rate",
-                "resources": [
-                    "ddf--datapoints--indecisive_rate--by--model_configuration--prompt_variation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "prompt_variation"
-                ],
-                "value": "very_wrong_rate",
-                "resources": [
-                    "ddf--datapoints--very_wrong_rate--by--model_configuration--prompt_variation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "prompt_variation"
-                ],
-                "value": "wrong_rate",
-                "resources": [
-                    "ddf--datapoints--wrong_rate--by--model_configuration--prompt_variation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "prompt_variation",
-                    "question"
-                ],
-                "value": "evaluation_result",
-                "resources": [
-                    "ddf--datapoints--evaluation_result--by--question--model_configuration--prompt_variation"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "question"
-                ],
-                "value": "correct_rate",
-                "resources": [
-                    "ddf--datapoints--correct_rate--by--question--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "question"
-                ],
-                "value": "indecisive_rate",
-                "resources": [
-                    "ddf--datapoints--indecisive_rate--by--question--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "question"
-                ],
-                "value": "very_wrong_rate",
-                "resources": [
-                    "ddf--datapoints--very_wrong_rate--by--question--model_configuration"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "latest_model",
-                    "question"
-                ],
-                "value": "wrong_rate",
-                "resources": [
-                    "ddf--datapoints--wrong_rate--by--question--model_configuration"
-                ]
-            },
             {
                 "primaryKey": [
                     "model_configuration",
