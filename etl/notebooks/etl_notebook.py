@@ -6,7 +6,7 @@ import polars as pl
 # first create the datapoints!
 master_output = pl.read_csv(
     "../source/results/*.csv",
-    schema_overrides={"question_id": str},
+    schema_overrides={"question_id": pl.Utf8},
 )
 
 # Convert column names to lowercase and connect with underscore
@@ -21,9 +21,7 @@ master_output = master_output.rename(
 
 # Check for multiple dates per combination
 date_check = (
-    master_output.group_by(
-        ["question_id", "prompt_variation_id", "model_configuration_id"]
-    )
+    master_output.group_by(["question_id", "prompt_variation_id", "model_configuration_id"])
     .agg(
         [
             pl.col("last_evaluation_datetime").n_unique().alias("unique_dates"),
@@ -160,9 +158,7 @@ for rate_type in ["correct_rate", "wrong_rate", "very_wrong_rate", "indecisive_r
     (
         rates.select(["question", "model_configuration", rate_type])
         .sort(["question", "model_configuration"])
-        .write_csv(
-            f"../../ddf--datapoints--{rate_type}--by--question--model_configuration.csv"
-        )
+        .write_csv(f"../../ddf--datapoints--{rate_type}--by--question--model_configuration.csv")
     )
 
 rates
@@ -176,9 +172,7 @@ avg_rates = (
 
 avg_rates.sort("model_configuration")
 
-avg_rates.write_csv(
-    "../../ddf--datapoints--average_correct_rate--by--model_configuration.csv"
-)
+avg_rates.write_csv("../../ddf--datapoints--average_correct_rate--by--model_configuration.csv")
 
 # another aggregated rates
 rates_by_prompt = (
@@ -302,21 +296,10 @@ model_confs = model_confs.rename(
 
 # Remove rows where first_experiment_date is nan
 model_confs = model_confs.filter(
-    pl.col("first_experiment_date").is_not_null() &
-    (pl.col("first_experiment_date") != "nan")
+    pl.col("first_experiment_date").is_not_null() & (pl.col("first_experiment_date") != "nan")
 )
 
 model_confs
-
-# Add is_latest_model column
-model_confs = model_confs.with_columns(
-    [
-        pl.col("latest")
-        .map_elements(lambda x: "TRUE" if x else "FALSE", return_dtype=str)
-        .alias("is--latest_model")
-    ]
-).drop("latest")
-
 
 # Rename model_configuration_id to model_configuration and save as DDF entity
 model_confs = model_confs.rename(
@@ -326,6 +309,10 @@ model_confs = model_confs.rename(
         "model_published_date": "model_publish_date",
     }
 )
+
+# Drop the "latest" column
+model_confs = model_confs.drop("latest")
+
 model_confs.write_csv("../../ddf--entities--model_configuration.csv")
 
 model_confs
@@ -339,9 +326,7 @@ ai_eval_qs = pl.read_csv(
 )
 
 # Convert column names to lowercase and connect with underscore
-ai_eval_qs = ai_eval_qs.rename(
-    {col: col.lower().replace(" ", "_") for col in ai_eval_qs.columns}
-)
+ai_eval_qs = ai_eval_qs.rename({col: col.lower().replace(" ", "_") for col in ai_eval_qs.columns})
 
 # Remove include_in_next_evaluation column
 # ai_eval_qs = ai_eval_qs.drop("include_in_next_evaluation")
@@ -375,19 +360,12 @@ ai_eval_qs
 
 # Create contentful_id column by removing '_t' or '_text' suffix from question_id
 ai_eval_qs = ai_eval_qs.with_columns(
-    [
-        pl.col("question_id")
-        .cast(pl.String)
-        .str.replace("_t$|_text$", "")
-        .alias("contentful_id")
-    ]
+    [pl.col("question_id").cast(pl.String).str.replace("_t$|_text$", "").alias("contentful_id")]
 )
 
 # Group by contentful_id and fill missing information
 ai_eval_qs = (
-    ai_eval_qs.sort(
-        ["contentful_id", "question_id"]
-    )  # Sort to ensure consistent filling
+    ai_eval_qs.sort(["contentful_id", "question_id"])  # Sort to ensure consistent filling
     .group_by("contentful_id")
     .map_groups(lambda df: df.fill_null(strategy="forward"))
 )
@@ -417,9 +395,7 @@ FILTERED_TOPICS = [
 ]
 
 # Rename wrongPercentage column and create sdg_world_topics and other_topics
-ai_eval_qs = ai_eval_qs.rename(
-    {"wrongPercentage": "human_wrong_percentage"}
-).with_columns(
+ai_eval_qs = ai_eval_qs.rename({"wrongPercentage": "human_wrong_percentage"}).with_columns(
     [
         pl.col("included_in_tests_within_these_topic_ids")
         .str.split(";")
@@ -464,26 +440,17 @@ answers_pivot = (
     .group_by(["question_id", "language"])
     .agg(
         [
-            pl.col("question_option")
-            .filter(pl.col("letter") == "A")
-            .first()
-            .alias("option_a"),
+            pl.col("question_option").filter(pl.col("letter") == "A").first().alias("option_a"),
             pl.col("correctness_of_answer_option")
             .filter(pl.col("letter") == "A")
             .first()
             .alias("option_a_correctness"),
-            pl.col("question_option")
-            .filter(pl.col("letter") == "B")
-            .first()
-            .alias("option_b"),
+            pl.col("question_option").filter(pl.col("letter") == "B").first().alias("option_b"),
             pl.col("correctness_of_answer_option")
             .filter(pl.col("letter") == "B")
             .first()
             .alias("option_b_correctness"),
-            pl.col("question_option")
-            .filter(pl.col("letter") == "C")
-            .first()
-            .alias("option_c"),
+            pl.col("question_option").filter(pl.col("letter") == "C").first().alias("option_c"),
             pl.col("correctness_of_answer_option")
             .filter(pl.col("letter") == "C")
             .first()
@@ -541,6 +508,12 @@ question_entity = question_entity.join(
     how="left",
 )
 
+
+# Trim whitespace and newlines from published_version_of_question column
+question_entity = question_entity.with_columns(
+    pl.col("published_version_of_question").str.strip_chars().alias("published_version_of_question")
+)
+
 # Save as DDF entity
 question_entity.write_csv("../../ddf--entities--question.csv")
 
@@ -561,6 +534,10 @@ prompt_variations = prompt_variations.select(
     [
         pl.col("variation_id").alias("prompt_variation"),
         "language",
+        "prompt_family_id",
+        "prompt_specific_id",
+        "prompt_family",
+        "prompt_specific",
         "question_template",
         "question_prompt_template",
     ]
@@ -570,9 +547,7 @@ prompt_variations = prompt_variations.select(
 existing_variations = master_output.get_column("prompt_variation_id").unique()
 
 # Filter to keep only variations that exist in master_output
-prompt_variations = prompt_variations.filter(
-    pl.col("prompt_variation").is_in(existing_variations)
-)
+prompt_variations = prompt_variations.filter(pl.col("prompt_variation").is_in(existing_variations))
 
 # Save as DDF entity
 prompt_variations.write_csv("../../ddf--entities--prompt_variation.csv")
@@ -584,9 +559,7 @@ question_entity_columns = question_entity.columns
 prompt_variation_columns = prompt_variations.columns
 
 # Create a list of all unique columns and transform them
-all_columns = list(
-    set(model_conf_columns + question_entity_columns + prompt_variation_columns)
-)
+all_columns = list(set(model_conf_columns + question_entity_columns + prompt_variation_columns))
 all_columns = [col[4:] if col.startswith("is--") else col for col in all_columns]
 all_columns.extend(["name", "domain"])
 
